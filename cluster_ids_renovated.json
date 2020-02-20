@@ -1,0 +1,2384 @@
+[
+  {
+    "searched": "Marriott Greensboro Downtown",
+    "cluster_id": "7dc94fb3-2da4-4740-9845-778ba34a9da3",
+    "found": "Marriott Greensboro Downtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Houston North",
+    "cluster_id": "f143a6d9-6bdc-4285-9bed-312f909be281",
+    "found": "Hilton Houston North",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Dallas/Rockwall Lakefront",
+    "cluster_id": "294a4611-16ee-4559-a156-dfa8508f4d31",
+    "found": "Hilton Dallas/Rockwall Lakefront",
+    "distance": 1.0
+  },
+  {
+    "searched": "Six Senses Yao Noi",
+    "cluster_id": "ca33d153-7633-4473-8568-9ad70bf9b86a",
+    "found": "Six Senses Yao Noi",
+    "distance": 1.0
+  },
+  {
+    "searched": "Welk Resorts Palm Springs",
+    "cluster_id": "ba63d07c-cfa9-4291-8709-02fec5c83811",
+    "found": "Welk Resort Palm Springs - Desert Oasis",
+    "distance": 0.8802051282051282
+  },
+  {
+    "searched": "Four Points by Sheraton Huntsville Airport",
+    "cluster_id": "30a79643-9f3f-4751-b76d-002af37cda15",
+    "found": "Four Points By Sheraton Huntsville Airport",
+    "distance": 1.0
+  },
+  {
+    "searched": "Apollo Hotel Amsterdam, a Tribute Portfolio Hotel",
+    "cluster_id": "c3bcde4c-7b34-4e2f-b844-3b65ef9d99cd",
+    "found": "Apollo Hotel Amsterdam",
+    "distance": 0.889795918367347
+  },
+  {
+    "searched": "Wanderlust",
+    "cluster_id": "e74074b2-b211-49e9-8919-3f0af3cfa794",
+    "found": "Wanderlust",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mandarin Oriental, Boston",
+    "cluster_id": "2bf76fd3-9e3a-492b-9a67-493fc7336e17",
+    "found": "Mandarin Oriental, Boston",
+    "distance": 1.0
+  },
+  {
+    "searched": "Spa Hotel Mizpe Hayamim",
+    "cluster_id": "6e546a14-5736-4f0d-a842-63e960426d02",
+    "found": "Hotel Spa Mizpe Hayamim",
+    "distance": 0.9420289855072465
+  },
+  {
+    "searched": "Nautilus by Arlo",
+    "cluster_id": "45d4fc5e-88f3-44f5-8c43-512987651141",
+    "found": "Nautilus",
+    "distance": -2
+  },
+  {
+    "searched": "JW Marriott Desert Springs Resort & Spa",
+    "cluster_id": "105a1d6f-6c02-4a94-9b89-b45918e68512",
+    "found": "JW Marriott Desert Springs Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Steigenberger Golf & Spa Resort Camp de Mar",
+    "cluster_id": "92b75f19-5a3d-4cff-9f3c-079c244e3c66",
+    "found": "Steigenberger Golf Resort El Gouna",
+    "distance": -2
+  },
+  {
+    "searched": "Four Seasons Resort Palm Beach",
+    "cluster_id": "a5925f9c-32fc-441b-a494-9e78012e6252",
+    "found": "Four Seasons Resort Palm Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": " Sheraton Frankfurt Airport Hotel & Conference Center",
+    "cluster_id": "80de751c-992a-4eac-8226-0a9cb45a6c4b",
+    "found": "Sheraton Frankfurt Airport Hotel & Conference Center",
+    "distance": 1.0
+  },
+  {
+    "searched": "Fontainebleau Miami Beach",
+    "cluster_id": "10e5a62b-4347-4bf3-a4a8-609de83f2dfe",
+    "found": "Fontainebleau Miami Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": "Vakkaru Maldives",
+    "cluster_id": "93ce5dc3-c47f-4348-b1af-9ae209255194",
+    "found": "Vakkaru Maldives",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ritz-Carlton Spa, South Beach",
+    "cluster_id": "61ac81aa-e2ee-493a-a8e9-3763eed4d997",
+    "found": "The Ritz-Carlton South Beach",
+    "distance": 0.9411255411255411
+  },
+  {
+    "searched": "Sea Island Resort",
+    "cluster_id": "86253325-6ff4-459d-92e1-fd6232457cc2",
+    "found": "Sea Island Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Toronto Airport Hotel & Suites",
+    "cluster_id": "a5a6c25f-9166-465e-8788-9e1d48d2b451",
+    "found": "Hilton Toronto Airport Hotel & Suites",
+    "distance": 1.0
+  },
+  {
+    "searched": "BEI Hotel San Francisco",
+    "cluster_id": "23cc35e4-b918-4d01-983f-e249c0372cee",
+    "found": "Hotel Holiday Inn San Francisco Civic Center",
+    "distance": -1
+  },
+  {
+    "searched": "The Inn at Saratoga, Tapestry Collection by Hilton ",
+    "cluster_id": "c7c1e8c7-3004-47bb-8b68-8969e81c0763",
+    "found": "The Inn at Saratoga",
+    "distance": -1
+  },
+  {
+    "searched": "Viceroy Santa Monica",
+    "cluster_id": "1244ebf8-27d7-4deb-9a4f-8ee46a1c5208",
+    "found": "Viceroy Santa Monica",
+    "distance": 1.0
+  },
+  {
+    "searched": "Marriott Albuquerque",
+    "cluster_id": "943a9153-2def-4a63-b126-d083af893d81",
+    "found": "Marriott Albuquerque Pyramid North",
+    "distance": 0.9176470588235295
+  },
+  {
+    "searched": "The Grand Hotel Birmingham",
+    "cluster_id": "4e265c76-85a5-4bb9-9198-f1c24367c728",
+    "found": "The Birmingham Hotel",
+    "distance": -2
+  },
+  {
+    "searched": "The Savoy Hotel, Miami Beach",
+    "cluster_id": "6ab0fcda-293a-431e-82eb-20f21331ef1d",
+    "found": "The Savoy Hotel - South Beach",
+    "distance": 0.8906851768920735
+  },
+  {
+    "searched": "Renaissance Curacao Resort & Casino",
+    "cluster_id": "8894f913-c88b-470c-bc51-7aed7cc2f105",
+    "found": "Renaissance Curacao Resort & Casino",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kimpton Rouge Hotel",
+    "cluster_id": "d8b799d1-1a12-4028-9719-be33d58ef3bd",
+    "found": "Kimpton Rouge",
+    "distance": 0.9368421052631579
+  },
+  {
+    "searched": "Chateau Elan Winery & Resort",
+    "cluster_id": "0ed315c4-9b7b-4423-a320-04cdca7d97ad",
+    "found": "Chateau Elan Winery Spa and Golf Resort Hotel Braselton",
+    "distance": 0.8762241462241462
+  },
+  {
+    "searched": "DoubleTree by Hilton Chicago Midway Airport",
+    "cluster_id": "cbd5cbde-ae2d-4fea-9cf5-d550b27706c5",
+    "found": "Holiday Inn Chicago - Midway Airport",
+    "distance": -1
+  },
+  {
+    "searched": "The Westin New Orleans",
+    "cluster_id": "fb7799bc-f669-4c28-a368-772e7e70846d",
+    "found": "The Westin New Orleans Canal Place",
+    "distance": 0.9294117647058824
+  },
+  {
+    "searched": "The Tryall Club",
+    "cluster_id": "110a326a-2f31-400d-af84-5985c96a172f",
+    "found": "The Tryall Club",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Maui Resort & Spa",
+    "cluster_id": "e713e037-ab00-45ae-b533-10a6d6e5e3ed",
+    "found": "Sheraton Maui Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Rosewood Little Dix Bay",
+    "cluster_id": "bff82329-ca52-436b-8f34-c07b135d38c7",
+    "found": "Rosewood Little Dix Bay",
+    "distance": 1.0
+  },
+  {
+    "searched": "Suburban Extended Stay Hotel Phoenix Scottsdale West",
+    "cluster_id": "82349481-5173-4298-b3f1-e39ab35ac6a9",
+    "found": "Suburban Extended Stay Hotel Phoenix Scottsdale West",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Hotel Riyadh At Kingdom Center",
+    "cluster_id": "a5918b38-6c54-4b16-9c05-1416bdde6b23",
+    "found": "Four Seasons Hotel Riyadh at Kingdom Centre",
+    "distance": 0.9953488372093023
+  },
+  {
+    "searched": "W San Francisco",
+    "cluster_id": "982532f1-28b3-415f-bcf0-bb133d403a35",
+    "found": "W San Francisco",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Grand Reserve Puerto Rico",
+    "cluster_id": "059600a8-44a3-4d0b-a622-5d6756709d48",
+    "found": "Hyatt Regency Coco Beach Resort",
+    "distance": 0.8626137303556659
+  },
+  {
+    "searched": "Four Seasons Hotel Shanghai",
+    "cluster_id": "9de12e18-7f77-4116-a003-710c88cb38d2",
+    "found": "Four Seasons Hotel Shanghai",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Naka Island, a Luxury Collection Resort & Spa, Phuket",
+    "cluster_id": "1225914e-b03c-4aca-a83d-e0e728ad52ef",
+    "found": "The Naka Island, a Luxury Collection Resort & Spa, Phuket",
+    "distance": 1.0
+  },
+  {
+    "searched": "Best Western Premier Kansas City Sports Complex Hotel",
+    "cluster_id": "10797154-f0de-4245-ad60-3093175606f9",
+    "found": "Best Western Premier Hotel Astoria",
+    "distance": -2
+  },
+  {
+    "searched": "Fort Young Hotel",
+    "cluster_id": "e45ebdf2-0590-4f26-aa29-b0229d231688",
+    "found": "Fort Young Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Beverly Hills Hotel",
+    "cluster_id": "691615a9-2760-44c5-9a6f-803e103a11db",
+    "found": "The Beverly Hills Hotel",
+    "distance": -1
+  },
+  {
+    "searched": "DoubleTree by Hilton Kitchener",
+    "cluster_id": "7a68756d-e822-4dbe-a780-8e12ab31917e",
+    "found": "Doubletree by Hilton Kosice",
+    "distance": -2
+  },
+  {
+    "searched": "Little Palm Island Resort & Spa",
+    "cluster_id": "dbf68240-cb95-4c7b-be3a-9069890066f6",
+    "found": "Little Palm Island Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Indianapolis",
+    "cluster_id": "200a52ac-6026-403f-81c6-97c19df5188c",
+    "found": "Hyatt Regency Indianapolis",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Grand Warsaw",
+    "cluster_id": "72261a8e-b316-4c27-88ee-001e89df0df4",
+    "found": "Sheraton Warsaw Hotel",
+    "distance": -1
+  },
+  {
+    "searched": "Crowne Plaza Virginia Beach Town Center",
+    "cluster_id": "95f3d417-8699-4e12-bc9b-b5e2785c7915",
+    "found": "Crowne Plaza Virginia Beach Town Center",
+    "distance": 1.0
+  },
+  {
+    "searched": "Pan Pacific Toronto",
+    "cluster_id": "22cb25c9-ec9a-4a06-af86-7af4aa02cbff",
+    "found": "Pan Pacific Toronto",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Hazelton Hotel",
+    "cluster_id": "75209d95-903f-44e2-9050-20a1577df514",
+    "found": "The Hazelton Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Alice Springs",
+    "cluster_id": "32c4fc46-662d-4fee-8cfd-4bc1efab4d62",
+    "found": "DoubleTree by Hilton Hotel Alice Springs",
+    "distance": 1.0
+  },
+  {
+    "searched": "Rosewood Mayakoba",
+    "cluster_id": "7db839f8-9e7c-4835-b499-dc18a8a12a54",
+    "found": "Rosewood Mayakoba",
+    "distance": 1.0
+  },
+  {
+    "searched": "SpringHill Suites by Marriott Houston Medical Center/NRG Park",
+    "cluster_id": "121e5f3b-5044-4169-bc04-1042fb095a2e",
+    "found": "Hotel SpringHill Suites Houston Medical Center/Reliant Park Medical Center/Reliant Park",
+    "distance": -1
+  },
+  {
+    "searched": "La Maison Hotel",
+    "cluster_id": "e3313b06-f60b-481b-ae25-5886eb934f8a",
+    "found": "La Maison Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Ginger Pune Wakad",
+    "cluster_id": "93a134bc-37bc-4fbb-a7ec-4eb58031abef",
+    "found": "Ginger Hotel Wakad",
+    "distance": 0.9202614379084967
+  },
+  {
+    "searched": "Dusit Thani Hua Hin",
+    "cluster_id": "598a02e5-1196-44b4-b59c-3745f4148ade",
+    "found": "Dusit Thani Hua Hin",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Riu Vallarta",
+    "cluster_id": "75960026-9af1-4640-a44a-3e2cf6759ffb",
+    "found": "Hotel Riu Vallarta",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Gajoen Tokyo",
+    "cluster_id": "5fb390a7-e4eb-4e24-be6e-673b8b826aa7",
+    "found": "Hotel Gajoen Tokyo",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ritz-Carlton, St. Thomas",
+    "cluster_id": "3d103364-6006-4dcc-bd96-14858f0252c1",
+    "found": "The Ritz-Carlton St. Louis",
+    "distance": 0.9412087912087912
+  },
+  {
+    "searched": "Hotel Goldener Hirsch, a Luxury Collection Hotel, Salzburg",
+    "cluster_id": "38fdcb11-10be-4970-9602-ab41d632d1b5",
+    "found": "Hotel Goldener Hirsch, a Luxury Collection Hotel, Salzburg",
+    "distance": 1.0
+  },
+  {
+    "searched": "Holiday Inn Johannesburg Sunnyside Park",
+    "cluster_id": "cec743b1-f5aa-4ac8-8440-14d412e54fe4",
+    "found": "Holiday Inn Johannesburg-Rosebank",
+    "distance": 0.928997668997669
+  },
+  {
+    "searched": "Radisson Blu Hotel Milan",
+    "cluster_id": "83a6b9da-8b7b-4a0e-bd3b-2c5ef35811e0",
+    "found": "Radisson Blu Hotel Batumi",
+    "distance": 0.9502424242424242
+  },
+  {
+    "searched": "Marriott Jacksonville",
+    "cluster_id": "ca412820-6569-43d2-99d2-5ea7dded6db3",
+    "found": "Marriott Jacksonville",
+    "distance": 1.0
+  },
+  {
+    "searched": "Steigenberger Conti Hansa, Kiel",
+    "cluster_id": "34ec0026-1914-4f02-8377-eae9e28679d8",
+    "found": "Steigenberger Conti Hansa Kiel",
+    "distance": 0.9935483870967742
+  },
+  {
+    "searched": "Four Seasons Resort Dubai at Jumeirah Beach",
+    "cluster_id": "9ecfd199-e852-491f-b8ee-c04805ee670a",
+    "found": "Four Seasons Resort Dubai at Jumeirah Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency John Wayne Airport Newport Beach",
+    "cluster_id": "e92b1a6b-8e10-4442-abb6-f1e0e2d100b1",
+    "found": "Hyatt Regency John Wayne Airport, Newport Beach",
+    "distance": 0.9957446808510638
+  },
+  {
+    "searched": "Cretan Malia Park Resort",
+    "cluster_id": "5d8cd19d-72fd-4fd0-ad26-0474c5972891",
+    "found": "Cretan Malia Park",
+    "distance": 0.9416666666666667
+  },
+  {
+    "searched": "Curaçao Marriott Beach Resort",
+    "cluster_id": "b2259bb6-6e89-40b2-afa7-df7c82c51786",
+    "found": "Curaçao Marriott Beach Resort & Emerald Casino",
+    "distance": 0.9260869565217391
+  },
+  {
+    "searched": "Crowne Plaza Hamburg - City Alster",
+    "cluster_id": "211e4a31-098f-414b-bca8-6eb536413804",
+    "found": "Crowne Plaza Hamburg - City Alster",
+    "distance": 1.0
+  },
+  {
+    "searched": "Radisson Blu Hotel, Basel",
+    "cluster_id": "bff2729d-0631-4d1e-b043-9be883492e0d",
+    "found": "Radisson Blu Hotel Basel",
+    "distance": 0.992
+  },
+  {
+    "searched": " Hilton Garden Inn and Homewood Suites Lake Buena Vista/Orlando",
+    "cluster_id": "e0e88182-adaa-42ac-8436-254ae5038dd1",
+    "found": "Hilton Garden Inn Lake Buena Vista/Orlando",
+    "distance": 0.8831029185867896
+  },
+  {
+    "searched": "Holiday Inn Express & Suites Tempe",
+    "cluster_id": "cbd5b9de-8d50-4e76-8639-684a1a129f95",
+    "found": "Holiday Inn Express",
+    "distance": 0.9117647058823529
+  },
+  {
+    "searched": "New World Saigon Hotel",
+    "cluster_id": "eb7102a6-d464-4b78-9b6c-840e9a81f8ae",
+    "found": "New World Saigon Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Innisbrook, A Salamander Golf and Spa Resort",
+    "cluster_id": "13eac726-35b0-48b4-888e-af10a23a24a7",
+    "found": "Innisbrook, A Salamander Golf & Spa Resort",
+    "distance": 0.971845634040756
+  },
+  {
+    "searched": "Four Seasons Resort Bora Bora",
+    "cluster_id": "c023c7be-d4a9-4192-ba39-51189de588d0",
+    "found": "Four Seasons Resort Bora Bora",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ritz-Carlton Reynolds, Lake Oconee",
+    "cluster_id": "ab1e3c81-472d-4639-939b-4d1a9ed18cd6",
+    "found": "The Ritz-Carlton Reynolds, Lake Oconee",
+    "distance": 1.0
+  },
+  {
+    "searched": "Novotel Sunshine Coast Resort",
+    "cluster_id": "710ba9bf-fde5-4b76-8cc0-3f64d68a925c",
+    "found": "Novotel Sunshine Coast Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Pullman Adelaide",
+    "cluster_id": "d186fc6d-1594-42fa-af2d-3c6314b3a7b2",
+    "found": "Pullman Adelaide",
+    "distance": 1.0
+  },
+  {
+    "searched": "Ginger Bhubaneshwar",
+    "cluster_id": "0597ade1-0f61-4ddf-9da3-9cfd2d93c910",
+    "found": "Ginger Bhubaneshwar",
+    "distance": 1.0
+  },
+  {
+    "searched": "San Francisco Marriott Marquis",
+    "cluster_id": "bcf5bf1f-9bbc-45be-8661-57af76a4dd55",
+    "found": "San Francisco Marriott Marquis",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mondrian Los Angeles",
+    "cluster_id": "d8886492-9e77-4a51-aa5a-91497cfeb22a",
+    "found": "Mondrian Los Angeles",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Island Beachside Resort",
+    "cluster_id": "1106b185-7c7e-4a4c-a861-a75e58cf24c5",
+    "found": "The Beachside Resort",
+    "distance": 0.8881481481481481
+  },
+  {
+    "searched": "Renaissance Esmeralda Resort & Spa, Indian Wells",
+    "cluster_id": "7d1e5376-4482-4b99-bcf2-4abf0aea0a65",
+    "found": "Renaissance Sanya Resort & Spa",
+    "distance": 0.8658908045977012
+  },
+  {
+    "searched": "Conrad Maldives Rangali Island",
+    "cluster_id": "28eb8d2f-8f1f-402d-89ec-6784b9828f39",
+    "found": "Conrad Maldives Rangali Island",
+    "distance": 1.0
+  },
+  {
+    "searched": "Ovolo Central",
+    "cluster_id": "49941358-4844-43a7-a4e4-0fbc4e71bb2d",
+    "found": "Ovolo Central",
+    "distance": 1.0
+  },
+  {
+    "searched": "Holiday Inn Resort Phuket",
+    "cluster_id": "5862baab-70e1-4cc4-8cbb-be4f8e0cf62a",
+    "found": "Holiday Inn Resort Phuket",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Memphis",
+    "cluster_id": "fe39a5d4-db4c-4531-914a-23e5397f6b73",
+    "found": "Hilton Memphis",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Dupont Circle Hotel",
+    "cluster_id": "d8d375be-09c6-4024-82b9-fd40e8f3539e",
+    "found": "The Dupont Circle Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Kauai Coconut Beach Resort",
+    "cluster_id": "adc3db9b-b7fc-46f0-89fe-48eede363157",
+    "found": "Sheraton Kauai Resort",
+    "distance": 0.8914285714285715
+  },
+  {
+    "searched": "The Redbury New York",
+    "cluster_id": "505a95f2-ba50-4595-bca0-f22ca709b575",
+    "found": "The Redbury New York",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Edwardian Manchester, A Radisson Collection Hotel",
+    "cluster_id": "339d491e-fd2d-4d60-943b-9808866aff2a",
+    "found": "The Edwardian Manchester, A Radisson Collection Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Park Inn by Radisson Sheremetyevo Airport Moscow Hotel",
+    "cluster_id": "131121e7-465d-4e34-89f5-64d74ed85ec6",
+    "found": "Park Inn by Radisson Sheremetyevo Airport Moscow Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Courtyard by Marriott Kaua'i at Coconut Beach",
+    "cluster_id": "86b68d61-c156-4b39-9606-b6ad27b5f86a",
+    "found": "Courtyard by Marriott Altoona",
+    "distance": 0.9032621784345922
+  },
+  {
+    "searched": "Oceana",
+    "cluster_id": "8fd2eebe-7fc1-4a76-8246-8b0e7ad53b13",
+    "found": "Oceana Palms",
+    "distance": 0.9
+  },
+  {
+    "searched": "Radisson Blu Hotel, Kyiv",
+    "cluster_id": "4d086975-148f-485e-9060-fb78be75051b",
+    "found": "Radisson Blu Hotel Kyiv Podil",
+    "distance": 0.9502873563218391
+  },
+  {
+    "searched": "Tampa Marriott Water Street",
+    "cluster_id": "f36edf7c-a12e-48b0-a23a-45f6848976a8",
+    "found": "Tampa Airport Marriott",
+    "distance": 0.8503101187311715
+  },
+  {
+    "searched": "Embassy Suites by Hilton Los Angeles Downey",
+    "cluster_id": "81247111-e978-45ad-95ff-574e54adbae6",
+    "found": "Embassy Suites by Hilton Los Angeles Glendale",
+    "distance": 0.9588242894056848
+  },
+  {
+    "searched": "Mandarin Oriental, Bangkok",
+    "cluster_id": "fc21394e-2875-41eb-8a0e-61104b86ebb7",
+    "found": "Mandarin Oriental Bangkok",
+    "distance": 0.9923076923076923
+  },
+  {
+    "searched": "Hyatt Regency Fairfax",
+    "cluster_id": "4ea7ff31-71d7-4532-b8ca-3ab08664c3d5",
+    "found": "Hyatt Regency Fairfax",
+    "distance": 1.0
+  },
+  {
+    "searched": "Seminole Hard Rock Hotel & Casino Tampa",
+    "cluster_id": "77a35d4e-0d61-4390-ae86-5f8cf2bb9080",
+    "found": "Seminole Hard Rock Hotel & Casino Tampa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Raffles Grand Hotel d'Angkor",
+    "cluster_id": "413a56d7-d15c-43ac-b027-c16e43a65a5e",
+    "found": "Raffles Grand Hotel d'Angkor",
+    "distance": 1.0
+  },
+  {
+    "searched": "Steigenberger Wiltcher's",
+    "cluster_id": "411b4abe-688c-4be4-9eb5-3541b431448a",
+    "found": "Steigenberger Wiltcher's",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hampton Inn I-75 Lexington/Hamburg Area",
+    "cluster_id": "a6c46e7e-9e9b-4f14-9f66-6779f2664e4e",
+    "found": "Hampton Inn Lexington I-75",
+    "distance": 0.8794871794871795
+  },
+  {
+    "searched": "Steigenberger Grand Hotel Petersberg",
+    "cluster_id": "c0d6eaa9-9e4e-43ab-a280-218f131a1249",
+    "found": "Steigenberger Grandhotel Petersberg",
+    "distance": 0.9773015873015872
+  },
+  {
+    "searched": "The Westin Long Beach",
+    "cluster_id": "ce165e22-9e67-43e1-bd3a-bb9c5405306e",
+    "found": "The Westin Long Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kenwood Inn & Spa",
+    "cluster_id": "405ff8a4-d130-4d1f-b0fe-e8ab809232d4",
+    "found": "Kenwood Inn And Spa",
+    "distance": 0.931656346749226
+  },
+  {
+    "searched": "Courtyard by Marriott Orlando Lake Buena Vista at Vista Centre",
+    "cluster_id": "412a6f3e-f7a9-41f1-afe3-5655e70114af",
+    "found": "Courtyard by Marriott Orlando Lake Mary",
+    "distance": 0.9090984284532672
+  },
+  {
+    "searched": "Four Seasons Resort Maldives at Kuda Huraa",
+    "cluster_id": "19680dab-6efc-4527-a3fd-21b1822eba5e",
+    "found": "Four Seasons Resort Maldives at Kuda Huraa",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Chattanooga Downtown",
+    "cluster_id": "078c428a-faca-4b5a-8e49-4bd43c808b42",
+    "found": "DoubleTree by Hilton Hotel Chattanooga Downtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton San Diego Resort & Spa",
+    "cluster_id": "50162d5e-a160-442e-895a-dcc3206bcef8",
+    "found": "Hilton San Diego Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Resort Punta Mita",
+    "cluster_id": "a0c02073-e03a-44b6-9983-5d18d91732d0",
+    "found": "Four Seasons Resort Punta Mita",
+    "distance": 1.0
+  },
+  {
+    "searched": "SeVi Boutique Hotel Zanzibar",
+    "cluster_id": "4f803109-e818-48cc-9d5f-5927e8f4b45a",
+    "found": "SeVi Boutique Hotel Zanzibar",
+    "distance": 1.0
+  },
+  {
+    "searched": "Los Angeles Airport Marriott",
+    "cluster_id": "ebef905d-0f08-4975-8e29-73eec458a11f",
+    "found": "Los Angeles Airport Marriott",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Okura Tokyo",
+    "cluster_id": "bc59a21c-4c16-4c05-a4b6-678d30e69b4c",
+    "found": "Hotel Okura Tokyo Bay",
+    "distance": 0.9619047619047618
+  },
+  {
+    "searched": "Crowne Plaza Atlanta Perimeter at Ravinia",
+    "cluster_id": "fbff176c-b161-4fe0-a169-749df8b7a93a",
+    "found": "Crowne Plaza Atlanta Perimeter at Ravinia",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Denver Downtown Hotel",
+    "cluster_id": "6284c859-e15a-4ec0-9f21-797899a04f3e",
+    "found": "Sheraton Denver Downtown Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Marina",
+    "cluster_id": "d6bdde6b-9fc9-4ed4-bec9-5351fb474e77",
+    "found": "Hotel Marina",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mandarin Oriental, Geneva",
+    "cluster_id": "7d6f0bdb-2c37-4d75-890d-42056e2ae110",
+    "found": "Mandarin Oriental Geneva",
+    "distance": 0.992
+  },
+  {
+    "searched": "Courtyard by Marriott Bridgetown, Barbados",
+    "cluster_id": "3c69cd50-74d5-4978-a22c-4fe36392228b",
+    "found": "Courtyard by Marriott Bridgetown, Barbados",
+    "distance": 1.0
+  },
+  {
+    "searched": "Borgata",
+    "cluster_id": "7e81b5de-8d24-471b-bb07-2c24a9e03772",
+    "found": "Borgata Lodge",
+    "distance": 0.9076923076923077
+  },
+  {
+    "searched": "Centara Grand at CentralWorld",
+    "cluster_id": "cf5d239a-090a-4550-95fc-a54d019c104d",
+    "found": "Centara Grand at Central Plaza Ladprao Bangkok",
+    "distance": 0.9005568644249305
+  },
+  {
+    "searched": "Doha Marriott Hotel",
+    "cluster_id": "cc4c1aec-2738-4f1d-8115-fe546bee240f",
+    "found": "Doha Marriott Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "JA Beach Hotel",
+    "cluster_id": "41af2a52-407d-4c39-863f-57c6b3791920",
+    "found": "JA Beach Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Munich City",
+    "cluster_id": "4508c7c7-80b8-451d-b416-ec0e37bda6ad",
+    "found": "Hilton Munich City",
+    "distance": 1.0
+  },
+  {
+    "searched": "JW Marriott Chicago",
+    "cluster_id": "3469924a-16cb-49bd-b5ad-af4c320759f1",
+    "found": "JW Marriott Chicago",
+    "distance": 1.0
+  },
+  {
+    "searched": "andBeyond Phinda Mountain Lodge",
+    "cluster_id": "231b22bd-b11e-43a9-b7b5-7a0b76f716ef",
+    "found": "andBeyond Phinda Rock Lodge",
+    "distance": 0.9326164874551971
+  },
+  {
+    "searched": "Four Seasons Resort Whistler",
+    "cluster_id": "9db9231b-4dd9-4f76-ae15-1dc98a749805",
+    "found": "Four Seasons Resort",
+    "distance": 0.9357142857142857
+  },
+  {
+    "searched": "SureStay Hotel by Best Western Marienville",
+    "cluster_id": "69f03ea6-a2e7-4c07-9212-8f78c835775c",
+    "found": "SureStay Hotel by Best Western Phoenix Downtown",
+    "distance": 0.9007032600274153
+  },
+  {
+    "searched": "Four Seasons Resort Maldives at Landaa Giraavaru",
+    "cluster_id": "8bc0c749-bbad-40e5-8582-36404ddecfea",
+    "found": "Four Seasons Resort Maldives at Landaa Giraavaru",
+    "distance": 1.0
+  },
+  {
+    "searched": "Best Western Plus Roper Mountain Road Inn & Suites",
+    "cluster_id": "a3fdd3b5-9a67-4c5e-b428-68f4441a4b7b",
+    "found": "BEST WESTERN Plus Royal Mountain Inn & Suites",
+    "distance": 0.9398552971576227
+  },
+  {
+    "searched": "Hard Rock Hotel and Casino Las Vegas",
+    "cluster_id": "5884c856-938b-4102-8920-ae7367ede9c7",
+    "found": "Hard Rock Hotel & Casino Tulsa",
+    "distance": 0.892962962962963
+  },
+  {
+    "searched": "Monteverdi Tuscany",
+    "cluster_id": "3c00876e-40bf-471d-87f9-d9288f3e6bfa",
+    "found": "Monteverdi",
+    "distance": 0.9111111111111111
+  },
+  {
+    "searched": "Couples Sans Souci All Inclusive",
+    "cluster_id": "39339c1d-1a48-49db-b59a-52cbed1de1f5",
+    "found": "Couples Sans Souci All Inclusive",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Westin Philadelphia",
+    "cluster_id": "d9f23bcd-6ba2-4d75-a027-572061a38ed3",
+    "found": "The Westin Philadelphia",
+    "distance": 1.0
+  },
+  {
+    "searched": "Waterside Suites and Marina",
+    "cluster_id": "48238a5f-bca9-49bb-aa22-9d07f90c2745",
+    "found": "Waterside Bed and Breakfast",
+    "distance": 0.8762962962962962
+  },
+  {
+    "searched": "The Westin Indianapolis",
+    "cluster_id": "9d786e37-e02c-4dc7-b1b9-9eefbd796bd6",
+    "found": "The Westin Indianapolis",
+    "distance": 1.0
+  },
+  {
+    "searched": "Centra by Centara Government Complex Hotel & Convention Centre Chaeng Watthana",
+    "cluster_id": "2d7f77aa-dda5-4e7c-85ce-3bd8d030d102",
+    "found": "Centra by Centara Government Complex Hotel & Convention Centre Chaeng Watthana",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Atwater",
+    "cluster_id": "f1d31dd4-52d4-4606-8fcf-3670ecb75221",
+    "found": "Hotel Atwater",
+    "distance": 1.0
+  },
+  {
+    "searched": "Scandic Falkoner",
+    "cluster_id": "adfff7f3-2ed2-453b-b731-ec0858f9b7c4",
+    "found": "Scandic Portalen",
+    "distance": 0.9214285714285715
+  },
+  {
+    "searched": "DoubleTree by Hilton Phoenix Chandler",
+    "cluster_id": "72f2231f-a377-4600-b291-ecf21bc60260",
+    "found": "DoubleTree by Hilton Hotel North Salem",
+    "distance": 0.9113706235947323
+  },
+  {
+    "searched": "Renaissance Baltimore Harborplace Hotel",
+    "cluster_id": "5a8f3975-489a-4276-97af-859a54748a10",
+    "found": "Renaissance Baltimore Harborplace Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "FCC Angkor, managed by Avani Hotels & Resorts",
+    "cluster_id": "1d558627-a238-47ad-9c10-dd548216d6f9",
+    "found": "FCC Angkor by Avani Hotels & Resorts",
+    "distance": 0.91
+  },
+  {
+    "searched": "Club Med L'Alpe d'Huez",
+    "cluster_id": "638ee4d8-a136-47b9-8ff9-ff7073081955",
+    "found": "Club Med",
+    "distance": 0.8727272727272728
+  },
+  {
+    "searched": "Raffles Hotel Singapore ",
+    "cluster_id": "cd110e93-1831-4a09-8bab-142401ae8bfb",
+    "found": "Raffles Singapore",
+    "distance": 0.9007672634271099
+  },
+  {
+    "searched": "Adina Apartment Hotel Brisbane",
+    "cluster_id": "90afad86-0f62-4318-9635-47070356ba22",
+    "found": "Adina Apartment Hotel Brisbane",
+    "distance": 1.0
+  },
+  {
+    "searched": "Crowne Plaza Kansas City Downtown",
+    "cluster_id": "e80a3829-775d-439b-ad97-8c90043a8047",
+    "found": "Crowne Plaza Hotel Kansas City Downtown",
+    "distance": 0.9207459207459208
+  },
+  {
+    "searched": "W Washington D.C.",
+    "cluster_id": "527f3f4c-5361-407d-bae6-af92a5b1df09",
+    "found": "W Washington D.C.",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Phoenix Downtown",
+    "cluster_id": "47159eb1-3176-4971-8582-89da9c3eb417",
+    "found": "Sheraton Phoenix Downtown Hotel",
+    "distance": 0.9612903225806452
+  },
+  {
+    "searched": "Arena Kazela Campsite",
+    "cluster_id": "0860ecbd-0f47-43bc-873c-ec2ab1700771",
+    "found": "Arena Kazela Campsite",
+    "distance": 1.0
+  },
+  {
+    "searched": "W London - Leicester Square",
+    "cluster_id": "7652ef50-910a-4d8f-a403-5e263bb2174a",
+    "found": "W London - Leicester Square",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Bethesda",
+    "cluster_id": "b76b687f-1380-470e-9d4d-5e9246cd4f22",
+    "found": "Hyatt Regency Bethesda",
+    "distance": 1.0
+  },
+  {
+    "searched": "Savoy Hotel Rotterdam",
+    "cluster_id": "5d3ef937-553b-4fb3-b72d-2a38e0bb33b5",
+    "found": "Savoy Hotel",
+    "distance": 0.9047619047619048
+  },
+  {
+    "searched": "Kimpton EPIC Hotel",
+    "cluster_id": "f369b542-36ce-4ac6-b10c-f93166ae0011",
+    "found": "Kimpton EPIC Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton San Diego Bayfront ",
+    "cluster_id": "50b61c16-38eb-46da-94d6-88434e90abaf",
+    "found": "Hilton San Diego Bayfront",
+    "distance": 1.0
+  },
+  {
+    "searched": "Golden Tulip Aix-en-Provence",
+    "cluster_id": "5042bd32-c82e-42d2-9ec3-4052dce1f95f",
+    "found": "Golden Tulip AIX EN PROVENCE",
+    "distance": 0.9714285714285714
+  },
+  {
+    "searched": "Sheraton Fisherman's Wharf Hotel",
+    "cluster_id": "17af9b0c-a82f-4092-becd-076fc7730df4",
+    "found": "Sheraton Fisherman's Wharf Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Chicago - Magnificent Mile",
+    "cluster_id": "356c9c1a-937a-4783-9921-f0fefce72810",
+    "found": "Doubletree by Hilton Chicago Magnificent Mile",
+    "distance": 0.9209224318658281
+  },
+  {
+    "searched": "Kempinski Hotel Beijing Lufthansa Center",
+    "cluster_id": "6150f11a-2a8c-4374-b796-097e2c66301f",
+    "found": "Kempinski Hotel Beijing Lufthansa Center",
+    "distance": 1.0
+  },
+  {
+    "searched": "Le Meurice",
+    "cluster_id": "314e2aa3-b043-49e8-aba7-4191cb6dd266",
+    "found": "Le Meurice",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ritz-Carlton New York, Central Park",
+    "cluster_id": "f73ef3a7-ab5e-4976-85ff-9b7637ec5952",
+    "found": "The Ritz - Carlton New York Central Park",
+    "distance": 0.9217139001349527
+  },
+  {
+    "searched": "Holiday Inn London - Kensington Forum",
+    "cluster_id": "07b3ed35-865c-4654-b1b7-ecfd6f96ce0e",
+    "found": "Holiday Inn London - Kensington",
+    "distance": 0.9675675675675676
+  },
+  {
+    "searched": "Four Seasons Hotel Beirut",
+    "cluster_id": "7c155260-cba1-4ea2-9154-e6f7728ea95f",
+    "found": "Four Seasons Hotel Beirut",
+    "distance": 1.0
+  },
+  {
+    "searched": "Chiva-Som",
+    "cluster_id": "6003c2bf-3ff4-441c-912c-1c9470e6a928",
+    "found": "Chiva-Som",
+    "distance": 1.0
+  },
+  {
+    "searched": "Radisson Blu Royal Viking Hotel, Stockholm",
+    "cluster_id": "c97d80d9-1b99-4bdf-b857-0e1235d30028",
+    "found": "Radisson Blu Royal Viking Hotel",
+    "distance": 0.9476190476190476
+  },
+  {
+    "searched": "Sheraton Pasadena Hotel",
+    "cluster_id": "233d3f87-3402-4cf1-8c89-b351d1f515a5",
+    "found": "Sheraton Pasadena Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Resort Nevis",
+    "cluster_id": "e2f5044f-f053-4c39-8293-7149d8a9d222",
+    "found": "Four Seasons Resort Nevis",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Garden Inn Panama City",
+    "cluster_id": "a4a01895-7f8f-4c97-816c-7feba65130d2",
+    "found": "Hilton Garden Inn Panama City",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Hotel Sydney",
+    "cluster_id": "8df742bb-5967-4b24-9754-f86af3a5326d",
+    "found": "Four Seasons Hotel Sydney",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Hotel Chicago",
+    "cluster_id": "36c0aadd-f8a7-434e-aba2-695084ff953d",
+    "found": "Four Seasons Hotel Doha",
+    "distance": 0.9514442079659471
+  },
+  {
+    "searched": "Hilton Anchorage",
+    "cluster_id": "b00c703d-ac74-49e0-a1ec-1872e2d378dd",
+    "found": "Hilton Anchorage",
+    "distance": 1.0
+  },
+  {
+    "searched": "W Miami",
+    "cluster_id": "67e7f80c-ade8-4adb-902b-6fda2ab7976d",
+    "found": "W Miami",
+    "distance": 1.0
+  },
+  {
+    "searched": "Renaissance New York Times Square Hotel",
+    "cluster_id": "9dad3e2e-063a-4e4e-aa0a-4a0d8d9dd085",
+    "found": "Renaissance New York Times Square",
+    "distance": 0.9692307692307692
+  },
+  {
+    "searched": "The Ritz-Carlton, St. Louis",
+    "cluster_id": "3d103364-6006-4dcc-bd96-14858f0252c1",
+    "found": "The Ritz-Carlton St. Louis",
+    "distance": 0.9925925925925926
+  },
+  {
+    "searched": "Steigenberger Hotel & Resort Camp de Mar",
+    "cluster_id": "a8c6ad70-70f0-4fdb-8288-87a9e40ba078",
+    "found": "Steigenberger Hotel & Spa Krems",
+    "distance": 0.9114071190211346
+  },
+  {
+    "searched": "Bethesda North Marriott Hotel & Conference Center",
+    "cluster_id": "8fb39e61-bf92-49b8-a8b3-aa2967dabb47",
+    "found": "Bethesda North Marriott Hotel & Conference Center",
+    "distance": 1.0
+  },
+  {
+    "searched": "Conrad Bali",
+    "cluster_id": "97fa0da5-7217-4f51-bc6d-385041f4f3a0",
+    "found": "Conrad Bali",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Melbourne - Flinders Street",
+    "cluster_id": "d6fd1759-918d-4745-9b03-3a2262c6c0a6",
+    "found": "DoubleTree by Hilton Hotel Melbourne - Flinders Street",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Points by Sheraton Sacramento International Airport",
+    "cluster_id": "fee6de5c-6c08-43ba-9045-f0b69baaaf31",
+    "found": "Four Points by Sheraton Sacramento International Airport",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kimpton Hotel Wilshire",
+    "cluster_id": "3979f178-7899-44f2-af3a-76cf61e254c5",
+    "found": "Kimpton  Hotel Wilshire",
+    "distance": 0.9640316205533597
+  },
+  {
+    "searched": "InterContinental San Francisco",
+    "cluster_id": "50d36050-b167-4dbc-944e-d7513bc46838",
+    "found": "InterContinental San Francisco",
+    "distance": 1.0
+  },
+  {
+    "searched": "Grand Hyatt Seoul",
+    "cluster_id": "9c2ae1a5-8d56-4a83-a709-d098a32799fb",
+    "found": "Grand Hyatt Seoul",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Grand Tbilisi Metechi Palace",
+    "cluster_id": "dcf6b3bf-976e-44e1-bda4-1cd9e9ba7a61",
+    "found": "Sheraton Grand Sacramento Hotel",
+    "distance": 0.8905098647034131
+  },
+  {
+    "searched": "Element New York Times Square West",
+    "cluster_id": "1d78f5eb-4b59-4d6c-95b8-a5141d5f614a",
+    "found": "Element New York Times Square West",
+    "distance": 1.0
+  },
+  {
+    "searched": "Omni Barton Creek Resort & Spa",
+    "cluster_id": "da00f172-60e4-449a-9e4f-06dfdab538e4",
+    "found": "Omni Barton Creek Resort And Spa",
+    "distance": 0.9607902298850575
+  },
+  {
+    "searched": "JW Marriott Miami Turnberry Resort & Spa",
+    "cluster_id": "4e13b249-8f2b-49b0-82e5-0172ce43e79f",
+    "found": "JW Marriott Miami Turnberry Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Whitley, a Luxury Collection Hotel, Atlanta Buckhead",
+    "cluster_id": "2acb812e-71e0-4906-9e9f-993b0d2b7edb",
+    "found": "The Whitley, a Luxury Collection Hotel, Atlanta Buckhead",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hampton Inn New Smyrna Beach",
+    "cluster_id": "d4b7388b-fee7-4df4-b2dc-849f777bb63b",
+    "found": "Hampton Inn New Smyrna Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": "JW Marriott Marco Island Beach Resort",
+    "cluster_id": "6886cfc3-61d2-4d66-97af-bab9fada82f7",
+    "found": "JW Marriott Marco Island Beach Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "InterContinental Hayman Island Resort",
+    "cluster_id": "988a6298-e9bc-4196-a1bc-5cab6eb983d0",
+    "found": "InterContinental Hayman Island",
+    "distance": 0.9621621621621622
+  },
+  {
+    "searched": "Caribe Hilton",
+    "cluster_id": "c1a79ac4-f4e9-44cc-8ea8-033e11bf06dd",
+    "found": "Caribe Hilton",
+    "distance": 1.0
+  },
+  {
+    "searched": "Dreams Curacao Resort, Spa & Casino.",
+    "cluster_id": "9b663aa8-1af6-4bb7-8d59-4bdd78d286bf",
+    "found": "Dreams Curaçao Resort Spa & Casino",
+    "distance": 0.9289661319073084
+  },
+  {
+    "searched": "Pacific View Inn",
+    "cluster_id": "8d6bb982-dca6-4dd0-8fb3-a1487466967a",
+    "found": "Pacific View Inn",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Mission Bay Spa And Marina",
+    "cluster_id": "91f42d59-1280-42fc-9d98-8db4f96befa7",
+    "found": "Hyatt Regency Mission Bay Spa and Marina",
+    "distance": 1.0
+  },
+  {
+    "searched": "Grande Colonial La Jolla",
+    "cluster_id": "bed956fe-97c3-419c-a4c4-93764a4cb516",
+    "found": "Grande Colonial La Jolla",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Huntington",
+    "cluster_id": "55361b89-d5d0-4174-b3f9-02a993d8a683",
+    "found": "DoubleTree by Hilton Hotel Lincoln",
+    "distance": 0.925609670391454
+  },
+  {
+    "searched": "Four Seasons Hotel Doha",
+    "cluster_id": "36c0aadd-f8a7-434e-aba2-695084ff953d",
+    "found": "Four Seasons Hotel Doha",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Garden Inn Indianapolis Northeast/Fishers",
+    "cluster_id": "03706d66-9ed7-47c9-8e9e-1e5061497036",
+    "found": "Hilton Garden Inn Indianapolis Northeast/Fishers",
+    "distance": 1.0
+  },
+  {
+    "searched": "JW Marriott Grosvenor House London",
+    "cluster_id": "a3c64733-78b1-4ec6-8183-2acf36191e86",
+    "found": "JW Marriott Hotel Bogotá",
+    "distance": 0.8643137254901961
+  },
+  {
+    "searched": "Four Seasons Resort and Residences Vail",
+    "cluster_id": "e93cbcd5-5950-4042-b37d-33d546bb02c2",
+    "found": "Four Seasons Resort And Residences Vail",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Deerfield",
+    "cluster_id": "0f9f16fe-1b79-4ce1-9054-38adb5ec9762",
+    "found": "Hyatt Regency Deerfield",
+    "distance": 1.0
+  },
+  {
+    "searched": "W Atlanta - Midtown",
+    "cluster_id": "e9a1bbe2-7097-494e-b533-dad1013cfe54",
+    "found": "W Atlanta - Midtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "Brisbane Marriott Hotel",
+    "cluster_id": "3e35dfc9-767a-4dda-baf5-0225697e8813",
+    "found": "Brisbane Marriott Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Clayton Plaza Hotel St. Louis",
+    "cluster_id": "17cb24cb-5fcc-475d-a539-fa009313abb7",
+    "found": "Sheraton Clayton Plaza Hotel St. Louis",
+    "distance": 1.0
+  },
+  {
+    "searched": "Waterfront Hotel",
+    "cluster_id": "5baa9049-f758-44aa-9be4-5e7091a07f51",
+    "found": "WATERFRONT HOTEL AMSTERDAM",
+    "distance": 0.9230769230769231
+  },
+  {
+    "searched": "Maswik Lodge",
+    "cluster_id": "0ec99dd6-e5b8-4a2c-bb6e-2a9479c3b70e",
+    "found": "Maswik Lodge",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Madison Monona Terrace",
+    "cluster_id": "778e41ae-adc0-4025-b1d6-6107f28404d9",
+    "found": "Hilton Madison Monona Terrace",
+    "distance": 1.0
+  },
+  {
+    "searched": "Orchard Hotel Singapore",
+    "cluster_id": "4fcf4e44-966c-4bd4-a983-4103bc459924",
+    "found": "Orchard Hotel Singapore",
+    "distance": 1.0
+  },
+  {
+    "searched": "Residence Inn by Marriott Atlanta Duluth/Gwinnett Place",
+    "cluster_id": "744337ec-9a76-4e01-93ff-02faae5d49b2",
+    "found": "Residence Inn By Marriott Atlanta Gwinnett Place",
+    "distance": 0.9537121212121212
+  },
+  {
+    "searched": "Le Blanc Spa Resort",
+    "cluster_id": "7ac7c8fa-b90d-41c7-8487-0a3eb650d522",
+    "found": "Le Blanc Spa Resort Cancun",
+    "distance": 0.9461538461538461
+  },
+  {
+    "searched": "SpringHill Suites by Marriott Jacksonville Airport",
+    "cluster_id": "fdb802b2-6c4a-4258-a376-8c794b01fd21",
+    "found": "Springhill Suites By Marriott Nashville Airport",
+    "distance": 0.9536577243293247
+  },
+  {
+    "searched": "Hilton Tel Aviv",
+    "cluster_id": "c1783403-42da-4733-af31-2e5aa30256a3",
+    "found": "Hilton Tel Aviv",
+    "distance": 1.0
+  },
+  {
+    "searched": "Aloft Jacksonville Airport",
+    "cluster_id": "69738c05-d71b-495b-a6e0-c1430151b3ac",
+    "found": "Aloft Jacksonville Airport",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Renaissance Dallas Hotel",
+    "cluster_id": "670ea741-7afd-4b14-9c0a-fd7deea9049c",
+    "found": "The Renaissance Calicut Hotel",
+    "distance": 0.9286124794745485
+  },
+  {
+    "searched": "Chalet du Mont-d'Arbois",
+    "cluster_id": "78eeb3f7-9450-4cd6-a6c5-3eedc4f81461",
+    "found": "Castel du Mont Boise",
+    "distance": 0.8590920716112531
+  },
+  {
+    "searched": "Four Seasons Resort Langkawi, Malaysia",
+    "cluster_id": "fbbc96bc-21cb-44de-b76f-84b8c5d16626",
+    "found": "Four Seasons Resort Langkawi",
+    "distance": 0.9473684210526316
+  },
+  {
+    "searched": "Shelburne Hotel & Suites by Affinia",
+    "cluster_id": "87980d30-422a-4dfe-89e5-4e75691a44e8",
+    "found": "Shelburne Hotel & Suites by Affinia",
+    "distance": 1.0
+  },
+  {
+    "searched": "InterContinental Lyon - Hotel Dieu",
+    "cluster_id": "e451dc65-8840-4207-bfcd-14d0bba46098",
+    "found": "InterContinental Lyon - Hotel Dieu",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Pennsylvania",
+    "cluster_id": "e068effb-8e43-4123-a098-c0556407a4b6",
+    "found": "Hotel Pennsylvania",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Checkers Los Angeles",
+    "cluster_id": "7c13552b-5120-41cb-a013-e216ecb5d866",
+    "found": "Hilton Checkers Los Angeles",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Nashville Downtown",
+    "cluster_id": "9c32450e-628a-4d27-bfb8-958e866c148f",
+    "found": "DoubleTree by Hilton Hotel Nashville Downtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ritz-Carlton, South Beach",
+    "cluster_id": "61ac81aa-e2ee-493a-a8e9-3763eed4d997",
+    "found": "The Ritz-Carlton South Beach",
+    "distance": 0.993103448275862
+  },
+  {
+    "searched": "Residence Inn by Marriott Los Angeles LAX/Manhattan Beach",
+    "cluster_id": "215a5378-e187-40b0-8764-7fa70e6a9ae5",
+    "found": "Residence Inn Los Angeles LAX/Manhattan Beach",
+    "distance": 0.8956725146198831
+  },
+  {
+    "searched": "Mandarin Oriental, Bodrum",
+    "cluster_id": "2bf70a16-ab5d-4683-ad6a-2af3f0903f07",
+    "found": "Mandarin Oriental, Bodrum",
+    "distance": 1.0
+  },
+  {
+    "searched": "WorldMark Orlando - Kingstown Reef",
+    "cluster_id": "01aabe1f-19d6-48c6-a186-4211537a66b8",
+    "found": "WorldMark Orlando – Kingstown Reef",
+    "distance": 0.9882352941176471
+  },
+  {
+    "searched": "Dallas Marriott Las Colinas",
+    "cluster_id": "5a5b50e8-d308-4815-98c3-19526a60f2ce",
+    "found": "Marriott Dallas Las Colinas",
+    "distance": 0.9135802469135802
+  },
+  {
+    "searched": "Carton House Golf & Spa Resort",
+    "cluster_id": "254a3b01-58a0-416d-905c-d0d6233feb4c",
+    "found": "Carton House Hotel",
+    "distance": 0.8904575163398694
+  },
+  {
+    "searched": "Memmo Baleeira Hotel Sagres",
+    "cluster_id": "84e3a876-2942-4396-8aa1-da8f1bb320e8",
+    "found": "Memmo Baleeira Hotel",
+    "distance": 0.9481481481481481
+  },
+  {
+    "searched": "Crowne Plaza Dallas-Market Center",
+    "cluster_id": "99d64d6e-1f00-4a93-a8ec-ba635d54f67d",
+    "found": "Crowne Plaza Hotel Dallas Market Center",
+    "distance": 0.908041958041958
+  },
+  {
+    "searched": "The Sukhothai Shanghai",
+    "cluster_id": "036916f4-40de-46e9-b5a9-32a12b608c82",
+    "found": "The Sukhothai Shanghai",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Madison Washington, DC, a Hilton Hotel",
+    "cluster_id": "57f487b0-1edf-41b1-8001-360a6ed0a9e5",
+    "found": "The Madison Washington DC, A Hilton Hotel",
+    "distance": 0.9854819976771196
+  },
+  {
+    "searched": "The Queen Mary",
+    "cluster_id": "349bb183-29d1-445c-9c98-e05ab61e563e",
+    "found": "The Queen Mary",
+    "distance": 1.0
+  },
+  {
+    "searched": "Ivy Palm Resort & Spa",
+    "cluster_id": "b8c281d7-5432-449f-88d2-71a24960a175",
+    "found": "Ivy Palm Spa and Resort",
+    "distance": 0.9143892339544514
+  },
+  {
+    "searched": "The Ritz-Carlton, Berlin",
+    "cluster_id": "f26faad9-285a-4db3-97f2-050d8d86647f",
+    "found": "The Ritz-Carlton Bahrain",
+    "distance": 0.95
+  },
+  {
+    "searched": "Leicester Marriott Hotel",
+    "cluster_id": "e0dea38c-c417-4cbf-b836-d5616f2d82f1",
+    "found": "Leicester Marriott Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Gran Meliá Sancti Petri",
+    "cluster_id": "48257ab9-3ce6-4fd6-a0b6-372a420b3045",
+    "found": "Gran Meliá Xian",
+    "distance": 0.894120082815735
+  },
+  {
+    "searched": "Pelican Grand Beach Resort",
+    "cluster_id": "f64364a4-c195-40a6-8b03-3f5f5ca67cad",
+    "found": "Pelican Grand Beach Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Paradisus Cancun",
+    "cluster_id": "dd39473e-188a-492a-b47c-fbdd970b1292",
+    "found": "Paradisus Cancún",
+    "distance": 0.975
+  },
+  {
+    "searched": "Jumeirah Carlton Tower",
+    "cluster_id": "102b988b-89d0-4920-ad78-15a51c9c7501",
+    "found": "Jumeirah Carlton Tower",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mandarin Oriental Hyde Park, London",
+    "cluster_id": "3e050829-2f86-498b-96f5-a365596f5730",
+    "found": "Mandarin Oriental Hyde Park",
+    "distance": 0.9542857142857143
+  },
+  {
+    "searched": "The Ritz-Carlton, New Orleans",
+    "cluster_id": "42373986-d307-4bfd-a9ba-9a28b2c34fba",
+    "found": "The Ritz-Carlton New Orleans",
+    "distance": 0.993103448275862
+  },
+  {
+    "searched": "InterContinental Berlin",
+    "cluster_id": "4bed91db-3376-45ea-bcf2-45fc8ff89547",
+    "found": "InterContinental Berlin",
+    "distance": 1.0
+  },
+  {
+    "searched": "137 Pillars House Chiang Mai",
+    "cluster_id": "34caf3f6-7d21-4bee-b1a2-13dd72d16733",
+    "found": "137 Pillars House Chiang Mai",
+    "distance": 1.0
+  },
+  {
+    "searched": "San Juan Marriott Resort & Stellaris Casino",
+    "cluster_id": "b646ea1e-8eef-4945-8c9c-1ab780c6fa1f",
+    "found": "San Juan Marriott Resort & Stellaris Casino",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mandarin Oriental, Tokyo",
+    "cluster_id": "6e00e719-8845-4493-970e-5a8c0d543094",
+    "found": "Mandarin Oriental Tokyo",
+    "distance": 0.9916666666666667
+  },
+  {
+    "searched": "Pullman Danang Beach Resort",
+    "cluster_id": "b67f3628-7a36-4f11-84ac-7e7a39a1c575",
+    "found": "Pullman Danang Beach Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Valencia",
+    "cluster_id": "650c393d-ae61-43d9-b9ed-8b2bf7a1d6ce",
+    "found": "Hyatt Regency Valencia",
+    "distance": 1.0
+  },
+  {
+    "searched": "JW Marriott Cancun Resort & Spa",
+    "cluster_id": "7bd2d795-80e6-49a2-95a1-e98fc811e751",
+    "found": "JW Marriott Cancun Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Parrot Key Hotel & Villas",
+    "cluster_id": "50a3759d-b437-4d64-a978-b0036bacbda4",
+    "found": "Parrot Key Hotel and Resort",
+    "distance": 0.8981481481481481
+  },
+  {
+    "searched": "Hotel Vier Jahreszeiten Kempinski Munich",
+    "cluster_id": "eac6089c-a969-4951-947d-f5d88ea39b9f",
+    "found": "Hotel Vier Jahreszeiten Kempinski München",
+    "distance": 0.9753658536585366
+  },
+  {
+    "searched": "Kona Village, A Rosewood Resort",
+    "cluster_id": "d7c9ed33-88fe-4aea-bc8b-002e0b969a1c",
+    "found": "Kona Village, A Rosewood Resort - Opening 2022",
+    "distance": 0.9347826086956521
+  },
+  {
+    "searched": "The Westin Prince, Toronto",
+    "cluster_id": "a51546b3-4277-404d-97ce-9b8e13ad8d46",
+    "found": "The Westin Harbour Castle, Toronto",
+    "distance": 0.8687389337005706
+  },
+  {
+    "searched": "Jumeirah Al Qasr",
+    "cluster_id": "ed01916b-4254-4854-bc3b-56dd4b398c62",
+    "found": " Jumeirah Al Qasr - Madinat Jumeirah",
+    "distance": 0.8914285714285715
+  },
+  {
+    "searched": "The Cosmopolitan of Las Vegas",
+    "cluster_id": "32afcb79-d496-45d1-a889-84cd39dad3c6",
+    "found": "The Cosmopolitan of Las Vegas",
+    "distance": 1.0
+  },
+  {
+    "searched": "Carneros Resort and Spa",
+    "cluster_id": "2336bab0-7f7b-4fca-93fe-c529194d2d13",
+    "found": "Carneros Resort and Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Flamingo Las Vegas",
+    "cluster_id": "4b7eaa6b-a835-4da1-8b9b-5f9824251b3f",
+    "found": "Flamingo Las Vegas Hotel & Casino",
+    "distance": 0.9090909090909091
+  },
+  {
+    "searched": "The Fairfax at Embassy Row",
+    "cluster_id": "b89f8ef8-6b9d-4d90-8b03-9ad79580ac66",
+    "found": "The Fairfax at Embassy Row, Washington, D.C.",
+    "distance": 0.9181818181818182
+  },
+  {
+    "searched": "Hilton Garden Inn Palm Beach Gardens",
+    "cluster_id": "ef5a7ead-3578-4634-8e3d-a29daf3fd2d3",
+    "found": "Hilton Garden Inn Palm Beach Gardens",
+    "distance": 1.0
+  },
+  {
+    "searched": "Jumeirah Vittaveli Maldives",
+    "cluster_id": "68ab0df6-64c2-45a6-852c-8fe4635e663b",
+    "found": "Jumeirah Vittaveli",
+    "distance": 0.9333333333333333
+  },
+  {
+    "searched": "Renaissance Atlanta Midtown Hotel",
+    "cluster_id": "079c5f6c-014c-4e6d-9dbe-7389959c01ee",
+    "found": "Renaissance Atlanta Midtown Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Lodge at Sea Island Golf Club",
+    "cluster_id": "5a7e2046-afc6-4d20-bd91-88a8ddaae9e5",
+    "found": "The Lodge at Sea Island",
+    "distance": 0.9393939393939394
+  },
+  {
+    "searched": "Courtyard by Marriott Baton Rouge Siegen Lane",
+    "cluster_id": "9da82035-4d9c-4ace-a249-58919197eaed",
+    "found": "Courtyard by Marriott Baton Rouge Siegen",
+    "distance": 0.9777777777777777
+  },
+  {
+    "searched": "Sheraton Grand Sydney Hyde Park",
+    "cluster_id": "26ed5c01-2b5d-4dd7-a36f-39939a5e292d",
+    "found": " Sheraton Grand Sydney Hyde Park",
+    "distance": 1.0
+  },
+  {
+    "searched": "Harrah's Resort Atlantic City",
+    "cluster_id": "f970fe24-dcbb-4ae5-9896-db1f5493778c",
+    "found": "Harrah's Resort Atlantic City",
+    "distance": 1.0
+  },
+  {
+    "searched": "TradeWinds Island Resorts on St. Pete Beach",
+    "cluster_id": "b3ef9272-e8ca-4ad5-9e50-409973d01a4b",
+    "found": "Tradewinds Island Grand",
+    "distance": 0.8707593047330155
+  },
+  {
+    "searched": "Renaissance Portsmouth-Norfolk Waterfront Hotel",
+    "cluster_id": "6eff7674-908e-4bb9-a106-3c790c4784de",
+    "found": "Renaissance Portsmouth-Norfolk Waterfront Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Omni Houston Hotel",
+    "cluster_id": "0b12a17c-e725-4086-a7a7-713ae74e7581",
+    "found": "Omni Houston Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Mandarin Oriental Bangkok",
+    "cluster_id": "fc21394e-2875-41eb-8a0e-61104b86ebb7",
+    "found": "Mandarin Oriental Bangkok",
+    "distance": 1.0
+  },
+  {
+    "searched": "Embassy Suites by Hilton Cincinnati RiverCenter",
+    "cluster_id": "bb8e4fb9-65df-4c09-929a-81dc3b2cfd33",
+    "found": "Embassy Suites by Hilton Cincinnati RiverCenter",
+    "distance": 1.0
+  },
+  {
+    "searched": "Trump International Hotel & Tower New York",
+    "cluster_id": "50898945-2a6e-4753-a96d-11fb59eafe7a",
+    "found": "Trump International Hotel & Tower Chicago",
+    "distance": 0.9373983739837398
+  },
+  {
+    "searched": "The Ritz-Carlton, Istanbul",
+    "cluster_id": "9f4c5c64-e22d-4a35-8312-270e5c1f3f0a",
+    "found": "The Ritz-Carlton Istanbul",
+    "distance": 0.9923076923076923
+  },
+  {
+    "searched": "Raffles Hotel",
+    "cluster_id": "fac01634-ac0e-419d-9bbe-d56b83f83aa4",
+    "found": "Raffles Marina Hotel",
+    "distance": 0.9299999999999999
+  },
+  {
+    "searched": "Mövenpick Nabatean Castle Hotel",
+    "cluster_id": "c37f78fa-af42-4cc6-b982-9e18922158c2",
+    "found": "Mövenpick Nabatean Castle Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Renaissance Newport Beach Hotel",
+    "cluster_id": "7490fcc1-abce-408d-8f8e-0a6e6978f170",
+    "found": "Renaissance Newport Beach Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Seaview Hotel & Golf Club",
+    "cluster_id": "0900b19d-5dfb-459e-939f-5f49ba9d96eb",
+    "found": "Seaview Hotel",
+    "distance": 0.904
+  },
+  {
+    "searched": "Melville Marriott Long Island",
+    "cluster_id": "021b10a3-72ff-4cc4-9e73-187ee48efe88",
+    "found": "Marriott Melville Long Island",
+    "distance": 0.9379310344827586
+  },
+  {
+    "searched": "Jumeirah Beach Hotel",
+    "cluster_id": "8e4ef6f2-fb87-43c8-a09d-26d175a8eb6f",
+    "found": "Jumeirah Beach Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Cincinnatian Hotel, Curio Collection by Hilton",
+    "cluster_id": "1f8201da-52bc-4c8f-8bbf-9bcc212be834",
+    "found": "The Cincinnatian Hotel, Curio Collection by Hilton",
+    "distance": 1.0
+  },
+  {
+    "searched": "Trumbull and Porter Hotel Detroit",
+    "cluster_id": "e2b79d0a-7095-4a64-8e34-14019f79d826",
+    "found": "Trumbull and Porter Hotel Detroit",
+    "distance": 1.0
+  },
+  {
+    "searched": "Embassy Suites by Hilton Tampa Downtown Convention Center",
+    "cluster_id": "43cc207e-8139-4ab2-8b0d-4f7c04886567",
+    "found": "Embassy Suites by Hilton Washington DC Convention Center",
+    "distance": 0.9375608137992039
+  },
+  {
+    "searched": "JW Marriott New Orleans",
+    "cluster_id": "0eb706d3-0ec2-44eb-996d-d7ddf1db795f",
+    "found": "JW Marriott New Orleans",
+    "distance": 1.0
+  },
+  {
+    "searched": "SLS Las Vegas, a Tribute Portfolio Resort",
+    "cluster_id": "19d5bb84-6fd2-412f-ba3f-b8fa1b056d90",
+    "found": "SLS Las Vegas",
+    "distance": 0.8634146341463416
+  },
+  {
+    "searched": "Renaissance Kuala Lumpur Hotel",
+    "cluster_id": "d5e36a0c-5dbc-4a0f-a475-dd391c53a270",
+    "found": "Renaissance Kuala Lumpur Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Douro41 Hotel & Spa",
+    "cluster_id": "ecba35d2-aed4-4442-bb0b-0fb9ee71af0b",
+    "found": "Douro41 Hotel & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Chattanoogan",
+    "cluster_id": "1fe24273-552f-4d5a-8786-875358e59bfe",
+    "found": "The Chattanoogan",
+    "distance": 1.0
+  },
+  {
+    "searched": "Radisson Blu Resort & Spa, Split",
+    "cluster_id": "3f025063-8532-4db5-9484-6d09ea38b8db",
+    "found": "Radisson Blu Resort & Spa,Split",
+    "distance": 0.99375
+  },
+  {
+    "searched": "Phoenix Marriott Mesa",
+    "cluster_id": "c91b78fa-8474-46da-85d1-be69c772541d",
+    "found": "Phoenix Marriott Mesa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Taj Connemara",
+    "cluster_id": "b31a3013-e042-4cf2-ba45-6e410ffb9366",
+    "found": "Taj Connemara, Chennai",
+    "distance": 0.9181818181818182
+  },
+  {
+    "searched": "W Atlanta - Buckhead",
+    "cluster_id": "9eb6b286-2279-413b-9efe-344c5138b70d",
+    "found": "W Atlanta - Buckhead",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Ballantyne, a Luxury Collection Hotel, Charlotte",
+    "cluster_id": "309d5c65-3ff3-4af1-8217-c8b196798363",
+    "found": "The Ballantyne, A Luxury Collection Hotel, Charlotte",
+    "distance": 1.0
+  },
+  {
+    "searched": "Boca Raton Resort and Club, A Waldorf Astoria Resort",
+    "cluster_id": "e3a0757f-e41f-4730-bb6a-b9ec4b7aad92",
+    "found": "Boca Raton Resort and Club, A Waldorf Astoria Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hyatt Regency Aruba Resort Spa and Casino",
+    "cluster_id": "5c8aec53-365f-4000-8354-65cc59bcf6bb",
+    "found": "Hyatt Regency Aruba Resort Spa and Casino",
+    "distance": 1.0
+  },
+  {
+    "searched": "Innisbrook, A Salamander Golf & Spa Resort",
+    "cluster_id": "13eac726-35b0-48b4-888e-af10a23a24a7",
+    "found": "Innisbrook, A Salamander Golf & Spa Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Westin Westminster",
+    "cluster_id": "91055f32-b901-4de3-9a7d-fc5f11fe1feb",
+    "found": "The Westin Westminster",
+    "distance": 1.0
+  },
+  {
+    "searched": "One Aldwych Hotel",
+    "cluster_id": "b80a02a4-abdf-4b74-b396-c26e4605e6b5",
+    "found": "One Aldwych",
+    "distance": 0.9294117647058824
+  },
+  {
+    "searched": "The SLS Hotel, a Luxury Collection Hotel, Beverly Hills",
+    "cluster_id": "309d5c65-3ff3-4af1-8217-c8b196798363",
+    "found": "The Ballantyne, A Luxury Collection Hotel, Charlotte",
+    "distance": 0.875236623841275
+  },
+  {
+    "searched": "The Westin Dragonara Resort, Malta",
+    "cluster_id": "b30bbe5e-2617-4f51-80cb-bd7bbca039ef",
+    "found": "The Westin Dragonara Resort",
+    "distance": 0.9588235294117646
+  },
+  {
+    "searched": "Le Méridien Ra Beach Hotel & Spa",
+    "cluster_id": "144e50c8-4574-43a6-9f48-a4f934826c48",
+    "found": "Le Méridien Ra Beach Hotel & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Embassy Suites by Hilton Atlanta Alpharetta",
+    "cluster_id": "bf8f97f6-ffff-4297-844d-e74fde0f0ba8",
+    "found": "Embassy Suites by Hilton Atlanta - Galleria",
+    "distance": 0.9482252141982864
+  },
+  {
+    "searched": "The Bristol Hotel",
+    "cluster_id": "f2cc2cf1-2c63-459f-a1e1-d81a65caba99",
+    "found": "The Bristol Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Norfolk Waterside Hotel",
+    "cluster_id": "0f3709a1-35fd-44c9-bb3f-aeaa73a38b97",
+    "found": "Sheraton Norfolk Waterside Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Tivoli Lagos Algarve Resort",
+    "cluster_id": "ea04290c-8087-4e02-b068-524acfb3e744",
+    "found": "Tivoli Lagos",
+    "distance": 0.888888888888889
+  },
+  {
+    "searched": "Hyatt Regency Huntington Beach Resort and Spa",
+    "cluster_id": "43174b8e-0f68-47c7-89b7-b3657e417d58",
+    "found": "Hyatt Regency Huntington Beach Resort and Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Embassy Suites by Hilton Orlando Airport",
+    "cluster_id": "7795fbff-3d28-4936-ad8f-6c8badbd710e",
+    "found": "Embassy Suites by Hilton Orlando Airport",
+    "distance": 1.0
+  },
+  {
+    "searched": "Omni Richmond Hotel",
+    "cluster_id": "681a2bc6-cba1-48cc-a14c-d4ded3bde207",
+    "found": "Omni Richmond Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Short Hills",
+    "cluster_id": "fdb928fb-0d62-4215-b470-fd9f46739bd8",
+    "found": "Hilton Short Hills",
+    "distance": 1.0
+  },
+  {
+    "searched": "Shoreline Hotel Waikiki",
+    "cluster_id": "8ac908c0-7b70-41ea-9b19-9a00f0db6ed4",
+    "found": "Shoreline Waikiki Hotel",
+    "distance": 0.9478260869565217
+  },
+  {
+    "searched": "Pullman Bali Legian Beach",
+    "cluster_id": "0711fa12-693b-4c50-a265-7760a338487f",
+    "found": "Pullman Bali Legian Beach",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kempinski Hotel Bahia",
+    "cluster_id": "df09dc50-0feb-4597-88bd-beb02c214b23",
+    "found": "Kempinski Hotel Bahía",
+    "distance": 0.9809523809523809
+  },
+  {
+    "searched": "The Mayfair Hotel",
+    "cluster_id": "4a4a67cf-2063-4f35-b906-b23a363c856e",
+    "found": "The Mayfair Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kempinski Hotel Adriatic",
+    "cluster_id": "64513046-62db-4b66-9483-f0ddbe2bf813",
+    "found": "Kempinski Hotel Adriatic Istria",
+    "distance": 0.9548387096774194
+  },
+  {
+    "searched": "JW Marriott San Antonio Hill Country Resort & Spa",
+    "cluster_id": "92c7a341-a6f8-4f0f-89f8-575c936524f2",
+    "found": "JW Marriott San Antonio Hill Country Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hard Rock Hotel Casino Atlantic City",
+    "cluster_id": "5884c856-938b-4102-8920-ae7367ede9c7",
+    "found": "Hard Rock Hotel & Casino Tulsa",
+    "distance": 0.9003703703703703
+  },
+  {
+    "searched": "The Westin Reston Heights",
+    "cluster_id": "75c78ea7-a9f2-42eb-9bbe-0489b519dc38",
+    "found": "The Westin Reston Heights",
+    "distance": 1.0
+  },
+  {
+    "searched": "Park Inn by Radisson Danube, Bratislava Hotel",
+    "cluster_id": "21bea9f5-2615-413d-a9eb-6777fc25acce",
+    "found": "Park Inn by Radisson Yaroslavl",
+    "distance": 0.9153256704980843
+  },
+  {
+    "searched": "Belmond Savute Elephant Lodge",
+    "cluster_id": "792f7c02-d0f8-46c2-959f-0fc720954150",
+    "found": "Belmond Savute Elephant Lodge",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Garden Inn Greenville",
+    "cluster_id": "f1af4c98-b50c-442b-af03-e089f4e2079a",
+    "found": "Hilton Garden Inn Greenville",
+    "distance": 1.0
+  },
+  {
+    "searched": "Renaissance Paris Vendome Hotel",
+    "cluster_id": "355c33b5-f794-4924-a892-1e59c5befe7e",
+    "found": "Renaissance Paris Vendome Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Kempinski Hotel Corvinus Budapest",
+    "cluster_id": "391fec40-2244-4edf-992e-70764b862905",
+    "found": "Kempinski Hotel Corvinus Budapest",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Orlando/Altamonte Springs ",
+    "cluster_id": "a0f49e28-08e8-4ec7-9c45-182ed0de6947",
+    "found": "Hilton Orlando Altamonte Springs",
+    "distance": 0.9552419354838709
+  },
+  {
+    "searched": "Hyatt Regency Schaumburg ",
+    "cluster_id": "97891609-bd3c-4b7c-8ea3-1aedb28cc4d2",
+    "found": "Hyatt Regency Schaumburg, Chicago",
+    "distance": 0.9454545454545455
+  },
+  {
+    "searched": "Fisher Inn Resort & Marina",
+    "cluster_id": "48ef2279-98c7-44a3-bd0f-865493ff2208",
+    "found": "Fisher Inn Resort & Marina",
+    "distance": 1.0
+  },
+  {
+    "searched": "Oaks on Market",
+    "cluster_id": "2f228541-4065-47bd-9669-0cbbb0a292b2",
+    "found": "Oaks On Market",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Iquitos",
+    "cluster_id": "ed5df063-47c0-4841-a538-6fbec1af4f6c",
+    "found": "DoubleTree by Hilton Hotel Modesto",
+    "distance": 0.9462745098039216
+  },
+  {
+    "searched": "Hilton Miami Downtown",
+    "cluster_id": "fc73c5ad-3748-4d31-8ab2-014c875b05d7",
+    "found": "Hilton Miami Downtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "Cocoa Beach resort",
+    "cluster_id": "94598c6b-0d87-479e-8f1d-a76b80c47471",
+    "found": "Coco Beach Resort",
+    "distance": 0.965359477124183
+  },
+  {
+    "searched": "Disney's Grand Californian Hotel & Spa",
+    "cluster_id": "c8b41104-f256-4528-981a-2d4c467b90a8",
+    "found": "Disney's Grand Californian Hotel & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Boathouse Phuket",
+    "cluster_id": "ca1971b3-cd8d-435f-acbe-d521dd56982d",
+    "found": "The Boathouse Phuket",
+    "distance": 1.0
+  },
+  {
+    "searched": "Vintage House",
+    "cluster_id": "7f64a254-25a4-4324-9f03-d945ae1d3bfd",
+    "found": "Vintage House",
+    "distance": 1.0
+  },
+  {
+    "searched": "Clinton Hotel South Beach",
+    "cluster_id": "dffcf759-97fd-4e11-96aa-f59b0f131182",
+    "found": "Clifton Hotel South Beach",
+    "distance": 0.9716111111111111
+  },
+  {
+    "searched": "InterContinental Grand Stanford Hong Kong",
+    "cluster_id": "47972a20-7824-4c9c-ab8a-e8a32971af55",
+    "found": "InterContinental Grand Stanford Hong Kong",
+    "distance": 1.0
+  },
+  {
+    "searched": "Excellence Punta Cana",
+    "cluster_id": "4a31f40b-bf49-41e7-9afb-4250680f5cc3",
+    "found": "Excellence Punta Cana",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Boston/Woburn",
+    "cluster_id": "c27255c9-e9e8-4fcb-a308-e81df8ba8d81",
+    "found": "Hilton Boston-Woburn",
+    "distance": 0.98
+  },
+  {
+    "searched": "Hilton Chicago",
+    "cluster_id": "7aa272b2-b7a6-473b-8f2b-3cb1249f579d",
+    "found": "Hilton Chicago",
+    "distance": 1.0
+  },
+  {
+    "searched": "Sheraton Warsaw Hotel",
+    "cluster_id": "72261a8e-b316-4c27-88ee-001e89df0df4",
+    "found": "Sheraton Warsaw Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Columbus at Easton",
+    "cluster_id": "da00139e-a1ed-4804-b74b-013fc39e692b",
+    "found": "Hilton Columbus at Easton",
+    "distance": 1.0
+  },
+  {
+    "searched": "El Embajador, a Royal Hideaway Hotel",
+    "cluster_id": "99d79aea-5d6f-4e54-987e-669a5caf25e4",
+    "found": "El Embajador, a Royal Hideaway Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "The House",
+    "cluster_id": "31bb08f2-00d9-4b70-9abf-4fc2c006b889",
+    "found": "The House",
+    "distance": 1.0
+  },
+  {
+    "searched": "Courtyard by Marriott Greenbelt",
+    "cluster_id": "86b68d61-c156-4b39-9606-b6ad27b5f86a",
+    "found": "Courtyard by Marriott Altoona",
+    "distance": 0.9257041156840934
+  },
+  {
+    "searched": "Courtyard Miami Beach South Beach",
+    "cluster_id": "329890c5-eafe-42ea-86b4-e6d27a246bcb",
+    "found": "Courtyard by Marriott Miami Beach South Beach",
+    "distance": 0.8921212121212122
+  },
+  {
+    "searched": "Pointe Hilton Squaw Peak Resort",
+    "cluster_id": "943ed79d-1f99-461b-ac69-7c69dd4fe049",
+    "found": "Pointe Hilton Squaw Peak Resort",
+    "distance": 1.0
+  },
+  {
+    "searched": "Lux* Resort Grand Gaube",
+    "cluster_id": "079bfa77-f1e3-4491-b662-19450758e7b1",
+    "found": "LUX* Grand Gaube",
+    "distance": 0.8766304347826087
+  },
+  {
+    "searched": "Tenaya Lodge At Yosemite",
+    "cluster_id": "144f0fe0-91d2-403c-bef4-9b51a1b58ae2",
+    "found": "Tenaya Lodge at Yosemite",
+    "distance": 1.0
+  },
+  {
+    "searched": "Miramonte Indian Wells Resort & Spa, Curio Collection by Hilton",
+    "cluster_id": "8fb968cb-3b50-4688-97f5-89438f890f1e",
+    "found": "Miramonte Indian Wells Resort & Spa, Curio Collection by Hilton",
+    "distance": 1.0
+  },
+  {
+    "searched": "Fairmont Royal Pavilion",
+    "cluster_id": "8e88a8fa-17f0-4852-bfc4-ac196029e378",
+    "found": "Fairmont Royal Pavilion",
+    "distance": 1.0
+  },
+  {
+    "searched": "Fiesta Americana Condesa Cancun",
+    "cluster_id": "d167ce8b-a01c-4cec-ae99-5f57a40125a0",
+    "found": "Fiesta Americana Condesa Cancun All Inclusive",
+    "distance": 0.9377777777777778
+  },
+  {
+    "searched": "Canyon Ranch Tucson",
+    "cluster_id": "540997fb-f3b6-4b74-91e2-4960de469ac7",
+    "found": "Canyon Ranch Tucson",
+    "distance": 1.0
+  },
+  {
+    "searched": "Embassy Suites by Hilton Hotel Chicago O’Hare Rosemont",
+    "cluster_id": "a358f922-a9d2-4c0f-848b-49736d695380",
+    "found": "Embassy Suites by Hilton Chicago O'Hare Rosemont",
+    "distance": 0.9230988967691095
+  },
+  {
+    "searched": "InterContinental Hong Kong",
+    "cluster_id": "e1dfc8ac-d9e8-4ce8-b5bd-eb35a4f820d1",
+    "found": "InterContinental Hong Kong",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Century Old Town Prague MGallery By Sofitel",
+    "cluster_id": "e816814b-5202-4089-903a-eb74bfb161ed",
+    "found": "Hotel Chadstone Melbourne MGallery by Sofitel",
+    "distance": 0.8710430839002268
+  },
+  {
+    "searched": "Hilton Atlanta",
+    "cluster_id": "58ec5b78-d090-4fe7-b7d1-7e1a2c682c98",
+    "found": "Hilton Atlanta Northeast",
+    "distance": 0.9166666666666667
+  },
+  {
+    "searched": "The Cellars-Hohenort",
+    "cluster_id": "8b4c3017-bb17-4c51-9633-8958ae667a6f",
+    "found": "The Cellars-Hohenort Hotel",
+    "distance": 0.9538461538461538
+  },
+  {
+    "searched": "Courtyard Fort Lauderdale Airport & Cruise Port",
+    "cluster_id": "2b1ee5bf-7a08-46ea-9b95-c41084478de6",
+    "found": "Courtyard Fort Lauderdale Airport & Cruise Port",
+    "distance": 1.0
+  },
+  {
+    "searched": "Homewood Suites by Hilton Vancouver-Portland",
+    "cluster_id": "c096513c-1b44-43a7-ab21-30428918144c",
+    "found": "Homewood Suites by Hilton Vancouver - Portland",
+    "distance": 0.9913043478260869
+  },
+  {
+    "searched": "Four Seasons Resort Costa Rica",
+    "cluster_id": "a0c02073-e03a-44b6-9983-5d18d91732d0",
+    "found": "Four Seasons Resort Punta Mita",
+    "distance": 0.9333333333333333
+  },
+  {
+    "searched": "Sheraton Portland Airport Hotel",
+    "cluster_id": "3e32403b-2903-4378-8aa5-4c221ec13cd4",
+    "found": "Sheraton Portland Airport Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Best Western Plus-Cincinnati Riverfront Downtown Area",
+    "cluster_id": "b3859b83-5ea3-4758-af29-24e0fedcf42d",
+    "found": "Best Western Plus Cincinnati Riverfront Downtown Area",
+    "distance": 0.9347605224963715
+  },
+  {
+    "searched": "Sheraton Cairo",
+    "cluster_id": "b912c4a0-3318-4faa-adb2-51bbbf41e4d2",
+    "found": "Sheraton Cairo Hotel & Casino",
+    "distance": 0.896551724137931
+  },
+  {
+    "searched": "Best Western On The Bay Inn & Marina",
+    "cluster_id": "b82ae147-20a8-4092-86ac-e724f8eb125e",
+    "found": "BEST WESTERN On the Bay Inn & Marina",
+    "distance": 1.0
+  },
+  {
+    "searched": "Courtyard by Marriott San Antonio SeaWorld®/Lackland",
+    "cluster_id": "d90f15ca-a535-40a0-944d-8154408b6875",
+    "found": "Courtyard San Antonio SeaWorld/Lackland",
+    "distance": 0.8833333333333333
+  },
+  {
+    "searched": "Crowne Plaza Leeds",
+    "cluster_id": "2e662e7f-c2c0-49f7-a5ed-b569c1f54dfd",
+    "found": "Crowne Plaza Leeds",
+    "distance": 1.0
+  },
+  {
+    "searched": "Dunes Court",
+    "cluster_id": "233be0e9-24c4-4185-827d-bf60c055f7d7",
+    "found": "Dunes Motel",
+    "distance": 0.890909090909091
+  },
+  {
+    "searched": "Paradisus Cancun Resort",
+    "cluster_id": "dd39473e-188a-492a-b47c-fbdd970b1292",
+    "found": "Paradisus Cancún",
+    "distance": 0.9179347826086958
+  },
+  {
+    "searched": "SpringHill Suites St. Louis Brentwood",
+    "cluster_id": "4dd17007-a73d-4638-97b4-6deafc11af9c",
+    "found": "SpringHill Suites St. Louis Brentwood",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Zoe San Francisco",
+    "cluster_id": "471e3b30-1c68-476f-a282-d62049d652af",
+    "found": "Hotel San Francisco",
+    "distance": 0.9441647597254005
+  },
+  {
+    "searched": "Doubletree by Hilton Syracuse ",
+    "cluster_id": "6c817c80-6054-4689-bdb2-f5a17bcc162e",
+    "found": "DoubleTree by Hilton Syracuse",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hampton Inn & Suites Gainesville-Downtown",
+    "cluster_id": "9ce4cec4-a6de-471b-bc68-bd7f4782e7a2",
+    "found": "Hampton Inn Hampton-Newport News",
+    "distance": 0.8634202800361337
+  },
+  {
+    "searched": "W Barcelona",
+    "cluster_id": "87540244-a642-48e9-b7eb-720d2238996e",
+    "found": "W Barcelona",
+    "distance": 1.0
+  },
+  {
+    "searched": "Courtyard by Marriott Denver Downtown ",
+    "cluster_id": "30fa11a4-1ece-4273-a58c-0724a0634a4b",
+    "found": "Courtyard by Marriott Denver Downtown",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hotel Lungarno",
+    "cluster_id": "e915ae42-92ac-480e-bacb-67b4d7f4ae7f",
+    "found": "Hotel Lungarno",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Atlanta Perimeter Dunwoody",
+    "cluster_id": "89f307b6-7588-4bec-921b-6bd9e311f76e",
+    "found": "DoubleTree by Hilton Atlanta Perimeter Dunwoody",
+    "distance": 1.0
+  },
+  {
+    "searched": "Akyra Thonglor Bangkok ",
+    "cluster_id": "333eaa97-b1b5-49f1-a7cc-2da7ada2f59f",
+    "found": "Akyra Thonglor Bangkok",
+    "distance": 1.0
+  },
+  {
+    "searched": "Ramada Jerusalem",
+    "cluster_id": "1267681b-097a-452a-8e46-b1b620b0a9db",
+    "found": "Ramada Jerusalem",
+    "distance": 1.0
+  },
+  {
+    "searched": "BON Hotel Abuja",
+    "cluster_id": "3eb83d28-7280-4d03-8a67-e2c6ea6197e5",
+    "found": "Bon Hotel Abuja  ",
+    "distance": 1.0
+  },
+  {
+    "searched": "BON Hotel Delta",
+    "cluster_id": "666bec2b-d0f2-44b1-82ef-5d12d1c786a4",
+    "found": "BON Hotel Delta  Warri",
+    "distance": 0.9363636363636364
+  },
+  {
+    "searched": "The Essex, Vermont's Culinary Resort & Spa",
+    "cluster_id": "b6263ad6-76ff-416c-9233-26adc290a8df",
+    "found": "The Essex, Vermont's Culinary Resort & Spa",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hampton Inn Savannah - I-95 North",
+    "cluster_id": "f124ea23-8262-46b3-a74c-3a399546326a",
+    "found": "Hampton Inn Savannah-I-95-North",
+    "distance": 0.975366568914956
+  },
+  {
+    "searched": "Four Seasons Resort Bali At Jimbaran Bay",
+    "cluster_id": "4b82e861-b393-49e0-bc64-adb600321175",
+    "found": "Four Seasons Resort Bali at Jimbaran Bay",
+    "distance": 1.0
+  },
+  {
+    "searched": "Fairfield Inn Anaheim Resort",
+    "cluster_id": "6ad61d2f-3df0-4b29-bd51-671ff67cea37",
+    "found": "Fairfield Inn Disneyland Resort Anaheim",
+    "distance": 0.8935897435897436
+  },
+  {
+    "searched": "Shangri-La Hotel, Singapore",
+    "cluster_id": "8457cf1a-9de7-4494-81c2-bf13aabe93ee",
+    "found": "Shangri-La Hotel, Singapore",
+    "distance": 1.0
+  },
+  {
+    "searched": "W Fort Lauderdale",
+    "cluster_id": "09f0781a-f082-4be4-ab72-584785c201f6",
+    "found": "W Fort Lauderdale",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Pleasant Prairie Kenosha",
+    "cluster_id": "0045912b-aefa-4399-84f7-6abf334dd910",
+    "found": "Doubletree by Hilton Queretaro",
+    "distance": 0.8968253968253969
+  },
+  {
+    "searched": "Motif Seattle, A Destination Hotel",
+    "cluster_id": "25f2aff4-26ac-40a3-b2b0-60e18e223aae",
+    "found": "Motif Seattle",
+    "distance": 0.8764705882352941
+  },
+  {
+    "searched": "Courtyard Dulles Airport Chantilly",
+    "cluster_id": "6833075c-0b82-4e53-bba1-a53e76d7fd69",
+    "found": "Courtyard by Marriott Dulles Airport Chantilly",
+    "distance": 0.8831202046035805
+  },
+  {
+    "searched": "Embassy Suites by Hilton Denver Downtown Convention Center",
+    "cluster_id": "8fc7cfb1-6669-4cfe-b2a5-8bb7d9f55182",
+    "found": "Embassy Suites by Hilton Denver Downtown Convention Center",
+    "distance": 1.0
+  },
+  {
+    "searched": "Meliá Nassau Beach All Inclusive",
+    "cluster_id": "a8343025-2d79-4d6b-8194-d10eb0a7b4f2",
+    "found": "Meliá Nassau Beach",
+    "distance": 0.9125
+  },
+  {
+    "searched": "Hyatt Place Portland - Old Port",
+    "cluster_id": "7b77b0cc-2ffa-446a-96ee-313eeb68332c",
+    "found": "Hyatt Place Portland - Old Port",
+    "distance": 1.0
+  },
+  {
+    "searched": "Andaz San Diego",
+    "cluster_id": "6f673aab-0161-4697-8c45-b8f976cab4d3",
+    "found": "Andaz San Diego",
+    "distance": 1.0
+  },
+  {
+    "searched": "Courtyard Atlanta Midtown/Georgia Tech",
+    "cluster_id": "a7e46beb-0f1e-44b1-a9a6-ff5fadd282de",
+    "found": "Courtyard Atlanta Midtown/Georgia Tech",
+    "distance": 1.0
+  },
+  {
+    "searched": "St. Kitts Marriott Resort & The Royal Beach Casino",
+    "cluster_id": "f67076ed-3a35-4e18-928f-7148e087cdda",
+    "found": "St. Kitts Marriott Resort & The Royal Beach Casino",
+    "distance": 1.0
+  },
+  {
+    "searched": "DoubleTree by Hilton Hotel Irvine - Spectrum",
+    "cluster_id": "55361b89-d5d0-4174-b3f9-02a993d8a683",
+    "found": "DoubleTree by Hilton Hotel Lincoln",
+    "distance": 0.9128342245989304
+  },
+  {
+    "searched": "Staybridge Suites Liverpool",
+    "cluster_id": "592a6a0b-1353-4658-b6d6-e7e8bdc6fc16",
+    "found": "Staybridge Suites Liverpool",
+    "distance": 1.0
+  },
+  {
+    "searched": "The Talbott Hotel",
+    "cluster_id": "8f83dc62-a3bb-4939-b13a-90118a1de569",
+    "found": "The Talbott Hotel",
+    "distance": 1.0
+  },
+  {
+    "searched": "Hilton Tucson East",
+    "cluster_id": "c7a52c2b-a7bb-4138-81ff-66907e521617",
+    "found": "Hilton Tucson East",
+    "distance": 1.0
+  },
+  {
+    "searched": "Delta by Marriott Chicago North Shore hotel",
+    "cluster_id": "d749b72b-3803-4a46-bedb-8030b6af8dbb",
+    "found": "Delta Hotels Chicago North Shore",
+    "distance": 0.8540647554129912
+  },
+  {
+    "searched": "The Duniway",
+    "cluster_id": "425c2e2a-d844-4bf9-989f-66ad180cd5e3",
+    "found": "The Duniway Portland, A Hilton Hotel",
+    "distance": 0.8611111111111112
+  },
+  {
+    "searched": "Hotel Nikko San Francisco",
+    "cluster_id": "63f14bfe-aac7-4e87-91f1-48233ea92330",
+    "found": "Hotel Nikko San Francisco",
+    "distance": 1.0
+  },
+  {
+    "searched": "Four Seasons Hotel New York ",
+    "cluster_id": "5736da97-f185-4e57-b7d6-ed495b1f1562",
+    "found": "Four Seasons Hotel New York Downtown",
+    "distance": 0.95
+  }
+]
