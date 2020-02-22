@@ -21,7 +21,10 @@ class RenovationContentSpider(scrapy.Spider):
             'meta':response.xpath('//script[@type="application/ld+json"]/text()').get(),
             'latitude': response.xpath('//div[@id="map"]/@data-latitude').get(),
             'longitude':response.xpath('//div[@id="map"]/@data-longitude').get(),
-            'address':response.css('aside.bg-white *::text').getall(),
+            'hotelName': response.css('aside.bg-white header::text').get(),
+            'address': response.css('aside.bg-white p::text').getall(),
+            'phone': response.css('aside.bg-white span.phone::text').get(),
+            'nrRooms': response.css('aside.bg-white span.bg-gray-100::text').get(),
             'content': response.css('div.content *::text').getall()
         }
 
