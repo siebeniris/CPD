@@ -27,7 +27,7 @@ query = """
 cur = connection.cursor()
 
 for idx in cluster_ids:
-    cur.exect(query, (idx))
+    cur.execute(query, (idx))
     cur.fetchall()
     with open(args['output']+idx, 'w') as file:
         json.dump(cur.fetchall(), file)
