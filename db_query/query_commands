@@ -1,0 +1,8 @@
+# show headers
+describe database.tablename;
+
+or
+
+use database;
+describe tablename;
+
