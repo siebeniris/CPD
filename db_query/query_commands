@@ -6,3 +6,5 @@ or
 use database;
 describe tablename;
 
+# python commands
+python

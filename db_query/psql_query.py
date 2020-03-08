@@ -6,6 +6,7 @@ psql -h fdb.trustyou.com -U dev-ro -d ty_analytic -c
 import argparse
 import psycopg2
 import json
+import os
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Query reviews using cluster ids.")
@@ -22,15 +23,17 @@ with open(args["input"]) as file:
 connection = psycopg2.connect(dbname="ty_analytic", user="dev-ro", host="fdb.trustyou.com")
 
 query = """
-    select *, replace(array_to_string(token_array, ''), E'\n',' ') from hotel4x.review where cluster_id=%(str)s
+    select uid, date_created, score, recommendation_score, title, lang, url, text from hotel4x.review where cluster_id=%(str)s
+    ESCAPE ''
     """
 cur = connection.cursor()
 
 for idx in cluster_ids:
     print(idx)
-    cur.execute(query, {'str':idx})
+    cur.execute(query, {'str': idx})
     cur.fetchall()
-    with open(args['output']+idx, 'w') as file:
+    filename = os.path.join(args['output'], idx)
+    with open(filename, 'w') as file:
         json.dump(cur.fetchall(), file)
 
 
