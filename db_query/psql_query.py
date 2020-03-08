@@ -23,15 +23,13 @@ with open(args["input"]) as file:
 connection = psycopg2.connect(dbname="ty_analytic", user="dev-ro", host="fdb.trustyou.com")
 
 query = """
-    select uid, date_created, score, recommendation_score, title, lang, url, text from hotel4x.review where cluster_id=%(str)s
-    ESCAPE ''
+    select * from hotel4x.review where cluster_id=%(str)s
     """
 cur = connection.cursor()
 
 for idx in cluster_ids:
     print(idx)
     cur.execute(query, {'str': idx})
-    cur.fetchall()
     filename = os.path.join(args['output'], idx)
     with open(filename, 'w') as file:
         json.dump(cur.fetchall(), file)
