@@ -32,7 +32,7 @@ for idx in cluster_ids:
     cur.execute(query, {'str': idx})
     filename = os.path.join(args['output'], idx)
     with open(filename, 'w') as file:
-        json.dump(cur.fetchall(), file)
+        json.dump(cur.fetchall(), file, default=str)
 
 
 cur.close()
