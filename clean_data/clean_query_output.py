@@ -28,7 +28,7 @@ duplicate_of              21
 
 import json
 import argparse
-import glob
+import os
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Process some files")
@@ -38,7 +38,7 @@ def parse_args():
 
     return vars(parser.parse_args())
 
-def clean_query_outputs(filename):
+def clean_query_outputs(filename, outputfile):
     """
     clean output for each file
     """
@@ -61,12 +61,22 @@ def clean_query_outputs(filename):
 
         new_content_list.append([uid, date, date_created, mark_total, score, recommendation_rate, lang, title, text])
 
-    print(new_content_list)
+    with open(outputfile, 'w') as outputfile:
+        json.dump(new_content_list, outputfile)
+
+
+def read_and_write_dirs(inputdir, outputdir):
+    for file in os.listdir(inputdir):
+        filename = os.path.join(inputdir, file)
+        outputfile = os.path.join(outputdir, file)
+        clean_query_outputs(filename, outputfile)
+
 
 
 
 if __name__ == '__main__':
-    clean_query_outputs("../query_outputs_all/77a35d4e-0d61-4390-ae86-5f8cf2bb9080")
+    args = parse_args()
+    read_and_write_dirs(args['input'], args['output'])
 
 
 
