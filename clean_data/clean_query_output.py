@@ -52,7 +52,8 @@ def clean_query_outputs(filename):
 
 
 
-
+if __name__ == '__main__':
+    clean_query_outputs("../query_outputs_all/77a35d4e-0d61-4390-ae86-5f8cf2bb9080")
 
 
 
