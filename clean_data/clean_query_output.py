@@ -75,8 +75,6 @@ def read_and_write_dirs(inputdir, outputdir):
         clean_query_outputs(filename, outputfile)
 
 
-
-
 if __name__ == '__main__':
     args = parse_args()
     read_and_write_dirs(args['input'], args['output'])
