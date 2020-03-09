@@ -61,8 +61,7 @@ def clean_query_outputs(filename, outputfile):
         score = content[14]
         recommendation_rate = content[16]
 
-        new_content_list.append([uid, type_, date, date_created, score, recommendation_rate, lang, title,
-                                 text])
+        new_content_list.append({uid: [ date, date_created, type_, score, recommendation_rate, lang, title, text]})
 
     with open(outputfile, 'w') as outputfile:
         json.dump(new_content_list, outputfile)
