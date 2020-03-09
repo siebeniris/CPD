@@ -45,10 +45,23 @@ def clean_query_outputs(filename):
     with open(filename) as file:
         content_list = json.load(file)
 
+    new_content_list =[]
     for content in content_list:
+        uid = content[0]
+        date = content[3]
+        date_created = content[4]
+        title = content[6]
+        url = content[7]
+        mark_total = content[9]
+
         text = ''.join(content[10])
-        print(text)
-        content[10] = text
+        lang = content[11]
+        score = content[14]
+        recommendation_rate = content[16]
+
+        new_content_list.append([uid, date, date_created, mark_total, score, recommendation_rate, lang, title, text])
+
+    print(new_content_list)
 
 
 
