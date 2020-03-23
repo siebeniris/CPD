@@ -1,12 +1,17 @@
 import matplotlib.pyplot as plt
 import ruptures as rpt
-import numpy as np
+
 
 
 # generate signal
-n = 500  # number of samples
-dim = 2  # number of dimension
-n_bkp, sigma = 3, 5  # number of change points, noise standard deviation
-signal, bkps = rpt.pw_constant(n, dim, n_bkp, noise_std=sigma)
-
-
+n_samples, dim, sigma = 1000, 1, 4
+n_bkps = 4  # number of breakpoints
+signal, bkps = rpt.pw_constant(n_samples, dim, n_bkps, noise_std=sigma)
+# detection
+print(signal)
+print(bkps)
+algo = rpt.Pelt(model="rbf").fit(signal)
+result = algo.predict(pen=10)
+# display
+rpt.display(signal, bkps, result)
+plt.show()
