@@ -25,6 +25,7 @@ class RenovationContentSpider(scrapy.Spider):
             'address': response.css('aside.bg-white p::text').getall(),
             'phone': response.css('aside.bg-white span.phone::text').get(),
             'nrRooms': response.css('aside.bg-white span.bg-gray-100::text').get(),
+            'website': response.css("a.block.text-white::attr(href)").get(),
             'content': response.css('div.content *::text').getall()
         }
 

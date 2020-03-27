@@ -11,8 +11,8 @@ class RenovationSpider(scrapy.Spider):
 
     def parse(self, response):
         link = response.css('div.bg-white.mb-2 a.gaa::attr(href)').extract()
-        print(link)
-        yield link
+
+        yield {response.url: link}
 
         domain_link = 'https://www.hospitalitynet.org'
         next_page = response.css('a.next::attr(href)').get()

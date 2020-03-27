@@ -1,8 +1,10 @@
 import argparse
 import ast
 import json
-from jellyfish import jaro_winkler
+
 import regex
+from jellyfish import jaro_winkler
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Process some files")
@@ -10,32 +12,44 @@ def parse_args():
     parser.add_argument('--input1', type=str, help='input 1 filename to process')
     parser.add_argument("--output", type=str, help="output filename")
 
+    parser.add_argument("--renovation_list", action="store_true", help="To clean the rennovation list from scrapper")
+    parser.add_argument("--renovation_content", action="store_true", help="To clean the rennovation content from scrapper")
+  
+    parser.add_argument("--get_cluster_ids", action="store_true", help="To clean the rennovation content from scrapper")
+    parser.add_argument("--renovation_file", type=str, help="input filename")
+    parser.add_argument("--api_result", type=str, help="iutput filename")
+    
     return vars(parser.parse_args())
 
 
 def clean_scrapped_renovation_list(input, output):
-    links_list = []
+    """
+    clean scrapped rennovation list, to output to a jsonfile.
+    """
     with open(input) as file:
-        for line in file:
-            if line.startswith("["):
-                line = line.strip()
-                link_list= ast.literal_eval(line)
-                links_list.extend(link_list)
+        links = json.load(file)
+    links_list = []
+    for d in links:
+        for k in d:
+            link_list = d[k]
+            links_list.extend(link_list)
+
     print("length:", len(links_list))
     with open(output, 'w')as file:
         json.dump(links_list, file)
 
 
 def clean_scrapped_renovation_content(input, output):
-    renovation_list =[]
+    renovation_list = []
     with open(input) as file:
+        idx = 0
         for line in file:
             content = json.loads(line)
-            # content = ast.parse(line.strip(), mode='eval')
             meta_ = content['meta'].strip()
             meta = ast.literal_eval(meta_)
 
             renovation_list.append({
+                'id':idx,
                 'title': content['title'],
                 'meta': meta,
                 'latitude': content['latitude'],
@@ -44,8 +58,10 @@ def clean_scrapped_renovation_content(input, output):
                 'address': content['address'],
                 'phone': content['phone'],
                 'nrRooms': content['nrRooms'],
+                'website': content['website'],
                 'content': content["content"]
             })
+            idx+=1
 
     with open(output, 'w')as file:
         json.dump(renovation_list, file)
@@ -59,6 +75,7 @@ def api_request_results(input, output):
             apiresults[content['searched']] = content['results']
     with open(output, 'w') as file:
         json.dump(apiresults, file)
+
 
 def extract_info_from_cleaned_list(input, output):
     with open(input) as file:
@@ -141,6 +158,44 @@ def get_cluster_ids(input1, input2, output):
     with open(output, 'w') as file:
         json.dump(searched_matched_sorted, file)
 
+
+def gather_id_clusters(renovation_file, api_file, output):
+    matches = []
+    with open(renovation_file) as file:
+        search = json.load(file)
+
+    with open(api_file) as file:
+        for line in file:
+            result= json.loads(line)
+            idx = result['id']
+            match =[d for d in result['results'] if d['relevance']==1.0][0]
+            searched_info = [d for d in search if d['id']==idx][0]
+            madress = match['address']
+
+            matches.append({
+                'id': idx,
+                'searched':{
+                    'name': searched_info['hotelName'],
+                    'address': searched_info['address'],
+                    'coordinates':"(" + searched_info['longitude']+","+ searched_info['latitude']+")" if searched_info['latitude'] and searched_info['longitude'] else " ",
+                    'phone': searched_info['phone'],
+                    'webpage': searched_info['website']
+                },
+                'match': {
+                    'cluster_id':match['cluster_id'],
+                    'name':match['name'],
+                    'address':[madress['street'], madress['city'],madress['state'], madress['zip'], madress['country']] ,
+                    'coordinates':madress['coordinates'],
+                    'phone':madress['phone'],
+                    'webpage':madress['webpage'],
+                    'deleted_on':match['deleted_on']
+                }
+            })
+
+    with open(output, 'w') as file:
+        json.dump(matches, file)
+        
+
 def load_cluster_ids(input, output):
     with open(input) as file:
         cluster_ids=json.load(file)
@@ -158,10 +213,19 @@ def load_cluster_ids(input, output):
 
 if __name__ == '__main__':
     args = parse_args()
-    # clean_scrapped_renovation_list(args["input"], args["output"])
+    if args["renovation_list"]:
+        clean_scrapped_renovation_list(args["input"], args["output"])
+    
+    if args['renovation_content']:
+        clean_scrapped_renovation_content(args['input'], args['output'])
+
+    if args['get_cluster_ids']:
+        gather_id_clusters(args['renovation_file'], args['api_result'], args['output'])
+
     # get_cluster_ids(args["input"], args["output"])
-    # clean_scrapped_renovation_content(args['input'], args['output'])
+    #
     # extract_info_from_cleaned_list(args['input'], args['output'])
     # api_request_results(args['input'], args['output'])
     # get_cluster_ids(args['input'], args['input1'], args['output'])
-    load_cluster_ids(args['input'], args['output'])
+    else:
+        load_cluster_ids(args['input'], args['output'])
