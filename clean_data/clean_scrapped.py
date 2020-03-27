@@ -66,36 +66,6 @@ def clean_scrapped_renovation_content(input, output):
     with open(output, 'w')as file:
         json.dump(renovation_list, file)
 
-
-def api_request_results(input, output):
-    apiresults={}
-    with open(input) as file:
-        for line in file:
-            content= json.loads(line)
-            apiresults[content['searched']] = content['results']
-    with open(output, 'w') as file:
-        json.dump(apiresults, file)
-
-
-def extract_info_from_cleaned_list(input, output):
-    with open(input) as file:
-        ls = json.load(file)
-    extracted_ls= []
-    for item in ls:
-        extracted_ls.append({
-            'hotelName': item['hotelName'],
-            'latitude': item['latitude'],
-            'longitude': item['longitude'],
-            'street': item['address'][0],
-            'region': item['address'][1] if len(item['address']) >1 else None,
-            'country': item['address'][-1],
-            'phone': item['phone']
-
-        })
-
-    with open(output, 'w') as file:
-        json.dump(extracted_ls, file)
-
 def get_cluster_ids(input1, input2, output):
     searched_matched = list()
     with open(input1) as file:
@@ -223,9 +193,5 @@ if __name__ == '__main__':
         gather_id_clusters(args['renovation_file'], args['api_result'], args['output'])
 
     # get_cluster_ids(args["input"], args["output"])
-    #
-    # extract_info_from_cleaned_list(args['input'], args['output'])
-    # api_request_results(args['input'], args['output'])
-    # get_cluster_ids(args['input'], args['input1'], args['output'])
     else:
         load_cluster_ids(args['input'], args['output'])
