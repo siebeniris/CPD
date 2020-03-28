@@ -1,0 +1,7 @@
+psycopg2
+jellyfish
+Scrapy
+ruptures
+matplotlib
+pandas
+python-dateutil
