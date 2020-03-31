@@ -56,6 +56,11 @@ python clean_data/clean_scrapped.py --renovation_file data/indexed_rennovation_h
 python experimented_cpd/ruptures/rupture_model.py --input cleand_query_output_csv/ --output experimented_cpd/rupture_results/ --binseg --batch
 ```
 
+### 4. Topic Modeling
+
+* process_corpus (using all queried data)
+
+`python topic_modeling/scripts/preprocessing.py --process_corpus`
 
 ### references:
 
@@ -97,4 +102,31 @@ python experimented_cpd/ruptures/rupture_model.py --input cleand_query_output_cs
     - address (street, region zip, country)
     - phone
     - website
+    
+    
+    
+### setup
+* jupyter lab kernel
+
+`python -m ipykernel install --user --name cpd --display-name "cpd"`
+
+* nltk
+```python
+import nltk
+nltk.download('stopwords')
+```
+
+* spacy english corpus
+```terminal
+python3 -m spacy download en
+
+spacy.load("en")
+```
+
+
+
+### tips
+
+* explore streamlit:
+    https://medium.com/analytics-vidhya/building-a-twitter-sentiment-analysis-app-using-streamlit-d16e9f5591f8
     
