@@ -29,7 +29,7 @@ stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'not', 'would', 'say',
                    'easy', 'easily', 'lot', 'lack', 'make', 'want', 'seem', 'run', 'need', 'even', 'right', 'line',
                    'even', 'also', 'may', 'take', 'come'])
 
-
+%matplotlib inline
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
 
@@ -417,16 +417,7 @@ def plots_number_of_documents_topic_weightage(lda_model):
 
     plt.show()
 
-def pyldavis_plot(lda_model):
-    """
-    Show LDAvis .
-    :param lda_model:
-    :return:
-    """
-    import pyLDAvis.gensim
-    pyLDAvis.enable_notebook()
-    vis = pyLDAvis.gensim.prepare(lda_model, corpus, dictionary=lda_model.id2word)
-    vis
+
 
 if __name__ == '__main__':
     args = parse_args()
