@@ -29,7 +29,6 @@ stop_words.extend(['from', 'subject', 're', 'edu', 'use', 'not', 'would', 'say',
                    'easy', 'easily', 'lot', 'lack', 'make', 'want', 'seem', 'run', 'need', 'even', 'right', 'line',
                    'even', 'also', 'may', 'take', 'come'])
 
-%matplotlib inline
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
 
@@ -181,7 +180,8 @@ def representative_sentence_for_each_topic(df_topic_sents_keywords: pd.DataFrame
     sent_topics_sorteddf_mallet.columns = ['Topic_Num', "Topic_Perc_Contrib", "Keywords", "Representative Text"]
 
     # Show
-    print(sent_topics_sorteddf_mallet.head(10))
+    sent_topics_sorteddf_mallet.head(10)
+    return sent_topics_sorteddf_mallet
 
 
 def frequency_distribution_word_counts_in_documents(df_dominant_topic):
@@ -272,7 +272,7 @@ def word_clouds_top_n_keywords_by_topic(lda_model: gensim.models.LdaModel) -> No
     plt.show()
 
 
-def word_counts_of_topic_keywords(lda_model) -> None:
+def word_counts_of_topic_keywords(lda_model, data_ready) -> None:
     """
     When it comes to the keywords in the topics, the importance of the keywords matters. Along with that, how
     frequently the words have appeared in the documents.
@@ -370,7 +370,7 @@ def topics_per_document(model, corpus, start=0, end=1):
     return(dominant_topics, topic_percentages)
 
 
-def total_number_documents_per_topic(lda_model):
+def total_number_documents_per_topic(lda_model, corpus):
     dominant_topics, topic_percentages = topics_per_document(model=lda_model, corpus=corpus, end=-1)
 
     # Distribution of Dominant Topics in Each Document
@@ -392,9 +392,9 @@ def total_number_documents_per_topic(lda_model):
     return df_dominant_topic_in_each_doc, df_top3words, df_topic_weightage_by_doc
 
 
-def plots_number_of_documents_topic_weightage(lda_model):
+def plots_number_of_documents_topic_weightage(lda_model, corpus):
 
-    df_dominant_topic_in_each_doc, df_top3words, df_topic_weightage_by_doc = total_number_documents_per_topic(lda_model)
+    df_dominant_topic_in_each_doc, df_top3words, df_topic_weightage_by_doc = total_number_documents_per_topic(lda_model, corpus)
 
     # Plot
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4), dpi=120, sharey=True)
@@ -446,7 +446,7 @@ if __name__ == '__main__':
 
     # the most representative sentence for each topic
     ###################################################################
-    representative_sentence_for_each_topic(df_topic_sents_keywords)
+    representative_sentence_for_each_topic(df_topic_sents_keywords, data_ready)
     ###################################################################
 
     # frequency_distribution_word_counts_in_documents(df_dominant_topic)

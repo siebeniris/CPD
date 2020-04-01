@@ -1,0 +1,145 @@
+idx,Name,Positive Name,Negative Name,Parents,Rule 1 (obj_id,sub_obj_id,attr_id),Rule 2,,
+11,Room,Good Room,Bad Room,,11,*,*,,,
+11a,Bathroom,Good Bathroom,Bad Bathroom,11,11,a,*,11,m,*
+343c,Bathroom Cleanliness,Clean Bathroom,Dirty Bathroom,11333,11,a,10,11,m,10
+5b6c,Bathroom Size,Large Bathroom,Small Bathroom,11111,11,a,113,11,m,113
+11b,Beds,Great Beds,Poor Beds,11111,11,b,*,,,
+11d,Balcony,Great Balcony,Poor Balcony,11,11,d,*,,,
+11e,View,Great View,No View,11,11,e,*,,,
+11f,Air Conditioning,Good Air Conditioning,Bad Air Conditioning,11111,11,f,*,,,
+11g,Minibar,Good Minibar,Bad Minibar,11,11,g,*,,,
+11h,TV,Good TV,Bad TV,11,11,h,*,,,
+11i,Furniture,Good Furniture,Bad Furniture,11,11,i,*,,,
+11j,Kitchenette,Good Kitchenette,Bad Kitchenette,11,11,j,*,,,
+11l,Family Room,not public,not public,11,11,l,*,,,
+11m,Shower,Good Shower,Poor Shower,11,11,m,*,,,
+f63a,Room Cleanliness,Clean Room,Dirty Room,11333,11,*,10,,,
+4b72,Room Size,Big Room,Small Room,11111,11,*,113,,,
+e51a,Room Maintenance,Well-maintained Room,Poorly-maintained Room,11,11,*,11,,,
+ae0f,Old/New Room,New Room,Old Room,11,11,*,2,,,
+111,Comfort,Great Comfort,Poor Comfort,,111,*,*,11,b,*
+111a,Noise Level,Quiet Room,Noisy Room,111,111,a,*,11,*,1110
+333,Cleanliness,Good Cleanliness,Bad Cleanliness,,11,*,10,13,*,10
+9f14,Hotel Cleanliness,Clean Hotel,Unclean Hotel,333,16,*,10,24,*,10
+12,Beach,Good Beach,Bad Beach,,12,*,*,,,
+a10d,Beach Cleanliness,Clean Beach,Unclean Beach,12,12,*,10,,,
+12a,Beach Sports,Great Beach Sports,Poor Beach Sports,12,12,a,*,,,
+131,Breakfast,Good Breakfast,Bad Breakfast,,131,*,*,13,a,*
+ba62,Breakfast Prices,Affordable Breakfast,Expensive Breakfast,"131,22a",131,*,17,13,a,17
+13,Food,Good Food,Bad Food,,13,*,*,,,
+2dca,Food Prices,Affordable Food,Expensive Food,"13,22a",13,*,17,13,*,16
+ef97,Dining Experience,Great Dining Experience,Poor Dining Experience,13,13,*,154,13,*,15
+2b39,Dining Area Cleanliness,Clean Dining Area,Dirty Dining Area,13333,13,*,10,,,
+13b,Menu,Good Menu,Bad Menu,13,13,b,*,13,ba,*
+13c,Salads,Good Salads,Bad Salads,13,13,c,*,,,
+13d,Meat,Good Meat,Bad Meat,13,13,d,*,,,
+13e,Beef Dishes/Steak,Good Beef Dishes/Steak,Bad Beef Dishes/Steak,13,13,e,*,,,
+13f,Pork Dishes,Good Pork Dishes,Bad Pork Dishes,13,13,f,*,,,
+13g,Poultry Dishes,Tasty Poultry Dishes,Tasteless Poultry Dishes,13,13,g,*,,,
+13h,Venison Dishes,Good Venison Dishes,Bad Venison Dishes,13,13,h,*,,,
+13i,Lamb Dishes,Good Lamb Dishes,Bad Lamb Dishes,13,13,i,*,,,
+13j,Soups,Good Soups,Bad Soups,13,13,j,*,,,
+13k,Fish/Seafood,Good Fish/Seafood,Bad Fish/Seafood,13,13,k,*,,,
+13l,Side Dishes,Good Side Dishes,Bad Side Dishes,13,13,l,*,,,
+13m,Vegetables,Good Vegetables,Bad Vegetables,13,13,m,*,,,
+13n,Desserts & Fruits,Good Dessert & Fruits,Bad Desserts & Fruits,13,13,n,*,,,
+13o,Vegetarian & Vegan,Good Vegetarian & Vegan Food,Bad Vegetarian & Vegan Food,13,13,o,*,,,
+13p,Pasta,Good Pasta,Bad Pasta,13,13,p,*,,,
+13q,Pizza,Good Pizza,Bad Pizza,13,13,q,*,,,
+13r,Sushi,Good Sushi,Bad Sushi,13,13,r,*,,,
+13s,Snacks,Good Snacks,Bad Snacks,13,13,s,*,,,
+63,Bar,Good Bar,Poor Bar,,63,e,*,15,i,*
+63a,Alcoholic Drinks,Good Alcoholic Drinks,Bad Alcoholic Drinks,63,63,a,*,63,c,*
+6a3e,Bar Prices,Affordable Bar,Overpriced Bar,"63,22a",63,e,17,63,a,17
+14,Location,Good Location,Bad Location,,14,*,*,12,*,141
+14a,Accessibility by car,Good Accessibility by car,Bad Accessibility by car,14,14,a,*,,,
+14c,Sightseeing,Good Sightseeing,Poor Sightseeing,14,14,c,*,,,
+14d,Restaurants & Bars,Good Restaurants & Bars,Poor Restaurants & Bars,14,14,d,141,,,
+14e,Shopping,Good Shopping,Poor Shopping,14,14,e,*,,,
+14g,Parking,Good Parking,Bad Parking,14,14,g,*,,,
+b63a,Parking Prices,Affordable Parking,Expensive Parking,14,14,g,17,14,g,16
+14h,Distance to City Centre,Near City Centre,Far from City Centre,14,14,h,141,,,
+14i,Distance to Public Transport,Near Public Transport,Far from Public Transport,14,14,i,141,,,
+14j,Distance to Train Station,Near Train Station,Far from Train Station,14,14,j,141,,,
+14k,Distance to Airport,Near Airport,Far from Airport,14,14,k,141,,,
+14l,Distance to Business Sites,Near Business Sites,Far from Business Sites,14,14,l,141,,,
+14m,Distance to Winter Sports Facilities,Near Winter Sports Facilities,Far from Winter Sports Facilities,14,14,m,141,,,
+8d11,Distance to Beach,Near Beach,Far from Beach,14,12,*,141,,,
+15,Service,Good Service,Bad Service,,15,*,*,16,*,154
+15a,Wellness Staff,Good Wellness Staff,Poor Wellness Staff,"15,21",15,a,*,,,
+15b,Reception,Good Reception,Bad Reception,15,15,b,*,,,
+15c,Restaurant Service,Good Restaurant Service,Bad Restaurant Service,15,15,c,*,,,
+15d,Pool/Beach Service,Good Pool/Beach Service,Bad Pool/Beach Service,15,15,d,*,,,
+15e,Housekeeping Staff,Good Housekeeping Staff,Bad Housekeeping Staff,15,15,e,*,,,
+15f,Tour Guide,Good Tour Guide,Bad Tour Guide,15,15,f,*,,,
+15g,Management,Good Management,Bad Management,15,15,g,*,,,
+15h,Childcare,Good Childcare,Bad Childcare,15,15,h,*,,,
+15i,Bar Service,Good Bar Service,Bad Bar Service,"15,63",15,i,*,,,
+15j,Laundry Service,Good Laundry Service,Bad Laundry Service,15,15,j,*,,,
+15k,Booking Process,Good Booking Process,Bad Booking Process,15,15,k,*,,,
+15l,Hotel Security,Good Hotel Security,Poor Hotel Security,15,15,l,*,,,
+15m,Room Service,Good Room Service,Poor Room Service,15,15,m,*,,,
+15n,Romantic Decoration,not public,not public,15,15,n,*,,,
+15o,Recreation Staff,Good Recreation Staff,Bad Recreation Staff,15,15,o,*,,,
+15p,Shuttle Service,Good Shuttle Service,Poor Shuttle Service,15,15,p,*,,,
+15q,Valet Service,Good Valet Service,Poor Valet Service,15,15,q,*,,,
+15r,Concierge Service,Good Concierge Service,Poor Concierge Service,15,15,r,*,,,
+ddbc,Service Friendliness,Friendly Service,Unfriendly Service,15,15,*,15,,,
+f8d2,Service Professionalism,Professional Service,Unprofessional Service,15,15,*,154,16,*,154
+171,Vibe,Great Vibe,Poor Vibe,,17,*,*,16,*,15
+vmod,Modern Vibe,Modern Hotel,Outdated Hotel,171,16,*,2,24,*,2
+vdes,Designer Vibe,Stylish Hotel,Unstylish Hotel,171,24,h,*,16,*,22
+vlux,Luxurious Vibe,Luxurious Hotel,Plain Hotel,171,16,*,21,24,*,21
+9ba9,Friendly Atmosphere,Friendly Atmosphere,Unfriendly Atmosphere,171,17,*,*,16,*,15
+18,WiFi,Good WiFi,Bad WiFi,,18,*,*,,,
+805b,WiFi Cost,Affordable WiFi,Expensive WiFi,"18,22a",18,*,17,18,*,16
+wifq,WiFi Quality,High-quality WiFi,Low-quality WiFi,18,18,*,2,18,*,8
+201,Pool,Good Pool,Bad Pool,,201,*,*,20,a,*
+7118,Pool Cleanliness,Clean Pool Area,Dirty Pool Area,201333,201,*,10,20,a,10
+21,Wellness,Great Wellness,Poor Wellness,,21,*,*,15,a,*
+e004,Wellness Area Cleanliness,Clean Wellness Area,Dirty Wellness Area,21333,21,*,10,,,
+21a,Sauna,Good Sauna,Bad Sauna,21,21,a,*,,,
+21b,Fitness Area,Good Fitness Area,Bad Fitness Area,21,21,b,*,,,
+22a,Value,Good Value,Poor Value,,22,*,*,*,*,17
+244,Amenities,Good Amenities,Poor Amenities,,20,*,*,24,*,*
+20,Grounds,Good Hotel Grounds,Bad Hotel Grounds,244,20,*,*,,,
+20c,Outdoor Sports Facilities,Good Outdoor Sports Facilities,Bad Outdoor Sports Facilities,244,20,c,*,16,m,*
+20d,Kids Facilities,Good Kids Facilities,Bad Kids Facilities,244,20,d,*,,,
+20e,Golf Court,not public,not public,244,20,e,*,,,
+20f,Water Park,not public,not public,244,20,f,*,,,
+24,Hotel Building,Good Hotel Buildings,Poor Hotel Buildings,244,24,*,*,,,
+24a,Terrace,Good Terrace,Bad Terrace,244,24,a,*,,,
+24b,Entrance Area,Good Entrance Area,Bad Entrance Area,244171,24,b,*,,,
+24c,Business Facilities,Good Business Facilities,Bad Business Facilities,244,24,c,*,,,
+24d,Smoking Area,Good Smoking Area,Bad Smoking Area,244,24,d,*,16,u,*
+24e,Ski Storage,Good Ski Storage,Bad Ski Storage,244,24,e,*,,,
+24f,Handicap Accessible Facilities,Good Handicap Accessible Facilities,Poor Handicap Accessible Facilities,244,24,f,*,19,f,*
+24g,Shared Facilities,Good Shared Facilities,Poor Shared Facilities,244,24,g,*,,,
+24h,Architecture,Good Architecture,Bad Architecture,244,24,h,*,,,
+24i,Casino Equipment,not public,not public,244,24,i,*,,,
+24j,Elevator,Good Elevator,Poor Elevator,244,24,j,*,,,
+deeb,Old/New Facilities,New Facilities,Old Facilities,244,24,*,2,20,*,2
+16,Hotel,Good Hotel,Bad Hotel,,16,*,*,19,*,*
+16b,Luxury Hotel,Good for a Luxury Stay,Not Suitable for a Luxury Stay,16,16,b,*,19,k,*
+16c,Family Hotel,Good for Families,Not Suitable for Families,16,16,c,*,19,a,*
+16d,Romantic Hotel,Good for Romantic Trips,Not Suitable for Romantic Trips,16,16,d,*,19,d,*
+16e,Wellness Hotel,Good for a Wellness Holiday,Not Suitable for a Wellness Holiday,16,16,e,*,,,
+16f,City Hotel,Good for a City Trip,Not suitable for a City Trip,16,16,f,*,,,
+16g,Boutique Hotel,Good Boutique Hotel,Not Suitable as Boutique Hotel,16,16,g,*,,,
+16h,Business Hotel,Good for Business People,Not Suitable for Business People,16,16,h,*,19,h,*
+16i,Party Hotel,Good for Party People,Not Suitable for Party People,16,16,i,*,19,e,*
+16k,Economy Hotel,Good for a Budget Trip,Not Suitable for a Budget Trip,16,16,k,*,,,
+16p,Golf Hotel,Good for Golfers,Not Suitable for Golfers,16,16,p,*,,,
+16r,Resort Hotel,Good Resort Hotel,Not a Suitable Resort Hotel,16,16,r,*,,,
+16s,Winter Sports Hotel,Good for Winter Sports,Not Suitable for Winter Sports,16,16,s,*,,,
+16t,Beach Hotel,Good for a Beach Holiday,Not Suitable for a Beach Holiday,16,16,t,*,,,
+16u,Solo Hotel,Good for Solo Travelers,Not Suitable for Solo Travelers,16,16,u,*,,,
+16y,Eco-friendly Hotel,Good Eco-friendly Hotel,Not an Eco-friendly Hotel,16,16,y,*,*,*,194
+16z,Casino Hotel,Good Casino Hotel,Not suitable as Casino Hotel,16,16,z,*,,,
+16aa,Airport Hotel,Good Airport Hotel,Not suitable as Airport Hotel,16,16,aa,*,,,
+16ab,Lake Hotel,Good Lake Hotel,Not suitable as Lake Hotel,16,16,ab,*,,,
+16ac,Water Park Hotel,Good Water Park Hotel,Not suitable as Water Park Hotel,16,16,ac,*,,,
+16ad,Highway Hotel,Good Highway Hotel,Bad Highway Hotel,16,16,ad,*,,,
+16ae,Hostel,Good Hostel,Bad Hostel,16,16,ae,*,19,b,*
+16af,Midscale Hotel,Good Midscale Hotel,Bad Midscale Hotel,16,16,af,*,,,
+16ag,Friends Hotel,Good for Traveling with Friends,Not Suitable for Traveling with Friends,16,16,ag,*,,,
