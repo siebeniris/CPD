@@ -15,11 +15,10 @@ def main(domain):
     source = '../preprocessed_data/%s/train.txt' % (domain)
     model_file = '../preprocessed_data/%s/w2v_embedding' % (domain)
     sentences = MySentences(source)
-    model = gensim.models.Word2Vec(sentences, size=200, window=10, min_count=5, workers=4)
+    # https://radimrehurek.com/gensim/models/word2vec.html
+    model = gensim.models.Word2Vec(sentences, size=200, window=10, min_count=2, workers=4)
     model.save(model_file)
 
 
 print('Pre-training word embeddings ...')
-# main('restaurant')
-# main('beer')
-# main('laptops')
+main('ty')

@@ -24,7 +24,7 @@ parser.add_argument("--emb-name",  type=str,
 parser.add_argument("--epochs", dest="epochs", type=int, metavar='<int>', default=15,
                     help="Number of epochs (default=15)")
 parser.add_argument("-n", "--neg-size", dest="neg_size", type=int, metavar='<int>', default=5,
-                    help="Number of negative instances (default=20)")
+                    help="Number of negative instances (default=5)")
 parser.add_argument("--seed", dest="seed", type=int, metavar='<int>', default=1234,
                     help="Random seed (default=1234)")
 parser.add_argument("-a", "--algorithm", dest="algorithm", type=str, metavar='<str>', default='adam',
@@ -56,9 +56,9 @@ from keras.preprocessing import sequence
 import reader as dataset
 
 # overall_maxlen = maxfreq of word overall.
-vocab, train_x, test_x, overall_maxlen = dataset.get_data(args.domain, vocab_size=args.vocab_size, maxlen=args.maxlen)
+vocab, train_x, _, overall_maxlen = dataset.get_data(args.domain, vocab_size=args.vocab_size, maxlen=args.maxlen)
 train_x = sequence.pad_sequences(train_x, maxlen=overall_maxlen)
-test_x = sequence.pad_sequences(test_x, maxlen=overall_maxlen)
+# test_x = sequence.pad_sequences(test_x, maxlen=overall_maxlen)
 
 print('Number of training examples: ', len(train_x))
 print('Length of vocab: ', len(vocab))
@@ -175,3 +175,5 @@ for ii in range(args.epochs):
     logger.info('Epoch %d, train: %is' % (ii, tr_time))
     logger.info(
         'Total loss: %.4f, max_margin_loss: %.4f, ortho_reg: %.4f' % (loss, max_margin_loss, loss - max_margin_loss))
+
+
