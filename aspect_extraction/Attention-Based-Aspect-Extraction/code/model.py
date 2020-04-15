@@ -29,6 +29,7 @@ def create_model(args, maxlen, vocab):
         args.aspect_size = emb_reader.aspect_size
         args.emb_dim = emb_reader.emb_dim
 
+
     ##### Inputs #####
     sentence_input = Input(shape=(maxlen,), dtype='int32', name='sentence_input')
     neg_input = Input(shape=(args.neg_size, maxlen), dtype='int32', name='neg_input')

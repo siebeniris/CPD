@@ -1,4 +1,11 @@
+#  python infer.py --domain ty --vocab-size 78215
 import os
+from xml.etree.ElementTree import Element, SubElement
+from xml.etree import ElementTree
+from ast import literal_eval
+from nltk.corpus import wordnet as wn
+from preprocess import load_sentiment_terms
+
 
 import numpy as np
 from keras.models import load_model
@@ -17,43 +24,21 @@ from my_layers import Attention, Average, WeightedSum, WeightedAspectEmb, MaxMar
 parser = U.add_common_args()
 args = parser.parse_args()
 
-
 out_dir = os.path.join(args.out_dir_path , args.domain)
-# out_dir = '../pre_trained_model/' + args.domain
 U.print_args(args)
 
-# Arguments:
-# 2020-04-12 00:43:37,032 INFO   algorithm: adam
-# 2020-04-12 00:43:37,032 INFO   aspect_size: 14
-# 2020-04-12 00:43:37,032 INFO   batch_size: 32
-# 2020-04-12 00:43:37,032 INFO   command: train.py --domain ty --emb-name ../preprocessed_data/ty/w2v_embedding --vocab-size 70000
-# 2020-04-12 00:43:37,032 INFO   domain: ty
-# 2020-04-12 00:43:37,032 INFO   emb_dim: 200
-# 2020-04-12 00:43:37,032 INFO   emb_name: ../preprocessed_data/ty/w2v_embedding
-# 2020-04-12 00:43:37,032 INFO   epochs: 15
-# 2020-04-12 00:43:37,032 INFO   maxlen: 256
-# 2020-04-12 00:43:37,032 INFO   neg_size: 5
-# 2020-04-12 00:43:37,032 INFO   ortho_reg: 0.1
-# 2020-04-12 00:43:37,032 INFO   out_dir_path: output
-# 2020-04-12 00:43:37,032 INFO   seed: 1234
-# 2020-04-12 00:43:37,032 INFO   vocab_size: 70000
-# Reading data from  ty
-#  Creating vocab ...
-#  7864333 total words, 78215 unique words
-#   keep the top 70000 words
-#  Reading dataset ...
-#   train set
-#    <num> hit rate: 0.87%, <unk> hit rate: 0.11%
-#   test set
-#    <num> hit rate: 0.57%, <unk> hit rate: 4.02%
-# Number of training examples:  963530
-# Length of vocab:  70003
 
 assert args.domain == 'ty'
 
 ###### Get test data #############
-#
-vocab, train_x, test_x, overall_maxlen = dataset.get_data(args.domain, vocab_size=args.vocab_size, maxlen=args.maxlen)
+test_filename = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
+input_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
+test_xml = os.path.join(input_dir, test_filename + '.xml')
+output_path = os.path.join(input_dir, 'output', test_filename+'.xml')
+
+
+# get data.
+vocab, train_x, test_x, overall_maxlen = dataset.get_data_ty(args.domain, test_xml, vocab_size=args.vocab_size, maxlen=args.maxlen)
 # pad the test data set.
 test_x = sequence.pad_sequences(test_x, maxlen=overall_maxlen)
 test_length = test_x.shape[0]
@@ -82,33 +67,27 @@ for w, ind in vocab.items():
 
 test_fn = K.function([model.get_layer('sentence_input').input, K.learning_phase()],
                      [model.get_layer('att_weights').output, model.get_layer('p_t').output])
-att_weights, aspect_probs = [], []
+att_weights =  []
 for batch in tqdm(test_x):
-    cur_att_weights, cur_aspect_probs = test_fn([batch, 0])
+    cur_att_weights, _ = test_fn([batch, 0])
     att_weights.append(cur_att_weights)
-    aspect_probs.append(cur_aspect_probs)
 
 att_weights = np.concatenate(att_weights)
-aspect_probs = np.concatenate(aspect_probs)
 
-######### Topic weight ###################################
+# get all nouns from wordnet
+# nouns = {x.name().split('.',1)[0] for x in wn.all_synsets('n')}
 
-topic_weight_out = open(out_dir + '/topic_weights', 'wt', encoding='utf-8')
-labels_out = open(out_dir + '/labels.txt', 'wt', encoding='utf-8')
-print('Saving topic weights on test sentences...')
-for probs in aspect_probs:
-    labels_out.write(str(np.argmax(probs)) + "\n")
-    weights_for_sentence = ""
-    for p in probs:
-        weights_for_sentence += str(p) + "\t"
-    weights_for_sentence.strip()
-    topic_weight_out.write(weights_for_sentence + "\n")
-print(aspect_probs)
+with open(test_xml, 'rt') as file:
+    tree = ElementTree.parse(file)
+    root = tree.getroot()
+
 
 ## Save attention weights on test sentences into a file
+sentiments = load_sentiment_terms('sentiments.txt')
 att_out = open(out_dir + '/att_weights', 'wt', encoding='utf-8')
 print('Saving attention weights on test sentences...')
 test_x = np.concatenate(test_x)
+# id of the sentences.
 for c in range(len(test_x)):
     att_out.write('----------------------------------------\n')
     att_out.write(str(c) + '\n')
@@ -117,8 +96,68 @@ for c in range(len(test_x)):
     line_len = len(word_inds)
     weights = att_weights[c]
     weights = weights[(overall_maxlen - line_len):]
+    # word_ind, weight
+    weights_dict = {idx: round(weight,3) for idx, weight in enumerate(weights)}
+    # how many weights to choose:
+    weight_nr = line_len//3+2
+    import operator
+    # sort the weights by descending order
+    sorted_weights_dict =sorted(weights_dict.items(), key= operator.itemgetter(1), reverse= True)
+    # [(word_ind, weight)]
 
+    path_ = './/sentence[@id="{}"]'.format(str(c))
+    sentence = root.find(path_)
+    orig_text=sentence.attrib.get('orig')
+
+    indices_sentence = literal_eval(sentence.attrib.get('indices'))
+
+    noun_phrases = literal_eval(sentence.attrib.get('nounIndices'))
+    # the words
     words = [vocab_inv[i] for i in word_inds]
     att_out.write(' '.join(words) + '\n')
-    for j in range(len(words)):
-        att_out.write(words[j] + ' ' + str(round(weights[j], 3)) + '\n')
+    count = 0
+    indices = []
+    # ordered by weight.
+    ind_word_weight =[]
+    for elem in sorted_weights_dict:
+        ind, weight = elem
+        word = words[ind]
+        if count < weight_nr :
+
+            if word not in sentiments:
+                ind_word_weight.append((ind, word, weight))
+                att_out.write(word + ' '+ str(weight)+'\n')
+                count +=1
+
+        # if count < weight_nr:
+        #     # word not pos/neg.
+        #     if word not in sentiments:
+        #         indices.append(ind)
+        #         att_out.write(word + ' ' + str(weight) + '\n')
+        #         count += 1
+
+    # aspects_indices = sorted([indices_sentence[x] for x,_,_ in indices])
+
+    # aspect_nouns_indiecs =[]
+    # for (x,y) in aspects_indices:
+    #     for (z,s) in noun_phrases:
+    #         if x >= z and y <= s :
+    #             aspect_nouns_indiecs.append((z,s))
+    #         if y<z and x <z:
+    #             aspect_nouns_indiecs.append((x,y))
+    #         if x>s and y>s:
+    #             aspect_nouns_indiecs.append((x,y))
+    # aspects_nouns = [orig_text[x:y] for (x,y) in list(set(aspects_indices))]
+    # aspect_nouns = [orig_text[x:y] for (x,y) in list(set(aspect_nouns_indiecs))]
+    ind_word_weight_sorted= sorted_weights_dict =sorted(ind_word_weight, key=lambda x:x[0])
+    group = ElementTree.SubElement(sentence, 'aspectTerms',{
+        'ind_word_weight': str(ind_word_weight_sorted)
+        # 'terms': str(aspects_nouns),
+        # 'indices': str(list(set(aspects_indices))),
+        # "processed_terms": str(aspect_nouns),
+        # "processed_indices": str(list(set(aspect_nouns_indiecs)))
+    })
+
+
+    tree.write('output.xml')
+

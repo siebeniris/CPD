@@ -2,6 +2,8 @@ import codecs
 import re
 import operator
 import os
+from xml.etree import ElementTree
+from xml.dom import minidom
 num_regex = re.compile('^[+-]?[0-9]+\.?[0-9]*$')
 
 
@@ -13,7 +15,7 @@ def create_vocab(domain, maxlen=0, vocab_size=0):
     # assert domain in {'restaurant', 'beer'}
 
     # source = '../preprocessed_data/' + domain + '/train.txt'
-    source= os.path.join('../preprocessed_data', domain, 'train.txt')
+    source = os.path.join('../preprocessed_data', domain, 'train.txt')
 
     total_words, unique_words = 0, 0
     word_freqs = {}
@@ -100,6 +102,96 @@ def read_dataset(domain, phase, vocab, maxlen):
     return data_x, maxlen_x
 
 
+# https://pymotw.com/2/xml/etree/ElementTree/create.html
+def prettify(elem):
+    """Return a pretty-printed XML string for the Element.
+        """
+    rough_string = ElementTree.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ")
+
+
+
+def read_test_xmls(filepath):
+    with open(filepath, 'rt') as file:
+        tree = ElementTree.parse(file)
+        root = tree.getroot()
+
+
+    sentence = root.find('.//sentence[@id="1"]')
+    group = ElementTree.SubElement(sentence, 'aspectTerms', {
+        'aspect':str(['stunning'])
+    })
+    tree.write('output.xml')
+    # for node in root.iter('sentence'):
+    #
+    #     id = node.attrib.get('id')
+    #     sentence = node.text.strip()
+    #     if id == '1':
+    #         group = ElementTree.SubElement(node, 'aspectTerms', {
+    #             'aspects': str(["stunning"]),
+    #             'indices':str([1,2])
+    #         } )
+    #
+    #         print(id, ':', sentence)
+    # tree.write('output.xml')
+
+    # print(prettify(root))
+
+def read_dataset_ty(filepath, vocab, maxlen):
+    # assert domain in {'restaurant', 'beer'}
+    with open(filepath, 'rt') as file:
+        tree = ElementTree.parse(file)
+
+    num_hit, unk_hit, total = 0., 0., 0.
+    maxlen_x = 0
+    data_x = []
+
+    for line in tree.iter('sentence'):
+        words = line.text.strip().split()
+        if maxlen > 0 and len(words) > maxlen:
+            words = words[:maxlen]
+        if not len(words):
+            continue
+
+        indices = []
+        for word in words:
+            # if it is a number.
+            if is_number(word):
+                indices.append(vocab['<num>'])
+                num_hit += 1
+            elif word in vocab:
+                indices.append(vocab[word])
+            # if it is unknown word.
+            else:
+                indices.append(vocab['<unk>'])
+                unk_hit += 1
+            total += 1
+
+        data_x.append(indices)
+        if maxlen_x < len(indices):
+            maxlen_x = len(indices)
+
+    print('   <num> hit rate: %.2f%%, <unk> hit rate: %.2f%%' % (100 * num_hit / total, 100 * unk_hit / total))
+    return data_x, maxlen_x
+
+def get_train_data(domain, vocab_size=0, maxlen=0):
+    vocab = create_vocab(domain, maxlen, vocab_size)
+    train_x, train_maxlen = read_dataset(domain, 'train', vocab, maxlen)
+    return vocab, train_x, train_maxlen
+
+def get_test_data(domain, maxlen=0):
+    vocab_file = os.path.join('../preprocessed_data', domain, 'vocab')
+    vocab_ = codecs.open(vocab_file, 'r', 'utf-8')
+    vocab={}
+    for line in vocab_:
+        word, freq = line.strip().split('\t')
+        vocab[word]=freq
+    test_x, test_maxlen = read_dataset(domain, 'test', vocab, maxlen)
+    return vocab, test_x, test_maxlen
+
+
+
 def get_data(domain, vocab_size=0, maxlen=0):
     print('Reading data from ', domain)
     print(' Creating vocab ...')
@@ -108,14 +200,46 @@ def get_data(domain, vocab_size=0, maxlen=0):
     print('  train set')
     train_x, train_maxlen = read_dataset(domain, 'train', vocab, maxlen)
     print('  test set')
-    test_x, test_maxlen = read_dataset(domain, 'test', vocab, maxlen)
+    test_filename = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
+    output_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
+    test_xml = os.path.join(output_dir, test_filename + '.xml')
+    test_x, test_maxlen = read_dataset_ty(test_xml, vocab, maxlen)
     maxlen = max(train_maxlen, test_maxlen)
     return vocab, train_x, test_x, maxlen
 
 
+def get_data_ty(domain,test_path, vocab_size=0, maxlen=0):
+    print('Reading data from ', domain)
+    print(' Creating vocab ...')
+    vocab = create_vocab(domain, maxlen, vocab_size)
+    print(' Reading dataset ...')
+    print('  train set')
+    train_x, train_maxlen = read_dataset(domain, 'train', vocab, maxlen)
+    print('  test set')
+
+    test_x, test_maxlen = read_dataset_ty(test_path, vocab, maxlen)
+    maxlen = max(train_maxlen, test_maxlen)
+    return vocab, train_x, test_x, maxlen
+
+
+
 if __name__ == "__main__":
-    vocab, train_x, test_x, maxlen = get_data('restaurant')
-    print('train_x sample:', train_x[:10])
-    print(len(train_x))
-    print(len(test_x))
-    print(maxlen)
+    # vocab, train_x, test_x, maxlen = get_data('restaurant')
+    # print('train_x sample:', train_x[:10])
+    # print(len(train_x))
+    # print(len(test_x))
+    # print(maxlen)
+    # vocab, test_x, test_maxlen = get_test_data('ty')
+    # print(vocab['<unk>'])
+    # print(test_maxlen)
+    #
+    # _, train, train_maxlen= get_train_data('ty')
+    # print(train_maxlen)
+    test_filename = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
+    output_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
+    test_xml = os.path.join(output_dir, test_filename+'.xml')
+    read_test_xmls(test_xml)
+
+
+
+

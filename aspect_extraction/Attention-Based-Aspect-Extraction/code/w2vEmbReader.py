@@ -6,6 +6,8 @@ import gensim
 from sklearn.cluster import KMeans
 import pymorphy2
 
+import gensim.downloader as api
+
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
@@ -23,7 +25,9 @@ class W2VEmbReader:
         emb_matrix = []
 
         model = gensim.models.KeyedVectors.load(emb_path)
+        # model = gensim.models.KeyedVectors.load_word2vec_format(emb_path, binary=True)
         self.emb_dim = model.vector_size
+        # for word in model.wv.vocab:
         for word in model.wv.vocab:
             self.embeddings[word] = list(model[word])
             emb_matrix.append(list(model[word]))
@@ -91,7 +95,7 @@ class W2VEmbReader:
         return self.emb_dim
 
 if __name__ == '__main__':
-    data_path= '../preprocessed_data/restaurant'
-    emb_name = 'w2v_embedding'
+    data_path= '/home/yiyi/Documents/masterthesis/CPD/aspect_extraction/pretrained_wordemb'
+    emb_name = 'GoogleNews-vectors-negative300.bin'
     emb = W2VEmbReader(data_path, emb_name)
-    print(emb.get_aspect_matrix(14))
+    print(emb.emb_dim)

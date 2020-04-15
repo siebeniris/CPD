@@ -188,14 +188,14 @@ def add_common_args(parser=None):
         parser = argparse.ArgumentParser()
     parser.add_argument("-o", "--out-dir", dest="out_dir_path", type=str, metavar='<str>',
                         help="The path to the output directory", default="output")
-    parser.add_argument("-b", "--batch-size", dest="batch_size", type=int, metavar='<int>', default=32,
+    parser.add_argument("-b", "--batch-size", dest="batch_size", type=int, metavar='<int>', default=50,
                         help="Batch size (default=32)")
-    parser.add_argument("-v", "--vocab-size", dest="vocab_size", type=int, metavar='<int>', default=9000,
-                        help="Vocab size. '0' means no limit (default=9000)")
+    parser.add_argument("-v", "--vocab-size", dest="vocab_size", type=int, metavar='<int>', default=70000,
+                        help="Vocab size. '0' means no limit (default=70000)")
     parser.add_argument("--maxlen", dest="maxlen", type=int, metavar='<int>', default=256,
                         help="Maximum allowed number of words during training. '0' means no limit (default=0)")
-    parser.add_argument("--domain", dest="domain", type=str, metavar='<str>', default='restaurant',
-                        help="domain of the corpus {restaurant, beer}")
+    parser.add_argument("--domain", dest="domain", type=str, metavar='<str>', default='ty',
+                        help="domain of the corpus {restaurant, beer, ty}")
     return parser
 
 
