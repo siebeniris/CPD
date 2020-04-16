@@ -1,15 +1,15 @@
 import codecs
-import argparse
 import os
 import glob
 import csv
 import string
-
-from joblib import Parallel, delayed
+import regex
+from nltk.corpus import wordnet
+from timer import Timer
 
 from textblob import TextBlob, Word
 from textblob.np_extractors import ConllExtractor, FastNPExtractor
-
+from contractions import contractions_dict
 import spacy
 
 from xml.etree import ElementTree
@@ -19,9 +19,10 @@ from xml.dom import minidom
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.tokenize import sent_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
 
 nlp =spacy.load('en_core_web_sm')
 
@@ -32,17 +33,6 @@ def prettify(elem):
     rough_string = ElementTree.tostring(elem, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
-
-
-def load_sentiment_terms(file):
-    # pos, neg
-    # adjectives = ['JJ','JJR','JJS']
-    terms = []
-    with open(file) as input:
-        for line in input:
-            if not line.startswith(';'):
-                terms.append(line.strip())
-    return list(set(terms))
 
 
 # https://www.clips.uantwerpen.be/pages/mbsp-tags
@@ -91,33 +81,64 @@ def parseTextBlob(line):
     b = [Word(x).lemmatize('v') if y in verbs else Word(x).lemmatize() for x,y in b_tags]
     lemmas = ' '.join(b)
     return lemmas, indices, noun_phrases, noun_indices
-    # if len(indices) > 0:
-    #     sent_ = SubElement(review, 'sentence', {'id': str(count), 'orig': line,
-    #                                             'indices': str(indices),
-    #                                             'nounPhrases': str(noun_phrases),
-    #                                             'nounIndices': str(noun_indices)})
-    #     sent_.text = lemmas
-    #     count += 1
-    #     print(line, noun_phrases, count)
-    #
-    #     return sent_, count
+
+
+def remove_repeated_characters(word):
+    pattern = regex.compile(r"(\w*)(\w)\2(\w*)")
+    substitution_pattern = r"\1\2\3"
+    while True:
+        if wordnet.synsets(word):
+            return word
+        new_word = pattern.sub(substitution_pattern,word)
+        if new_word != word:
+            word = new_word
+            continue
+        else:
+            return new_word
+
+
+def expand_contractions(text, contractions_dict):
+    contractions_pattern = regex.compile('({})'.format('|'.join(contractions_dict.keys())),
+                                      flags=regex.IGNORECASE | regex.DOTALL)
+
+    def expand_match(contraction):
+        match = contraction.group(0)
+        first_char = match[0]
+        expanded_contraction = contractions_dict.get(match) \
+            if contractions_dict.get(match) \
+            else contractions_dict.get(match.lower())
+        expanded_contraction = expanded_contraction
+        return expanded_contraction
+
+    expanded_text = contractions_pattern.sub(expand_match, text)
+    expanded_text = regex.sub("'", "", expanded_text)
+    return expanded_text
 
 def parseSentence(line):
+
     # delete stop words and lemmatize.
+    print('original:', line)
     lmtzr = WordNetLemmatizer()
+
     stop = stopwords.words('english')
-    text_token = CountVectorizer().build_tokenizer()(line.lower())
+    # text_token = CountVectorizer().build_tokenizer()(line.lower())
+    expanded = expand_contractions(line, contractions_dict)
+    text_token = [remove_repeated_characters(word) for word in word_tokenize(expanded.lower())]
 
-    text_rmstop = [i for i in text_token if i not in stop]
-    offset=0
-    indices =[]
-    for word in text_rmstop:
-        ind = line.lower().index(word, offset)
-        indices.append((ind, ind+len(word)))
-        offset += len(word)
+    print(text_token)
+    offset =0
+    offset_dict = dict()
+    lemmas= []
+    lemmas_index=[]
+    for idx, word in enumerate(text_token):
+        offset_dict[(offset, offset+len(word))] = idx
+        if word not in stop:
+            lemmas.append(lmtzr.lemmatize(word))
+            lemmas_index.append(idx)
+        offset += len(word)+1
 
-    text_stem = [lmtzr.lemmatize(w) for w in text_rmstop]
-    return text_stem, indices
+
+    return ' '.join(lemmas), lemmas_index, offset_dict
 
 
 def spacyParseSentence(line):
@@ -144,10 +165,10 @@ def generate_test_xml_from_ty(filepath, output):
     :param output: directory of output file.
     :return: prettified xml formatted output
     """
+    timer = Timer()
+    timer.start()
     root = Element('reviews')
     # load the sentiments terms.
-
-    sentiments = load_sentiment_terms('sentiments.txt')
 
     count = 0
     with open(filepath, 'rt') as csvfile:
@@ -170,34 +191,28 @@ def generate_test_xml_from_ty(filepath, output):
                     original_text = text
 
                 if len(original_text.strip()) > 0:
-
-                    # orig_text = SubElement(review, 'original_text')
-                    # orig_text.text = original_text
-
-                    sents = TextBlob(original_text, np_extractor=ConllExtractor()).sentences
-                    # if sents:
-                    #     for sent in sents:
-                    #          sent_, count = parseTextBlob(review, count, sent)
-                    # Parallel(n_jobs=-1)(map(delayed(parseTextBlob),[[review, idx, sent]for idx, sent in enumerate(sents)]))
+                    sents = sent_tokenize(original_text.replace('.', '. '))
                     for sent in sents:
-                        print(sent)
-                        lemmas, indices, noun_phrases, noun_indices = parseTextBlob(sent)
-                        # tokens, indices = parseSentence(sent)
-                        # noun_phrases, noun_indices = spacyParseSentence(sent)
+                        lemmas, indices, offset_dict = parseSentence(sent)
+
                         if len(indices) > 0:
                             sent_ = SubElement(review, 'sentence', {'id': str(count), 'orig': sent,
                                                                     'indices': str(indices),
-                                                                    'nounPhrases': str(noun_phrases),
-                                                                    'nounIndices':str(noun_indices)})
+                                                                    'offsetDict': str(offset_dict)})
                             sent_.text = lemmas
                             count += 1
+                            print('sentence:{}'.format(count), end='\r')
+
     tree = ElementTree.ElementTree(root)
     tree.write(output)
+    timer.stop()
 
 
 
 
 def generate_train_files_from_ty(dir_path, output_path, num_sents=1000000):
+    timer = Timer()
+    timer.start()
     output_file = os.path.join(output_path, 'train.txt')
     output = open(output_file, 'w')
     count = 0
@@ -220,7 +235,7 @@ def generate_train_files_from_ty(dir_path, output_path, num_sents=1000000):
             for doc in docs:
                 sents = sent_tokenize(doc)
                 for sent in sents:
-                    tokens, _ = parseSentence(sent)
+                    tokens, _, _ , _ = parseSentence(sent)
                     if count > num_sents:
                         break
                     else:
@@ -228,6 +243,8 @@ def generate_train_files_from_ty(dir_path, output_path, num_sents=1000000):
                             output.write(' '.join(tokens)+'\n')
                         count += 1
                         print('sentence:{}'.format(count), end='\r')
+
+    timer.stop()
 
 
 def preprocess_test_ty(input, domain):
@@ -251,7 +268,7 @@ def preprocess_test_ty(input, domain):
     for doc in docs:
         sents = sent_tokenize(doc)
         for sent in sents:
-            tokens, _ = parseSentence(sent)
+            tokens, _, _, _ = parseSentence(sent)
 
             if len(tokens) > 1:
                     out1.write(' '.join(tokens) + '\n')
@@ -267,5 +284,7 @@ if __name__ == "__main__":
     output_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
     output_file = os.path.join(output_dir, test_filename)
     generate_test_xml_from_ty(test_file, output_file+'.xml')
+    line = "You can't go wrong with Phinda and we are already looking to book our next adventure with &beyond!"
+    print(parseSentence(line))
 
 
