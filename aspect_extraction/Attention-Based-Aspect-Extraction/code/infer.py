@@ -2,6 +2,8 @@
 import os
 from xml.etree import ElementTree
 from ast import literal_eval
+from more_itertools import consecutive_groups
+import string
 
 import numpy as np
 from keras.models import load_model
@@ -82,7 +84,7 @@ with open(test_xml, 'rt') as file:
 
 
 ## Save attention weights on test sentences into a file
-sentiments = load_sentiment_terms('sentiments.txt')
+sentiments = load_sentiment_terms('sentiments_all.txt')
 
 att_out = open(out_dir + '/att_weights', 'wt', encoding='utf-8')
 print('Saving attention weights on test sentences...')
@@ -98,89 +100,78 @@ for c in range(len(test_x)):
     weights = att_weights[c]
     weights = weights[(overall_maxlen - line_len):]
     # word_ind, weight
-    weights_dict = {idx: round(weight,3) for idx, weight in enumerate(weights)}
-    # how many weights to choose:
+    weights_dict = {idx: round(weight, 3) for idx, weight in enumerate(weights)}
+
+    sorted_weights_dict = sorted(weights_dict.items(), key= lambda x: x[1], reverse=True)
+    # how many weights to choose: every three word, choose one aspect.
     weight_nr = line_len//3+2
-    import operator
-    # sort the weights by descending order
-    sorted_weights_dict =sorted(weights_dict.items(), key= operator.itemgetter(1), reverse= True)
-    # [(word_ind, weight)]
 
     path_ = './/sentence[@id="{}"]'.format(str(c))
     # for each SubElement Sentence.
     sentence = root.find(path_)
 
+    indices_lemmas = literal_eval(sentence.attrib.get('indices'))
+    # offset: idx
+    ind2offset = literal_eval(sentence.attrib.get('offsetDict'))
+
+
     orig_text = sentence.attrib.get('orig')
     lemmas = sentence.text.split()
 
-    indices_sentence = literal_eval(sentence.attrib.get('indices'))
-    nounIndices = literal_eval(sentence.attrib.get('nounIndices'))
-    nounPhrases = literal_eval(sentence.attrib.get('nounPhrases'))
-
-    # the words
+    # the write to attr_weight.
     words = [vocab_inv[i] for i in word_inds]
     att_out.write(' '.join(words) + '\n')
+    att_out.write(sentence.text + '\n')
 
     # ordered by weight.
-    ind_word_weight =[]
-
+    aspect_indices = []  # index 2 word in original text.
+    count=0
     for elem in sorted_weights_dict:
         ind, weight = elem
-        word_indices = indices_sentence[ind]
-        word = lemmas[ind]
-        # only choose the aspects with weight more than 0.07 and not in sentiment terms.
-        if word not in sentiments and weight >= 0.07:
-            ind_word_weight.append((word_indices, word, weight))
+        # the index of word in the original text.
+        word_idx = indices_lemmas[ind]  # 2
+        word_start, word_end = ind2offset[word_idx]  # (11,18)
+        word = lemmas[ind]  # get the lemma word
+
+        # only choose the aspects with weight more than 0.035 and not in sentiment terms and not
+        # a punctuation mark.
+        if count < weight_nr:
+            if word not in sentiments and word not in string.punctuation and weight >= 0.035:
+                aspect_indices.append(word_idx)
+                count += 1
 
         att_out.write(word + ' ' + str(weight) + '\n')
 
+    aspects_terms = []
 
-    ind_word_weight_sorted = sorted(ind_word_weight, key=lambda x:x[0])
+    for group in consecutive_groups(sorted(aspect_indices)):
+        index = list(group)
+        offset0, offset1 = ind2offset[index[0]], ind2offset[index[-1]]
+        start, end = offset0[0], offset1[-1]
+        aspect_term = orig_text[start:end]
+        aspects_terms.append(((start, end), aspect_term))
 
-    # post process the aspect terms.
-    # aspectTerms_phrases =[]
-    # for offsets_lemma, aspect_term, weight in ind_word_weight:
-    #     # check if the aspect_term is a noun phrase, if it is, get the indices.
-    #     for idx, noun_phrase in enumerate(nounPhrases):
-    #         # if aspect_term in noun_phrase:
-    #         offsets_noun_phrase = nounIndices[idx]
-    #         if offsets_lemma[0] >= offsets_noun_phrase[0] and offsets_lemma[1] <= offsets_noun_phrase[1]:
-    #             aspectTerms_phrases.append((offsets_noun_phrase, noun_phrase))
-    #     if not any([offsets_lemma[0] >= offsets_noun_phrase[0] and offsets_lemma[1] <= offsets_noun_phrase[1]
-    #                 for offsets_noun_phrase, _ in list(set(aspectTerms_phrases))]):
-    #         aspectTerms_phrases.append((offsets_lemma, aspect_term))
-    #
-    # sorted_aspects = sorted(list(set(aspectTerms_phrases)), key=lambda x: x[0])
-    # processed_aspects = []
-    # for offsets, aspect_term in sorted_aspects:
-    #     orig_term = orig_text[offsets[0]:offsets[1]]
-    #     starting = aspect_term.split()[0]
-    #     if starting in sentiments:
-    #         new_starting = offsets[0] + len(starting) + 1
-    #         new_term = orig_text[new_starting: offsets[1]]
-    #         processed_aspects.append(((new_starting, offsets[1]), new_term))
-    #     else:
-    #         processed_aspects.append((offsets, orig_term))
 
     sentence.text = None
     text = ElementTree.SubElement(sentence, 'text')
     text.text = orig_text
     group = ElementTree.SubElement(sentence, 'aspectTerms')
 
-    for offsets, aspect_term, _ in ind_word_weight_sorted:
+    for (start, end), aspect_term in aspects_terms:
         aspectTerm = ElementTree.SubElement(group, 'aspectTerm', {
-            'from': str(offsets[0]),
+            'from': str(start),
             'term': aspect_term,
-            'to': str(offsets[1])
+            'to': str(end)
         })
 
     print('sentence:{}'.format(c), end='\r')
 
     # delete unnecessary attributes in sentence subelement.
+    sentence.attrib.pop('orig', None)
+    sentence.attrib.pop('offsetDict', None)
     sentence.attrib.pop('indices', None)
     sentence.attrib.pop('nounIndices', None)
     sentence.attrib.pop('nounPhrases', None)
-    sentence.attrib.pop('orig', None)
-    tree.write('output.xml')
+    tree.write(output_path)
 
 timer.stop()

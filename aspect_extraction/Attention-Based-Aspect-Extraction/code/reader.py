@@ -112,32 +112,6 @@ def prettify(elem):
 
 
 
-def read_test_xmls(filepath):
-    with open(filepath, 'rt') as file:
-        tree = ElementTree.parse(file)
-        root = tree.getroot()
-
-
-    sentence = root.find('.//sentence[@id="1"]')
-    group = ElementTree.SubElement(sentence, 'aspectTerms', {
-        'aspect':str(['stunning'])
-    })
-    tree.write('output.xml')
-    # for node in root.iter('sentence'):
-    #
-    #     id = node.attrib.get('id')
-    #     sentence = node.text.strip()
-    #     if id == '1':
-    #         group = ElementTree.SubElement(node, 'aspectTerms', {
-    #             'aspects': str(["stunning"]),
-    #             'indices':str([1,2])
-    #         } )
-    #
-    #         print(id, ':', sentence)
-    # tree.write('output.xml')
-
-    # print(prettify(root))
-
 def read_dataset_ty(filepath, vocab, maxlen):
     # assert domain in {'restaurant', 'beer'}
     with open(filepath, 'rt') as file:
@@ -201,7 +175,7 @@ def get_data(domain, vocab_size=0, maxlen=0):
     train_x, train_maxlen = read_dataset(domain, 'train', vocab, maxlen)
     print('  test set')
     test_filename = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
-    output_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
+    output_dir = '/ABSA/aspect_extraction'
     test_xml = os.path.join(output_dir, test_filename + '.xml')
     test_x, test_maxlen = read_dataset_ty(test_xml, vocab, maxlen)
     maxlen = max(train_maxlen, test_maxlen)
@@ -236,7 +210,7 @@ if __name__ == "__main__":
     # _, train, train_maxlen= get_train_data('ty')
     # print(train_maxlen)
     test_filename = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
-    output_dir = '/home/yiyi/Documents/masterthesis/CPD/data/aspect_extraction'
+    output_dir = '/ABSA/aspect_extraction'
     test_xml = os.path.join(output_dir, test_filename+'.xml')
     read_test_xmls(test_xml)
 

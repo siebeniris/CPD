@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 
 morph = pymorphy2.MorphAnalyzer()
 
-data_dir = '/home/yiyi/Documents/masterthesis/CPD/data/cleand_query_output_csv/'
+data_dir = '/ABSA/cleand_query_output_csv/'
 
 test_file = '0a5c0a4c-36f7-46c4-9f13-91f52ba45ea5'
 

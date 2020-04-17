@@ -4,3 +4,10 @@ scrapper/scrapped_files/
 old_data/
 data/cleand_query_output_csv/
 cleand_query_output_csv/
+BERT-E2E-ABSA/
+sentiment_analysis_experiment/MAMS-for-ABSA/data/glove.840B.300d.txt
+.ipynb_checkpoints
+checkpoints/
+processed/
+__pycache__/
+aspect_extraction/Attention-Based-Aspect-Extraction/code/output
