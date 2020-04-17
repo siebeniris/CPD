@@ -19,6 +19,7 @@ def tokenizer(text):
     tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
     return list(filter(check, tokens))
 
+# bert-base-uncased model .
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 def parse_sentence_term(path, lowercase=False):
@@ -73,8 +74,11 @@ def category_filter(data, remove_list):
     remove_set = set(remove_list)
     filtered_data = []
     for text in data:
+        # if text.split('__split__')[2] in remove_set:
+        #     print(text)
         if not text.split('__split__')[2] in remove_set:
             filtered_data.append(text)
+
     return filtered_data
 
 def build_vocab(data, max_size, min_freq):

@@ -63,7 +63,8 @@ class BertCapsuleNetwork(nn.Module):
         max_segment_len = bert_segment.argmax(dim=-1, keepdim=True)
         batch_arrange = torch.arange(segment_len).unsqueeze(0).expand(batch_size, segment_len).to(bert_segment.device)
         segment_mask = batch_arrange <= max_segment_len
-        sentence_mask = segment_mask & (1 - bert_segment).byte()
+        # convert the bool to byte() ---> added on 4.April
+        sentence_mask = segment_mask.byte() & (1 - bert_segment).byte()
         aspect_mask = bert_segment
         sentence_lens = sentence_mask.long().sum(dim=1, keepdim=True)
         # aspect average pooling

@@ -29,6 +29,7 @@ def make_term_data(config):
     return train_loader, val_loader
 
 def make_term_test_data(config):
+    # for term: ATSA/MAMS-ATSA
     base_path = config['base_path']
     test_path = os.path.join(base_path, 'processed/test.npz')
     test_data = ABSADataset(test_path, input_list[config['aspect_term_model']['type']])
@@ -40,6 +41,7 @@ def make_term_test_data(config):
         pin_memory=True
     )
     return test_loader
+
 
 def make_category_data(config):
     model_type = config['aspect_category_model']['type']
@@ -68,6 +70,7 @@ def make_category_data(config):
     return train_loader, val_loader
 
 def make_category_test_data(config):
+    # bert_capsnet or capsnet
     model_type = config['aspect_category_model']['type']
     if 'bert' in model_type:
         i_list = ['bert_token', 'bert_segment']

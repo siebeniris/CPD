@@ -7,6 +7,7 @@ from data_process.utils import *
 def data_process(config):
     mode = config['mode']
     assert mode in ('term', 'category')
+    # ./data/MAMS-ATSA  
     base_path = config['base_path']
     raw_train_path = os.path.join(base_path, 'raw/train.xml')
     raw_val_path = os.path.join(base_path, 'raw/val.xml')
@@ -25,8 +26,10 @@ def data_process(config):
     val_data = category_filter(val_data, remove_list)
     test_data = category_filter(test_data, remove_list)
     word2index, index2word = build_vocab(train_data, max_size=config['max_vocab_size'], min_freq=config['min_vocab_freq'])
+
     if not os.path.exists(os.path.join(base_path, 'processed')):
         os.makedirs(os.path.join(base_path, 'processed'))
+
     if mode == 'term':
         save_term_data(train_data, word2index, os.path.join(base_path, 'processed/train.npz'))
         save_term_data(val_data, word2index, os.path.join(base_path, 'processed/val.npz'))

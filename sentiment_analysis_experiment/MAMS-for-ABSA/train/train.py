@@ -28,7 +28,10 @@ def train(config):
         os.makedirs(os.path.dirname(model_path))
     with open(os.path.join(base_path, 'processed/index2word.pickle'), 'rb') as handle:
         index2word = pickle.load(handle)
+
+    # loss function
     criterion = CapsuleLoss()
+    # optimizer : adam.
     optimizer = make_optimizer(config, model)
     max_val_accuracy = 0
     min_val_loss = 100
@@ -48,6 +51,7 @@ def train(config):
             logit = model(input0, input1)
             loss = criterion(logit, label)
             batch_size = input0.size(0)
+            # train loss. bert_capsnet, batch_size=32/
             total_loss += batch_size * loss.item()
             total_samples += batch_size
             pred = logit.argmax(dim=1)
