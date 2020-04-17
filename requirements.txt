@@ -17,3 +17,5 @@ seaborn
 wordcloud
 pyLDAvis
 bokeh
+corextopic
+networkx

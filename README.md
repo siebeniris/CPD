@@ -53,7 +53,7 @@ python clean_data/clean_scrapped.py --renovation_file data/indexed_rennovation_h
 #### ruptures:
 - run in batch: (--binseg or --window)
 ```
-python experimented_cpd/ruptures/rupture_model.py --input cleand_query_output_csv/ --output experimented_cpd/rupture_results/ --binseg --batch
+python experimented_cpd/ruptures/rupture_model.py --input data/cleand_query_output_csv/ --output experimented_cpd/rupture_results/ --binseg --batch
 ```
 
 ### 4. Topic Modeling
@@ -62,7 +62,37 @@ python experimented_cpd/ruptures/rupture_model.py --input cleand_query_output_cs
 
 `python topic_modeling/scripts/preprocessing.py --process_corpus`
 
-### references:
+
+### 5. Unsupervised Aspect Extraction with Attention
+* preprocess:
+    - generate training data from ty data (csv files)
+        - 1 mio sentences
+     - generate test files for inference.
+* word2vec:
+    - gensim generate word embedding model for training data
+        - window=10, emb-size=200, worker=4
+* training:
+    - `python train.py --emb-name ../preprocessed_data/ty/w2v_embedding --domain ty --vocab-size 70000`
+    - negative factor = 5
+* infer:
+    - ` python infer.py --domain ty --vocab-size 78215`
+
+
+### 6. aspect based sentiment analysis
+In repo `sentiment_analysis_experiment/MAMS-for-ABSA`:
+- `python make_term_test_data_from_ty.py`
+- `python test_ty.py`
+- `python post_process.py`
+
+
+### Experiences:
+- nltk is more efficient than TextBlob, using nltk in preprocessing texts.
+- noun phrases extraction 
+    - noun chunks from Spacy include `a` and `the` articles.
+    - noun phrases from TextBlob (CornllExtractor) -> best quality, very slow, cannot be parallelized 
+    
+ 
+
 
 
 ## fields for matching hotels in database.
@@ -130,3 +160,7 @@ spacy.load("en")
 * explore streamlit:
     https://medium.com/analytics-vidhya/building-a-twitter-sentiment-analysis-app-using-streamlit-d16e9f5591f8
     
+### reference
+#### sentiment analysis
+- text classification 
+    https://github.com/ThilinaRajapakse/simpletransformers
