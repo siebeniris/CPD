@@ -47,7 +47,7 @@ def expand_contractions(text, contractions_dict):
 def parseSentence(doc):
     lines = sent_tokenize(doc)
     # lowercased
-    processed_doc=[]
+    processed_doc = []
     for line in lines:
         line = line.lower()
         # delete stop words and lemmatize.
@@ -67,6 +67,8 @@ def parseSentence(doc):
         lemmas = [lmtzr.lemmatize(word) for word in text_processed if word not in stop if word.isalpha()]
         # remove all the punctuations.
         processed = [s.translate(str.maketrans('', '', string.punctuation)).strip() for s in lemmas]
+        text = [s.translate(str.maketrans('', '', string.punctuation)).strip() for s in text_processed]
+
         if len(processed) > 1:
             processed_doc.append(processed)
     return processed_doc
@@ -95,8 +97,10 @@ def get_data_list(filepath):
     docs = en_df.words.to_list()
     # sentence tokenize inside parseSentence.
     processed = Parallel(n_jobs=-1)(delayed(parseSentence)(line) for line in docs)
-    data = [item for sublist in processed for item in sublist]
+    date = en_df['date'].to_list()
+    score = en_df['score'].to_list()
+
     timer.stop()
 
-    return data
+    return processed, date, score
 
