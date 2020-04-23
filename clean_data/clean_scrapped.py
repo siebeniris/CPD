@@ -41,15 +41,18 @@ def clean_scrapped_renovation_list(input, output):
 
 def clean_scrapped_renovation_content(input, output):
     renovation_list = []
+    count=0
     with open(input) as file:
         idx = 0
         for line in file:
+            print(line)
+            print(count)
             content = json.loads(line)
             meta_ = content['meta'].strip()
             meta = ast.literal_eval(meta_)
 
             renovation_list.append({
-                'id':idx,
+                'id': idx,
                 'title': content['title'],
                 'meta': meta,
                 'latitude': content['latitude'],
@@ -59,9 +62,11 @@ def clean_scrapped_renovation_content(input, output):
                 'phone': content['phone'],
                 'nrRooms': content['nrRooms'],
                 'website': content['website'],
+                'subtitle': content['subtitle'],
                 'content': content["content"]
             })
-            idx+=1
+            idx += 1
+            count +=1
 
     with open(output, 'w')as file:
         json.dump(renovation_list, file)
@@ -167,18 +172,27 @@ def gather_id_clusters(renovation_file, api_file, output):
         
 
 def load_cluster_ids(input, output):
-    with open(input) as file:
-        cluster_ids=json.load(file)
+    """
+    Get ids from get_id_clusters_20200326.json
+    """
+    not_matched = [2, 44, 49, 84, 138, 177, 181, 245, 274, 302, 324, 
+                    392, 403, 430]
 
-    cluster_id_list=[]
+    with open(input) as file:
+        cluster_ids = json.load(file)
+
+    cluster_id_dict = {}
     for item in cluster_ids:
-        if item['score']!=-2:
-            cluster_id_list.append(
-                item['cluster_id']
-            )
+        id = item["id"]
+        if id not in not_matched:
+            try:
+                cluster_id = item["match"]["cluster_id"]
+                cluster_id_dict[id] = cluster_id
+            except Exception:
+                print(item)
 
     with open(output,'w') as file:
-        json.dump(list(set(cluster_id_list)), file)
+        json.dump(cluster_id_dict, file)
 
 
 if __name__ == '__main__':
