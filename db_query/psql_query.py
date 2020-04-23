@@ -19,6 +19,7 @@ args = parse_args()
 with open(args["input"]) as file:
     cluster_ids = json.load(file)
 
+not_matched = [2, 44, 49, 84, 138, 177, 181, 245, 274, 302, 324, 392, 403, 430]
 
 connection = psycopg2.connect(dbname="ty_analytic", user="dev-ro", host="fdb.trustyou.com")
 
@@ -27,12 +28,13 @@ query = """
     """
 cur = connection.cursor()
 
-for idx in cluster_ids:
-    print(idx)
-    cur.execute(query, {'str': idx})
-    filename = os.path.join(args['output'], idx)
-    with open(filename, 'w') as file:
-        json.dump(cur.fetchall(), file, default=str)
+for idx, filename in cluster_ids.items():
+    if int(idx) not in not_matched:
+        print(filename)
+        cur.execute(query, {'str': idx})
+        filepath = os.path.join(args['output'], idx+"#"+filename)
+        with open(filepath, 'w') as file:
+            json.dump(cur.fetchall(), file, default=str)
 
 
 cur.close()
