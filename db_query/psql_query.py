@@ -31,7 +31,7 @@ cur = connection.cursor()
 for idx, filename in cluster_ids.items():
     if int(idx) not in not_matched:
         print(filename)
-        cur.execute(query, {'str': idx})
+        cur.execute(query, {'str': filename})
         filepath = os.path.join(args['output'], idx+"#"+filename)
         with open(filepath, 'w') as file:
             json.dump(cur.fetchall(), file, default=str)
