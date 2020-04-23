@@ -62,6 +62,7 @@
     "searched": {
       "name": "The Otis Hotel San Antonio",
       "address": [
+        "1901 San Antonio Street",
         "San Antonio, TX United States"
       ],
       "coordinates": "(-98.49362819999999,29.4241219)",
@@ -69,19 +70,31 @@
       "webpage": "https://otishotel.com/"
     },
     "match": {
-      "cluster_id": "3e6ac658-f4c4-4765-b213-24c6848bc176",
-      "name": "San Antonio",
-      "address": [
-        "Piso Livadi Paros Greece",
-        "Piso Livadi",
-        "Egeo",
-        null,
-        "Greece"
-      ],
-      "coordinates": "(25.259716,37.0360498)",
-      "phone": "+30 2284 041511",
-      "webpage": "http://www.sanantonio.gr/",
-      "deleted_on": null
+      "cluster_id": "030bd61d-07fc-42ba-9e09-cf2b7ccef255",
+        "name": "AC Hotel Austin-University",
+        "description": null,
+        "score": 82.3001080123,
+        "rating": null,
+        "modified_on": "2019-07-27T18:15:34.350456",
+        "created_on": "2019-07-22T15:54:21.298800",
+        "trust_score": 80.4521200058338,
+        "address": {
+          "city": "Austin",
+          "fax": null,
+          "coordinates": "(-97.7431449,30.2822284)",
+          "zip": "TX 78705",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Texas",
+          "phone": null,
+          "street": "1901 San Antonio Street",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 2,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -156,19 +169,31 @@
       "webpage": "https://www.littlepalmisland.com/"
     },
     "match": {
-      "cluster_id": "c37fcba4-55a9-4664-b592-a01fa978eea8",
-      "name": "Palm Island Resort",
-      "address": [
-        "Placida Road 7092",
-        "Placida",
-        "Florida",
-        "33946",
-        "United States"
-      ],
-      "coordinates": "(-82.311136,26.870734)",
-      "phone": "+1 941-697-2339",
-      "webpage": "http://www.palmisland.com/",
-      "deleted_on": null
+      "cluster_id": "dbf68240-cb95-4c7b-be3a-9069890066f6",
+        "name": "Little Palm Island Resort & Spa",
+        "description": "",
+        "score": 92.5755787742,
+        "rating": 0,
+        "modified_on": "2010-05-06T14:36:53.302719",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 93.5846811167657,
+        "address": {
+          "city": "Little Torch Key",
+          "fax": null,
+          "coordinates": "(-81.4423048,24.6656987)",
+          "zip": "FL 33042",
+          "district": null,
+          "webpage": "https://www.littlepalmisland.com/?utm_source=GMB_beachresort&utm_medium=organic&utm_campaign=GMB-link",
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 305-872-2524",
+          "street": "28500 Overseas Highway",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -674,19 +699,31 @@
       "webpage": "https://www3.hilton.com/en/hotels/texas/hilton-houston-north-HOUGPHF/index.html"
     },
     "match": {
-      "cluster_id": "897787ed-2f37-49c3-9552-c563947a2808",
-      "name": "Knights Inn Houston North",
-      "address": [
-        "12500 N Freeway I 45 Exit",
-        "Houston",
-        "Texas",
-        "TX 77060",
-        "United States"
-      ],
-      "coordinates": "(-95.3830615,29.7628844)",
-      "phone": "+1 281-397-1060",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "f143a6d9-6bdc-4285-9bed-312f909be281",
+        "name": "Hilton Houston North",
+        "description": "<p><strong>Location.</strong> <br>This business friendly hotel is located in <strong>Houston</strong>. Regional points of interest include <strong>Champions Golf Club</strong>. </p><p><strong>Features.</strong><br>Hilton Houston North has <em>an outdoor pool</em> and <em>a fitness facility</em>. The property offers <em>wireless Internet access</em>. This property provides <em>a complimentary airport shuttle</em>. </p><p><strong>Guestrooms.</strong> <br>Hilton Houston North has 480 guestrooms. Televisions are equipped with <em>cable channels</em>. Guestrooms provide <em>multi line phones</em> with voice mail. Beds have <em>pillowtop mattresses</em>. Guestrooms feature <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em>. Additional amenities include <em>air conditioning</em> and <em>irons/ironing boards</em>. </p>",
+        "score": 81.1375702809,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 82.8508521480967,
+        "address": {
+          "city": "Houston",
+          "fax": null,
+          "coordinates": "(-95.407419,29.946747)",
+          "zip": "TX 77060",
+          "district": null,
+          "webpage": "http://www3.hilton.com/en/hotels/texas/hilton-houston-north-HOUGPHF/index.html",
+          "country": "United States",
+          "state": "Texas",
+          "phone": "+1 281-875-2222",
+          "street": "12400 Greenspoint Drive",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -848,19 +885,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/amspo-apollo-hotel-amsterdam-a-tribute-portfolio-hotel/"
     },
     "match": {
-      "cluster_id": "d5bf7961-4210-42e5-b45d-40804212ff96",
-      "name": "Royal Palm South Beach Miami, A Tribute Portfolio Resort",
-      "address": [
-        "1545 Collins Avenue",
-        "Miami Beach",
-        "Florida",
-        "FL 33139",
-        "United States"
-      ],
-      "coordinates": "(-80.129943,25.78829)",
-      "phone": "+1 305-604-5700",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "c3bcde4c-7b34-4e2f-b844-3b65ef9d99cd",
+        "name": "Apollo Hotel Amsterdam",
+        "description": "Adresse: Amsterdam Apollolaan 2 Lage: Im grünen Teil der Stadt, direkt am Wasser. Der berühmte Museumsplein und die exklusiven Einkaufsstraßen befinden sich in Hotelnähe. Ausstattung: Zu den Annehmlichkeiten des stilvollen Hotels gehören 24h-Rezeption, Restaurant, Bar, Terrassen direkt am Wasser, WLAN (ca. € 10/Stunde) sowie Parkplatz (ca. € 25/Tag). Unterbringung: 223 helle und komfortable Zimmer bieten TV, Telefon, Minibar, Kaffeemaschine und Föhn. Verpflegung: Frühstücksbuffet. Transfer: Bitte beachten Sie, dass dieses...",
+        "score": 84.7452831123,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:06:15.711647",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 85.1727701695615,
+        "address": {
+          "city": "Amsterdam",
+          "fax": null,
+          "coordinates": "(4.8845473,52.3479894)",
+          "zip": "1077 BA",
+          "district": null,
+          "webpage": "http://www.wyndham-amsterdam.com/",
+          "country": "Netherlands",
+          "state": "North Holland",
+          "phone": "+31 20 673 5922",
+          "street": "Apollolaan 2",
+          "email": null,
+          "country_code": "NL"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -962,19 +1011,31 @@
       "webpage": "https://www.arlohotels.com/nautilus-miami-beach/"
     },
     "match": {
-      "cluster_id": "825a4981-303f-48cc-b605-fb8b29266eb2",
-      "name": "Nautilus Apart Hotel",
-      "address": [
-        "Rua Manuel Coringa de Lemos 11",
-        "Natal",
-        "Rio Grande do Norte",
-        "59090-190",
-        "Brazil"
-      ],
-      "coordinates": "(-35.1714577,-5.8842043)",
-      "phone": "+55 84 3641-1469",
-      "webpage": "http://www.hotelnautilus.com.br/",
-      "deleted_on": null
+      "cluster_id": "2ad2d33e-77e8-4e2d-a750-1f11c2d209b3",
+        "name": "Nautilus, a Sixty Hotel",
+        "description": "",
+        "score": 80.4633507371,
+        "rating": 0,
+        "modified_on": "2011-05-06T10:08:15.785000",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 80.4599469245456,
+        "address": {
+          "city": "Miami Beach",
+          "fax": null,
+          "coordinates": "(-80.1294021,25.7942463)",
+          "zip": "FL 33139",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 305-531-3503",
+          "street": "1825 Collins Ave",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1020,19 +1081,31 @@
       "webpage": "http://www.hotel-campdemar.com/"
     },
     "match": {
-      "cluster_id": "92b75f19-5a3d-4cff-9f3c-079c244e3c66",
-      "name": "Steigenberger Golf Resort El Gouna",
-      "address": [
-        "El Golf Downtown",
-        "El Gouna",
-        "Red Sea Governate",
-        "84513",
-        "Egypt"
-      ],
-      "coordinates": "(33.6791667,27.385)",
-      "phone": "+20 65 3580140",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "6fb8d92c-4a02-41c8-b60e-b88cd0ba9d4b",
+        "name": "The Steigenberger Golf & Spa Resort",
+        "description": null,
+        "score": 88.9730450464,
+        "rating": null,
+        "modified_on": "2016-09-14T08:46:33.329989",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.5053830729662,
+        "address": {
+          "city": "Camp de Mar",
+          "fax": null,
+          "coordinates": "(2.4240311,39.5387586)",
+          "zip": "07160",
+          "district": null,
+          "webpage": null,
+          "country": "Spain",
+          "state": "Balearic Islands",
+          "phone": "+34 971 13 65 65",
+          "street": "Calle Taula 2",
+          "email": null,
+          "country_code": "ES"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1135,19 +1208,31 @@
       "webpage": "http://www.marriott.com/mlamd"
     },
     "match": {
-      "cluster_id": "6893df05-9e52-4b95-9f0a-795d00847473",
-      "name": "Stuttgart Marriott Hotel Sindelfingen",
-      "address": [
-        "Mahdentalstr. 68",
-        "Sindelfingen",
-        "Baden-Württemberg",
-        "71065",
-        "Germany"
-      ],
-      "coordinates": "(9.0214959,48.706922)",
-      "phone": "+49 7031 6960",
-      "webpage": "http://www.marriott.de/hotels/travel/zpzde-stuttgart-marriott-hotel-sindelfingen/",
-      "deleted_on": null
+      "cluster_id": "a342cc2f-af20-40b9-9c14-73dbabf9fc74",
+        "name": "Le Méridien St. Julians Hotel & Spa",
+        "description": "Le Méridien St. Julians ausgewähltes bild The 5-star Le Méridien St. Julians hotel, situated in a 19th century Maltese Villa in front of the picturesque Balluta Bay of Saint Julian's, Malta Island , is a combination of innovative and contemporary design, enhanced by excellent quality comforts and the typical hospitality of Le Méridien Hotels. To enjoy a stay of relaxation and well-being in Malta, the hotel offers luxurious and elegant guest rooms, while the dedicated spaces for leisure or work, make it the ideal destination for both business and tourist trips. Le Méridien St. Julians hotel amenities include a choice of dining venues for an exotic and Mediterranean culinary experience, lounge bar, ample terraces with outstanding views over Balluta Bay, children play ground area and swimming pool, 1.800-sqm Conference Centre and free wireless high speed Internet connection in the lobby and in the hotel business lounge. Another great asset of Le Méridien St. Julians Hotel is the luxury Lotus Spa Myo Ka : a world of water, warmth and well-being inspired by Nordic, Mediterranean, Oriental and Asian culture. Set around a beautiful tropical indoor pool, the spa facility offers a variety of body treatments, massages and other rejuvenating delight in Southeast Asian atmosphere.",
+        "score": 90.2058653983,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.9154089956762,
+        "address": {
+          "city": "Saint Julian's",
+          "fax": null,
+          "coordinates": "(14.49,35.9186111)",
+          "zip": "STJ1017",
+          "district": null,
+          "webpage": "http://www.lemeridienmalta.com/",
+          "country": "Malta",
+          "state": null,
+          "phone": "+356 2311 0000",
+          "street": "39 Main Street, Balluta Bay",
+          "email": null,
+          "country_code": "MT"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1163,19 +1248,32 @@
       "webpage": "https://www.vakkarumaldives.com/"
     },
     "match": {
-      "cluster_id": "3761e4ac-3b9a-4589-a6aa-ce55efe3a414",
-      "name": "Kihaad Maldives",
-      "address": [
-        "Kihaadhuffaru Island",
-        "Baa Atoll",
-        "North Province",
-        "06040",
-        "Maldives"
-      ],
-      "coordinates": "(73.002712,5.0862875)",
-      "phone": "+960 660-0024",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "93ce5dc3-c47f-4348-b1af-9ae209255194",
+        "name": "Vakkaru Maldives",
+        "description": null,
+        "score": 95.2765322785,
+        "rating": null,
+        "modified_on": "2019-09-14T18:24:46.109120",
+        "created_on": "2019-09-13T09:57:57.251995",
+        "trust_score": 95.2765322784808,
+        "address": {
+          "city": "Baa Atoll",
+          "fax": null,
+          "coordinates": "(72.9100358,5.1340105)",
+          "zip": "20301",
+          "district": null,
+          "webpage": null,
+          "country": "Maldives",
+          "state": "North Province",
+          "phone": null,
+          "street": "Baa Atoll",
+          "email": null,
+          "country_code": "MV"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
+      
     }
   },
   {
@@ -1221,19 +1319,30 @@
       "webpage": "https://www.seaisland.com/"
     },
     "match": {
-      "cluster_id": "978ce38a-b37c-43d6-b3d9-5adeca400827",
-      "name": "Island Resort",
-      "address": [
-        "East Coast Parkway 1110",
-        "Singapore",
-        null,
-        "449880",
-        "Singapore"
-      ],
-      "coordinates": "(103.92342,1.30409)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "016d6cc9-652b-4958-bc55-0229f22e299d",
+        "name": "THE CLOISTER AT SEA ISLAND",
+        "description": "CREATED IN CLASSIC MEDITERRANEAN STYLE/ THE CLOISTER WASFIRST DESIGNED BY RENOWNED PALM BEACH ARCHITECT/ ADDISONMIZNER/ IN 1928 AND IS A TIMELESS AND HAPPY OASIS OF OLDWORLD ELEGANCE FEATURING TERRA COTTA ROOFS AND SUNLIT GARDENPATIOS. ELEGANT AND NATURAL/ THE CLOISTER FEATURES OCEANTIDES/ WINDING RIVERS/ SALT MARSHES AND MILES OF UNSPOILEDSHORELINE.",
+        "score": 94.0166403848,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 94.4591698708495,
+        "address": {
+          "city": "Sea Island",
+          "fax": null,
+          "coordinates": "(-81.3498179,31.1835648)",
+          "zip": "31561",
+          "district": null,
+          "webpage": "http://www.cloister.com/",
+          "country": "United States",
+          "state": "Georgia",
+          "phone": "+1 912-638-3611",
+          "street": "1st Street South",
+          "email": null,
+          "country_code": "US" },
+        "stars": 5,
+        "relevance": 0.9815615318333918,
+        "deleted_on": null
     }
   },
   {
@@ -1308,19 +1417,31 @@
       "webpage": "https://curiocollection3.hilton.com/en/hotels/florida/the-reach-key-west-curio-collection-by-hilton-EYWQQQQ/index.html"
     },
     "match": {
-      "cluster_id": "41417d57-431c-418b-9e14-e9b44b816950",
-      "name": "Hilton Garden Inn Key West / The Keys Collection",
-      "address": [
-        "3850 North Roosevelt Boulevard",
-        "Key West",
-        "Florida",
-        "FL 33040",
-        "United States"
-      ],
-      "coordinates": "(-81.7529403,24.5706712)",
-      "phone": "+1 305-294-6681",
-      "webpage": "http://www.lexingtonhotels.com/property.cfm?idp=22050&rcode=gpl",
-      "deleted_on": null
+      "cluster_id": "019b8823-aa09-4d8f-8b8d-26433d76dff3",
+        "name": "The Reach Resort - The Waldorf Astoria Collection",
+        "description": "The Reach Resort announces the completion of the $37 million redesign of the resort. Key West's newest resort, features sumptuous rooms and suites, the island's only natural beach as our backyard offering the perfect blend of glistening white sand and breathtaking sunshine. Pamper yourself at this enchanting Old Town Key West hotel, complete with elegant newly renovated guestrooms, sweeping beach views, and attentive guest services. Unwind on your own private balcony as soothing ocean breezes caress you. Relax poolside and enjoy a hearty breakfast at The Strip House Restaurant. Tee off at the nearby Key West Resort Golf Course. Discover an incredible array of features at our luxurious Key West Florida hotel which combines warm hospitality with a landmark setting. Located in the heart of Old Town in Key West, Florida. Showcasing Key West's only natural private beach as our backyard. Only blocks from the vibrant attractions and pulsing night life of Duval Street. On-site water sport facility that offers world-class deep sea fishing, scuba diving, snorkeling and parasailing. Just 2.5 miles from Key West International Airport (EYW) and 150 miles from Miami International Airport (MIA). Retreat to a Caribbean paradise at our delightful beachfront hotel in Key West, Florida. Enjoy the classic comfort of our guestrooms and suites, each accented with a vibrant tropical flair. Here, charm and tranquility come standard. From indulgent spa treatments and in-room Internet access to state-of-the-art meeting facilities, we'll please even the discriminating traveler. As the preferred choice among deluxe Key West, Florida hotels, we boast an extensive variety of features including: Guest rooms and suites located on five floors, all with private balconies. High Speed Internet Access in all guest rooms, suites and meeting areas. 4,706 square feet of flexible event space for business meetings or banquets. Five meeting/event rooms with versatile floor plans. Heated outdoor swimming pool to melt your stress away. Private natural sand beach, the only one in Key West, in our backyard. Spa services available at our sister property Casa Marina, offering indoor and outdoor spa treatments. The Strip House Restaurant offering breakfast, lunch and dinner, poolside or ocean side. Nearby Key West golf courses for beginners or pros. Dedicated concierge arranging everything from equipment rentals to local excursions. Airport shuttle to simplify your arrival and departure. Leave the world behind at The Reach Resort. This Caribbean hideaway features sleek new accommodations, first-class service and a sparkling tropical location -- just steps from the only natural beach on the island. Stil und Atmosphäre des Hotels nicht besetzt Frühester check-in 16:00 Spätester Check-out 11:00",
+        "score": 63.7744132084,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 68.3203297443198,
+        "address": {
+          "city": "Key West",
+          "fax": null,
+          "coordinates": "(-81.794264,24.547543)",
+          "zip": "FL 33040",
+          "district": null,
+          "webpage": "http://www.reachresort.com/",
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 305-296-5000",
+          "street": "1435 Simonton Street",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 0.7307048512320462,
+        "deleted_on": null
     }
   },
   {
@@ -1567,19 +1688,31 @@
       "webpage": "https://doubletree3.hilton.com/en/hotels/illinois/doubletree-by-hilton-chicago-midway-airport-MDWMDDT/index.html"
     },
     "match": {
-      "cluster_id": "e13a7582-a79c-40ff-abac-e9b28d166895",
-      "name": "Hilton Garden Inn Chicago/Midway Airport",
-      "address": [
-        "South Cicero Avenue 6530",
-        "Bedford Park",
-        "Illinois",
-        "60638",
-        "United States"
-      ],
-      "coordinates": "(-87.7423001,41.7739463)",
-      "phone": "+1 708-496-2700",
-      "webpage": "http://hiltongardeninn3.hilton.com/en/hotels/illinois/hilton-garden-inn-chicago-midway-airport-MDWAH",
-      "deleted_on": null
+      "cluster_id": "cbd5cbde-ae2d-4fea-9cf5-d550b27706c5",
+        "name": "Holiday Inn Chicago - Midway Airport",
+        "description": "<p><strong>Location.</strong> <br>This <strong>Chicago</strong> hotel is conveniently close to the airport, near <strong>Marquette Park</strong>. </p><p><strong>Features.</strong><br>Holiday Inn Midway Airport has <em>an indoor pool</em> and <em>a fitness facility</em>. Business amenities at this 3.0 star property include <em>a business center</em>, <em>wireless Internet access</em>, and <em>audio visual equipment</em>. The property has <em>a restaurant</em> and <em>a bar/lounge</em>. <em>Room service</em> is available during limited hours. This property provides <em>a complimentary airport shuttle</em>. Event space measures 2425  square feet. The staff can arrange <em>dry cleaning/laundry services</em>. Additional amenities include <em>multilingual staff</em>, <em>gift shops/newsstands</em>, and <em>laundry facilities</em>. </p><p><strong>Guestrooms.</strong> <br>Holiday Inn Midway Airport has 146 guestrooms. Televisions are equipped with <em>premium cable channels</em> and <em>pay movies</em>. Guestrooms provide <em>complimentary newspapers</em>, <em>voice mail</em>, and <em>speakerphones</em> with complimentary local calls. All guestrooms provide <em>desks</em> and <em>ergonomic chairs</em>. Guestrooms feature <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em>. Additional amenities include <em>air conditioning</em>, <em>irons/ironing boards</em>, and <em>windows that open</em>. In addition, <em>housekeeping</em> is offered and amenities available on request include <em>wake up calls</em>. <em>Cribs (infant beds)</em> and <em>rollaway beds</em> are available. </p>",
+        "score": 89.1075232668,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 88.8720014052488,
+        "address": {
+          "city": "Chicago",
+          "fax": null,
+          "coordinates": "(-87.746262,41.771858)",
+          "zip": "60638",
+          "district": null,
+          "webpage": "http://www.holidayinn.com/redirect?path=hd&brandCode=hi&hotelCode=chibf&regionCode=1&localeCode=en&c",
+          "country": "United States",
+          "state": "Illinois",
+          "phone": "+1 708-563-6490",
+          "street": "South Cicero Avenue 6624",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.7552002361744042,
+        "deleted_on": null
     }
   },
   {
@@ -1596,19 +1729,31 @@
       "webpage": "https://www.themusehotel.com/"
     },
     "match": {
-      "cluster_id": "a60dc301-7cc2-4d75-a46b-edc88754b62f",
-      "name": "MUSE Hotel",
-      "address": [
-        "9 Trumpeldor Street",
-        "Tel Aviv",
-        "Center District Israel",
-        "6380303",
-        "Israel"
-      ],
-      "coordinates": "(34.7671119,32.0755548)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "9162a432-ceb7-4c50-9f1f-5096f28dad59",
+        "name": "The Kimpton Muse Hotel New York",
+        "description": "<b>Location.</b> Located in the Theater District in New York, N.Y., The Muse New York   a Kimpton Hotel, is one half block from Broadway theaters. Restaurant Row, Times Square, Rockefeller Center and the elegant shops of Fifth Avenue are four blocks away. <br><br><b>Hotel Features.</b> Featuring an arched limestone and brick fa�ade, this Manhattan hotel offers a mahogany lined lobby. The lobby's 15 foot vaulted ceiling features a commissioned Matisse inspired mural of the nine muses. <p>NIOS Restaurant serves New American cuisine. A complimentary wine reception is hosted each evening. </p><p>Staff members can deliver exercise equipment to guestrooms, or patrons can visit the hotel's 24 hour fitness center. </p><p>Eco friendly meeting options at this hotel include the signature Kimpton EarthCare Meeting option. Agendas are provided on biodegradable paper that, when used, can be planted to grow wildflowers. Lunch and break options include organic, fair trade coffee and locally grown ingredients. Other green programs at this hotel include hotel wide recycling programs, soy paper products, and eco friendly cleaning products. <br><br><b>Guestrooms.</b> All 200 guestrooms are spacious and feature jewel toned accents that complement simple wood furnishings and contemporary lighting. Bedding features abstract print spreads and down comforters. Hypo allergenic bedding is available. Designer recycling bins are provided and unused toiletries are donated to local charities. Cable television, CD players, high speed Internet access, and video game consoles are available. An in room yoga channel is available in all rooms while yoga equipment is available upon request. Complimentary in room safes are laptop compatible. Room service is available 24 hours.</p>",
+        "score": 85.0107573646,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 85.8292528678105,
+        "address": {
+          "city": "New York City",
+          "fax": null,
+          "coordinates": "(-73.9836227,40.7579592)",
+          "zip": "NY 10036",
+          "district": null,
+          "webpage": "http://www.themusehotel.com/",
+          "country": "United States",
+          "state": "New York",
+          "phone": "+1 212-485-2400",
+          "street": "130 West 46th Street",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1736,19 +1881,31 @@
       "webpage": "https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda"
     },
     "match": {
-      "cluster_id": "d95c2a8d-e880-4b31-9bfa-47fffb81d2ac",
-      "name": "Little Dix & Caneel Bay Rose",
-      "address": [
-        "Madison Avenue 509",
-        "New York",
-        "New York",
-        "10022",
-        "United States"
-      ],
-      "coordinates": "(-73.9742247,40.7593619)",
-      "phone": "+1 212-758-6640",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "bff82329-ca52-436b-8f34-c07b135d38c7",
+        "name": "Rosewood Little Dix Bay",
+        "description": "",
+        "score": 75.1563311259,
+        "rating": 0,
+        "modified_on": "2016-07-09T20:34:53.481210",
+        "created_on": "2013-01-18T18:11:01.122040",
+        "trust_score": 74.426586911735,
+        "address": {
+          "city": "Virgin Gorda",
+          "fax": null,
+          "coordinates": "(-64.4200497,18.4909671)",
+          "zip": "VG 1150",
+          "district": null,
+          "webpage": "http://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda",
+          "country": "British Virgin Islands",
+          "state": "Virgin Gorda",
+          "phone": "+1 284-495-5555",
+          "street": "Lee Road, Valley, Spanish Town",
+          "email": null,
+          "country_code": "VG"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1765,19 +1922,31 @@
       "webpage": "https://www.choicehotels.com/arizona/phoenix/suburban-hotels/az489"
     },
     "match": {
-      "cluster_id": "96346af2-0b12-47be-a882-5b6489910b7a",
-      "name": "Extended Stay America - Phoenix - Scottsdale - North",
-      "address": [
-        "North Scottsdale Road 15501",
-        "Scottsdale",
-        "Arizona",
-        "85260",
-        "United States"
-      ],
-      "coordinates": "(-111.922824,33.628933)",
-      "phone": "+1 480-607-3767",
-      "webpage": "http://www.extendedstayamerica.com/hotels/az/phoenix/scottsdale-north",
-      "deleted_on": null
+      "cluster_id": "82349481-5173-4298-b3f1-e39ab35ac6a9",
+        "name": "Suburban Extended Stay Hotel Phoenix Scottsdale West",
+        "description": null,
+        "score": 59.1928060318,
+        "rating": null,
+        "modified_on": "2019-11-02T18:11:21.688624",
+        "created_on": "2019-10-30T11:06:45.872742",
+        "trust_score": 59.2979581058732,
+        "address": {
+          "city": "Phoenix",
+          "fax": null,
+          "coordinates": "(-111.9797759,33.4798744)",
+          "zip": "AZ 85018",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Arizona",
+          "phone": null,
+          "street": "4727 E. Thomas Road; Building B",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 2,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1850,19 +2019,31 @@
       "webpage": "https://www.hyatt.com/en-US/hotel/puerto-rico/hyatt-regency-grand-reserve-puerto-rico/sjurc"
     },
     "match": {
-      "cluster_id": "6dce5c2a-acfd-43b9-aa99-39152db3cb8f",
-      "name": "Hotel Puerto Rico",
-      "address": [
-        "Calle General Salinas 8",
-        "Santoña",
-        "Cantabria",
-        "39740",
-        "Spain"
-      ],
-      "coordinates": "(-3.4531931,43.4421533)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "059600a8-44a3-4d0b-a622-5d6756709d48",
+        "name": "Hyatt Regency Coco Beach Resort",
+        "description": "<p><strong>Location. </strong> <br>This family friendly spa property is situated on a Rio Grande beach. Area attractions include Luquillo Beach. </p><p><strong>Features. </strong><br>Gran Melia Golf Resort Puerto Rico has a tennis court, an outdoor pool, a spa tub, a steam room, and a sauna. Gran Melia Golf Resort Puerto Rico features a full service spa. Business amenities include a business center, wireless Internet access, meeting rooms for small groups, and business services. Gran Melia Golf Resort Puerto Rico has a restaurant, a bar/lounge, and a poolside bar. Room service is available during limited hours. Event facilities consist of a ballroom, exhibit space, conference rooms, and banquet facilities. This is a smoke free property (fines may apply for violations). </p><p><strong>Guestrooms. </strong> <br>Amenities featured in guestrooms include air conditioning, coffee/tea makers, and minibars. In addition, amenities available on request include wake up calls. Guestrooms have cable television with pay movies. Business friendly amenities include desks and voice mail. Balconies are featured in all guestrooms. Bathrooms feature bathroom phones, scales, and bathrobes. Guestroom services include housekeeping. Rollaway beds are available on request. All guestrooms at Gran Melia Golf Resort Puerto Rico are non smoking. </p>",
+        "score": 86.622617308,
+        "rating": 2,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 88.0067716761884,
+        "address": {
+          "city": "Rio Grande",
+          "fax": null,
+          "coordinates": "(-65.8313889,18.3802778)",
+          "zip": "00745",
+          "district": null,
+          "webpage": "https://www.hyatt.com/en-US/hotel/puerto-rico/the-resort-at-coco-beach/sjurc",
+          "country": "Puerto Rico",
+          "state": "Río Grande",
+          "phone": "1 787-809-1785",
+          "street": "200 Coco Beach Blvd. Highway 955-I",
+          "email": null,
+          "country_code": "PR"
+        },
+        "stars": 5,
+        "relevance": 0.847750400888985,
+        "deleted_on": null
     }
   },
   {
@@ -1937,19 +2118,31 @@
       "webpage": "https://www.bestwestern.com/en_US/book/hotel-rooms.26187.html"
     },
     "match": {
-      "cluster_id": "3e76a19b-f76d-43de-8492-0714f2194881",
-      "name": "Holiday Inn Express Hotel & Suites Kansas City Sports Complex",
-      "address": [
-        "Blue Parkway 8551",
-        "Kansas City",
-        "Missouri",
-        "64133",
-        "United States"
-      ],
-      "coordinates": "(-94.4847372,39.0039207)",
-      "phone": "+1 816-997-9444",
-      "webpage": "http://www.ihg.com/holidayinnexpress/hotels/us/en/kansas-city/mkcxs/hoteldetail?cm_mmc=GoogleMaps-_-ex-_-USEN-_-mkcxs",
-      "deleted_on": null
+      "cluster_id": "87b00f44-480f-45d3-9005-ff8ccfdaad72",
+        "name": "Four Points by Sheraton Kansas City - Sports Complex",
+        "description": "<p><strong>Location.</strong> <br>This hotel is located in <strong>Kansas City</strong>. <strong>Kauffman Stadium</strong>, <strong>Arrowhead Stadium</strong>, and <strong>Kansas City Zoo</strong> are area attractions. </p><p><strong>Features.</strong><br>Clarion Hotel Sports Complex has <em>an indoor pool</em>, <em>a spa tub</em>, <em>a sauna</em>, and <em>a fitness facility</em>. Business amenities at this 3.0 star property include <em>wireless Internet access</em>, <em>meeting rooms for small groups</em>, and <em>business services</em>. The property has <em>a restaurant</em> and <em>a bar/lounge</em>. <em>Room service</em> is available during limited hours. Event facilities include <em>conference rooms</em>. The staff can arrange <em>dry cleaning/laundry services</em>. Additional amenities include <em>a concierge desk</em>, <em>an arcade/game room</em>, and <em>multilingual staff</em>. </p><p><strong>Guestrooms.</strong> <br>Clarion Hotel Sports Complex has 165 guestrooms. Televisions are equipped with <em>premium cable channels</em> and <em>pay movies</em>. Guestrooms provide <em>complimentary newspapers</em> and <em>direct dial phones</em> with voice mail. Guestrooms feature <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em> and <em>complimentary toiletries</em>. Additional amenities include <em>climate control</em>, <em>air conditioning</em>, and <em>desks</em>. In addition, <em>housekeeping</em> is offered and amenities available on request include <em>wake up calls</em>. <em>Rollaway beds</em> are available. </p>",
+        "score": 73.0241683629,
+        "rating": 5,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 73.0550108949735,
+        "address": {
+          "city": "Kansas City",
+          "fax": null,
+          "coordinates": "(-94.47403,39.0497159)",
+          "zip": "MO 64133",
+          "district": null,
+          "webpage": "http://www.starwoodhotels.com/fourpoints/index.html",
+          "country": "United States",
+          "state": "Missouri",
+          "phone": "+1 816-353-5300",
+          "street": "4011 Blue Ridge Cutoff",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -1993,19 +2186,31 @@
       "webpage": "https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/"
     },
     "match": {
-      "cluster_id": "f1963309-b031-428d-b2b2-d8fce79115e6",
-      "name": "Beverly Hills Hotel",
-      "address": [
-        "1 Lighthouse Road, PO Box 71",
-        "Umhlanga",
-        "KwaZulu-Natal",
-        "4320",
-        "South Africa"
-      ],
-      "coordinates": "(31.0764493,-29.7419388)",
-      "phone": "+27 31 561 2211",
-      "webpage": "http://www.tsogosunhotels.com/deluxe/beverly-hills-hotel/pages/overview.aspx?utm_source=google&utm_m",
-      "deleted_on": null
+      "cluster_id": "691615a9-2760-44c5-9a6f-803e103a11db",
+        "name": "The Beverly Hills Hotel",
+        "description": "<p><strong>Location.</strong> <br>This <strong>Beverly Hills</strong> hotel is situated in the historical district. <strong>Paley Center for Media</strong>, <strong>Los Angeles County Museum of Art</strong>, and <strong>La Brea Tar Pits</strong> are area attractions. </p><p><strong>Features.</strong><br>The Beverly Hills Hotel has <em>a full service spa</em>, <em>an outdoor pool</em>, <em>a spa tub</em>, <em>a fitness facility</em>, and <em>tennis courts</em>. Business amenities at this 5.0 star property include <em>a business center</em>, <em>wireless Internet access (surcharge)</em>, and <em>meeting rooms for small groups</em>. Event facilities consist of <em>a ballroom</em> and <em>conference rooms</em>. The staff can arrange <em>tour/ticket assistance</em>, <em>wedding services</em>, <em>event catering</em>, and <em>dry cleaning/laundry services</em>. Additional amenities include <em>valet parking</em>, <em>a concierge desk</em>, and <em>multilingual staff</em>. The property has <em>designated areas for smoking</em>. </p><p><strong>Guestrooms.</strong> <br>Guestrooms have <em>flat panel televisions</em> with <em>premium satellite channels</em>, <em>DVD players</em>, and <em>video game consoles</em>. Guestrooms provide <em>wireless Internet access (surcharge)</em>, <em>speakerphones</em>, <em>CD players</em>, and <em>complimentary newspapers</em>. Beds have <em>premium bedding</em>. Guestrooms feature <em>complimentary bottled water</em>. Bathrooms offer <em>separate bathtubs and showers</em>, <em>double sinks</em>, <em>bathroom TVs</em>, and <em>bathroom phones</em>. Additional amenities include <em>separate sitting areas</em>, <em>climate control</em>, and <em>minibars</em>. In addition, amenities available on request include <em>microwaves</em> and <em>hypo allergenic bedding</em>. <em>Turndown service</em> is offered nightly and <em>housekeeping</em> is available. <em>Cribs (infant beds)</em> and <em>rollaway beds</em> are available. All guestrooms at The Beverly Hills Hotel are <em>non smoking</em>. </p>",
+        "score": 93.7674664532,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 93.9989110596045,
+        "address": {
+          "city": "Beverly Hills",
+          "fax": null,
+          "coordinates": "(-118.4133946,34.0817957)",
+          "zip": "CA 90210",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 310-276-2251",
+          "street": "9641 Sunset Boulevard",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2022,19 +2227,31 @@
       "webpage": "https://doubletree3.hilton.com/en/hotels/ontario/doubletree-by-hilton-kitchener-YHMCMDT/index.html"
     },
     "match": {
-      "cluster_id": "e03f240b-06af-4644-89fd-d1f5daeef081",
-      "name": "Kitchener Inn and Suites",
-      "address": [
-        "4355 King Street East",
-        "Kitchener",
-        "Ontario",
-        "N2P 2E9",
-        "Canada"
-      ],
-      "coordinates": "(-80.395623,43.4066784)",
-      "phone": "+1 519-650-6090",
-      "webpage": "http://hamptoninn3.hilton.com/en/hotels/ontario/hampton-inn-and-suites-by-hilton-kitchener-YKFCNHX/i",
-      "deleted_on": null
+       "cluster_id": "1ea636be-240e-4691-9dff-166e4793e11c",
+        "name": "Holiday Inn Kitchener-Waterloo Conf. Ctr.",
+        "description": "Holiday Inn Kitchener-Waterloo will provide you with all the comforts of home and a service culture that is sure to exceed your expectations. All 183 guestrooms offer Complimentary Highspeed Wireless Internet access, cable TV, pay-per-view movies and Sony Play Station. Our newly renovated executive rooms have been designed with the comfort of the business traveler in mind. Pillow top beds, enlarged work stations, cordless phones, and comfortable recliners make our executive rooms perfect for you. In addition photocopy, fax and printer services are available 24 hours a day. Earn frequent stay rewards including PC and Aeroplan points through Priority Club.Enjoy our indoor pool, fitness room, sauna, and whirlpool spa; and opening July 1st, our brand new outdoor swimming pool.Close by are the African Lion Safari, Sportsworld, St. Jacobs Mennonite Country, the famous Stratford Festival, golf, shopping, fine dining and popular nightlife.When it is time to dine, check out The Market Grill, our on-site restaurant inspired by the popular local Farmers Market. Mornings, our Best-4 Breakfast menu or a bountiful buffet will tempt you. For lunch and dinner, enjoy excellent cuisine, great value and the best steak in town. Room service is available should you prefer to dine in the privacy of your room.With over 7,900 square feet of flexible function space, we can host your next meeting, social event, wedding or conference. Our ballroom accommodates groups up to 250 for banquets, or up to 400 in a reception or theatre-style set-up. Small rooms are also available, and our executive boardrooms are ideal for professional meetings. Our on-site planning and catering professionals are ready to assist you. In the heart of the Waterloo region, the Holiday Inn Kitchener-Waterloo puts you close to where you want to be.",
+        "score": 76.1045674975,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 76.4767900956846,
+        "address": {
+          "city": "Kitchener",
+          "fax": null,
+          "coordinates": "(-80.433697,43.4252191)",
+          "zip": "ON N2A 2N2",
+          "district": null,
+          "webpage": null,
+          "country": "Canada",
+          "state": "Ontario",
+          "phone": "+1 519-893-1211",
+          "street": "30 Fairway Road South, At Hwy. 8",
+          "email": null,
+          "country_code": "CA"
+        },
+        "stars": 3,
+        "relevance": 0.5251554043071897,
+        "deleted_on": null
     }
   },
   {
@@ -2051,19 +2268,31 @@
       "webpage": "https://www.littlepalmisland.com/"
     },
     "match": {
-      "cluster_id": "c37fcba4-55a9-4664-b592-a01fa978eea8",
-      "name": "Palm Island Resort",
-      "address": [
-        "Placida Road 7092",
-        "Placida",
-        "Florida",
-        "33946",
-        "United States"
-      ],
-      "coordinates": "(-82.311136,26.870734)",
-      "phone": "+1 941-697-2339",
-      "webpage": "http://www.palmisland.com/",
-      "deleted_on": null
+      "cluster_id": "dbf68240-cb95-4c7b-be3a-9069890066f6",
+        "name": "Little Palm Island Resort & Spa",
+        "description": "",
+        "score": 92.5755787742,
+        "rating": 0,
+        "modified_on": "2010-05-06T14:36:53.302719",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 93.5846811167657,
+        "address": {
+          "city": "Little Torch Key",
+          "fax": null,
+          "coordinates": "(-81.4423048,24.6656987)",
+          "zip": "FL 33042",
+          "district": null,
+          "webpage": "https://www.littlepalmisland.com/?utm_source=GMB_beachresort&utm_medium=organic&utm_campaign=GMB-link",
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 305-872-2524",
+          "street": "28500 Overseas Highway",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2109,19 +2338,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/wawsi-sheraton-grand-warsaw/"
     },
     "match": {
-      "cluster_id": "6be400a0-6d2a-4757-a588-c7e48ea6c3c8",
-      "name": "Hotel Mercure Warszawa Grand",
-      "address": [
-        "Krucza 28",
-        "Warsaw",
-        "Masovian Voivodeship",
-        "00-522",
-        "Poland"
-      ],
-      "coordinates": "(21.0184132,52.2276509)",
-      "phone": "+48 22 583 21 00",
-      "webpage": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=3384&merchantid=seo-maps-PL",
-      "deleted_on": null
+      "cluster_id": "72261a8e-b316-4c27-88ee-001e89df0df4",
+        "name": "Sheraton Warsaw Hotel",
+        "description": "",
+        "score": 88.9478143518,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:06:08.047055",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.0149370729522,
+        "address": {
+          "city": "Warsaw",
+          "fax": null,
+          "coordinates": "(21.024791,52.227861)",
+          "zip": "00-493",
+          "district": null,
+          "webpage": "http://www.sheraton.pl/",
+          "country": "Poland",
+          "state": "Masovian Voivodeship",
+          "phone": "+48 22 450 61 00",
+          "street": "Bolesława Prusa 2",
+          "email": null,
+          "country_code": "PL"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2282,20 +2523,32 @@
       "webpage": "https://www.designhotels.com/hotels/germany/saarlouis/la-maison-hotel"
     },
     "match": {
-      "cluster_id": "e3313b06-f60b-481b-ae25-5886eb934f8a",
-      "name": "La Maison Hotel",
-      "address": [
-        "Via Villazzano 3",
-        "Massa Lubrense",
-        "Campania",
-        "80061",
-        "Italy"
-      ],
-      "coordinates": "(14.3448846,40.6196718)",
-      "phone": "+39 081 878 9666",
-      "webpage": "http://www.lamaisonsorrento.com/",
-      "deleted_on": null
-    }
+      "cluster_id": "04d507e6-dfff-4026-ac96-6f066404c9d2",
+        "name": "LA MAISON hotel",
+        "description": null,
+        "score": 95.7007874256,
+        "rating": null,
+        "modified_on": "2016-07-09T20:34:53.481210",
+        "created_on": "2016-05-25T11:21:51.242048",
+        "trust_score": 95.2663055119147,
+        "address": {
+          "city": "Saarlouis",
+          "fax": null,
+          "coordinates": "(6.75541,49.31727)",
+          "zip": "66740",
+          "district": null,
+          "webpage": null,
+          "country": "Germany",
+          "state": "Saarland",
+          "phone": null,
+          "street": "Prälat-Subtil-Ring 22",
+          "email": null,
+          "country_code": "DE"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
+      }
   },
   {
     "id": 81,
@@ -2514,19 +2767,31 @@
       "webpage": "https://www.ihg.com/holidayinn/hotels/us/en/johannesburg/jnbss/hoteldetail"
     },
     "match": {
-      "cluster_id": "cec743b1-f5aa-4ac8-8440-14d412e54fe4",
-      "name": "Holiday Inn Johannesburg-Rosebank",
-      "address": [
-        "The Zone, Oxford Road Rosebank",
-        "Johannesburg",
-        "Gauteng",
-        "2196",
-        "South Africa"
-      ],
-      "coordinates": "(28.047108,-26.1601709)",
-      "phone": "+27 11 218 6000",
-      "webpage": "http://www.ihg.com/holidayinn/hotels/us/en/johannesburg/jnbhi/hoteldetail?cm_mmc=GoogleMaps-_-hi-_-ZAEN-_-jnbhi",
-      "deleted_on": null
+      "cluster_id": "f32d15e7-3fb1-4210-8ab9-22a030610b25",
+        "name": "Sunnyside Park Hotel",
+        "description": "<p><strong>Location.</strong> <br>This business friendly hotel is located in <strong>Johannesburg</strong>, close to <strong>Johannesburg Zoo</strong>, <strong>South African Museum of Military History</strong>, and <strong>Carlton Centre</strong>. Area attractions include <strong>Gold Reef City</strong>. </p><p><strong>Features.</strong><br>Sunnyside Park Hotel has <em>a steam room</em>, <em>a fitness facility</em>, and <em>a seasonal outdoor pool</em>. Business amenities at this 4.0 star property include <em>a business center</em>, <em>complimentary wireless Internet access</em>, <em>meeting rooms for small groups</em>, and <em>audio visual equipment</em>. The property has <em>a restaurant</em> and <em>a bar/lounge</em>. <em>24 hour room service</em> is available. This property provides <em>an airport shuttle (surcharge)</em>. Event facilities consist of <em>a ballroom</em>, <em>conference rooms</em>, and <em>banquet facilities</em>. The staff can arrange <em>tour/ticket assistance</em>, <em>wedding services</em>, <em>dry cleaning/laundry services</em>, and <em>currency exchange</em>. Additional amenities include <em>a concierge desk</em>, <em>laundry facilities</em>, and <em>a fireplace in the lobby</em>. The property has <em>designated areas for smoking</em>. </p><p><strong>Guestrooms.</strong> <br>Sunnyside Park Hotel has 109 guestrooms. Televisions are equipped with <em>satellite channels</em>. Guestrooms provide <em>complimentary wireless Internet access</em>, <em>direct dial phones</em>, <em>voice mail</em>, and <em>in room safes (accommodate laptops)</em>. Guestrooms feature <em>coffee/tea makers</em> and <em>complimentary bottled water</em>. Bathrooms offer <em>shower/tub combinations</em>, <em>hair dryers</em>, and <em>complimentary toiletries</em>. Additional amenities include <em>climate control</em>, <em>minibars</em>, and <em>air conditioning</em>. In addition, amenities available on request include <em>refrigerators</em>, <em>irons/ironing boards</em>, and <em>wake up calls</em>. <em>Turndown service</em> is offered nightly and <em>housekeeping</em> is available. <em>Cribs (infant beds)</em> are available. </p>",
+        "score": 80.6910029802,
+        "rating": 5,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 80.7803046800578,
+        "address": {
+          "city": "Johannesburg",
+          "fax": null,
+          "coordinates": "(28.0453298,-26.2016307)",
+          "zip": "2041",
+          "district": null,
+          "webpage": null,
+          "country": "South Africa",
+          "state": "Gauteng",
+          "phone": "+27 11 640 0400",
+          "street": "Prince of Wales Terrace, Parktown | 2 York Road",
+          "email": null,
+          "country_code": "ZA"
+        },
+        "stars": 4,
+        "relevance": 0.8929831083596009,
+        "deleted_on": null
     }
   },
   {
@@ -2601,19 +2866,31 @@
       "webpage": "https://www.onospa.de/en/"
     },
     "match": {
-      "cluster_id": "f3a3b72a-18fc-4d33-8c9c-cd6b28d392fb",
-      "name": "The Mandala Suites",
-      "address": [
-        "Friedrichstr. 185",
-        "Berlin",
-        "Berlin",
-        "10117",
-        "Germany"
-      ],
-      "coordinates": "(13.389459,52.51165)",
-      "phone": "+49 30 202920",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "a6d7ac66-51ca-46b4-9a74-57324a2977b4",
+        "name": "The Mandala Hotel",
+        "description": null,
+        "score": 90.8517228712,
+        "rating": null,
+        "modified_on": "2017-04-26T13:38:35.008901",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 90.6217612858812,
+        "address": {
+          "city": "Berlin",
+          "fax": null,
+          "coordinates": "(13.37393,52.50907)",
+          "zip": "10785",
+          "district": null,
+          "webpage": "http://www.themandala.de/",
+          "country": "Germany",
+          "state": "Berlin",
+          "phone": "+49 30 590050000",
+          "street": "Potsdamer Str. 3",
+          "email": null,
+          "country_code": "DE"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2800,19 +3077,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/curpb-curacao-marriott-beach-resort/"
     },
     "match": {
-      "cluster_id": "c7cfd2be-0f97-4185-a2e0-a359872ad6dd",
-      "name": "Hurghada Marriott Beach Resort",
-      "address": [
-        "El Corniche Road P.O. Box 38",
-        "Hurghada",
-        "Red Sea Governate",
-        "12654",
-        "Egypt"
-      ],
-      "coordinates": "(33.8116067,27.2578957)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "b2259bb6-6e89-40b2-afa7-df7c82c51786",
+        "name": "Curaçao Marriott Beach Resort & Emerald Casino",
+        "description": "The Curacao Marriott Beach Resort & Emerald Casino is located on a private beach on Piscadera Bay, on the island of Curacao, Netherland Antilles, world renowned for its white sand beaches and extraordinary coral reefs. Located across the street from the Curacao International Trade Center, this resort offers a green oasis three miles north of Willemstad, Curacao's capital city. With colonial architecture and a beautiful harbor entry, Willemstad has been made a UNESCO World Heritage site. Other attractions near the resort are the Museum Kur� Hulanda, the floating market, Christoffel National Park and the Amstel Brewery. <br> With six oceanfront acres, the Curacao Marriott Beach Resort and Emerald Casino offers 247 spacious non smoking guestrooms in a Dutch colonial style building facing the ocean. Accommodations include balconies or ground floor patios, all furnished with chairs and cocktail tables. The air conditioned guestrooms are decorated with sheer white drapes, gold and red carpeting and yellow walls. Amenities include high speed Internet access, and satellite television. The hotel's central courtyard has a free form pool and a children's pool. Two other courtyards contain large, cross shaped spa tubs in wooden pavilions, with shaded lounge chairs on surrounding decks. <br><br> The resort features the 5,000 square foot Emerald Casino, open from early afternoon to 3:30 a.m. The resort also includes a health club with sauna, steam rooms, and spa services such as massage, reflexology and body wraps. An on site water sports center rents kayaks, personal watercraft and small sailboats, and offers snorkeling and diving trips. <br><br> The Curacao Marriott Beach Resort and Emerald Casino provides various dining and entertainment venues including the Seabreeze Beach Bar and Grill, and Portofino, which serves Italian cuisine daily. The Emerald Lounge offers plasma televisions and a dance floor.",
+        "score": 82.5285835217,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": null,
+        "address": {
+          "city": "Piscadera Bay | Willemstad",
+          "fax": null,
+          "coordinates": "(-68.93326,12.108262)",
+          "zip": "00000",
+          "district": null,
+          "webpage": "http://marriott.com/property/propertyPage/CURMC",
+          "country": "Curaçao",
+          "state": null,
+          "phone": "+599 9 736 8800",
+          "street": "John F. Kennedy Boulevard | 6003 Piscadera Bay",
+          "email": null,
+          "country_code": "CW"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2829,19 +3118,31 @@
       "webpage": "https://www.portolahotel.com/"
     },
     "match": {
-      "cluster_id": "753582aa-57c0-443e-9a33-5abf982365d7",
-      "name": "Portola Inn & Suites Buena Park",
-      "address": [
-        "Orangethorpe Avenue 7921",
-        "Buena Park",
-        "California",
-        "90621",
-        "United States"
-      ],
-      "coordinates": "(-117.994615,33.859522)",
-      "phone": "+1 714-739-5885",
-      "webpage": "http://www.portolainnbp.com/",
-      "deleted_on": null
+      "cluster_id": "b6e06926-479f-47f0-a318-23fc609af379",
+        "name": "Portola Hotel & Spa at Monterey Bay",
+        "description": "Von diesem luxuriösen Hotel lassen Sie den Blick über die Bucht von Monterey schweifen. Sie wohnen wenige Minuten von Fisherman's Wharf und dem historischen Stadtkern entfernt. Freuen Sie sich auf das umfassend ausgestattee Wellnesscenter, geräumige Zimmer sowie Gourmet-Restaurants.Das Portola Hotel & Spa liegt nahe den bekanntesten Sehenswürdigkeiten der kalifornischen Stadt Monterey entfernt. Nur wenige Schritte trennen Sie von hübschen Stränden, Gourmet-Restaurants, einzigartigen Geschäften sowie zahlreichen Unterhaltungseinrichtungen.Nach einem erlebnisreichen Tag entspannen Sie im Wellnesscenter des Portola und schwimmen im beheizten Pool. Ebenso schauen Sie in den hoteleigenen Souvenirgeschäften vorbei oder verweilen bei einem Abendessen in elegantem Ambiente in einem der 3 Hotelrestaurants am Kamin.",
+        "score": 86.895449631,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 86.9058066527802,
+        "address": {
+          "city": "Monterey",
+          "fax": null,
+          "coordinates": "(-121.894416,36.601343)",
+          "zip": "CA 93940",
+          "district": null,
+          "webpage": "http://www.portolahotel.com/",
+          "country": "United States",
+          "state": null,
+          "phone": "+1 888-222-5851",
+          "street": "2 Portola Plaza",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -2916,19 +3217,31 @@
       "webpage": "https://hiltongardeninn3.hilton.com/en/hotels/florida/hilton-garden-inn-lake-buena-vista-orlando-MCOBVGI/index.html"
     },
     "match": {
-      "cluster_id": "bd6ba20b-efb0-4659-83a5-5680cc6cda84",
-      "name": "Homewood Suites by Hilton Lake Buena Vista-Orlando",
-      "address": [
-        "11428 Marbella Palm Court",
-        "Orlando",
-        "Florida",
-        "FL 32836",
-        "United States"
-      ],
-      "coordinates": "(-81.3792365,28.5383355)",
-      "phone": "+1 407-239-4540",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "e0e88182-adaa-42ac-8436-254ae5038dd1",
+        "name": "Hilton Garden Inn Lake Buena Vista/Orlando",
+        "description": "",
+        "score": 81.5921293872,
+        "rating": 0,
+        "modified_on": "2010-06-01T15:47:17.406024",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 83.2952754455715,
+        "address": {
+          "city": "Orlando",
+          "fax": null,
+          "coordinates": "(-81.493543,28.3926515)",
+          "zip": "FL 32836",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 407-239-9550",
+          "street": "11400 Marbella Palm Ct",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.7925315861198099,
+        "deleted_on": null
     }
   },
   {
@@ -2945,19 +3258,31 @@
       "webpage": "https://www.ihg.com/holidayinnexpress/hotels/us/en/tempe/phxwb/hoteldetail"
     },
     "match": {
-      "cluster_id": "cbd5b9de-8d50-4e76-8639-684a1a129f95",
-      "name": "Holiday Inn Express",
-      "address": [
-        "Government Street 585",
-        "Dryden",
-        "Ontario",
-        "P8N 2P6",
-        "Canada"
-      ],
-      "coordinates": "(-92.8164942,49.7868276)",
-      "phone": "+1 807-223-3000",
-      "webpage": "http://www.ihg.com/holidayinnexpress/hotels/us/en/dryden/yhdon/hoteldetail?cm_mmc=GoogleMaps-_-ex-_-",
-      "deleted_on": null
+      "cluster_id": "6adafb7b-c6b0-453a-8328-fc045be39bb0",
+        "name": "Holiday Inn Express Hotel & Suites Tempe",
+        "description": "<p><strong>Location.</strong> <br>This <strong>Tempe</strong> hotel is close to <strong>Arizona Mills Mall</strong>, <strong>Diablo Stadium</strong>, and <strong>Grady Gamman Memorial Auditorium</strong>. Area attractions include <strong>Arizona State University</strong>. </p><p><strong>Features.</strong><br>Holiday Inn Express Hotel & Suites Tempe has <em>an outdoor pool</em>, <em>a spa tub</em>, and <em>a fitness facility</em>. Business amenities at this 2.5 star property include <em>a business center</em>, <em>wireless Internet access</em>, <em>business services</em>, and <em>secretarial services</em>. Guests are served a <em>complimentary breakfast</em> each morning. Event facilities include <em>conference rooms</em>. The staff can arrange <em>dry cleaning/laundry services</em>. Additional amenities include <em>a concierge desk</em>, <em>laundry facilities</em>, and <em>a safe deposit box at the front desk</em>. This property is <em>self catering</em>. </p><p><strong>Guestrooms.</strong> <br>Holiday Inn Express Hotel & Suites Tempe has 128 guestrooms. Televisions are equipped with <em>premium cable/satellite channels</em> and <em>pay movies</em>. Guestrooms provide <em>free local calls</em> and <em>voice mail</em>. All guestrooms provide <em>sofa beds</em> and <em>desks</em>. Guestrooms feature <em>refrigerators</em> and <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em>. Additional amenities include <em>air conditioning</em>, <em>irons/ironing boards</em>, and <em>wake up calls</em>. <em>Housekeeping</em> is offered. <em>Cribs (infant beds)</em> and <em>rollaway beds</em> are available. </p>",
+        "score": 88.4557363518,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 88.6517245063442,
+        "address": {
+          "city": "Tempe",
+          "fax": null,
+          "coordinates": "(-111.9640972,33.378172)",
+          "zip": "85283",
+          "district": null,
+          "webpage": "http://www.ihg.com/holidayinnexpress/hotels/us/en/tempe/phxwb/hoteldetail?cm_mmc=GoogleMaps-_-ex-_-USEN-_-phxwb",
+          "country": "United States",
+          "state": "Arizona",
+          "phone": "+1 480-831-9800",
+          "street": "West Baseline Road 1520",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 2,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3088,19 +3413,31 @@
       "webpage": "https://www.accorhotels.com/lien_externe.svlt"
     },
     "match": {
-      "cluster_id": "b0624913-c28c-4201-8fb8-6e3e137bd95f",
-      "name": "Sunshine Coast Resort Hotel & Marina",
-      "address": [
-        "12695 Sunshine Coast Hwy.",
-        "Madeira Park",
-        "British Columbia",
-        "V0N 2H0",
-        "Canada"
-      ],
-      "coordinates": "(-124.01574,49.62231)",
-      "phone": "+1 604-883-9177",
-      "webpage": "http://www.sunshinecoast-resort.com/",
-      "deleted_on": null
+      "cluster_id": "710ba9bf-fde5-4b76-8cc0-3f64d68a925c",
+        "name": "Novotel Sunshine Coast Resort",
+        "description": "",
+        "score": 77.213451375,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:06:12.313756",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 77.4633886570466,
+        "address": {
+          "city": "Twin Waters",
+          "fax": null,
+          "coordinates": "(153.090942,-26.622195)",
+          "zip": "4564",
+          "district": null,
+          "webpage": null,
+          "country": "Australia",
+          "state": null,
+          "phone": "+61 7 5448 8000",
+          "street": "Ocean Drive | Sunshine Coast",
+          "email": null,
+          "country_code": "AU"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3204,19 +3541,31 @@
       "webpage": "https://www.morganshotelgroup.com/mondrian/mondrian-los-angeles"
     },
     "match": {
-      "cluster_id": "c3b87cad-8865-4c59-8eec-ecabababa765",
-      "name": "LOS ANGELES",
-      "address": [
-        "Carretera Comarcal 512-Ve 120",
-        "Vegas de Coria",
-        "Extremadura",
-        "10623",
-        "Spain"
-      ],
-      "coordinates": "(-6.1803372,40.385834)",
-      "phone": "+34 927 43 40 05",
-      "webpage": "http://www.hotellosangeleslashurdes.es/",
-      "deleted_on": null
+      "cluster_id": "d8886492-9e77-4a51-aa5a-91497cfeb22a",
+        "name": "Mondrian Los Angeles",
+        "description": "Mondrian is a sophisticated modern urban resort located in the heart of the entertainment capital of the world on top of the famed Sunset Strip. Mondrian’s location is the ideal hub to access numerous area attractions such as Sunset Plaza, The Beverly Center, Melrose and Santa Monica Boulevards, Hollywood Walk of Fame, Mann’s Chinese Theater, Kodak Theater, Getty Center, UCLA and world class shopping on renowned Rodeo Drive. So much more than just a place to stay for the night, Mondrian transforms staying at a hotel into a fun exciting and adventurous experience that lifts the spirits and touches the senses. Visionary designer Benjamin Noriega Ortiz has rejuvenated Mondrian, the quintessential California hotel, offering glamour and fantasy in a casual and relaxed environment. The hotel’s 237 rooms and suites feature floor to ceiling windows with stunning views of Sunset Boulevard and downtown Los Angeles. Additional amenities include Silestone tiled bathrooms with waterfall shower fixtures, a state-of-the-art HDTV is hidden in full-length custom designed mirrors, oversized daybeds, sustainable bamboo floors and Korres natural products bath amenities are just a few of the little luxuries awaiting guests of Mondrian. SkyBar, the ultimate LA lounge, is the place to enjoy a cocktail and dance the night away. Intimate seating areas provide a special place to spend an evening with the glistening skyline as a backdrop. LA’s trendsetters create a virtual playground for the jetset. With its innovative fusion menu and hot Latin beat, Asia de Cuba at Mondrian by international restaurateur Jeffrey Chodorow, remains one of Los Angeles' hottest restaurants. Diners may choose to be served either indoors with its chic white-on-white interior, or on the sensuous patio which includes a stunning trellis area comprised of enormously over-scaled terra cotta pots planted with ficus trees and flowering bougainvillea vines. Morgans Hotel Group invites you to check-in to the Mondrian world and make drama. Besonderheiten des Hotels Boasting some of the finest views of Los Angeles, Skybar, an open air, ivy-covered pavilion perched above the Pool and Outdoor Living Room, has been the spot for the hottest Los Angeles nightlife from the day it opened. Redesigned as the ultimate LA lounge by Tim Andreas of Banjo, Skybar appears to almost float in the clouds, with an open-air hut that sparkles with custom-designed furniture handmade in San Miguel de Allende, Mexico. Luxurious lounge seating is accented with yellow and gold; unique reflective glass surfaces evoke the Pacific Ocean. Skybar is also available for private parties and events. Stil und Atmosphäre des Hotels 00:00 - 24:00 besetzt Frühester check-in 15:00 Spätester Check-out 12:00 Lage des Hotels, Umgebung und Sehenswürdigkeiten Mondrian is located in the heart of West Hollywood on the world famous Sunset Strip within steps of the most popular restaurants, shops and night life that Los Angeles has to offer and within minutes of the area’s many galleries, museums and local business communities. Nestled between Beverly Hills and Hollywood, Mondrian’s location is the ideal hub to access numerous area attractions such as Sunset Plaza, The Beverly Center, Melrose and Santa Monica Boulevards, Hollywood Walk of Fame, Mann’s Chinese Theater, Kodak Theater, Getty Center, UCLA and world class shopping on renowned Rodeo Drive. MONDRIAN LOS ANGELES 8440 Sunset Blvd. West Hollywood, California 90069 Tel. 323 650 8999 Fax 323 650 5215 Reservations US 800 697 1791 Reservations International 00800 4969 1780 Last complete renovation 2008 Number of floors 12 Total number of rooms 237 Number of single rooms 40 Number of double rooms 197 of which have 2 separate beds 23 Number of apartments 1 Hotel City hotel Art/design hotel Suite hotel Approved design hotel",
+        "score": 80.5142597071,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 81.4019891741481,
+        "address": {
+          "city": "Los Angeles",
+          "fax": null,
+          "coordinates": "(-118.3739948,34.0949245)",
+          "zip": "CA 90069",
+          "district": null,
+          "webpage": "https://www.morganshotelgroup.com/mondrian/mondrian-los-angeles?utm_source=Google%20My%20Business&utm_medium=Website%20Button&utm_campaign=Los%20Angeles",
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 323-650-8999",
+          "street": "8440 Sunset Boulevard",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3233,19 +3582,31 @@
       "webpage": "https://www.theislandfl.com/"
     },
     "match": {
-      "cluster_id": "d5546183-a43f-4fba-bde6-c9163d11f542",
-      "name": "Bruny Island Beachside Accommodation",
-      "address": [
-        "31-33 Nebraska Road",
-        "Dennes Point",
-        "Tasmania",
-        "7150",
-        "Australia"
-      ],
-      "coordinates": "(147.350086569786,-43.0694677664702)",
-      "phone": "+61 3 6265 1014",
-      "webpage": "http://brunybeachside.com.au/",
-      "deleted_on": null
+      "cluster_id": "d7deef17-33f1-4c84-8f03-3562216d3e93",
+        "name": "The Island, by Hotel RL",
+        "description": null,
+        "score": 80.2517516923,
+        "rating": null,
+        "modified_on": "2019-02-02T19:21:50.834826",
+        "created_on": "2019-01-31T20:58:37.106492",
+        "trust_score": 80.7703975594737,
+        "address": {
+          "city": "Fort Walton Beach",
+          "fax": null,
+          "coordinates": "(-86.58875,30.3948338)",
+          "zip": "32548",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Florida",
+          "phone": null,
+          "street": "1500 Miracle Strip Pkwy SE",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.7735678470124048,
+        "deleted_on": null
     }
   },
   {
@@ -3262,19 +3623,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/pspsr-renaissance-esmeralda-resort-and-spa-indian-wells/"
     },
     "match": {
-      "cluster_id": "d1439c7a-9b89-4dab-b15a-1b4bc5320788",
-      "name": "Esmeralda Resort",
-      "address": [
-        "B.P. 5141, Baie Orientale",
-        "Orient Bay",
-        "Collectivity of Saint Martin",
-        "97071",
-        "Saint Martin"
-      ],
-      "coordinates": "(-63.0204813,18.0828962)",
-      "phone": "+33 5 90 87 36 36",
-      "webpage": "http://4esmeralda-resort.com/",
-      "deleted_on": null
+      "cluster_id": "97587e89-94ca-4525-b9bf-a32b6d29cf38",
+        "name": "Renaissance Indian Wells Resort & Spa",
+        "description": "",
+        "score": 88.1583207349,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 88.9191896605278,
+        "address": {
+          "city": "Indian Wells",
+          "fax": null,
+          "coordinates": "(-116.3294443,33.7209389)",
+          "zip": "CA 92210",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 760-773-4444",
+          "street": "44-400 Indian Wells Lane",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3492,19 +3865,31 @@
       "webpage": "https://www.arlohotels.com/nautilus-miami-beach/"
     },
     "match": {
-      "cluster_id": "825a4981-303f-48cc-b605-fb8b29266eb2",
-      "name": "Nautilus Apart Hotel",
-      "address": [
-        "Rua Manuel Coringa de Lemos 11",
-        "Natal",
-        "Rio Grande do Norte",
-        "59090-190",
-        "Brazil"
-      ],
-      "coordinates": "(-35.1714577,-5.8842043)",
-      "phone": "+55 84 3641-1469",
-      "webpage": "http://www.hotelnautilus.com.br/",
-      "deleted_on": null
+      "cluster_id": "2ad2d33e-77e8-4e2d-a750-1f11c2d209b3",
+        "name": "Nautilus, a Sixty Hotel",
+        "description": "",
+        "score": 80.4633507371,
+        "rating": 0,
+        "modified_on": "2011-05-06T10:08:15.785000",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 80.4599469245456,
+        "address": {
+          "city": "Miami Beach",
+          "fax": null,
+          "coordinates": "(-80.1294021,25.7942463)",
+          "zip": "FL 33139",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 305-531-3503",
+          "street": "1825 Collins Ave",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3550,19 +3935,32 @@
       "webpage": "https://www.radissonhotels.com/en-us/hotels/country-inn-greenville-sc"
     },
     "match": {
-      "cluster_id": "60271447-b438-4105-9286-1eef3dc943ff",
-      "name": "Country Inn Orange County",
-      "address": [
-        "577 Hirano",
-        "Minamitsuru District",
-        "Yamanashi Prefecture",
-        "401-0502",
-        "Japan"
-      ],
-      "coordinates": "(138.9110751,35.422663)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "c5dfa70b-8d05-450c-b024-4afc44fd1df6",
+        "name": "Comfort Inn Millennium",
+        "description": "<p><strong>Location.</strong> <br />This city center motel is located in the heart of <strong>Greenville</strong>. Area attractions include <strong>Carolina First Center</strong> and <strong>Falls Park on the Reedy</strong>. </p><p><strong>Features.</strong><br />Comfort Inn Laurens Road has <em>an outdoor pool</em>, <em>a fitness facility</em>, and <em>a seasonal outdoor pool</em>. Business amenities at this 2.0 star property include <em>a business center</em>, <em>wireless Internet access</em>, and <em>business services</em>. Comfort Inn Laurens Road has <em>a restaurant</em>. A <em>continental breakfast</em> is complimentary to guests. Business amenities at this 2.0 star property consist of <em>conference rooms</em> and <em>banquet facilities</em>. Additional amenities include <em>coffee in the lobby</em> and <em>self parking</em>. </p><p><strong>Guestrooms.</strong> <br />Televisions are equipped with <em>cable channels</em> and <em>pay movies</em>. Guestrooms provide <em>phones and <em>in room safes</em>. Guestrooms feature <em>microwaves</em>, <em>refrigerators</em>, and <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em>. Additional amenities include <em>irons/ironing boards</em>. All guestrooms at Comfort Inn Laurens Road are <em>non smoking</em>. </p>",
+        "score": 79.8454290336,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 79.8433250988826,
+        "address": {
+          "city": "Greenville",
+          "fax": null,
+          "coordinates": "(-82.338914,34.81582)",
+          "zip": "29607",
+          "district": null,
+          "webpage": "https://www.choicehotels.com/south-carolina/greenville/comfort-inn-hotels/sc049?source=gglocaloz",
+          "country": "United States",
+          "state": "South Carolina",
+          "phone": "+1 864-288-6900",
+          "street": "Laurens Road 2756",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 2,
+        "relevance": 0.7908406757166326,
+        "deleted_on": null
+      
     }
   },
   {
@@ -3694,19 +4092,31 @@
       "webpage": "https://www.hoteloceanasantamonica.com/"
     },
     "match": {
-      "cluster_id": "0151917f-6f5f-4397-b60e-50597975617c",
-      "name": "Paloma Oceana Resort",
-      "address": [
-        "Ilıca Mahallesi 1 Sokak",
-        "Manavgat | Antalya",
-        "Antalya Province",
-        "07330",
-        "Turkey"
-      ],
-      "coordinates": "(31.3888889,36.7666667)",
-      "phone": "+90 242 756 0606",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "920fa246-79e6-4167-8dbb-b508a2c33664",
+        "name": "Oceania Beach Club Hotel",
+        "description": "<b>Location.</b> The Hotel Oceana is located in Santa Monica, Calif., across the street from Santa Monica State Beach. The hotel is one mile from the Third Street Promenade and the Santa Monica Pier. Venice Beach and the University of California Los Angeles are three miles away. <br><b>Hotel Features.</b> The Hotel Oceana's lobby features a glass atrium ceiling. The courtyard offers an outdoor pool, a fireplace, mosaic tiled fountains, lounge chairs and cafe tables. The 24 hour fitness center includes treadmills, elliptical machines, stationary bicycles and free weights. The Ocean Boardroom offers meeting space for up to 20 people. High speed wired and wireless Internet access are available in the hotel's public areas. The Oceana Lounge serves breakfast, lunch, dinner and cocktails in a casual sunroom with views of the Santa Monica Bay. <br><br><b>Guestrooms.</b> The 70 guestrooms at the Hotel Oceana feature Mediterranean style decor with full length mirrors and wooden louvered shutters that open to the ocean air. Wired and wireless high speed Internet access are available. Rooms include iHome docking stations and high definition plasma televisions. Beds offer Egyptian cotton linens. Bathrooms feature Frette Italian bath sheets. <br><br><b>Expert Tip.</b> Upon request, personal trainers, Pilates classes and in room massages are available.",
+        "score": 90.4621394651,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 90.4536825071781,
+        "address": {
+          "city": "Santa Monica",
+          "fax": null,
+          "coordinates": "(-118.505958,34.021383)",
+          "zip": "CA 90403",
+          "district": null,
+          "webpage": "http://www.hoteloceanasantamonica.com/",
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 310-393-0486",
+          "street": "849 Ocean Avenue",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 0.5817121869393919,
+        "deleted_on": null
     }
   },
   {
@@ -3723,19 +4133,31 @@
       "webpage": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-kyiv"
     },
     "match": {
-      "cluster_id": "4d086975-148f-485e-9060-fb78be75051b",
-      "name": "Radisson Blu Hotel Kyiv Podil",
-      "address": [
-        "17-19 Bratska Street Podil",
-        "Kiev",
-        "Kyiv city",
-        "04070",
-        "Ukraine"
-      ],
-      "coordinates": "(30.5216099,50.4632703)",
-      "phone": "+380 44 393 1373",
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "12606c06-7cc7-4866-a97b-3ac399cad8ec",
+        "name": "Radisson Blu Hotel Kiev",
+        "description": "00:00 - 24:00 besetzt Frühester check-in 14:00 Spätester Check-out 12:00 Hotel-Baujahr 2005 Anzahl Etagen 7 Gesamtanzahl Zimmer 255 Anzahl Doppelzimmer 255 Anzahl Suiten (getrennte Räume) 6 Anzahl Juniorsuiten 16 Anzahl Appartments 1 Hotel Businesshotel",
+        "score": 88.5932119953,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.3114494630192,
+        "address": {
+          "city": "Kiev",
+          "fax": null,
+          "coordinates": "(30.509856,50.451415)",
+          "zip": "01034",
+          "district": null,
+          "webpage": "http://www.radissonblu.com/hotel-kiev",
+          "country": "Ukraine",
+          "state": "Kyiv city",
+          "phone": "+380 93 822 8827",
+          "street": "Yaroslaviv Val Street 22",
+          "email": null,
+          "country_code": "UA"
+        },
+        "stars": 4,
+        "relevance": 0.6160579439731964,
+        "deleted_on": null
     }
   },
   {
@@ -3752,19 +4174,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/tpamc-tampa-marriott-water-street/"
     },
     "match": {
-      "cluster_id": "eba652e6-0f5a-43c2-829b-a60a17d2c5a6",
-      "name": "WATER STREET HOTEL MARINA",
-      "address": [
-        "Water Street 329",
-        "Apalachicola",
-        "Florida",
-        "32320",
-        "United States"
-      ],
-      "coordinates": "(-84.9881297,29.731813)",
-      "phone": "+1 850-653-3700",
-      "webpage": "http://www.waterstreethotel.com/",
-      "deleted_on": null
+      "cluster_id": "40f9cae9-74ee-4ccf-8a6f-64ed9570b353",
+        "name": "Marriott Tampa Waterside Hotel and Marina",
+        "description": null,
+        "score": 90.1525326406,
+        "rating": null,
+        "modified_on": "2016-11-04T13:23:45.697933",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 90.9880199009635,
+        "address": {
+          "city": "Tampa",
+          "fax": null,
+          "coordinates": "(-82.4541491,27.9411624)",
+          "zip": "FL 33602",
+          "district": null,
+          "webpage": "http://www.marriott.com/hotels/travel/tpamc-tampa-marriott-waterside-hotel-and-marina/",
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 813-221-4900",
+          "street": "700 South Florida Avenue",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.8460224667360959,
+        "deleted_on": null
     }
   },
   {
@@ -3839,19 +4273,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/sttuv-marriotts-frenchmans-cove/"
     },
     "match": {
-      "cluster_id": "a83876a1-c31b-48fb-977e-8f79d4bbacf3",
-      "name": "Frenchman's Reef & Morning Star Marriott Beach Resort",
-      "address": [
-        "5 Estate Bakkeroe",
-        "St. Thomas",
-        null,
-        "00802",
-        "US Virgin Islands"
-      ],
-      "coordinates": "(-64.9202889,18.3205275)",
-      "phone": "+1 340-776-8500",
-      "webpage": "http://www.marriott.com/hotels/hotel-information/travel/sttfr-frenchmans-reef-and-morning-star-marri",
-      "deleted_on": null
+      "cluster_id": "4b97b838-d8c5-4477-bb44-8ce9e88791e8",
+        "name": "Marriott's Frenchman's Cove",
+        "description": "",
+        "score": 91.1376076808,
+        "rating": 0,
+        "modified_on": "2013-01-18T16:30:06.311257",
+        "created_on": "2013-01-18T16:30:06.311257",
+        "trust_score": 91.8812932471112,
+        "address": {
+          "city": "Charlotte Amalie",
+          "fax": null,
+          "coordinates": "(-64.9207922,18.3232211)",
+          "zip": "00801",
+          "district": null,
+          "webpage": "http://www.omvillasstthomas.com/",
+          "country": "US Virgin Islands",
+          "state": "St. Thomas",
+          "phone": "+1 340-693-4800",
+          "street": "7338 Estate Bakkeroe",
+          "email": null,
+          "country_code": "VI"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -3897,20 +4343,32 @@
       "webpage": "https://www.seminolehardrocktampa.com/"
     },
     "match": {
-      "cluster_id": "79e21617-e6de-4fb1-b6b0-5e6e2b0d3380",
-      "name": "Seminole Hard Rock Hotel & Casino Hollywood",
-      "address": [
-        "1 Seminole Way",
-        "Fort Lauderdale",
-        "Florida",
-        "FL 33314",
-        "United States"
-      ],
-      "coordinates": "(-80.210409,26.051964)",
-      "phone": "+1 954-327-7625",
-      "webpage": null,
-      "deleted_on": null
-    }
+      "cluster_id": "77a35d4e-0d61-4390-ae86-5f8cf2bb9080",
+        "name": "Seminole Hard Rock Hotel & Casino Tampa",
+        "description": "<p><strong>Location. </strong> <br>This spa property is situated near a <strong>Tampa</strong> beach, close to <strong>Bob Thomas Equestrian Center</strong>, <strong>Ford Amphitheatre</strong>, and <strong>Florida State Fairgrounds</strong>.  Area attractions include <strong>Adventure Island</strong>. </p><p><strong>Features. </strong><br>Seminole Hard Rock Hotel & Casino has <em>an outdoor pool</em>, <em>a spa tub</em>, <em>a steam room</em>, <em>a fitness facility</em>, and <em>a children's pool</em>. The <em>onsite spa</em> at this 4.0 star property offers <em>massage and treatment rooms</em> and <em>beauty services</em>. Business amenities include <em>a business center</em>, <em>wireless Internet access</em>, <em>meeting rooms for small groups</em>, and <em>business services</em>. Seminole Hard Rock Hotel & Casino has <em>a restaurant</em>, <em>a bar/lounge</em>, and <em>a poolside bar</em>. <em>24 hour room service</em> is available. Event facilities consist of <em>a ballroom</em>, <em>exhibit space</em>, <em>conference rooms</em>, and <em>banquet facilities</em>. </p><p><strong>Guestrooms. </strong> <br>Amenities featured in guestrooms include <em>air conditioning</em>, <em>coffee/tea makers</em>, and <em>minibars</em>. In addition, amenities available on request include <em>refrigerators</em>, <em>hypo allergenic bedding</em>, and <em>extra towels/bedding</em>. Guestrooms have <em>televisions</em> with <em>premium TV channels</em> and <em>pay movies</em>. Business friendly amenities include <em>multi line phones</em>, <em>desks</em>, and <em>direct dial phones</em>. Bathrooms feature <em>shower/tub combinations</em>, <em>bathroom phones</em>, and <em>scales</em>. Guestroom services include <em>a turndown service</em>, <em>in room massage</em>, and <em>housekeeping</em>. <em>Rollaway beds</em> are available on request. </p>",
+        "score": 84.6882511231,
+        "rating": 3,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 84.7880777274637,
+        "address": {
+          "city": "Tampa",
+          "fax": null,
+          "coordinates": "(-82.3731404,27.9928395)",
+          "zip": "FL 33610",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 813-627-7625",
+          "street": "5223 Orient Road",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
+      }
   },
   {
     "id": 138,
@@ -3983,19 +4441,31 @@
       "webpage": "https://www.steigenberger.com/hotels/alle-hotels/belgien/bruessel/steigenberger-wiltchers"
     },
     "match": {
-      "cluster_id": "4f157f0d-7f27-4a6f-8895-129efde405de",
-      "name": "Steigenberger Parkhotel",
-      "address": [
-        "Nimes-Str. 2",
-        "Braunschweig",
-        "Lower Saxony",
-        "38100",
-        "Germany"
-      ],
-      "coordinates": "(10.52147,52.25678)",
-      "phone": "+49 531 482220",
-      "webpage": "http://de.steigenberger.com/Braunschweig/Steigenberger-Parkhotel",
-      "deleted_on": null
+      "cluster_id": "411b4abe-688c-4be4-9eb5-3541b431448a",
+        "name": "Steigenberger Wiltcher's",
+        "description": "The Conrad Brussels is located on the famed and highly fashionable Avenue Louise, with the main tourist attractions, the airport, the station and the most elegant shops in the city all easily accessible. The largest, most sophisticated bedrooms in Brussels, an unrivalled guest service commitment, the unparalleled cuisine of Mediterranean inspiration and Oriental finesse in Loui and the outstanding culinary delights offered in Cafe Wiltcher's, all come together at the Conrad Brussels. The grand style of the Conrad Brussels ballroom makes it an excellent venue for conferences and banquets, while one of the nine elegant meeting rooms offers the perfect focus for smaller events. Aspria Avenue Louise at Conrad Brussels with 2500 square metres of stunning leisure facilities: swimming pool, spa bath and steam room, relaxation and six treatment rooms, sauna, solarium, gymnasium, dance studio, beauty studio, members lounge and juice bar. Access costs 17.00 Euro per person on a daily basis. Treatments are paid seperately, charge to room is possible. Children under the age of 16 are not allowed. High-tech rooms, \"Diamant\" for up to 16 delegates for multi-point video-conferencing presentations. The Conrad Brussels is located on the famed and highly fashionable Avenue Louise, with the main tourist attractions, the airport, the station and the most elegant shops in the city all easily accessible. Stil und Atmosphäre des Hotels - 00:00 besetzt (Ortszeit) Hotel-Baujahr 1993 Letzte Teil-Renovierung 2004 Anzahl Etagen 6 Gesamtanzahl Zimmer 269 Anzahl Doppelzimmer 269 davon mit 2 getrennten Betten 50 davon mit einem Doppelbett 219 Zimmer mit Verbindungstür 30 Anzahl Suiten (getrennte Räume) 38 Anzahl Juniorsuiten 23 Hotel Stadthotel Businesshotel Tagungs- / Kongreßhotel Wellnesshotel Schwerpunkt Aspria Avenue Louise Kurhotel Spezialgebiet Aspria Avenue Louise 27.04.2009, Kategorie: Privatreisender Leider konnten wir den Termin nicht wahrnehmen und die Buchungist verfallen. Darum keine Bewertung möglich. MfG W. Offers",
+        "score": 87.0117831674,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:05:38.134443",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 87.6021567628068,
+        "address": {
+          "city": "Brussels",
+          "fax": null,
+          "coordinates": "(4.3574737,50.8324776)",
+          "zip": "1050",
+          "district": null,
+          "webpage": "http://de.steigenberger.com/Bruessel/Steigenberger-Grandhotel",
+          "country": "Belgium",
+          "state": "Brussels",
+          "phone": "+32 2 542 42 42",
+          "street": "Avenue Louise 71 | Ixelles",
+          "email": null,
+          "country_code": "BE"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -4128,19 +4598,31 @@
       "webpage": "https://www.kenwoodinn.com/"
     },
     "match": {
-      "cluster_id": "3bcc6703-dc33-4aee-b6ba-205aa6a50c81",
-      "name": "The Kenwood Inn",
-      "address": [
-        "38 Marine Street",
-        "St. Augustine",
-        "Florida",
-        "32084",
-        "United States"
-      ],
-      "coordinates": "(-81.31048,29.890216)",
-      "phone": "+1 904-824-2116",
-      "webpage": "http://www.thekenwoodinn.com/",
-      "deleted_on": null
+      "cluster_id": "405ff8a4-d130-4d1f-b0fe-e8ab809232d4",
+        "name": "Kenwood Inn And Spa",
+        "description": "",
+        "score": 91.8211150359,
+        "rating": 0,
+        "modified_on": "2011-05-06T10:09:12.360000",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 92.8544045691297,
+        "address": {
+          "city": "Kenwood",
+          "fax": null,
+          "coordinates": "(-122.540174,38.402946)",
+          "zip": "CA 95452",
+          "district": null,
+          "webpage": "http://www.kenwoodinn.com/our_inn.php",
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 707-833-1293",
+          "street": "10400 Sonoma Highway",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -4355,19 +4837,31 @@
       "webpage": "https://theokuratokyo.jp/"
     },
     "match": {
-      "cluster_id": "bc59a21c-4c16-4c05-a4b6-678d30e69b4c",
-      "name": "Hotel Okura Tokyo Bay",
-      "address": [
-        "1-8 Maihama",
-        "Urayasu",
-        "Chiba Prefecture",
-        "279-8585",
-        "Japan"
-      ],
-      "coordinates": "(139.8750511,35.6270075)",
-      "phone": "+81473553333",
-      "webpage": "http://www.okuratokyobay.net/",
-      "deleted_on": null
+      "cluster_id": "66d901aa-e94e-4c88-80fc-c35c1894279b",
+        "name": "Hotel Okura Tokyo South Wing",
+        "description": "",
+        "score": 87.6657186882,
+        "rating": 0,
+        "modified_on": "2011-05-06T10:10:48.308000",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 87.5818666357347,
+        "address": {
+          "city": "Tokyo",
+          "fax": null,
+          "coordinates": "(139.6917064,35.6894875)",
+          "zip": "105-0001",
+          "district": null,
+          "webpage": "http://www.hotelokura.co.jp/tokyo/",
+          "country": "Japan",
+          "state": "Tokyo",
+          "phone": "+81335820111",
+          "street": "2-10-4 Toranomon | Minato-ku",
+          "email": null,
+          "country_code": "JP"
+        },
+        "stars": 5,
+        "relevance": 0.8848365617262648,
+        "deleted_on": null
     }
   },
   {
@@ -4442,21 +4936,33 @@
       "webpage": "https://www.hotelmarina.dk/en/"
     },
     "match": {
-      "cluster_id": "bb816036-5e3a-4e45-91fa-9148207d739e",
-      "name": "Hotel Marina",
-      "address": [
-        "Avenida de Cuenca 6",
-        "Benidorm / Costa Blanca",
-        "Valencian Community",
-        "03503",
-        "Spain"
-      ],
-      "coordinates": "(-0.1171537,38.5378758)",
-      "phone": "+34 965 85 37 62",
-      "webpage": null,
-      "deleted_on": null
-    }
-  },
+      "cluster_id": "e8933e8c-9f8c-48a4-a47a-3e2290aa2447",
+        "name": "First Hotel Marina",
+        "description": "Direkt am Hafen von Vedbaek gelegen, bietet das Quality Hotel Marina einen herrlichen Blick über den Öresund.Vom Flughafen Kastrup in Kopenhagen erreichen Sie Vedbaek mit dem Zug.",
+        "score": 72.3739092139,
+        "rating": 5,
+        "modified_on": "2010-05-06T14:36:53.302719",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 73.0199235373275,
+        "address": {
+          "city": "Vedbaek",
+          "fax": null,
+          "coordinates": "(12.5687428,55.8507213)",
+          "zip": "2950",
+          "district": null,
+          "webpage": null,
+          "country": "Denmark",
+          "state": "Capital Region of Denmark",
+          "phone": "+45 45 89 17 11",
+          "street": "Vedbæk Strandvej 391",
+          "email": null,
+          "country_code": "DK"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
+      }
+    },
   {
     "id": 157,
     "searched": {
@@ -4527,19 +5033,31 @@
       "webpage": "https://www.theborgata.com/"
     },
     "match": {
-      "cluster_id": "fd825e64-3ae3-4481-98ce-773da3324100",
-      "name": "Borgata Baldazza",
-      "address": [
-        "Contrada Baldazza",
-        "Linguaglossa",
-        null,
-        "95015",
-        "Italy"
-      ],
-      "coordinates": "(15.1369017362595,37.8150242522386)",
-      "phone": "+39 095 777 4758",
-      "webpage": "http://www.borgatabaldazza.com/",
-      "deleted_on": null
+      "cluster_id": "150267aa-b9fc-40f9-a83c-f54e0b7d748b",
+        "name": "Borgata Casino",
+        "description": "",
+        "score": 82.1208339386,
+        "rating": 0,
+        "modified_on": "2016-07-09T20:34:53.481210",
+        "created_on": "2016-05-24T10:37:28.745841",
+        "trust_score": null,
+        "address": {
+          "city": "Atlantic City",
+          "fax": null,
+          "coordinates": "(-74.4352455,39.3783325)",
+          "zip": "NJ 08401",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "New Jersey",
+          "phone": null,
+          "street": "1 Borgata Way",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -4584,19 +5102,31 @@
       "webpage": "https://www.jaresortshotels.com/ja-the-resort"
     },
     "match": {
-      "cluster_id": "0be491f9-09c2-4bc0-8d15-5a4f4b476b26",
-      "name": "The Resort",
-      "address": [
-        "Madh Marve 11",
-        "Mumbai",
-        "Maharashtra",
-        "400095",
-        "India"
-      ],
-      "coordinates": "(72.7971386,19.1730575)",
-      "phone": "+91 22 2844 7777",
-      "webpage": "http://www.theresortmumbai.com/",
-      "deleted_on": null
+       "cluster_id": "41af2a52-407d-4c39-863f-57c6b3791920",
+        "name": "JA Beach Hotel",
+        "description": "Hinweis: Kostenlose Sitzplatzreservierung bei Buchungen mit JT Touristik GmbH Eine kostenlose Sitzplatzreservierung auf der Langstrecke ist bei folgenden Fluggesellschaften möglich: KLM/Air France (AF) - Lufthansa (LH) - Qatar Airways (QR) - Etihad Airways (EY). Bei Emirates Airlines (EK) ist eine kostenlose Sitzplatzreservierung je nach Verfügbarkeit möglich. Wenn Sie eine kostenlose Sitzplatzreservierung in Anspruch nehmen möchten, bitten wir Sie, dies schriftlich nach Ihrer Reisebuchung mit der Angabe Ihrer Buchungsnummer per E-Mail an service@jt-touristik.de bekan...",
+        "score": 87.632680168,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:05:42.949960",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 87.525482151306,
+        "address": {
+          "city": "Dubai",
+          "fax": null,
+          "coordinates": "(55.3,25.25)",
+          "zip": "9255",
+          "district": null,
+          "webpage": null,
+          "country": "United Arab Emirates",
+          "state": "Dubai",
+          "phone": "+971 4 814 5555",
+          "street": "Sheikh Zayed Road",
+          "email": null,
+          "country_code": "AE"
+        },
+        "stars": 4,
+        "relevance": 0.7920967686209114,
+        "deleted_on": null
     }
   },
   {
@@ -4869,19 +5399,31 @@
       "webpage": "https://www.bestwestern.com/en_US/book/hotel-rooms.41106.html"
     },
     "match": {
-      "cluster_id": "896b4126-ead1-4acc-9349-b9579277dcd2",
-      "name": "BEST WESTERN PLUS Oak Mountain Inn",
-      "address": [
-        "100 Bishop Circle",
-        "Pelham",
-        "Alabama",
-        "AL 35124",
-        "United States"
-      ],
-      "coordinates": "(-86.7804312,33.3322606)",
-      "phone": "+1 205-982-1113",
-      "webpage": "http://book.bestwestern.com/bestwestern/productInfo.do?propertyCode=01073&cm_mmc=PTI-_-Pelham-_-AL-_",
-      "deleted_on": null
+      "cluster_id": "2e39c192-d949-4ce5-81e5-44ffb8a4b01a",
+        "name": "Comfort Inn And Suites Greenville",
+        "description": "<p><strong>Location.</strong> <br>This city center hotel is located in <strong>Greenville</strong>, close to <strong>Patewood Memorial Hospital</strong> and <strong>Haywood Mall</strong>. </p><p><strong>Features.</strong><br>Comfort Inn And Suites Greenville has <em>an outdoor pool</em>, <em>a fitness facility</em>, and <em>a seasonal outdoor pool</em>. Business amenities at this 2.0 star property include <em>a business center</em>, <em>high speed Internet access</em>, and <em>meeting rooms for small groups</em>. A <em>continental breakfast</em> is complimentary to guests. Additional amenities include <em>laundry facilities</em>, <em>coffee in the lobby</em>, and <em>self parking</em>. </p><p><strong>Guestrooms.</strong> <br>Comfort Inn And Suites Greenville has 120 guestrooms. Televisions are equipped with <em>cable channels</em> and <em>pay movies</em>. Guestrooms provide <em>complimentary weekday newspapers</em> and <em>phones</em> with complimentary local calls. Guestrooms feature <em>kitchenettes</em> with <em>microwaves</em>, <em>refrigerators</em>, and <em>coffee/tea makers</em>. Bathrooms offer <em>hair dryers</em>. Additional amenities include <em>air conditioning</em>, <em>desks</em>, and <em>irons/ironing boards</em>. In addition, amenities available on request include <em>refrigerators</em>, <em>microwaves</em>, and <em>wake up calls</em>. All guestrooms at Comfort Inn And Suites Greenville are <em>non smoking</em>. </p>",
+        "score": 90.3330626909,
+        "rating": 2,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 90.3742928530835,
+        "address": {
+          "city": "Greenville",
+          "fax": null,
+          "coordinates": "(-82.3167274,34.8401796)",
+          "zip": "SC 29607",
+          "district": null,
+          "webpage": "http://www.comfortinn.com/hotel-greenville-south_carolina-SC261?source=gglocaloz",
+          "country": "United States",
+          "state": "South Carolina",
+          "phone": "+1 864-288-6221",
+          "street": "831 Congaree Road",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.8444465532636726,
+        "deleted_on": null
     }
   },
   {
@@ -5157,19 +5699,31 @@
       "webpage": "http://www.chandlerphoenix.doubletreebyhilton.com/"
     },
     "match": {
-      "cluster_id": "620ef743-5e14-4238-9ee7-785c93fa75e4",
-      "name": "Homewood Suites by Hilton Phoenix/Chandler (AZ)",
-      "address": [
-        "West Detroit Street 7373",
-        "Chandler",
-        "Arizona",
-        "85226",
-        "United States"
-      ],
-      "coordinates": "(-111.969418,33.306483)",
-      "phone": "+1 480-753-6200",
-      "webpage": "http://homewoodsuites3.hilton.com/en/hotels/arizona/homewood-suites-by-hilton-phoenix-chandler-PHXCD",
-      "deleted_on": null
+      "cluster_id": "72880e16-ae02-454a-aa19-003179272e29",
+        "name": "DoubleTree by Hilton Phoenix Chandler",
+        "description": "",
+        "score": 78.8929784791,
+        "rating": 0,
+        "modified_on": "2010-05-06T14:36:53.302719",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 75.1506162824688,
+        "address": {
+          "city": "Chandler",
+          "fax": null,
+          "coordinates": "(-111.8412502,33.3061605)",
+          "zip": "AZ 85226",
+          "district": null,
+          "webpage": "http://www.radisson.com/chandler-hotel-az-85226/azchanrd",
+          "country": "United States",
+          "state": "Arizona",
+          "phone": "+1 480-961-4444",
+          "street": "7475 West Chandler Boulevard ",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -5299,19 +5853,31 @@
       "webpage": "http://www.raffles.com/singapore/"
     },
     "match": {
-      "cluster_id": "f8df6c14-b28a-464e-b978-5111235bb740",
-      "name": "Hotel Singapore",
-      "address": [
-        "Traversa VII Pineta 6",
-        "Cervia",
-        "Emilia-Romagna",
-        "48015",
-        "Italy"
-      ],
-      "coordinates": "(12.347428,44.2843469)",
-      "phone": "+39 0544 994209",
-      "webpage": "http://www.hotelsingapore.it/",
-      "deleted_on": null
+      "cluster_id": "cd110e93-1831-4a09-8bab-142401ae8bfb",
+        "name": "Raffles Singapore",
+        "description": "Hotel Details Raffles Hotel, established in 1887 gained international recognition as a traveller's paradise and is consistently heralded as one of the world's top hotel. Raffle's Hotel unique charm lies in the harmonious blend of timeless elegance, classical architecture and extensive tropical gardens with outstanding contemporary amenities.In 1989, Raffles Hotel closed for two and a half years for complete restoration. The restaured Raffles features 103 suites, each tastefully appointed with period furnishings and modern convenience to cater to every discerning traveller. Local Details Location: in the heart of the historical and financial district of Singapore with easy access to Orchard Rd.",
+        "score": 91.5063566489,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:07:05.582784",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 92.075154409017,
+        "address": {
+          "city": "Singapore",
+          "fax": null,
+          "coordinates": "(103.85443,1.29524)",
+          "zip": "189673",
+          "district": null,
+          "webpage": "http://www.raffles.com/singapore/",
+          "country": "Singapore",
+          "state": null,
+          "phone": "+65 6337 1886",
+          "street": "1 Beach Road",
+          "email": null,
+          "country_code": "SG"
+        },
+        "stars": 5,
+        "relevance": 0.8809091477566943,
+        "deleted_on": null
     }
   },
   {
@@ -5328,20 +5894,32 @@
       "webpage": "https://www.tfehotels.com/en/hotels/adina-apartment-hotels/brisbane/"
     },
     "match": {
-      "cluster_id": "2d7b0c36-3336-4d13-ab43-10a67654ed96",
-      "name": "Adina Apartment Hotel Brisbane Anzac Square",
-      "address": [
-        "255 Ann Street",
-        "Brisbane",
-        "Queensland",
-        "4000",
-        "Australia"
-      ],
-      "coordinates": "(153.025911,-27.46688)",
-      "phone": "+61 7 3001 9888",
-      "webpage": null,
-      "deleted_on": null
-    }
+      "cluster_id": "90afad86-0f62-4318-9635-47070356ba22",
+        "name": "Adina Apartment Hotel Brisbane",
+        "description": null,
+        "score": 93.6149667989,
+        "rating": null,
+        "modified_on": "2019-11-02T18:11:21.688624",
+        "created_on": "2019-10-30T10:57:46.306356",
+        "trust_score": 93.615553548357,
+        "address": {
+          "city": "Brisbane",
+          "fax": null,
+          "coordinates": "(153.0247378,-27.4717214)",
+          "zip": "4000",
+          "district": null,
+          "webpage": null,
+          "country": "Australia",
+          "state": "Queensland",
+          "phone": null,
+          "street": " 171 George Street, Brisbane Central Business District,  ",
+          "email": null,
+          "country_code": "AU"
+        },
+        "stars": 4,
+        "relevance": 0.5742548522568196,
+        "deleted_on": null
+      }
   },
   {
     "id": 190,
@@ -5952,6 +6530,7 @@
     "searched": {
       "name": "Country Inn & Suites by Radisson, Byram/Jackson South, MS",
       "address": [
+        "5760 I-55 South",
         "Northeast Frontage Road",
         "Byram, MS 39272",
         "United States"
@@ -5961,19 +6540,31 @@
       "webpage": "https://countryinnsuites-byram-jacksonsouth.business.site/"
     },
     "match": {
-      "cluster_id": "60271447-b438-4105-9286-1eef3dc943ff",
-      "name": "Country Inn Orange County",
-      "address": [
-        "577 Hirano",
-        "Minamitsuru District",
-        "Yamanashi Prefecture",
-        "401-0502",
-        "Japan"
-      ],
-      "coordinates": "(138.9110751,35.422663)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "39f41541-b0cc-4820-a256-534c357fb110",
+        "name": "Red Lion Inn & Suites Byram Jackson South",
+        "description": "",
+        "score": 81.5845966691,
+        "rating": 5,
+        "modified_on": "2010-05-06T14:36:53.302719",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 82.0074249303146,
+        "address": {
+          "city": "Byram",
+          "fax": null,
+          "coordinates": "(-90.2343991,32.2105492)",
+          "zip": "MS 39272",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "Mississippi",
+          "phone": "+1 601-983-2990",
+          "street": "5760 Interstate 55 Northeast Frontage Road",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 2,
+        "relevance": 0.8453606706206611,
+        "deleted_on": null
     }
   },
   {
@@ -6248,19 +6839,31 @@
       "webpage": "http://www.hotel-campdemar.com/"
     },
     "match": {
-      "cluster_id": "4f157f0d-7f27-4a6f-8895-129efde405de",
-      "name": "Steigenberger Parkhotel",
-      "address": [
-        "Nimes-Str. 2",
-        "Braunschweig",
-        "Lower Saxony",
-        "38100",
-        "Germany"
-      ],
-      "coordinates": "(10.52147,52.25678)",
-      "phone": "+49 531 482220",
-      "webpage": "http://de.steigenberger.com/Braunschweig/Steigenberger-Parkhotel",
-      "deleted_on": null
+      "cluster_id": "6fb8d92c-4a02-41c8-b60e-b88cd0ba9d4b",
+        "name": "The Steigenberger Golf & Spa Resort",
+        "description": null,
+        "score": 88.9730450464,
+        "rating": null,
+        "modified_on": "2016-09-14T08:46:33.329989",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.5053830729662,
+        "address": {
+          "city": "Camp de Mar",
+          "fax": null,
+          "coordinates": "(2.4240311,39.5387586)",
+          "zip": "07160",
+          "district": null,
+          "webpage": null,
+          "country": "Spain",
+          "state": "Balearic Islands",
+          "phone": "+34 971 13 65 65",
+          "street": "Calle Taula 2",
+          "email": null,
+          "country_code": "ES"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -6480,19 +7083,31 @@
       "webpage": "http://www.hotel-negresco-nice.com/"
     },
     "match": {
-      "cluster_id": "c4d4127c-0ff6-4501-8d53-c1378f8f17bb",
-      "name": "Negresco Hotel",
-      "address": [
-        "Cornich Street",
-        "Marsa Matruh",
-        "Marsa Matrouh",
-        "23711",
-        "Egypt"
-      ],
-      "coordinates": "(27.2306013,31.3572599)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
+      "cluster_id": "f016f184-3fa9-447b-abd3-f6b95ff9e44f",
+        "name": "Hotel Negresco",
+        "description": "<b>Location.</b> In Nice, France, the Hotel Negresco is within walking distance of major museums and the shopping district. The Musee Massena is next door to the hotel and shopping in Rue de France is two blocks away. Less than two kilometers from the hotel are the Opera House and Vieux Nice. Nice International Airport is six kilometers away. <br><br> <b>Hotel Features.</b> Built in 1912, the Hotel Negresco features original Salvador Dali paintings and ancient Japanese vases. Amenities include complimentary newspapers and safe deposit boxes in the lobby. <br><br> Le Relais bar is open from late morning and serves beverages only. Rotonde serves breakfasts, afternoon tea and cake and an a la carte menu. The Chantecler restaurant serves a la carte and set menus for lunches and dinners daily. Tasting portions are available. <br><br> The hotel includes a small fitness room. Nine meeting and conference rooms are on site decorated with crystal chandeliers and antique style furniture. Complimentary Internet access is available. <br><br> <b>Guestrooms.</b> The Hotel Negresco's 145 guestrooms are furnished with antique furnishings. Amenities in the rooms include turndown service and minibars. Ensuite bathrooms have heated towel rails and complimentary Roger Gallet perfume. Select bathrooms offer gold tubs and double wash basins. High speed Internet access is available for a fee. <br><br> <b>Expert Tip.</b> Colline du Chateau (Castle Hill), is not a chateau at all, but the site of an ancient fortress. Less than two kilometers from the hotel, a tiny lapidary museum on the grounds features Roman and medieval remains found on the site. Admission is free.",
+        "score": 90.5560645474,
+        "rating": 1,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 91.1210447292323,
+        "address": {
+          "city": "Nice",
+          "fax": null,
+          "coordinates": "(7.258021,43.6942551)",
+          "zip": "06000",
+          "district": null,
+          "webpage": "http://www.hotel-negresco-nice.com",
+          "country": "France",
+          "state": "Provence-Alpes-Côte d'Azur",
+          "phone": "+33 4 93 16 64 00",
+          "street": "37 Promenade des Anglais",
+          "email": null,
+          "country_code": "FR"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -6796,20 +7411,32 @@
       "webpage": "http://www.amresorts.com/"
     },
     "match": {
-      "cluster_id": "3c2331aa-c696-4255-a7fa-a68f4a32270f",
-      "name": "Sunscape Curaçao Resort Spa & Casino",
-      "address": [
-        "Dr. Martin Luther King Blvd. 78",
-        "Willemstad",
-        "Curaçao",
-        null,
-        "Curaçao"
-      ],
-      "coordinates": "(-68.9064524,12.0923389)",
-      "phone": null,
-      "webpage": null,
-      "deleted_on": null
-    }
+      "cluster_id": "9b663aa8-1af6-4bb7-8d59-4bdd78d286bf",
+        "name": "Dreams Curaçao Resort Spa & Casino",
+        "description": "Set on two private beaches on historic Piscadera Bay, the laid back ambiance of the Caribbean meets the casual elegance of a deluxe resort at this Resort.  With wide open spaces, hidden nooks, and tucked away places, this resort offers the ideal setting for vacationers looking to relax and be pampered.  This luxurious resort offers a state of the art fitness center, two tennis courts, a PADI certified five star dive center, a water sports center, and two outdoor pools. The resort offers 196 guestrooms in a five story building. Rooms have balconies furnished with chairs and cocktail tables. Furnishings and decor include warm toned furniture, including a desk/dining table with cushioned rattan chairs and upholstered reading chairs; carpeted floors; pale walls with terra cotta accent walls; and 27 inch televisions. <b>What to expect:</b> Occupying 23 acres of a blunt peninsula, the resort offers panoramic sea views, particularly from the peninsula's broad end, which is swept by sea breezes, graced by cactus gardens and a lighted miniature golf course, and features Sunset Rock, which has concrete bleachers facing west. Families and couples come to the resort for restful holidays with plenty of space, fresh air, and sunshine. <b>Amenity highlights:</b> Each side of the resort's peninsula features a private beach. One slopes 68.6 meters (75 yards) to a 37 meter wide (40 yard wide) section lapped by the sea. Prime snorkeling lies off this beach along coral reef outcroppings. The other lies some 366 meters (400 yards) away and measures 91 meters (100 yards) wide. In the resort's center, a lagoon style pool meanders 76 meter (250 feet), splitting into two infinity edges overlooking the sea. A star shaped 18 by 18 meter (60 by 60 foot) children's pool includes waterspouts. <b>Insider tip:</b> The restored battlements of Fort Piscadera Bay lie within the resort. Nearby is Captain Bligh's Bar, named for a Captain John Bligh who led a 19th century English force that briefly dislodged the Dutch from the fort. Bligh's Beer is brewed and served at the resort. A 464.5 square meter (5,000 square foot) casino offers slot machines, blackjack, Caribbean stud poker, baccarat, and roulette from early morning to late night. Live entertainment is presented nightly in various places around the resort. Wednesday evenings, a folkloric dance show is presented on an open air terrace. Two lobby kiosks provide high speed Internet access (surcharge). <p>A 149 square meter (1,600 square foot) health spa offers massage, body wraps and scrubs, facials, and nail care. An expansive air conditioned fitness center contains spinners, cardio machines, weight machines, and free weights and includes an aerobics/yoga studio.</p>",
+        "score": 81.1194271377,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 80.6914790608415,
+        "address": {
+          "city": "Willemstad",
+          "fax": null,
+          "coordinates": "(-68.93326,12.108262)",
+          "zip": "2133",
+          "district": null,
+          "webpage": "http://www.hiltoncaribbean.com/",
+          "country": "Curaçao",
+          "state": null,
+          "phone": "+599 9 462 5000",
+          "street": "John F Kennedy Boulevard",
+          "email": null,
+          "country_code": "CW"
+        },
+        "stars": 4,
+        "relevance": 0.9295608578186672,
+        "deleted_on": null
+      }
   },
   {
     "id": 242,
@@ -6970,19 +7597,31 @@
       "webpage": "http://hideawaysantabarbara.com/"
     },
     "match": {
-      "cluster_id": "e659e3b1-53e8-4613-b0e8-c096a25d2cfe",
-      "name": "Santa Barbara",
-      "address": [
-        "Via Santa Barbara 6",
-        "Cefalù",
-        "Sicilia",
-        "90015",
-        "Italy"
-      ],
-      "coordinates": "(14.0220595,38.0394687)",
-      "phone": "+39 0921 420194",
-      "webpage": "http://www.cefalu.net/",
-      "deleted_on": null
+      "cluster_id": "cb5d46f1-bdae-4cf8-a5dd-452042376387",
+        "name": "Bed & Breakfast by the Orchid Inn at Santa Barbara",
+        "description": "The Orchid Inn at Santa Barbara has 8 beautiful guest rooms to choose from. All of the rooms are designed with simple elegance and luxurious detail. Your stay with us includes a full breakfast in the morning, and local wine and cheese in the evening.",
+        "score": 87.264561633,
+        "rating": 0,
+        "modified_on": "2014-02-12T16:07:21.508606",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 87.264561633,
+        "address": {
+          "city": "Santa Barbara",
+          "fax": null,
+          "coordinates": "(-119.6981901,34.4208305)",
+          "zip": "93101",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 805-965-2333",
+          "street": "West Montecito Street 420",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": null,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -6999,19 +7638,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/longh-jw-marriott-grosvenor-house-london/"
     },
     "match": {
-      "cluster_id": "8257d1a7-7853-44b0-bd03-ab39d8cff62a",
-      "name": "London Marriott Grosvenor Square",
-      "address": [
-        "Grosvenor Square 10-13",
-        "London",
-        null,
-        "W1K 6JP",
-        "United Kingdom"
-      ],
-      "coordinates": "(-0.1509612,51.5123545)",
-      "phone": "+44 20 7493 1232",
-      "webpage": "http://www.marriott.com/hotels/travel/londt-london-marriott-hotel-grosvenor-square/",
-      "deleted_on": null
+      "cluster_id": "90d59c8f-104a-4852-9aec-9b36b320ab0b",
+        "name": "Grosvenor House, A JW Marriott Hotel",
+        "description": "b>Location. Grosvenor House, A JW Marriott Hotel is located in London, across the road from <strong>Hyde Park</strong>, and one mile from <strong>Trafalgar Square</strong> and the theatres and nightlife of the <strong>West End</strong>. <strong>Bond Street underground station</strong> is 500 metres away.     <br><br><b>Hotel Features.</b>  This central London Victorian mansion has been a hotel since the 1920s, and its Edwin Lutyens designed front gates lead to a forecourt where liveried doormen greet guests. As well as <em>lounges and bars</em>, there is a <em>fitness center</em>, where personal training can be booked. Other features include a <em>florist</em> and <em>daily complimentary newspapers</em>. Onsite <em>valet parking</em> is also available. <em>BORD'EAUX</em> is Grosvenor House's main � la carte restaurant, serving dishes inspired by the Aquitaine cuisine of west coast France. The restaurant also offers  private dining facilities. The <em>Park Room</em> serves traditional afternoon tea and light meals, with an English drawing room atmosphere of armchairs, sofas, and period furniture. <em>Le P'tit Cafe</em> offers cakes, pastries, and speciality teas and coffees, with an eat in or take away service. The contemporary styled <em>Champagne Bar</em>, and the leather sofas of the <em>Red Bar</em>, are open late for drinks each day.  Grosvenor House's Great Room is one of Europe's largest <em>ballrooms</em>. The hotel also has a <em>business center</em>, <em>wireless Internet access (surcharge) </em>, and <em>currency exchange facilities</em>. <br><br><b>Guestrooms.</b>  The hotel's 494 guestrooms feature <em>down mattress toppers</em>, <em>300 thread count cotton sheets</em>, and <em>down pillows</em>. <em>Marble bathrooms</em> offer <em>bathrobes</em>, <em>hair dryers</em>, and <em>complimentary toiletries</em>, and other facilities include <em>high speed Internet connections (surcharge) </em>, <em>turndown service</em>, and <em>satellite television</em>.",
+        "score": 89.0465033826,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:06:09.516304",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.5689121494078,
+        "address": {
+          "city": "London",
+          "fax": null,
+          "coordinates": "(-0.1551043,51.5098822)",
+          "zip": "W1K 7TN",
+          "district": null,
+          "webpage": "http://www.marriott.com/hotels/travel/longh-grosvenor-house-a-jw-marriott-hotel/",
+          "country": "United Kingdom",
+          "state": null,
+          "phone": "+44 20 7499 6363",
+          "street": "86-90 Park Lane",
+          "email": null,
+          "country_code": "GB"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -7173,19 +7824,31 @@
       "webpage": "https://www.jdvhotels.com/hotels/california/oakland/waterfront-hotel"
     },
     "match": {
-      "cluster_id": "03146fb6-da61-4f54-ab76-452bc41c818a",
-      "name": "Waterfront",
-      "address": [
-        "Ady Endre Way",
-        "Szentendre",
-        "Pest County",
-        "2000",
-        "Hungary"
-      ],
-      "coordinates": "(19.1448207,47.7043521)",
-      "phone": "+36 26 500 478",
-      "webpage": "http://www.waterfront.hu/",
-      "deleted_on": null
+      "cluster_id": "46e8f78b-74a1-4776-85e8-b08e172cd288",
+        "name": "Waterfront Hotel",
+        "description": "Stornierungen: Stornierungen, die bis zu einem Tag vor Anreisedatum erfolgen, sind kostenfrei.Stornierungen, die verspätet erfolgen, oder Nichtanreisen werden mit dem Preis  der ersten Übernachtung berechnet.Zustell- und Kinderbetten: Alle Kinder sind willkommen.Bis zu drei   Kinder unter 17 Jahren zahlen keinen Aufpreis in einem der vorhandenen Betten.Ein   Kind unter 2 Jahren zahlt keinen Aufpreis für ein Babybett.Ein   älteres Kind oder Erwachsener zahlt keinen Aufpreis für ein Zustellbett.Alle weiteren  älteren Kinder oder Erwachsene zahlen USD 20,00  pro Übernachtung und Person in einem der vorhandenen Betten.In dem Zimmer ist Platz für ein Zustellbett/Babybett.Anzahlungen: Eine Anzahlung ist nicht erforderlich.Gruppen: Bei Buchungen von mehr als 10 Zimmern können gesonderte Bestimmungen und Zusatzgebühren in Kraft treten.Mehrwertsteuer und Tourismusabgaben: 14 % Steuer ist nicht inbegriffen.Servicegebühren sind inbegriffen.Tourismusabgaben werden nicht erhoben.Internetzugang: WLAN ist im gesamten Hotel nutzbar und ist kostenfrei.Speisen: Frühstück ist nicht inbegriffen. Wir bieten Frühstück zu unterschiedlichen Preisen an.Parken: Private Parkplätze stehen für  USD 20,00 pro Tag    am Hotel  zur Verfügung.Haustiere: Haustiere sind auf Anfrage gestattet. Keine zusätzlichen Gebühren.Das Hotel behält sich das Recht vor, eine Autorisierung der Kreditkarte vor Anreise vorzunehmen.",
+        "score": 81.9977996706,
+        "rating": 0,
+        "modified_on": "2010-08-03T10:09:25.608508",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 82.5516478300202,
+        "address": {
+          "city": "Oakland",
+          "fax": null,
+          "coordinates": "(-122.278267,37.795453)",
+          "zip": "CA 94607",
+          "district": null,
+          "webpage": null,
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 510-836-3800",
+          "street": "10 Washington Street",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -7636,19 +8299,31 @@
       "webpage": "https://www.ihg.com/intercontinental/hotels/us/en/lyon/lysha/hoteldetail"
     },
     "match": {
-      "cluster_id": "387f9555-5424-44fe-be1f-f61a02f1f599",
-      "name": "Citadines Part-Dieu Lyon",
-      "address": [
-        "91-95, rue Moncey",
-        "Lyon",
-        "Rhone-Alpes",
-        "69003",
-        "France"
-      ],
-      "coordinates": "(4.8496477,45.7611702)",
-      "phone": "+33 4 78 14 90 00",
-      "webpage": "http://www.citadines.com/en/france/lyon/part_dieu.html",
-      "deleted_on": null
+      "cluster_id": "e451dc65-8840-4207-bfcd-14d0bba46098",
+        "name": "InterContinental Lyon - Hotel Dieu",
+        "description": null,
+        "score": 86.8456658876,
+        "rating": null,
+        "modified_on": "2019-07-27T18:15:34.350456",
+        "created_on": "2019-07-25T13:06:41.860486",
+        "trust_score": 87.5041298374667,
+        "address": {
+          "city": "Lyon",
+          "fax": null,
+          "coordinates": "(4.8367132,45.7583834)",
+          "zip": "69002",
+          "district": null,
+          "webpage": "https://www.ihg.com/intercontinental/hotels/us/en/lyon/lysha/hoteldetail",
+          "country": "France",
+          "state": "Rhone-Alpes",
+          "phone": "0033-4-26181784 ",
+          "street": "20 Quai Jules Courmont",
+          "email": null,
+          "country_code": "FR"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
     }
   },
   {
@@ -7752,19 +8427,31 @@
       "webpage": "https://www.marriott.com/hotels/travel/tpamc-tampa-marriott-water-street/"
     },
     "match": {
-      "cluster_id": "eba652e6-0f5a-43c2-829b-a60a17d2c5a6",
-      "name": "WATER STREET HOTEL MARINA",
-      "address": [
-        "Water Street 329",
-        "Apalachicola",
-        "Florida",
-        "32320",
-        "United States"
-      ],
-      "coordinates": "(-84.9881297,29.731813)",
-      "phone": "+1 850-653-3700",
-      "webpage": "http://www.waterstreethotel.com/",
-      "deleted_on": null
+      "cluster_id": "40f9cae9-74ee-4ccf-8a6f-64ed9570b353",
+        "name": "Marriott Tampa Waterside Hotel and Marina",
+        "description": null,
+        "score": 90.1525326406,
+        "rating": null,
+        "modified_on": "2016-11-04T13:23:45.697933",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 90.9880199009635,
+        "address": {
+          "city": "Tampa",
+          "fax": null,
+          "coordinates": "(-82.4541491,27.9411624)",
+          "zip": "FL 33602",
+          "district": null,
+          "webpage": "http://www.marriott.com/hotels/travel/tpamc-tampa-marriott-waterside-hotel-and-marina/",
+          "country": "United States",
+          "state": "Florida",
+          "phone": "+1 813-221-4900",
+          "street": "700 South Florida Avenue",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 3,
+        "relevance": 0.8460224667360959,
+        "deleted_on": null
     }
   },
   {
@@ -9293,24 +9980,6 @@
       "webpage": "https://www.caesars.com/harrahs-ac"
     },
     "match": {
-      "cluster_id": "856d8b88-543a-4654-96d6-0030605bd2c0",
-      "name": "Resorts Casino Hotel Atlantic City",
-      "address": [
-        "1133 Boardwalk",
-        "Atlantic City",
-        "New Jersey",
-        "NJ 08401",
-        "United States"
-      ],
-      "coordinates": "(-74.421517,39.3581387)",
-      "phone": "+1 800-334-6378",
-      "webpage": "http://www.resortsac.com/",
-      "deleted_on": null
-    }
-  },
-  {
-    "id": 330,
-    "searched": {
       "cluster_id": "f970fe24-dcbb-4ae5-9896-db1f5493778c",
         "name": "Harrah's Resort Atlantic City",
         "description": "<p><strong>Location</strong><br>Home to The \"Pool\", Red Door and new Waterfront Tower, this resort sits on the water in the heart of Marina District. Free Shuttle service is available to our partner hotels on the Boardwalk.</p><p><strong>Property Amenities</strong><br>Harrah's Resort offers 10 restaurants including McCormick & Schmick's, XX bars and lounges, a 1200 seat showroom, galleria style shopping and 160,000 square foot gaming space. The property has a fitness center overlooking the pool and features Elizabeth Arden's Red Door Salon offering massage, treatment rooms, and beauty services. <br><br></p><p><strong>Guest Rooms</strong><br>Harrah's Resort Atlantic City offers 2590 guestrooms in a 117 story property. Guestrooms feature cable television with pay movies. Business friendly rooms are equipped with high speed Internet access, desks, and direct dial phones. Guestrooms have refrigerators and coffee/tea makers. Bathrooms include shower/tub combinations and hair dryers. Guestrooms provide clock radios. Other amenities include air conditioning and televisions. Services include housekeeping and wake up calls.</p>",
@@ -9338,6 +10007,88 @@
         "deleted_on": null
     }
   },
+  {
+    "id": 330,
+
+    "searched":{
+        "name": "Sheraton Park Hotel, Anaheim, CA, USA",
+        "address": ["Anaheim, CA 92802", "United States"], 
+        "phone": null,
+        "webpage": ""
+    },
+    "match": {
+
+        "cluster_id": "aa12705d-298f-4123-bb14-4b6c02b1861d",
+        "name": "Sheraton Park Hotel at the Anaheim Resort",
+        "description": null,
+        "score": 81.6461698706,
+        "rating": null,
+        "modified_on": "2016-12-13T07:30:21.507317",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 81.8517180534519,
+        "address": {
+          "city": "Anaheim",
+          "fax": null,
+          "coordinates": "(-117.91597,33.801046)",
+          "zip": "CA 92802",
+          "district": null,
+          "webpage": "http://www.sheratonparkanaheim.com",
+          "country": "United States",
+          "state": "California",
+          "phone": "+1 714-750-1811",
+          "street": "1855 South Harbor Boulevard Anaheim",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 4,
+        "relevance": 1,
+        "deleted_on": null
+    }
+  },
+
+{
+  "id":331,
+  "searched":{
+    "name": "The Ritz-Carlton New York, Central Park",
+    "address":[
+      "50 Central Park S", 
+      "New York, NY 10019", 
+      "United States"],
+  
+  "coordinates": "(40.7652719,-73.97599919999999)",
+  "phone": "+1 212-308-9100",
+  "webpage": "http://www.ritzcarlton.com/centralpark"
+  },
+  "match":{
+    "cluster_id": "f73ef3a7-ab5e-4976-85ff-9b7637ec5952",
+        "name": "The Ritz - Carlton New York Central Park",
+        "description": "<b>Location.</b> The Ritz Carlton New York, Central Park is a 1930s European style landmark located in New York City, N.Y. This property occupies a prime location across the street from Central Park and is one block from Fifth Avenue. <br><b>Hotel Features.</b> This Ritz Carlton property exudes a residential feel with French limestone walls, inlaid onyx floors, antique chandeliers and a worthy art collection. The signature BLT Market, which stands for Bistro Laurent Tourondel, integrates French culinary flair with America's hearty staples. The restaurant features monthly menus and weekly blackboard specials. Star Lounge features daily afternoon tea, cocktails and light fare. A business center offers a complete range of business services. Wireless Internet access is available in public areas, for a fee. La Prairie spa features six treatment rooms, one wet room, steam rooms, and relaxation and beauty related treatments from jet lag therapy to energetic body treatments. A 24 hour fitness center is equipped with cardiovascular and weight training machines. Private trainers, yoga instruction and Pilates classes are available, upon request. The hotel welcomes domestic cats and dogs with restrictions and for a fee. <br><br><b>Guestrooms.</b> The Ritz Carlton New York, Central Park was named to Conde Nast Traveler's Gold List 2008. This 33 story property offers 259 contemporary guestrooms. Beds are dressed with 400 thread count linens, down duvets and a pillow menu that includes goose down options. Rooms afford Avenue of the Americas, courtyard or partial Central Park views. Bathrooms feature marble soaking bathtubs, separate showers, magnifying mirrors, bathrobes, slippers and Etro bath products. All accommodations include flat screen televisions with DVD players. Wireless Internet access is available for a fee. In room safes are laptop compatible. Select rooms offer access to the club lounge that features six complimentary food and beverage presentations, daily. <br><br><b>Expert Tip.</b> Art imitates life at this Central Park hotel. The property offers a library of Academy Award winning films that feature Central Park, plus a wide range of children's movies.",
+        "score": 88.5857006849,
+        "rating": 1,
+        "modified_on": "2012-01-01T10:07:24.648193",
+        "created_on": "2012-03-15T10:31:57.514133",
+        "trust_score": 89.8009375718209,
+        "address": {
+          "city": "New York City",
+          "fax": null,
+          "coordinates": "(-73.976169,40.765293)",
+          "zip": "10019",
+          "district": null,
+          "webpage": "http://www.ritzcarlton.com/hotels/new_york_central_park/",
+          "country": "United States",
+          "state": "New York",
+          "phone": "+1 212-308-9100",
+          "street": "50 Central Park South",
+          "email": null,
+          "country_code": "US"
+        },
+        "stars": 5,
+        "relevance": 1,
+        "deleted_on": null
+
+  }
+},
+
   {
     "id": 332,
     "searched": {
