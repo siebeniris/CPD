@@ -8,6 +8,7 @@ import psycopg2
 import json
 import os
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Query reviews using cluster ids.")
     parser.add_argument("--input", type=str, help='input cluster ids')
@@ -19,8 +20,6 @@ args = parse_args()
 with open(args["input"]) as file:
     cluster_ids = json.load(file)
 
-not_matched = [2, 44, 49, 84, 138, 177, 181, 245, 274, 302, 324, 392, 403, 430]
-
 connection = psycopg2.connect(dbname="ty_analytic", user="dev-ro", host="fdb.trustyou.com")
 
 query = """
@@ -29,13 +28,11 @@ query = """
 cur = connection.cursor()
 
 for idx, filename in cluster_ids.items():
-    if int(idx) not in not_matched:
-        print(filename)
-        cur.execute(query, {'str': filename})
-        filepath = os.path.join(args['output'], idx+"#"+filename)
-        with open(filepath, 'w') as file:
-            json.dump(cur.fetchall(), file, default=str)
-
+    print(filename)
+    cur.execute(query, {'str': filename})
+    filepath = os.path.join(args['output'], idx + "#" + filename)
+    with open(filepath, 'w') as file:
+        json.dump(cur.fetchall(), file, default=str)
 
 cur.close()
 connection.close()
