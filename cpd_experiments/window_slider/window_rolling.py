@@ -22,15 +22,16 @@ reno_keywords =['revamp', 'overhaul', 'remodel', 'update', 'redone', 'redo',
 def preprocess_df(inputfile):
 	df = pd.read_csv(inputfile)
 	# change the date only to year-month-day
-	df['date'] = df['date'].astype('datetime64[ns]', errors='ignore').dt.date
+	df['date'] = df['date'].apply(lambda x: pd.to_datetime(x, errors='coerce')).dropna()
+	df['sentiment'] = df['sentiment'].apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna()
 	# given the sentiment to output the polarity
-	df.loc[df['sentiment']>=0.35, 'polarity']=1
-	df.loc[df['sentiment']<= -0.35, 'polarity'] =-1
-	df.loc[(df['sentiment']> -0.35) &(df['sentiment']<0.35), 'polarity'] =0
+	df.loc[df['sentiment']>=0.35, 'polarity'] = 1
+	df.loc[df['sentiment']<= -0.35, 'polarity'] = -1
+	df.loc[(df['sentiment']> -0.35) &(df['sentiment']<0.35), 'polarity'] = 0
 
 	lemmas = Parallel(n_jobs=-1)(delayed(lemmatize_sent)(sent) for sent in df.sentence.to_list())
 	df['lemma'] = lemmas
-	df['renovation'] = df.apply(lambda x :sum([ y in x.lemma for y in reno_keywords])>0, axis=1)
+	df['renovation'] = df.apply(lambda x: sum([y in x.lemma for y in reno_keywords]) > 0, axis=1)
 
 	return df
 		
@@ -115,40 +116,34 @@ if __name__ == "__main__":
 
 	input_dir = os.path.join(data_path, 'sentiment_analysis', 'results')
 
-	timer = Timer()
-
 	for filename in os.listdir(input_dir):
 		filepath = os.path.join(input_dir, filename)
 		if os.path.isfile(filepath):
 			idx = int(filename.split('#')[0])
-			timer.start()
-
-			print('processing ', filename,' ...')
+			# if idx == 0:
 			try:
-			
 				reno_file = os.path.join(reno_dir, filename)
 				if not os.path.exists(reno_file):
 					df = preprocess_df(filepath)
 					df.to_csv(reno_file)
+					print('processed renovation file ', filename)
 				else:
 					df = pd.read_csv(reno_file)
+					print('read renovation file ', filename)
 
-				bkps_filepath = os.path.join(bkps_dir, filename+'.json')
-				try:
-					if os.path.exists(bkps_filepath) and os.path.isfile(bkps_filepath):
-						with open(bkps_filepath) as file:
-							bkps_dict = json.load(file)
-						bkps = bkps_dict['bkps']
-						print(bkps)
-						assert len(bkps)==4
-				except Exception:
+				bkps_filepath = os.path.join(bkps_dir, filename + '.json')
+				if os.path.exists(bkps_filepath) and os.path.isfile(bkps_filepath):
+					print('processing bkps file')
+					with open(bkps_filepath) as file:
+						bkps_dict = json.load(file)
+					bkps = bkps_dict['bkps']
+					assert len(bkps) == 4
+				else:
 					df_cpd = get_cpd_df(df)
-					rolling_window(df_cpd, os.path.join(plts, filename+'.png'), 
-							os.path.join(rpt_dir, filename+'.png'),
-							bkps_filepath)
+					print('processing cpd df')
+					rolling_window(df_cpd, os.path.join(plts, filename + '.png'),
+								os.path.join(rpt_dir, filename + '.png'),
+								bkps_filepath)
+
 			except Exception:
-				print(filename+' problem...')
-			
-			timer.stop()
-
-
+				print(filename + ' problem...')
