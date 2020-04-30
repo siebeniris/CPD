@@ -16,16 +16,17 @@ pip install keras==2.0.9
 
 Compatible with: spaCy v2.0.0+
 """
-
+import os
 import plac
-import random
 import pathlib
 import cytoolz
 import numpy
 from keras.models import Sequential, model_from_json
 from keras.layers import LSTM, Dense, Embedding, Bidirectional
+from keras.callbacks import EarlyStopping
 from keras.layers import TimeDistributed
 from keras.optimizers import Adam
+from matplotlib import pyplot
 import thinc.extra.datasets
 from spacy.compat import pickle
 import spacy
@@ -35,10 +36,14 @@ import pandas as pd
 class SentimentAnalyser(object):
     @classmethod
     def load(cls, path, nlp, max_length=100):
-        with open(path + "config.json") as file_:
+        config_file = os.path.join(path, 'config.json')
+        model_file = os.path.join(path, 'model')
+
+        with open(config_file) as file_:
             model = model_from_json(file_.read())
-        with open(path + "model", 'rb') as file_:
+        with open(model_file, 'rb') as file_:
             lstm_weights = pickle.load(file_)
+
         embeddings = get_embeddings(nlp.vocab)
         model.set_weights([embeddings] + lstm_weights)
         return cls(model, max_length=max_length)
@@ -100,18 +105,17 @@ def get_features(docs, max_length):
 
 
 def train(
-    train_texts,
-    train_labels,
-    dev_texts,
-    dev_labels,
-    lstm_shape,
-    lstm_settings,
-    lstm_optimizer,
-    batch_size=100,
-    nb_epoch=5,
-    by_sentence=True,
+        train_texts,
+        train_labels,
+        dev_texts,
+        dev_labels,
+        lstm_shape,
+        lstm_settings,
+        lstm_optimizer,
+        batch_size=100,
+        nb_epoch=5,
+        by_sentence=True,
 ):
-
     print("Loading spaCy")
     nlp = spacy.load("en_vectors_web_lg")
     nlp.add_pipe(nlp.create_pipe("sentencizer"))
@@ -130,10 +134,12 @@ def train(
     model.fit(
         train_X,
         train_labels,
+        shuffle=True,
         validation_data=(dev_X, dev_labels),
         epochs=nb_epoch,
         batch_size=batch_size,
     )
+
     return model
 
 
@@ -156,6 +162,17 @@ def compile_lstm(embeddings, shape, settings):
                 shape["nr_hidden"],
                 recurrent_dropout=settings["dropout"],
                 dropout=settings["dropout"],
+                return_sequences=True
+            )
+        )
+    )
+    # add another bidirectional lstm layer.
+    model.add(
+        Bidirectional(
+            LSTM(
+                shape["nr_hidden"],
+                recurrent_dropout=settings["dropout"],
+                dropout=settings["dropout"],
             )
         )
     )
@@ -165,6 +182,8 @@ def compile_lstm(embeddings, shape, settings):
         loss="binary_crossentropy",
         metrics=["accuracy"],
     )
+
+    print(model.summary())
     return model
 
 
@@ -180,18 +199,18 @@ def evaluate(model_dir, texts, labels, max_length=128):
     correct = 0
     i = 0
     for doc in nlp.pipe(texts, batch_size=1000):
-        correct += bool(doc.sentiment >= 0.4) == bool(labels[i])
+        correct += bool(doc.sentiment >= 0.35) == bool(labels[i])
         i += 1
     return float(correct) / i
 
 
 def read_data(data_dir, limit=0):
     df = pd.read_csv(data_dir)
-    sentences = df['sentence']
+    sentences = [sent.lower() for sent in df['sentence']]
     labels = df['label']
     examples = list(zip(sentences, labels))
     print('data_path: ', data_dir)
-    print('negative samples:', len([x for x in labels if x==0]))
+    print('negative samples:', len([x for x in labels if x == 0]))
     print('positive samples:', len([x for x in labels if x == 1]))
 
     if limit >= 1:
@@ -210,20 +229,22 @@ def read_data(data_dir, limit=0):
     learn_rate=("Learn rate", "option", "e", float),
     nb_epoch=("Number of training epochs", "option", "i", int),
     batch_size=("Size of minibatches for training LSTM", "option", "b", int),
-    nr_examples=("Limit to N examples", "option", "n", int),
+    train_samples=("Limit to N examples", "option", "nt", int),
+    dev_samples=("Limit to N examples", "option", "nd", int)
 )
 def main(
-    model_dir='lstm_model/',
-    train_dir='DATASET/train.csv',
-    dev_dir='DATASET/dev.csv',
-    is_runtime=False,
-    nr_hidden=64,
-    max_length=128,  # Shape
-    dropout=0.2,
-    learn_rate=0.001,  # General NN config
-    nb_epoch=35,
-    batch_size=256,
-    nr_examples=5000,
+        model_dir='2lstm_model/',
+        train_dir='DATASET/train.csv',
+        dev_dir='DATASET/dev.csv',
+        is_runtime=False,
+        nr_hidden=64,
+        max_length=128,  # Shape
+        dropout=0.2,
+        learn_rate=0.001,  # General NN config
+        nb_epoch=30,
+        batch_size=1024,
+        train_samples=5000,
+        dev_samples=5000,
 ):  # Training params
     if model_dir is not None:
         model_dir = pathlib.Path(model_dir)
@@ -241,14 +262,15 @@ def main(
             train_texts, train_labels = zip(*imdb_data[0])
         else:
             print("Read data")
-            train_texts, train_labels = read_data(train_dir, limit=50000)
+            train_texts, train_labels = read_data(train_dir, limit=100000)
         if dev_dir is None:
             dev_texts, dev_labels = zip(*imdb_data[1])
         else:
-            dev_texts, dev_labels = read_data(dev_dir, limit=nr_examples)
+            dev_texts, dev_labels = read_data(dev_dir, limit=5000)
         train_labels = numpy.asarray(train_labels, dtype="int32")
         dev_labels = numpy.asarray(dev_labels, dtype="int32")
-        lstm = train(
+
+        model = train(
             train_texts,
             train_labels,
             dev_texts,
@@ -259,34 +281,18 @@ def main(
             nb_epoch=nb_epoch,
             batch_size=batch_size,
         )
-        weights = lstm.get_weights()
+
+        # save weights.
+        weights = model.get_weights()
         if model_dir is not None:
-            with (model_dir / "model").open("wb") as file_:
+            model_path = os.path.join(model_dir, 'model')
+            config_path = os.path.join(model_dir, 'config.json')
+
+            with open(model_path, "wb") as file_:
                 pickle.dump(weights[1:], file_)
-            with (model_dir / "config.json").open("w") as file_:
-                file_.write(lstm.to_json())
-
-
+            with open(config_path, 'w') as file_:
+                file_.write(model.to_json())
 
 
 if __name__ == "__main__":
-    # plac.call(main)
-    test_texts, test_labels = read_data('DATASET/test.csv', limit=5000 )
-    accuracy = evaluate('lstm_model/', test_texts, test_labels )
-    print('test accuracy:', accuracy)
-    # nlp = spacy.load("en_vectors_web_lg")
-    # nlp.add_pipe(nlp.create_pipe("sentencizer"))
-    # import json
-    # #### Loading Model and Config.json
-    # with open('lstm_model/model_30', 'rb') as f:
-    #     model = pickle.load(f)
-    # # with open('lstm_model/config.json', 'r') as f:
-    # #     config = json.load(f)
-    # ##### Applying Sentiment Analyser
-    # nlp.add_pipe(SentimentAnalyser.load('lstm_model/', nlp, max_length=128))
-    # ##### Getting the Polarity Score
-    # # "docs" is a list which contains sentences we want to classify
-    # docs = ['a lot of complaints about the room', 'disgusting bedroom', 'beautiful view from the room ',
-    #         "the room is ok"]
-    # for doc in nlp.pipe(docs):
-    #     print(doc.sentiment)
+    plac.call(main)
