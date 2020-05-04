@@ -1,10 +1,4 @@
-import string
 import time
-
-import spacy
-from spacy.lang.en.stop_words import STOP_WORDS
-
-nlp = spacy.load("en_core_web_sm")
 
 
 class TimerError(Exception):
@@ -29,17 +23,3 @@ class Timer:
         elapsed_time = time.perf_counter() - self._start_time
         self._start_time = None
         print(f"Elapsed time: {elapsed_time:0.4f} seconds")
-
-
-def lemmatize_sent(sent):
-    relate = []
-    doc = nlp(sent)
-
-    # get only lemmas and non entities.
-    for token in doc:
-        if token.text not in STOP_WORDS:
-            if token.pos_ in ['PROPN', 'NOUN', 'VERB', 'ADJ'] and not token.is_punct:
-                t = token.lemma_.translate(str.maketrans('', '', string.punctuation)).strip()
-                if len(t) > 1:
-                    relate.append(t)
-    return relate
