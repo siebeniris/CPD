@@ -23,10 +23,8 @@ import cytoolz
 import numpy
 from keras.models import Sequential, model_from_json
 from keras.layers import LSTM, Dense, Embedding, Bidirectional
-from keras.callbacks import EarlyStopping
 from keras.layers import TimeDistributed
 from keras.optimizers import Adam
-from matplotlib import pyplot
 import thinc.extra.datasets
 from spacy.compat import pickle
 import spacy
@@ -199,7 +197,11 @@ def evaluate(model_dir, texts, labels, max_length=128):
     correct = 0
     i = 0
     for doc in nlp.pipe(texts, batch_size=1000):
-        correct += bool(doc.sentiment >= 0.35) == bool(labels[i])
+        if doc.sentiment < 0.4 and labels[i] == 0:
+            correct += 1
+        if doc.sentiment >= 0.4 and labels[i] == 1:
+            correct += 1
+        # correct += bool(doc.sentiment >= 0.35) == bool(labels[i])
         i += 1
     return float(correct) / i
 
@@ -212,6 +214,8 @@ def read_data(data_dir, limit=0):
     print('data_path: ', data_dir)
     print('negative samples:', len([x for x in labels if x == 0]))
     print('positive samples:', len([x for x in labels if x == 1]))
+
+    print(examples[:10])
 
     if limit >= 1:
         examples = examples[:limit]
@@ -294,5 +298,19 @@ def main(
                 file_.write(model.to_json())
 
 
+@plac.annotations(
+    model_dir=("Location of output model directory",),
+    test_dir=("test directory")
+)
+def test(
+    model_dir='2lstm_model/',
+    test_dir='DATASET/test.csv'
+):
+    test_texts, test_labels = read_data(test_dir, limit=5000)
+    acc = evaluate(model_dir, test_texts, test_labels, max_length=128)
+    print(acc*100)
+
+
 if __name__ == "__main__":
-    plac.call(main)
+    # plac.call(main)
+    plac.call(test)

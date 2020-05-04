@@ -77,15 +77,16 @@ def expand_contractions(text, contractions_dict):
     return expanded_text
 
 
-def process_one_review(nlp, reviews):
+def process_one_review(nlp, id, reviews):
     """
     Process one review, expand contractions, split into sentences. Then remove repeated characters,
      remove stop words, extract lemmas, remove punctuations.
     :param review:
     :return:
     """
-    processed_sentences = []
-    lemmas = []
+    processed_reviews={}
+    reviews_processed =[]
+    reviews_lemmas = []
     for review in reviews:
         try:
             review = expand_contractions(review, contractions_dict)
@@ -93,6 +94,8 @@ def process_one_review(nlp, reviews):
             review = review
         doc = nlp(review)
 
+        processed_sentences = []
+        lemmas = []
         for sent in doc.sents:
             processed_sentence = []
             lemma = []
@@ -113,8 +116,11 @@ def process_one_review(nlp, reviews):
 
             processed_sentences.append(processed_sentence)
             lemmas.append(lemma)
+        reviews_processed.append(processed_sentences)
+        reviews_lemmas.append(lemmas)
 
-    return list(zip(processed_sentences, lemmas))
+    processed_reviews[id] = list(zip(reviews_processed, reviews_lemmas))
+    return processed_reviews
 
 
 def get_data_list(filepath):
@@ -158,8 +164,17 @@ def get_data_list(filepath):
 
     executor = Parallel(n_jobs=-1, backend='multiprocessing', prefer='processes')
     do = delayed(partial(process_one_review, nlp))
-    tasks = (do(batch) for batch in partitions)
+    tasks = (do(id, batch) for id, batch in enumerate(partitions))
     processed = executor(tasks)
+
+    texts = []
+    lemmas = []
+    for id_review in processed:
+        for item, value in id_review.items():
+            for review in value:
+                text, lemma = review
+                texts.append(text)
+                lemmas.append(lemma)
 
     date = en_df['date'].to_list()
     score = en_df['score'].to_list()
@@ -167,7 +182,8 @@ def get_data_list(filepath):
 
     timer.stop()
 
-    return processed, date, score, uid
+    assert len(texts) == len(lemmas) == len(date) ==len(score) == len(uid)
+    return texts, lemmas, date, score, uid
 
 
 def get_data(filepath):
@@ -178,25 +194,16 @@ def get_data(filepath):
     :return:
     """
 
-    processed, date, score, uid = get_data_list(filepath)
-    lemmas, texts = [], []
-    for comb in processed:
-        if comb:
-            text, lemma = zip(*comb)
-            lemmas.append(lemma)
-            texts.append(text)
-        else:
-            lemmas.append([])
-            texts.append([])
+    text, lemma, date, score, uid = get_data_list(filepath)
 
-    lemma_sents = [[' '.join(tokens) for tokens in sublist] for sublist in lemmas]
-    sents = [[' '.join(tokens) for tokens in sublist] for sublist in texts]
-
-    # flatten the lists
+    lemma_sents = [[' '.join(tokens) for tokens in sublist] for sublist in lemma]
+    sents = [[' '.join(tokens) for tokens in sublist] for sublist in text]
+    # flatten the lists according to sents.
     dates = [[date[i] for _ in range(len(lemma_sents[i]))] for i in range(len(lemma_sents))]
     scores = [[score[i] for _ in range(len(lemma_sents[i]))] for i in range(len(lemma_sents))]
     uids = [[uid[i] for _ in range(len(lemma_sents[i]))] for i in range(len(lemma_sents))]
 
+    # flatten the list of lists.
     lemma_sentss = [sent for sublist in lemma_sents for sent in sublist]
     sentss = [sent for sublist in sents for sent in sublist]
     datess = [sent for sublist in dates for sent in sublist]
@@ -215,7 +222,9 @@ if __name__ == '__main__':
     fullpath = os.path.join(rootdir, filepath)
     timer = Timer()
     timer.start()
+    # get_data_list(fullpath)
     uids, lemmas, sents, dates, scores = get_data(fullpath)
+    print(len(list(set(dates))))
     print(uids[:10])
     print(lemmas[:10])
     print(sents[:10])
