@@ -13,41 +13,41 @@ from rpy2.robjects.packages import importr
 from topics import topics as topic_dict
 
 wbs = importr("wbs")
+grdevices = importr("grDevices")
+rplot = ro.r('plot')
 
-
-def get_cpd_df(file, aspects):
+def get_cpd_df(file, aspect):
+    """
+    Get the dataframe for change point detection algorithm.
+    :param file: file from "cpd_aspects"
+    :param aspect: aspect from topics.
+    :return: dataframe.
+    """
     df = pd.read_csv(file)
-    # df['date'] = df['date'].astype('datetime64')
-    # df['sentiment'] = df['sentiment'].swifter.apply(lambda x: pd.to_numeric(x, errors='coerce')).dropna()
-    # df['lemma'] = [json.loads(x) for x in df['lemma']]
-    # df['LEN'] = [len(x) for x in df['lemma']]
-    # df = df[df['LEN'] >= 3]
-    # for keyword, values in topic_dict.items():
-    #     df[keyword] = df.swifter.apply(lambda x: sum([y in x.lemma.lower().split() for y in values]) > 0,
-    #                                    axis=1)
     df.drop_duplicates(['sentence'], keep='first', inplace=True)  # drop duplicates based on sentence
     df = df.sort_values('date')
 
-    assert aspects == ['room', 'restaurant', 'facility', 'pool', 'family', 'price', 'atmosphere', 'fitness',
-                       'transport', 'beach', 'entertainment', 'venue', 'parking', 'reception', 'renovation']
-
-
-    conditional = (df['room']==True) | (df['restaurant']==True) | (df['facility']==True) | (df['pool']==True) \
-                  | (df['family']==True) | (df['price']==True) | (df['atmosphere']==True) | (df['fitness']==True)\
-                  | (df['transport']==True) | (df['beach']==True) | (df['entertainment']==True)\
-                  | (df['venue']==True) | (df['parking']==True) | (df['reception']==True) | (df['renovation']==True)
-    df_new = df[conditional]
+    df_new = df[df[aspect] == True]
+    # df_new = df_new[df_new["renovation"] == True]
 
     print('length of df :', len(df))
     print('length of df_new', len(df_new))
     cpd_df = df_new.groupby(['date', 'uid'])['sentiment'].mean().reset_index()
     cpd_df = cpd_df.groupby('date')['sentiment'].mean().reset_index()
 
+    print(cpd_df.head(3))
+
     # print("lenght of cpd_df:", len(cpd_df))
-    return cpd_df, df
+    return cpd_df, df_new
 
 
 def emas(cpd_df, emas_png):
+    """
+    Get exponentially moving average photo from the dataframe.
+    :param cpd_df:
+    :param emas_png:
+    :return: None
+    """
     # to validate the trend shown in wbs output
     # ema
     plt.rcParams.update({'figure.max_open_warning': 0})
@@ -59,7 +59,7 @@ def emas(cpd_df, emas_png):
     plt.grid(True)
     plt.plot(cpd_df['sentiment'], label='score')
     plt.plot(cpd_df['EMA_10'], label='EMA-10')
-    plt.plot(cpd_df['EMA_50'], label='EMA-20')
+    plt.plot(cpd_df['EMA_50'], label='EMA-50')
     plt.plot(cpd_df['EMA_100'], label='EMA-100')
     plt.legend(loc=2)
     plt.savefig(emas_png)
@@ -67,20 +67,23 @@ def emas(cpd_df, emas_png):
     plt.close()
 
 
-def wild_binary_segmentation(cpd_df):
+def wild_binary_segmentation(cpd_df, png_filepath):
     """
     Applying wild binary segmentation change-point-detection on sentiment scores.
-    :param cpd_df:
-    :return:
+    :param cpd_df: dataframe for change point detection algorithm
+    :return: rupture change points.
     """
     try:
+        print("preview:", cpd_df.head(2))
         sentiments = cpd_df.sentiment.to_list()
         sentiments_r = ro.FloatVector(sentiments)
         w = wbs.wbs(sentiments_r)
         w_cpt = wbs.changepoints(w)
         cpt = w_cpt.rx2("cpt.ic").rx2("ssic.penalty")
-
         cpt = list(cpt)
+        grdevices.png(file=png_filepath)
+        rplot(w, width=480, height=300)
+        grdevices.dev_off()
         return cpt
     except Exception as mg:
         print(mg)
@@ -127,23 +130,27 @@ def select_reviews(cpt, cpd_df, df):
             df_1 = df_1[df_1['sentiment'] > sent1]
             if len(df_1) > 10:
                 df_1 = df_1.sample(10)
-            sentences[0] = get_info_list(df_1)
+            if len(df_1) > 3:
+                sentences[0] = get_info_list(df_1)
 
             df_2 = df_2[df_2['sentiment'] < sent2]
             if len(df_2) > 10:
                 df_2 = df_2.sample(10)
-            sentences[1] = get_info_list(df_2)
+            if len(df_2) > 3:
+                sentences[1] = get_info_list(df_2)
 
         if trend == 1:
             df_1 = df_1[df_1['sentiment'] < sent1]
             if len(df_1) > 10:
                 df_1 = df_1.sample(10)
-            sentences[0] = get_info_list(df_1)
+            if len(df_1) > 3:
+                sentences[0] = get_info_list(df_1)
 
             df_2 = df_2[df_2['sentiment'] > sent2]
             if len(df_2) > 10:
                 df_2 = df_2.sample(10)
-            sentences[1] = get_info_list(df_2)
+            if len(df_2) > 3:
+                sentences[1] = get_info_list(df_2)
 
     if len(cpt_periods) >= 3:
         # between 1,...,n-1
@@ -162,13 +169,15 @@ def select_reviews(cpt, cpd_df, df):
             df_first = df_first[df_first['sentiment'] > sent_first]
             if len(df_first) > 10:
                 df_first = df_first.sample(10)
-            sentences[0] = get_info_list(df_first)
+            if len(df_first) > 3:
+                sentences[0] = get_info_list(df_first)
 
         if first_trend == 1:
             df_first = df_first[df_first['sentiment'] < sent_first]
             if len(df_first) > 10:
                 df_first = df_first.sample(10)
-            sentences[0] = get_info_list(df_first)
+            if len(df_first) > 3:
+                sentences[0] = get_info_list(df_first)
 
         for idx, sentiment_mean in enumerate(sentiment_mean_periods):
             min_, max_ = min(sentiment_mean), max(sentiment_mean)
@@ -178,7 +187,8 @@ def select_reviews(cpt, cpd_df, df):
 
             if len(df_) > 10:
                 df_ = df_.sample(10)
-            sentences[idx + 1] = get_info_list(df_)
+            if len(df_) > 3:
+                sentences[idx + 1] = get_info_list(df_)
 
         # the last element.
         last = len(cpt_periods) - 1
@@ -186,21 +196,28 @@ def select_reviews(cpt, cpd_df, df):
             df_last = df_last[df_last['sentiment'] > sent_last]
             if len(df_last) > 10:
                 df_last = df_last.sample(10)
-            sentences[last] = get_info_list(df_last)
+            if len(df_last) > 3:
+                sentences[last] = get_info_list(df_last)
 
         if last_trend == 1:
             df_last = df_last[df_last['sentiment'] < sent_last]
             if len(df_last) > 10:
                 df_last = df_last.sample(10)
-            sentences[last] = get_info_list(df_last)
+            if len(df_last) > 3:
+                sentences[last] = get_info_list(df_last)
 
-    return sentences
+    return sentences, cpt, dates_periods
 
 
-def write_out_to_json(sentences, outputfile):
+def write_out_to_json(sentences, cpt, dates_periods, outputfile):
     print('save to ', outputfile)
+    data ={
+        "sentences": sentences,
+        "cpt":cpt,
+        "dates_periods": dates_periods
+    }
     with open(outputfile, 'w') as file:
-        json.dump(sentences, file)
+        json.dump(data, file)
 
 
 def write_out_to_csv(sentences, outputfile):
@@ -219,57 +236,71 @@ if __name__ == '__main__':
     root_dir = rootpath.detect()
     cpd_aspects = os.path.join(root_dir, 'data', 'cpd_aspects')
 
-    output_dir = os.path.join(root_dir, "data", "select_reviews_0606")
+    output_dir = os.path.join(root_dir, "data", "select_reviews_06122020")
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+    # select_reviews_dir = os.path.join(root_dir, "data", "select_reviews")
 
     aspects = list(topic_dict.keys())
+    for aspect in aspects:
+        if aspect != "transport" and aspect != "renovation":
+            for filename in os.listdir(cpd_aspects):
+                filepath = os.path.join(cpd_aspects, filename)
+                if os.path.isfile(filepath) and os.path.exists(filepath):
+                    # filename = file.split("_")[1].replace(".json", "")
 
-    for filename in os.listdir(cpd_aspects):
-        filepath = os.path.join(cpd_aspects, filename)
-        if os.path.isfile(filepath):
-            print('load file ', filepath)
+                    print('load file ', filepath)
 
-            # for aspect in aspects:
-            # get all the aspects for a hotel.
-            aspect_dir = os.path.join(output_dir, "general")
+                    # for filename in os.listdir(cpd_aspects):
+                    #     filepath = os.path.join(cpd_aspects, filename)
+                    #     if os.path.isfile(filepath):
 
-            if not os.path.exists(aspect_dir): os.mkdir(aspect_dir)
+                    # for aspect in aspects:
+                    # get all the aspects for a hotel.
+                    aspect_dir = os.path.join(output_dir, aspect)
 
-            reviews_dir = os.path.join(aspect_dir, "reviews")
+                    if not os.path.exists(aspect_dir): os.mkdir(aspect_dir)
 
-            json_dir = os.path.join(reviews_dir, "json_file")
-            csv_dir = os.path.join(reviews_dir, "csv_dir")
-            emas_dir = os.path.join(aspect_dir, "emas")
+                    reviews_dir = os.path.join(aspect_dir, "reviews")
 
-            if not os.path.exists(reviews_dir): os.mkdir(reviews_dir)
-            if not os.path.exists(json_dir): os.mkdir(json_dir)
-            if not os.path.exists(csv_dir): os.mkdir(csv_dir)
-            if not os.path.exists(emas_dir): os.mkdir(emas_dir)
-            jsonfile = os.path.join(json_dir, filename + '.json')
-            csvfile = os.path.join(csv_dir, filename + '.csv')
-            exceptionfile = os.path.join(reviews_dir, filename)
-            if not os.path.exists(exceptionfile):
-                if not os.path.exists(jsonfile) or not os.path.exists(csvfile):
-                    cpd_df, df = get_cpd_df(filepath, aspects)
-                    # emas plot.
-                    ems_file = os.path.join(emas_dir, filename + '.png')
-                    if not os.path.exists(ems_file):
-                        emas(cpd_df, os.path.join(emas_dir, filename + '.png'))
+                    json_dir = os.path.join(reviews_dir, "json_file")
+                    csv_dir = os.path.join(reviews_dir, "csv_dir")
+                    emas_dir = os.path.join(aspect_dir, "emas")
+                    wbs_dir = os.path.join(aspect_dir, "wbs")
 
-                    LEN_REVIEWS= len(cpd_df)
-                    cpt = wild_binary_segmentation(cpd_df)
-                    try:
-                        print("change points detected :", cpt)
-                        sentences = select_reviews(cpt, cpd_df, df)
-                        if any(sentences.values()):
-                            write_out_to_json(sentences, jsonfile)
-                            if all(sentences.values()):
-                                write_out_to_csv(sentences, csvfile)
-                        else:
-                            with open(exceptionfile, 'a+') as file:
-                                file.write("general" + "=> empty sentences")
-                    except Exception as msg:
-                        print("write to ", exceptionfile)
-                        with open(exceptionfile, 'a+') as file:
-                            file.write("general" + "=> " + str(msg))
-            else:
-                print(exceptionfile, "  exits")
+                    if not os.path.exists(reviews_dir): os.mkdir(reviews_dir)
+                    if not os.path.exists(json_dir): os.mkdir(json_dir)
+                    if not os.path.exists(csv_dir): os.mkdir(csv_dir)
+                    if not os.path.exists(emas_dir): os.mkdir(emas_dir)
+                    if not os.path.exists(wbs_dir): os.mkdir(wbs_dir)
+                    jsonfile = os.path.join(json_dir, filename + '.json')
+                    csvfile = os.path.join(csv_dir, filename + '.csv')
+                    wbs_png = os.path.join(wbs_dir, filename+'.png')
+
+                    exceptionfile = os.path.join(reviews_dir, filename)
+                    if not os.path.exists(exceptionfile):
+                        if not os.path.exists(jsonfile) or not os.path.exists(csvfile):
+                            cpd_df, df = get_cpd_df(filepath, aspect)
+                            # emas plot.
+                            ems_file = os.path.join(emas_dir, filename + '.png')
+                            if not os.path.exists(ems_file):
+                                emas(cpd_df, os.path.join(emas_dir, filename + '.png'))
+                            cpt = wild_binary_segmentation(cpd_df, wbs_png)
+                            try:
+                                print("change points detected :", cpt)
+                                # TODO: record cpt. and save wbs png.
+                                sentences, cpt, dates_periods = select_reviews(cpt, cpd_df, df)
+                                if any(sentences.values()):
+                                    print("len sentences: ", len(sentences))
+                                    write_out_to_json(sentences, cpt, dates_periods, jsonfile)
+                                    if all(sentences.values()):
+                                        write_out_to_csv(sentences, csvfile)
+                                else:
+                                    with open(exceptionfile, 'a+') as file:
+                                        file.write("general" + "=> empty sentences")
+                            except Exception as msg:
+                                print("write to ", exceptionfile)
+                                with open(exceptionfile, 'a+') as file:
+                                    file.write(aspect + "=> " + str(msg))
+                    else:
+                        print(exceptionfile, "  exits")

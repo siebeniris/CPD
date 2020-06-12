@@ -251,6 +251,7 @@ topics = {
     "swimmer",
     "swimming",
     "swimmingpool",
+    "tub",
     "wade"
   ],
   "family": [
