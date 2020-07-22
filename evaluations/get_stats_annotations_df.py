@@ -36,7 +36,7 @@ def get_annotations_dict(annotations):
         for a in al:
             username = a['username']
             adict[username].append(a)
-
+        # for fleiss kappa calcuation of cpt
         for username, a in adict.items():
             if len(a) > 1:
                 sorted_a = sorted(a, key=lambda i: i['date'])
@@ -63,15 +63,17 @@ def df_dict(annotations_dict):
         for a in alist:
             annotation = a['annotation']
             username = a['username']
-            if a['cptAnswer']:
-                cpts = a['cptAnswer']
+            # for fleiss kappa caculation
+            if username!='yiyi':
+                if a['cptAnswer']:
+                    cpts = a['cptAnswer']
 
-                for nr, cpt in cpts.items():
-                    id_nr = str(idx) + '_' + nr
+                    for nr, cpt in cpts.items():
+                        id_nr = str(idx) + '_' + nr
 
-                    if id_nr not in cpts_dict:
-                        cpts_dict[id_nr] = defaultdict(int)
-                    cpts_dict[id_nr][cpt] += 1
+                        if id_nr not in cpts_dict:
+                            cpts_dict[id_nr] = defaultdict(int)
+                        cpts_dict[id_nr][cpt] += 1
             else:
                 no_cpts += 1
             if username != 'yiyi':
@@ -177,13 +179,13 @@ if __name__ == '__main__':
     sentences_dict, cpts_dict = df_dict(annotations_dict)
 
     cpts_df = get_df_from_dict(cpts_dict)
-    cpts_df.to_csv('annotated_cpts_df.csv')
-    sentences_df = get_df_from_dict(sentences_dict)
-    sentences_df.to_csv('annotated_sentences_df_recat.csv')
-
-
-    unfinish_sent_df, _ = get_unfinished_df(sentences_df)
-    unfinish_cpt_df, _ = get_unfinished_df(cpts_df, cpt=True)
+    cpts_df.to_csv('preprocessed_data/annotated_cpts_df_fleiss.csv')
+    # sentences_df = get_df_from_dict(sentences_dict)
+    # sentences_df.to_csv('annotated_sentences_df_recat.csv')
+    #
+    #
+    # unfinish_sent_df, _ = get_unfinished_df(sentences_df)
+    # unfinish_cpt_df, _ = get_unfinished_df(cpts_df, cpt=True)
 
     # unfinish_cpt_df.to_csv('unfinished_cpt_df.csv')
     # unfinish_sent_df.to_csv('unfinished_sentence_df.csv')

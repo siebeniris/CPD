@@ -24,7 +24,7 @@ def load_annotations(file):
     """
     with open(file) as reader:
         data = json.load(reader)
-    return data['annotations']
+    return data
 
 
 def get_stats_annotations(annotations, cpt_dict):
@@ -101,7 +101,6 @@ def get_stats_reviews(reviews):
     print("In total there are {} sentences".format(sent_sum))
 
     print("====change points ====")
-    print(cpt_stats_dict)
     cpts_sum = sum([k * v for k, v in cpt_stats_dict.items()])
     print("In total there are {} change points".format(cpts_sum))
     print("categories:", categories_dict)
@@ -109,11 +108,11 @@ def get_stats_reviews(reviews):
     # file_sent_id, sent_id, file_id, cpt
     df = pd.DataFrame.from_dict(sent_df_dict, orient="index")
     df = df.sort_values(by=['file_id', 'sent_id'])
-    df.to_csv("stats_reviews.csv")
+    df.to_csv("preprocessed_data/stats_reviews.csv")
 
     cpt_df = pd.DataFrame.from_dict(cpt_df_dict, orient="index")
     cpt_df = cpt_df.sort_values(by=['file_id', 'cpt'])
-    cpt_df.to_csv("stats_cpts.csv")
+    cpt_df.to_csv("preprocessed_data/stats_cpts.csv")
     return df, cpt_dict
 
 
@@ -123,9 +122,12 @@ if __name__ == '__main__':
     reviews = load_reviews(db_path)
     df, cpt_dict = get_stats_reviews(reviews)
 
-    # annotations = load_annotations(db_path)
-    # get_stats_annotations(annotations, cpt_dict)
+    annotations = load_annotations('data_processed/annotations.json')
+    get_stats_annotations(annotations, cpt_dict)
 
-    # {1: 252, 5: 3, 3: 36, 2: 90, 0: 32, 4: 6, 6: 1}
-    # {'facility': 69, 'pool': 66, 'renovation_room': 62, 'restaurant': 72,
-    # 'room': 86, 'reception': 65}
+   # 585 cpc, 9396 sentences
+   #{'facility': 69, 'pool': 66  ,
+    #   'renovation_room': 62, 'restaurant': 72, 'room': 86, 'reception': 65})
+   #  415
+   #  4
+   #  3

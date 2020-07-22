@@ -185,10 +185,10 @@ def get_unfinished_df(sorted_df, cpt=False):
 
 
 if __name__ == '__main__':
-    stats_sentence_df = pd.read_csv('stats_reviews.csv', index_col=0)
+    stats_sentence_df = pd.read_csv('preprocessed_data/stats_reviews.csv', index_col=0)
     stats_sentence_dict =  stats_sentence_df.to_dict('index')
 
-    stats_cpts_df = pd.read_csv('stats_cpts.csv', index_col=0)
+    stats_cpts_df = pd.read_csv('preprocessed_data/stats_cpts.csv', index_col=0)
     stats_cpts_dict = stats_cpts_df.to_dict('index')
 
     annotations = load_annotations()
@@ -201,11 +201,11 @@ if __name__ == '__main__':
 
     cpts_df = get_df_from_dict(new_cpts_dict, type='cpt')
     cpts_df= cpts_df[['a','b','c','Total', 'category', 'hotel_id', 'fileId', 'iId']]
-    cpts_df.to_csv('annotated_cpts_df.csv')
+    cpts_df.to_csv('preprocessed_data/annotated_cpts_df.csv')
 
 
     sentences_df = get_df_from_dict(new_sentences_dict, type='sentence')
-    sentences_df.to_csv('annotated_sentences_df.csv')
+    sentences_df.to_csv('preprocessed_data/annotated_sentences_df.csv')
 
 
 
