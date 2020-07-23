@@ -1,6 +1,5 @@
 import rootpath
 import pandas as pd
-from joblib import Parallel, delayed
 from tqdm import tqdm
 import numpy as np
 import os
@@ -11,6 +10,7 @@ from spellchecker import SpellChecker
 
 from utils.timer import Timer
 
+# use the distance 1 -> fast.
 spell_checker = SpellChecker(distance=1, language='en')
 
 
@@ -59,7 +59,12 @@ def init_model():
 
 
 def train_model(input_dir, output_dir):
-    spell = SpellChecker()
+    """
+
+    :param input_dir:
+    :param output_dir:
+    :return:
+    """
     count = 0
     for filename in os.listdir(input_dir):
         output_path = os.path.join(output_dir, filename)

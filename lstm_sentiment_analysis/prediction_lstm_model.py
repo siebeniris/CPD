@@ -39,6 +39,7 @@ if __name__ == '__main__':
     root_dir = '/home/yiyi/Documents/masterthesis/CPD'
     input_dir = os.path.join(root_dir, 'data/cleand_query_output_csv')
     output_dir = os.path.join(root_dir, 'data/sentiment_analysis/results')
+    # 466 lacky
 
     timer = Timer()
 
