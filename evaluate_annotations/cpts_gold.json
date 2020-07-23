@@ -1,0 +1,6259 @@
+{
+  "0": {
+    "cpts": "[0, 485, 912]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 260,
+    "valid_cpts": [
+      0,
+      485,
+      912
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "2": {
+    "cpts": "[0, 45, 86]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 260,
+    "valid_cpts": [
+      0,
+      45,
+      86
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "3": {
+    "cpts": "[0, 75, 885, 990, 1085, 1105, 1373]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "c",
+      "3": "c",
+      "4": "c"
+    },
+    "category": "restaurant",
+    "hotel_id": 260,
+    "valid_cpts": [
+      0,
+      75,
+      885,
+      1373
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "4": {
+    "cpts": "[0, 135, 780, 1040, 1272]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 260,
+    "valid_cpts": [
+      0,
+      1040,
+      1272
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "5": {
+    "cpts": "[0, 885, 2140]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 110,
+    "valid_cpts": [
+      0,
+      885,
+      2140
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "6": {
+    "cpts": "[0, 850, 2825, 5306]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 110,
+    "valid_cpts": [
+      0,
+      850,
+      2825,
+      5306
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "7": {
+    "cpts": "[0, 340, 708]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 110,
+    "valid_cpts": [
+      0,
+      340,
+      708
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "8": {
+    "cpts": "[0, 520, 870, 1250, 3068]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 110,
+    "valid_cpts": [
+      0,
+      520,
+      1250,
+      3068
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "9": {
+    "cpts": "[0, 835, 4546]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 110,
+    "valid_cpts": [
+      0,
+      835,
+      4546
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "11": {
+    "cpts": "[0, 115, 146]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 327,
+    "valid_cpts": [
+      0,
+      115,
+      146
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "13": {
+    "cpts": "[0, 40, 390]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 327,
+    "valid_cpts": [
+      0,
+      40,
+      390
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "14": {
+    "cpts": "[0, 90, 615, 625]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 327,
+    "valid_cpts": [
+      0,
+      90,
+      615,
+      625
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "15": {
+    "cpts": "[0, 90, 151]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 401,
+    "valid_cpts": [
+      0,
+      90,
+      151
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "16": {
+    "cpts": "[0, 165, 276]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 401,
+    "valid_cpts": [
+      0,
+      165,
+      276
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "17": {
+    "cpts": "[0, 125, 208]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 401,
+    "valid_cpts": [
+      0,
+      125,
+      208
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "18": {
+    "cpts": "[0, 40, 68]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 401,
+    "valid_cpts": [
+      0,
+      40,
+      68
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "19": {
+    "cpts": "[0, 340, 500]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 401,
+    "valid_cpts": [
+      0,
+      340,
+      500
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "22": {
+    "cpts": "[0, 125, 137]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 319,
+    "valid_cpts": [
+      0,
+      125,
+      137
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "24": {
+    "cpts": "[0, 255, 1442]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 319,
+    "valid_cpts": [
+      0,
+      255,
+      1442
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "25": {
+    "cpts": "[0, 480, 935]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 132,
+    "valid_cpts": [
+      0,
+      480,
+      935
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "26": {
+    "cpts": "[0, 915, 1398]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 132,
+    "valid_cpts": [
+      0,
+      915,
+      1398
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "27": {
+    "cpts": "[0, 90, 145, 632]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 132,
+    "valid_cpts": [
+      0,
+      90,
+      632
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "28": {
+    "cpts": "[0, 105, 224]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 132,
+    "valid_cpts": [
+      0,
+      105,
+      224
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "29": {
+    "cpts": "[0, 865, 1410]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 132,
+    "valid_cpts": [
+      0,
+      865,
+      1410
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "30": {
+    "cpts": "[0, 420, 490, 517]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 129,
+    "valid_cpts": [
+      0,
+      420,
+      517
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "31": {
+    "cpts": "[0, 610, 725, 820, 858]",
+    "cpt_dict": {
+      "0": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "pool",
+    "hotel_id": 129,
+    "valid_cpts": [
+      0,
+      610,
+      820,
+      858
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "32": {
+    "cpts": "[0, 85, 157]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 129,
+    "valid_cpts": [
+      0,
+      85,
+      157
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "33": {
+    "cpts": "[0, 680, 750, 815, 861]",
+    "cpt_dict": {
+      "0": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 129,
+    "valid_cpts": [
+      0,
+      815,
+      861
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "34": {
+    "cpts": "[0, 105, 490, 850, 1030, 1192]",
+    "cpt_dict": {
+      "0": "c",
+      "2": "a",
+      "3": "a",
+      "4": "d"
+    },
+    "category": "room",
+    "hotel_id": 129,
+    "valid_cpts": [
+      0,
+      850,
+      1030,
+      1192
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "35": {
+    "cpts": "[0, 245, 346]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 445,
+    "valid_cpts": [
+      0,
+      245,
+      346
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "36": {
+    "cpts": "[0, 45, 193]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 445,
+    "valid_cpts": [
+      0,
+      45,
+      193
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "37": {
+    "cpts": "[0, 70, 132]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 445,
+    "valid_cpts": [
+      0,
+      70,
+      132
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "39": {
+    "cpts": "[0, 500, 732]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 445,
+    "valid_cpts": [
+      0,
+      500,
+      732
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "40": {
+    "cpts": "[0, 230, 560, 589]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 136,
+    "valid_cpts": [
+      0,
+      230,
+      589
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "41": {
+    "cpts": "[0, 120, 246]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 136,
+    "valid_cpts": [
+      0,
+      120,
+      246
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "42": {
+    "cpts": "[0, 55, 138]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 136,
+    "valid_cpts": [
+      0,
+      55,
+      138
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "43": {
+    "cpts": "[0, 225, 770]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 136,
+    "valid_cpts": [
+      0,
+      225,
+      770
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "44": {
+    "cpts": "[0, 365, 605, 1188]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 136,
+    "valid_cpts": [
+      0,
+      365,
+      605,
+      1188
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "45": {
+    "cpts": "[0, 725, 980, 1430, 1498]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 243,
+    "valid_cpts": [
+      0,
+      725,
+      980,
+      1430,
+      1498
+    ],
+    "valid_labels": [
+      "b",
+      "b",
+      "a"
+    ]
+  },
+  "46": {
+    "cpts": "[0, 180, 370, 980, 1264]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "pool",
+    "hotel_id": 243,
+    "valid_cpts": [
+      0,
+      370,
+      980,
+      1264
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "47": {
+    "cpts": "[0, 345, 417]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 243,
+    "valid_cpts": [
+      0,
+      345,
+      417
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "48": {
+    "cpts": "[0, 295, 1172]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 243,
+    "valid_cpts": [
+      0,
+      295,
+      1172
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "49": {
+    "cpts": "[0, 325, 825, 950, 1395, 1705]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "a",
+      "3": "b",
+      "4": "d"
+    },
+    "category": "room",
+    "hotel_id": 243,
+    "valid_cpts": [
+      0,
+      950,
+      1395,
+      1705
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "50": {
+    "cpts": "[0, 590, 638]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 315,
+    "valid_cpts": [
+      0,
+      590,
+      638
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "54": {
+    "cpts": "[0, 645, 1043]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 315,
+    "valid_cpts": [
+      0,
+      645,
+      1043
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "55": {
+    "cpts": "[0, 150, 595]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 113,
+    "valid_cpts": [
+      0,
+      150,
+      595
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "56": {
+    "cpts": "[0, 210, 875]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 113,
+    "valid_cpts": [
+      0,
+      210,
+      875
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "57": {
+    "cpts": "[0, 75, 106]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 113,
+    "valid_cpts": [
+      0,
+      75,
+      106
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "58": {
+    "cpts": "[0, 190, 895, 943]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 113,
+    "valid_cpts": [
+      0,
+      895,
+      943
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "59": {
+    "cpts": "[0, 310, 1245, 1305]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 113,
+    "valid_cpts": [
+      0,
+      1245,
+      1305
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "60": {
+    "cpts": "[0, 205, 553]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 356,
+    "valid_cpts": [
+      0,
+      205,
+      553
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "61": {
+    "cpts": "[0, 130, 146]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 356,
+    "valid_cpts": [
+      0,
+      130,
+      146
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "62": {
+    "cpts": "[0, 45, 56]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 356,
+    "valid_cpts": [
+      0,
+      45,
+      56
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "63": {
+    "cpts": "[0, 95, 410]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 356,
+    "valid_cpts": [
+      0,
+      95,
+      410
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "64": {
+    "cpts": "[0, 270, 640, 731]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 356,
+    "valid_cpts": [
+      0,
+      270,
+      731
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "65": {
+    "cpts": "[0, 90, 344]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 348,
+    "valid_cpts": [
+      0,
+      90,
+      344
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "66": {
+    "cpts": "[0, 100, 450, 630, 670]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "c",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 348,
+    "valid_cpts": [
+      0,
+      100,
+      670
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "68": {
+    "cpts": "[0, 140, 475, 511]",
+    "cpt_dict": {
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 348,
+    "valid_cpts": [
+      0,
+      475,
+      511
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "69": {
+    "cpts": "[0, 135, 740, 766]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 348,
+    "valid_cpts": [
+      0,
+      135,
+      766
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "70": {
+    "cpts": "[0, 490, 799]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 350,
+    "valid_cpts": [
+      0,
+      490,
+      799
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "71": {
+    "cpts": "[0, 705, 1010, 1352]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 350,
+    "valid_cpts": [
+      0,
+      1010,
+      1352
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "72": {
+    "cpts": "[0, 110, 174]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 350,
+    "valid_cpts": [
+      0,
+      110,
+      174
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "73": {
+    "cpts": "[0, 530, 780, 844]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 350,
+    "valid_cpts": [
+      0,
+      530,
+      844
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "75": {
+    "cpts": "[0, 140, 650, 818]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 43,
+    "valid_cpts": [
+      0,
+      140,
+      650,
+      818
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "76": {
+    "cpts": "[0, 205, 835, 1270, 1331]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "c",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 43,
+    "valid_cpts": [
+      0,
+      205,
+      1331
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "78": {
+    "cpts": "[0, 875, 945, 1021]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 43,
+    "valid_cpts": [
+      0,
+      945,
+      1021
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "79": {
+    "cpts": "[0, 1040, 1413]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 43,
+    "valid_cpts": [
+      0,
+      1040,
+      1413
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "80": {
+    "cpts": "[0, 350, 1005, 1021]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 368,
+    "valid_cpts": [
+      0,
+      350,
+      1021
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "81": {
+    "cpts": "[0, 215, 497]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 368,
+    "valid_cpts": [
+      0,
+      215,
+      497
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "82": {
+    "cpts": "[0, 25, 37]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 368,
+    "valid_cpts": [
+      0,
+      25,
+      37
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "83": {
+    "cpts": "[0, 255, 720]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 368,
+    "valid_cpts": [
+      0,
+      255,
+      720
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "86": {
+    "cpts": "[0, 605, 701]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 174,
+    "valid_cpts": [
+      0,
+      605,
+      701
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "87": {
+    "cpts": "[0, 55, 290, 321]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 174,
+    "valid_cpts": [
+      0,
+      55,
+      321
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "88": {
+    "cpts": "[0, 280, 345, 980]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 174,
+    "valid_cpts": [
+      0,
+      345,
+      980
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "89": {
+    "cpts": "[0, 565, 1096]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 174,
+    "valid_cpts": [
+      0,
+      565,
+      1096
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "90": {
+    "cpts": "[0, 205, 395, 727]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 16,
+    "valid_cpts": [
+      0,
+      205,
+      727
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "91": {
+    "cpts": "[0, 100, 163]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 16,
+    "valid_cpts": [
+      0,
+      100,
+      163
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "92": {
+    "cpts": "[0, 20, 138]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 16,
+    "valid_cpts": [
+      0,
+      20,
+      138
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "93": {
+    "cpts": "[0, 410, 782]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 16,
+    "valid_cpts": [
+      0,
+      410,
+      782
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "94": {
+    "cpts": "[0, 75, 620, 965, 1106]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 16,
+    "valid_cpts": [
+      0,
+      75,
+      620,
+      965,
+      1106
+    ],
+    "valid_labels": [
+      "b",
+      "a",
+      "a"
+    ]
+  },
+  "95": {
+    "cpts": "[0, 30, 368]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 305,
+    "valid_cpts": [
+      0,
+      30,
+      368
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "96": {
+    "cpts": "[0, 415, 885, 903]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 305,
+    "valid_cpts": [
+      0,
+      415,
+      885,
+      903
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "97": {
+    "cpts": "[0, 50, 86]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 305,
+    "valid_cpts": [
+      0,
+      50,
+      86
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "99": {
+    "cpts": "[0, 890, 1025, 1050]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 305,
+    "valid_cpts": [
+      0,
+      890,
+      1025,
+      1050
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "100": {
+    "cpts": "[0, 20, 74]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 167,
+    "valid_cpts": [
+      0,
+      20,
+      74
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "101": {
+    "cpts": "[0, 65, 200]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 167,
+    "valid_cpts": [
+      0,
+      65,
+      200
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "102": {
+    "cpts": "[0, 25, 69]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 167,
+    "valid_cpts": [
+      0,
+      25,
+      69
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "103": {
+    "cpts": "[0, 120, 2343]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 307,
+    "valid_cpts": [
+      0,
+      120,
+      2343
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "104": {
+    "cpts": "[0, 30, 46]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 307,
+    "valid_cpts": [
+      0,
+      30,
+      46
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "105": {
+    "cpts": "[0, 750, 1436]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 307,
+    "valid_cpts": [
+      0,
+      750,
+      1436
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "107": {
+    "cpts": "[0, 55, 495, 656]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 163,
+    "valid_cpts": [
+      0,
+      495,
+      656
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "108": {
+    "cpts": "[0, 95, 550, 755, 760]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 163,
+    "valid_cpts": [
+      0,
+      95,
+      550,
+      755,
+      760
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "109": {
+    "cpts": "[0, 120, 157]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 456,
+    "valid_cpts": [
+      0,
+      120,
+      157
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "110": {
+    "cpts": "[0, 320, 380, 509]",
+    "cpt_dict": {
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 456,
+    "valid_cpts": [
+      0,
+      380,
+      509
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "111": {
+    "cpts": "[0, 350, 461]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 456,
+    "valid_cpts": [
+      0,
+      350,
+      461
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "113": {
+    "cpts": "[0, 20, 30]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 259,
+    "valid_cpts": [
+      0,
+      20,
+      30
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "114": {
+    "cpts": "[0, 125, 371]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 259,
+    "valid_cpts": [
+      0,
+      125,
+      371
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "115": {
+    "cpts": "[0, 45, 338]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 250,
+    "valid_cpts": [
+      0,
+      45,
+      338
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "116": {
+    "cpts": "[0, 235, 511]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 250,
+    "valid_cpts": [
+      0,
+      235,
+      511
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "117": {
+    "cpts": "[0, 170, 510, 639]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 250,
+    "valid_cpts": [
+      0,
+      170,
+      510,
+      639
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "119": {
+    "cpts": "[0, 265, 627]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 150,
+    "valid_cpts": [
+      0,
+      265,
+      627
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "120": {
+    "cpts": "[0, 40, 52]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 150,
+    "valid_cpts": [
+      0,
+      40,
+      52
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "121": {
+    "cpts": "[0, 245, 411]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 131,
+    "valid_cpts": [
+      0,
+      245,
+      411
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "122": {
+    "cpts": "[0, 205, 323]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 131,
+    "valid_cpts": [
+      0,
+      205,
+      323
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "123": {
+    "cpts": "[0, 190, 340]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 131,
+    "valid_cpts": [
+      0,
+      190,
+      340
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "124": {
+    "cpts": "[0, 680, 3024]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 471,
+    "valid_cpts": [
+      0,
+      680,
+      3024
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "125": {
+    "cpts": "[0, 470, 2227]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 471,
+    "valid_cpts": [
+      0,
+      470,
+      2227
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "126": {
+    "cpts": "[0, 885, 2895, 4890, 5051]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 471,
+    "valid_cpts": [
+      0,
+      4890,
+      5051
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "127": {
+    "cpts": "[0, 400, 977]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 56,
+    "valid_cpts": [
+      0,
+      400,
+      977
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "128": {
+    "cpts": "[0, 210, 380]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 56,
+    "valid_cpts": [
+      0,
+      210,
+      380
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "129": {
+    "cpts": "[0, 535, 1385, 1552]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 56,
+    "valid_cpts": [
+      0,
+      535,
+      1385,
+      1552
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "130": {
+    "cpts": "[0, 15, 22]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 205,
+    "valid_cpts": [
+      0,
+      15,
+      22
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "131": {
+    "cpts": "[0, 370, 393]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 205,
+    "valid_cpts": [
+      0,
+      370,
+      393
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "132": {
+    "cpts": "[0, 390, 401]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 205,
+    "valid_cpts": [
+      0,
+      390,
+      401
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "134": {
+    "cpts": "[0, 25, 136]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 156,
+    "valid_cpts": [
+      0,
+      25,
+      136
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "135": {
+    "cpts": "[0, 30, 182]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 156,
+    "valid_cpts": [
+      0,
+      30,
+      182
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "136": {
+    "cpts": "[0, 160, 315, 529]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 479,
+    "valid_cpts": [
+      0,
+      160,
+      315,
+      529
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "137": {
+    "cpts": "[0, 15, 40]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 479,
+    "valid_cpts": [
+      0,
+      15,
+      40
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "138": {
+    "cpts": "[0, 575, 1070, 1089]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 479,
+    "valid_cpts": [
+      0,
+      1070,
+      1089
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "139": {
+    "cpts": "[0, 80, 345]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 257,
+    "valid_cpts": [
+      0,
+      80,
+      345
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "140": {
+    "cpts": "[0, 55, 93]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 257,
+    "valid_cpts": [
+      0,
+      55,
+      93
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "141": {
+    "cpts": "[0, 330, 890, 935]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 257,
+    "valid_cpts": [
+      0,
+      330,
+      890,
+      935
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "142": {
+    "cpts": "[0, 45, 117]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 393,
+    "valid_cpts": [
+      0,
+      45,
+      117
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "144": {
+    "cpts": "[0, 225, 378]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 393,
+    "valid_cpts": [
+      0,
+      225,
+      378
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "145": {
+    "cpts": "[0, 555, 993]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 91,
+    "valid_cpts": [
+      0,
+      555,
+      993
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "147": {
+    "cpts": "[0, 280, 894]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 91,
+    "valid_cpts": [
+      0,
+      280,
+      894
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "148": {
+    "cpts": "[0, 10, 53]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 373,
+    "valid_cpts": [
+      0,
+      10,
+      53
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "149": {
+    "cpts": "[0, 160, 264]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 373,
+    "valid_cpts": [
+      0,
+      160,
+      264
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "150": {
+    "cpts": "[0, 50, 165, 200, 416]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 373,
+    "valid_cpts": [
+      0,
+      50,
+      165,
+      200,
+      416
+    ],
+    "valid_labels": [
+      "a",
+      "b",
+      "b"
+    ]
+  },
+  "151": {
+    "cpts": "[0, 325, 888]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 128,
+    "valid_cpts": [
+      0,
+      325,
+      888
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "152": {
+    "cpts": "[0, 25, 406]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 128,
+    "valid_cpts": [
+      0,
+      25,
+      406
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "153": {
+    "cpts": "[0, 35, 104]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 128,
+    "valid_cpts": [
+      0,
+      35,
+      104
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "154": {
+    "cpts": "[0, 70, 295, 980]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 144,
+    "valid_cpts": [
+      0,
+      295,
+      980
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "155": {
+    "cpts": "[0, 60, 235]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 144,
+    "valid_cpts": [
+      0,
+      60,
+      235
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "156": {
+    "cpts": "[0, 300, 615, 1020]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 144,
+    "valid_cpts": [
+      0,
+      300,
+      615,
+      1020
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "157": {
+    "cpts": "[0, 395, 1239]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 25,
+    "valid_cpts": [
+      0,
+      395,
+      1239
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "158": {
+    "cpts": "[0, 355, 666]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 25,
+    "valid_cpts": [
+      0,
+      355,
+      666
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "159": {
+    "cpts": "[0, 295, 1001]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 25,
+    "valid_cpts": [
+      0,
+      295,
+      1001
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "160": {
+    "cpts": "[0, 210, 836]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 52,
+    "valid_cpts": [
+      0,
+      210,
+      836
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "161": {
+    "cpts": "[0, 45, 360, 505, 614]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 52,
+    "valid_cpts": [
+      0,
+      45,
+      360,
+      505,
+      614
+    ],
+    "valid_labels": [
+      "b",
+      "a",
+      "b"
+    ]
+  },
+  "162": {
+    "cpts": "[0, 130, 755, 912]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 52,
+    "valid_cpts": [
+      0,
+      755,
+      912
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "164": {
+    "cpts": "[0, 140, 303]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 423,
+    "valid_cpts": [
+      0,
+      140,
+      303
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "165": {
+    "cpts": "[0, 100, 260, 305, 506]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 423,
+    "valid_cpts": [
+      0,
+      100,
+      260,
+      305,
+      506
+    ],
+    "valid_labels": [
+      "b",
+      "b",
+      "b"
+    ]
+  },
+  "166": {
+    "cpts": "[0, 15, 83]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 489,
+    "valid_cpts": [
+      0,
+      15,
+      83
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "167": {
+    "cpts": "[0, 200, 389]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 489,
+    "valid_cpts": [
+      0,
+      200,
+      389
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "168": {
+    "cpts": "[0, 250, 565]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 489,
+    "valid_cpts": [
+      0,
+      250,
+      565
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "169": {
+    "cpts": "[0, 25, 640]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 363,
+    "valid_cpts": [
+      0,
+      25,
+      640
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "171": {
+    "cpts": "[0, 35, 495, 1161]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 363,
+    "valid_cpts": [
+      0,
+      495,
+      1161
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "172": {
+    "cpts": "[0, 445, 490, 749]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 369,
+    "valid_cpts": [
+      0,
+      445,
+      490,
+      749
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "173": {
+    "cpts": "[0, 70, 122]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 369,
+    "valid_cpts": [
+      0,
+      70,
+      122
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "174": {
+    "cpts": "[0, 815, 1085]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 369,
+    "valid_cpts": [
+      0,
+      815,
+      1085
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "175": {
+    "cpts": "[0, 95, 148]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 422,
+    "valid_cpts": [
+      0,
+      95,
+      148
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "176": {
+    "cpts": "[0, 140, 334]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 422,
+    "valid_cpts": [
+      0,
+      140,
+      334
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "177": {
+    "cpts": "[0, 185, 398]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 422,
+    "valid_cpts": [
+      0,
+      185,
+      398
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "178": {
+    "cpts": "[0, 55, 801]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 225,
+    "valid_cpts": [
+      0,
+      55,
+      801
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "179": {
+    "cpts": "[0, 70, 695, 1131]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 225,
+    "valid_cpts": [
+      0,
+      70,
+      695,
+      1131
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "180": {
+    "cpts": "[0, 815, 1442]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 225,
+    "valid_cpts": [
+      0,
+      815,
+      1442
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "181": {
+    "cpts": "[0, 375, 605, 670, 712]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "facility",
+    "hotel_id": 183,
+    "valid_cpts": [
+      0,
+      605,
+      670,
+      712
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "182": {
+    "cpts": "[0, 245, 306]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 183,
+    "valid_cpts": [
+      0,
+      245,
+      306
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "184": {
+    "cpts": "[0, 135, 618]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 135,
+    "valid_cpts": [
+      0,
+      135,
+      618
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "186": {
+    "cpts": "[0, 25, 420, 682]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 135,
+    "valid_cpts": [
+      0,
+      25,
+      682
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "190": {
+    "cpts": "[0, 455, 865, 875, 1047]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "c",
+      "3": "d"
+    },
+    "category": "facility",
+    "hotel_id": 210,
+    "valid_cpts": [
+      0,
+      455,
+      865,
+      1047
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "194": {
+    "cpts": "[0, 15, 220, 315, 350, 755, 839]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "3": "c",
+      "4": "c",
+      "5": "d"
+    },
+    "category": "reception",
+    "hotel_id": 41,
+    "valid_cpts": [
+      0,
+      15,
+      839
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "195": {
+    "cpts": "[0, 10, 615, 660, 720]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 41,
+    "valid_cpts": [
+      0,
+      615,
+      660,
+      720
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "197": {
+    "cpts": "[0, 90, 281]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 70,
+    "valid_cpts": [
+      0,
+      90,
+      281
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "198": {
+    "cpts": "[0, 85, 100]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 411,
+    "valid_cpts": [
+      0,
+      85,
+      100
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "199": {
+    "cpts": "[0, 260, 445, 738]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 411,
+    "valid_cpts": [
+      0,
+      445,
+      738
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "200": {
+    "cpts": "[0, 200, 525, 756]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 299,
+    "valid_cpts": [
+      0,
+      200,
+      756
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "201": {
+    "cpts": "[0, 680, 871]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 299,
+    "valid_cpts": [
+      0,
+      680,
+      871
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "202": {
+    "cpts": "[0, 460, 559]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 380,
+    "valid_cpts": [
+      0,
+      460,
+      559
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "203": {
+    "cpts": "[0, 570, 792]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 380,
+    "valid_cpts": [
+      0,
+      570,
+      792
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "204": {
+    "cpts": "[0, 840, 1414]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 277,
+    "valid_cpts": [
+      0,
+      840,
+      1414
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "205": {
+    "cpts": "[0, 95, 465, 510, 670, 1118]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "c",
+      "3": "c",
+      "4": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 277,
+    "valid_cpts": [
+      0,
+      95,
+      465,
+      1118
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "206": {
+    "cpts": "[0, 30, 133]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 420,
+    "valid_cpts": [
+      0,
+      30,
+      133
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "207": {
+    "cpts": "[0, 275, 723]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 420,
+    "valid_cpts": [
+      0,
+      275,
+      723
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "208": {
+    "cpts": "[0, 660, 673]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 217,
+    "valid_cpts": [
+      0,
+      660,
+      673
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "209": {
+    "cpts": "[0, 770, 815]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 217,
+    "valid_cpts": [
+      0,
+      770,
+      815
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "210": {
+    "cpts": "[0, 555, 750]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 48,
+    "valid_cpts": [
+      0,
+      555,
+      750
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "211": {
+    "cpts": "[0, 270, 490]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 48,
+    "valid_cpts": [
+      0,
+      270,
+      490
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "212": {
+    "cpts": "[0, 10, 110, 237]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 396,
+    "valid_cpts": [
+      0,
+      10,
+      110,
+      237
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "213": {
+    "cpts": "[0, 10, 469]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 396,
+    "valid_cpts": [
+      0,
+      10,
+      469
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "214": {
+    "cpts": "[0, 65, 125, 297]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b"
+    },
+    "category": "facility",
+    "hotel_id": 269,
+    "valid_cpts": [
+      0,
+      65,
+      125,
+      297
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "215": {
+    "cpts": "[0, 720, 730]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 269,
+    "valid_cpts": [
+      0,
+      720,
+      730
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "217": {
+    "cpts": "[0, 20, 1152]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 118,
+    "valid_cpts": [
+      0,
+      20,
+      1152
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "218": {
+    "cpts": "[0, 85, 575, 730, 1070, 1165]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "b",
+      "3": "a",
+      "4": "d"
+    },
+    "category": "reception",
+    "hotel_id": 404,
+    "valid_cpts": [
+      0,
+      85,
+      575,
+      730,
+      1070,
+      1165
+    ],
+    "valid_labels": [
+      "a",
+      "a",
+      "b",
+      "a"
+    ]
+  },
+  "219": {
+    "cpts": "[0, 175, 245, 292]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 404,
+    "valid_cpts": [
+      0,
+      175,
+      245,
+      292
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "220": {
+    "cpts": "[0, 90, 157]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 359,
+    "valid_cpts": [
+      0,
+      90,
+      157
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "221": {
+    "cpts": "[0, 425, 504]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 359,
+    "valid_cpts": [
+      0,
+      425,
+      504
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "222": {
+    "cpts": "[0, 595, 895, 965, 1055, 3210, 5585, 5603]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "b",
+      "3": "b",
+      "4": "b",
+      "5": "b",
+      "6": "d"
+    },
+    "category": "reception",
+    "hotel_id": 318,
+    "valid_cpts": [
+      0,
+      595,
+      895,
+      965,
+      1055,
+      3210,
+      5585,
+      5603
+    ],
+    "valid_labels": [
+      "a",
+      "b",
+      "b",
+      "b",
+      "b",
+      "b"
+    ]
+  },
+  "223": {
+    "cpts": "[0, 675, 825, 1050, 3485]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 318,
+    "valid_cpts": [
+      0,
+      825,
+      1050,
+      3485
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "224": {
+    "cpts": "[0, 530, 725]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 228,
+    "valid_cpts": [
+      0,
+      530,
+      725
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "225": {
+    "cpts": "[0, 40, 77]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 228,
+    "valid_cpts": [
+      0,
+      40,
+      77
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "226": {
+    "cpts": "[0, 405, 572]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 437,
+    "valid_cpts": [
+      0,
+      405,
+      572
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "227": {
+    "cpts": "[0, 1035, 1179]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 437,
+    "valid_cpts": [
+      0,
+      1035,
+      1179
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "228": {
+    "cpts": "[0, 15, 220, 315, 350, 755, 839]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "a",
+      "3": "c",
+      "4": "a",
+      "5": "d"
+    },
+    "category": "reception",
+    "hotel_id": 278,
+    "valid_cpts": [
+      0,
+      15,
+      220,
+      315,
+      755,
+      839
+    ],
+    "valid_labels": [
+      "a",
+      "b",
+      "a",
+      "a"
+    ]
+  },
+  "229": {
+    "cpts": "[0, 10, 615, 660, 720]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 278,
+    "valid_cpts": [
+      0,
+      10,
+      615,
+      660,
+      720
+    ],
+    "valid_labels": [
+      "a",
+      "b",
+      "b"
+    ]
+  },
+  "230": {
+    "cpts": "[0, 70, 145]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 473,
+    "valid_cpts": [
+      0,
+      70,
+      145
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "231": {
+    "cpts": "[0, 80, 148]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 473,
+    "valid_cpts": [
+      0,
+      80,
+      148
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "232": {
+    "cpts": "[0, 85, 198]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 74,
+    "valid_cpts": [
+      0,
+      85,
+      198
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "233": {
+    "cpts": "[0, 165, 530, 537]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 74,
+    "valid_cpts": [
+      0,
+      165,
+      530,
+      537
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "234": {
+    "cpts": "[0, 375, 494]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 436,
+    "valid_cpts": [
+      0,
+      375,
+      494
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "235": {
+    "cpts": "[0, 70, 795, 870, 943]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 436,
+    "valid_cpts": [
+      0,
+      870,
+      943
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "236": {
+    "cpts": "[0, 10, 135, 162]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 252,
+    "valid_cpts": [
+      0,
+      135,
+      162
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "237": {
+    "cpts": "[0, 625, 675, 757]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 252,
+    "valid_cpts": [
+      0,
+      625,
+      675,
+      757
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "239": {
+    "cpts": "[0, 125, 664]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 168,
+    "valid_cpts": [
+      0,
+      125,
+      664
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "241": {
+    "cpts": "[0, 20, 34]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 459,
+    "valid_cpts": [
+      0,
+      20,
+      34
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "243": {
+    "cpts": "[0, 15, 100]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 370,
+    "valid_cpts": [
+      0,
+      15,
+      100
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "244": {
+    "cpts": "[0, 5, 20, 602]",
+    "cpt_dict": {
+      "1": "d",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 395,
+    "valid_cpts": [
+      0,
+      20,
+      602
+    ],
+    "valid_labels": [
+      "d"
+    ]
+  },
+  "245": {
+    "cpts": "[0, 50, 68]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 395,
+    "valid_cpts": [
+      0,
+      50,
+      68
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "246": {
+    "cpts": "[0, 190, 334]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 294,
+    "valid_cpts": [
+      0,
+      190,
+      334
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "247": {
+    "cpts": "[0, 555, 965, 1090, 1366]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 294,
+    "valid_cpts": [
+      0,
+      555,
+      965,
+      1090,
+      1366
+    ],
+    "valid_labels": [
+      "b",
+      "a",
+      "a"
+    ]
+  },
+  "248": {
+    "cpts": "[0, 515, 695, 1109]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 29,
+    "valid_cpts": [
+      0,
+      695,
+      1109
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "249": {
+    "cpts": "[0, 30, 765, 987]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 29,
+    "valid_cpts": [
+      0,
+      765,
+      987
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "250": {
+    "cpts": "[0, 105, 217]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 147,
+    "valid_cpts": [
+      0,
+      105,
+      217
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "253": {
+    "cpts": "[0, 105, 421]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 147,
+    "valid_cpts": [
+      0,
+      105,
+      421
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "254": {
+    "cpts": "[0, 25, 135, 175]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 325,
+    "valid_cpts": [
+      0,
+      25,
+      135,
+      175
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "255": {
+    "cpts": "[0, 40, 51]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 325,
+    "valid_cpts": [
+      0,
+      40,
+      51
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "257": {
+    "cpts": "[0, 170, 405, 579]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 325,
+    "valid_cpts": [
+      0,
+      170,
+      405,
+      579
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "258": {
+    "cpts": "[0, 250, 263]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 180,
+    "valid_cpts": [
+      0,
+      250,
+      263
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "259": {
+    "cpts": "[0, 50, 410, 442]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 180,
+    "valid_cpts": [
+      0,
+      50,
+      410,
+      442
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "261": {
+    "cpts": "[0, 150, 512]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 180,
+    "valid_cpts": [
+      0,
+      150,
+      512
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "262": {
+    "cpts": "[0, 65, 88]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 46,
+    "valid_cpts": [
+      0,
+      65,
+      88
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "263": {
+    "cpts": "[0, 155, 180, 200, 210]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 46,
+    "valid_cpts": [
+      0,
+      155,
+      200,
+      210
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "264": {
+    "cpts": "[0, 180, 204]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 46,
+    "valid_cpts": [
+      0,
+      180,
+      204
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "266": {
+    "cpts": "[0, 575, 1377]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 270,
+    "valid_cpts": [
+      0,
+      575,
+      1377
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "269": {
+    "cpts": "[0, 780, 1180, 2100, 2712]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 270,
+    "valid_cpts": [
+      0,
+      780,
+      1180,
+      2100,
+      2712
+    ],
+    "valid_labels": [
+      "b",
+      "b",
+      "b"
+    ]
+  },
+  "270": {
+    "cpts": "[0, 440, 855, 872]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 149,
+    "valid_cpts": [
+      0,
+      855,
+      872
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "271": {
+    "cpts": "[0, 195, 273]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 149,
+    "valid_cpts": [
+      0,
+      195,
+      273
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "273": {
+    "cpts": "[0, 535, 1160, 1378]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 149,
+    "valid_cpts": [
+      0,
+      535,
+      1378
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "274": {
+    "cpts": "[0, 105, 231]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 142,
+    "valid_cpts": [
+      0,
+      105,
+      231
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "275": {
+    "cpts": "[0, 490, 558]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 142,
+    "valid_cpts": [
+      0,
+      490,
+      558
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "276": {
+    "cpts": "[0, 80, 134]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 142,
+    "valid_cpts": [
+      0,
+      80,
+      134
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "277": {
+    "cpts": "[0, 325, 590, 612]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 142,
+    "valid_cpts": [
+      0,
+      325,
+      590,
+      612
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "279": {
+    "cpts": "[0, 40, 78]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 214,
+    "valid_cpts": [
+      0,
+      40,
+      78
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "281": {
+    "cpts": "[0, 590, 621]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 214,
+    "valid_cpts": [
+      0,
+      590,
+      621
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "282": {
+    "cpts": "[0, 460, 695]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 292,
+    "valid_cpts": [
+      0,
+      460,
+      695
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "284": {
+    "cpts": "[0, 15, 29]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 292,
+    "valid_cpts": [
+      0,
+      15,
+      29
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "285": {
+    "cpts": "[0, 690, 1038]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 292,
+    "valid_cpts": [
+      0,
+      690,
+      1038
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "286": {
+    "cpts": "[0, 85, 181]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 32,
+    "valid_cpts": [
+      0,
+      85,
+      181
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "288": {
+    "cpts": "[0, 190, 203]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 32,
+    "valid_cpts": [
+      0,
+      190,
+      203
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "289": {
+    "cpts": "[0, 160, 254]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 32,
+    "valid_cpts": [
+      0,
+      160,
+      254
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "290": {
+    "cpts": "[0, 90, 250, 287]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 226,
+    "valid_cpts": [
+      0,
+      90,
+      287
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "291": {
+    "cpts": "[0, 35, 66]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 226,
+    "valid_cpts": [
+      0,
+      35,
+      66
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "292": {
+    "cpts": "[0, 45, 51]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 226,
+    "valid_cpts": [
+      0,
+      45,
+      51
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "293": {
+    "cpts": "[0, 390, 705, 851]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 226,
+    "valid_cpts": [
+      0,
+      390,
+      705,
+      851
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "297": {
+    "cpts": "[0, 305, 390, 523]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 9,
+    "valid_cpts": [
+      0,
+      305,
+      390,
+      523
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "298": {
+    "cpts": "[0, 630, 1112]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 37,
+    "valid_cpts": [
+      0,
+      630,
+      1112
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "299": {
+    "cpts": "[0, 60, 985, 1550, 1590]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 37,
+    "valid_cpts": [
+      0,
+      1550,
+      1590
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "300": {
+    "cpts": "[0, 860, 1170, 1430]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 37,
+    "valid_cpts": [
+      0,
+      860,
+      1430
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "301": {
+    "cpts": "[0, 1545, 1600]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 37,
+    "valid_cpts": [
+      0,
+      1545,
+      1600
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "302": {
+    "cpts": "[0, 10, 109]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 211,
+    "valid_cpts": [
+      0,
+      10,
+      109
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "304": {
+    "cpts": "[0, 10, 73]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 211,
+    "valid_cpts": [
+      0,
+      10,
+      73
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "305": {
+    "cpts": "[0, 80, 123]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 211,
+    "valid_cpts": [
+      0,
+      80,
+      123
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "306": {
+    "cpts": "[0, 180, 237]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 26,
+    "valid_cpts": [
+      0,
+      180,
+      237
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "307": {
+    "cpts": "[0, 330, 383]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 26,
+    "valid_cpts": [
+      0,
+      330,
+      383
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "308": {
+    "cpts": "[0, 15, 125, 197]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 26,
+    "valid_cpts": [
+      0,
+      15,
+      197
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "309": {
+    "cpts": "[0, 400, 589]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 26,
+    "valid_cpts": [
+      0,
+      400,
+      589
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "310": {
+    "cpts": "[0, 15, 78]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 242,
+    "valid_cpts": [
+      0,
+      15,
+      78
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "311": {
+    "cpts": "[0, 190, 324]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 242,
+    "valid_cpts": [
+      0,
+      190,
+      324
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "313": {
+    "cpts": "[0, 215, 405]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 242,
+    "valid_cpts": [
+      0,
+      215,
+      405
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "314": {
+    "cpts": "[0, 90, 210, 455, 709]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "c",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 185,
+    "valid_cpts": [
+      0,
+      90,
+      709
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "315": {
+    "cpts": "[0, 30, 114]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 185,
+    "valid_cpts": [
+      0,
+      30,
+      114
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "316": {
+    "cpts": "[0, 225, 516]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 185,
+    "valid_cpts": [
+      0,
+      225,
+      516
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "317": {
+    "cpts": "[0, 350, 487]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 185,
+    "valid_cpts": [
+      0,
+      350,
+      487
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "318": {
+    "cpts": "[0, 1205, 1341]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 224,
+    "valid_cpts": [
+      0,
+      1205,
+      1341
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "319": {
+    "cpts": "[0, 115, 197]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 224,
+    "valid_cpts": [
+      0,
+      115,
+      197
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "320": {
+    "cpts": "[0, 645, 695, 820, 1131]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 224,
+    "valid_cpts": [
+      0,
+      645,
+      695,
+      820,
+      1131
+    ],
+    "valid_labels": [
+      "b",
+      "b",
+      "b"
+    ]
+  },
+  "321": {
+    "cpts": "[0, 770, 940, 1285]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 224,
+    "valid_cpts": [
+      0,
+      770,
+      1285
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "322": {
+    "cpts": "[0, 570, 1153]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 367,
+    "valid_cpts": [
+      0,
+      570,
+      1153
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "323": {
+    "cpts": "[0, 15, 170, 336]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 367,
+    "valid_cpts": [
+      0,
+      15,
+      170,
+      336
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "324": {
+    "cpts": "[0, 160, 710, 897]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 367,
+    "valid_cpts": [
+      0,
+      160,
+      710,
+      897
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "325": {
+    "cpts": "[0, 685, 820, 865, 896]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 367,
+    "valid_cpts": [
+      0,
+      820,
+      865,
+      896
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "326": {
+    "cpts": "[0, 100, 127]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 145,
+    "valid_cpts": [
+      0,
+      100,
+      127
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "327": {
+    "cpts": "[0, 215, 351]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 145,
+    "valid_cpts": [
+      0,
+      215,
+      351
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "328": {
+    "cpts": "[0, 35, 297]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 145,
+    "valid_cpts": [
+      0,
+      35,
+      297
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "329": {
+    "cpts": "[0, 60, 393]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 145,
+    "valid_cpts": [
+      0,
+      60,
+      393
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "330": {
+    "cpts": "[0, 150, 540, 630, 950]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 291,
+    "valid_cpts": [
+      0,
+      150,
+      630,
+      950
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "331": {
+    "cpts": "[0, 455, 593]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 391,
+    "valid_cpts": [
+      0,
+      455,
+      593
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "332": {
+    "cpts": "[0, 15, 25]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 453,
+    "valid_cpts": [
+      0,
+      15,
+      25
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "334": {
+    "cpts": "[0, 40, 167]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 273,
+    "valid_cpts": [
+      0,
+      40,
+      167
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "335": {
+    "cpts": "[0, 10, 216]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 71,
+    "valid_cpts": [
+      0,
+      10,
+      216
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "336": {
+    "cpts": "[0, 55, 421]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 416,
+    "valid_cpts": [
+      0,
+      55,
+      421
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "337": {
+    "cpts": "[0, 5, 113]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 6,
+    "valid_cpts": [
+      0,
+      5,
+      113
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "338": {
+    "cpts": "[0, 35, 85]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 95,
+    "valid_cpts": [
+      0,
+      35,
+      85
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "340": {
+    "cpts": "[0, 185, 686]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 20,
+    "valid_cpts": [
+      0,
+      185,
+      686
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "342": {
+    "cpts": "[0, 210, 230]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 441,
+    "valid_cpts": [
+      0,
+      210,
+      230
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "344": {
+    "cpts": "[0, 10, 970, 1065, 1477]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "c",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 424,
+    "valid_cpts": [
+      0,
+      1065,
+      1477
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "345": {
+    "cpts": "[0, 305, 431]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 162,
+    "valid_cpts": [
+      0,
+      305,
+      431
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "346": {
+    "cpts": "[0, 25, 83]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 321,
+    "valid_cpts": [
+      0,
+      25,
+      83
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "347": {
+    "cpts": "[0, 120, 144]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 158,
+    "valid_cpts": [
+      0,
+      120,
+      144
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "348": {
+    "cpts": "[0, 590, 1037]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 230,
+    "valid_cpts": [
+      0,
+      590,
+      1037
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "351": {
+    "cpts": "[0, 45, 71]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 194,
+    "valid_cpts": [
+      0,
+      45,
+      71
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "352": {
+    "cpts": "[0, 1070, 1405]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 289,
+    "valid_cpts": [
+      0,
+      1070,
+      1405
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "354": {
+    "cpts": "[0, 35, 53]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 179,
+    "valid_cpts": [
+      0,
+      35,
+      53
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "356": {
+    "cpts": "[0, 15, 42]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 412,
+    "valid_cpts": [
+      0,
+      15,
+      42
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "357": {
+    "cpts": "[0, 930, 1050]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 309,
+    "valid_cpts": [
+      0,
+      930,
+      1050
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "358": {
+    "cpts": "[0, 750, 1315, 1527]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 203,
+    "valid_cpts": [
+      0,
+      750,
+      1527
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "359": {
+    "cpts": "[0, 385, 605]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 444,
+    "valid_cpts": [
+      0,
+      385,
+      605
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "360": {
+    "cpts": "[0, 315, 395]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      315,
+      395
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "361": {
+    "cpts": "[0, 420, 655, 660]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      420,
+      660
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "362": {
+    "cpts": "[0, 120, 188]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      120,
+      188
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "363": {
+    "cpts": "[0, 110, 139]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      110,
+      139
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "364": {
+    "cpts": "[0, 240, 435, 536]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      240,
+      435,
+      536
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "365": {
+    "cpts": "[0, 440, 465, 510, 795, 804]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "a",
+      "3": "a",
+      "4": "d"
+    },
+    "category": "room",
+    "hotel_id": 486,
+    "valid_cpts": [
+      0,
+      440,
+      510,
+      795,
+      804
+    ],
+    "valid_labels": [
+      "b",
+      "a",
+      "a"
+    ]
+  },
+  "366": {
+    "cpts": "[0, 400, 509]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 399,
+    "valid_cpts": [
+      0,
+      400,
+      509
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "367": {
+    "cpts": "[0, 90, 330, 530, 932]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 399,
+    "valid_cpts": [
+      0,
+      330,
+      530,
+      932
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "369": {
+    "cpts": "[0, 75, 156]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 399,
+    "valid_cpts": [
+      0,
+      75,
+      156
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "370": {
+    "cpts": "[0, 495, 655, 663]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 399,
+    "valid_cpts": [
+      0,
+      495,
+      663
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "371": {
+    "cpts": "[0, 360, 565, 915, 962]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "a",
+      "3": "d"
+    },
+    "category": "room",
+    "hotel_id": 399,
+    "valid_cpts": [
+      0,
+      360,
+      565,
+      915,
+      962
+    ],
+    "valid_labels": [
+      "b",
+      "a",
+      "a"
+    ]
+  },
+  "372": {
+    "cpts": "[0, 165, 340, 345, 349]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 221,
+    "valid_cpts": [
+      0,
+      165,
+      340,
+      349
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "373": {
+    "cpts": "[0, 195, 630]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 221,
+    "valid_cpts": [
+      0,
+      195,
+      630
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "375": {
+    "cpts": "[0, 20, 68]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 221,
+    "valid_cpts": [
+      0,
+      20,
+      68
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "376": {
+    "cpts": "[0, 95, 417]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 221,
+    "valid_cpts": [
+      0,
+      95,
+      417
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "377": {
+    "cpts": "[0, 265, 540, 557]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 221,
+    "valid_cpts": [
+      0,
+      265,
+      540,
+      557
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  },
+  "378": {
+    "cpts": "[0, 110, 906]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 122,
+    "valid_cpts": [
+      0,
+      110,
+      906
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "379": {
+    "cpts": "[0, 155, 1290, 1359]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 122,
+    "valid_cpts": [
+      0,
+      155,
+      1290,
+      1359
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "381": {
+    "cpts": "[0, 35, 119]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 122,
+    "valid_cpts": [
+      0,
+      35,
+      119
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "382": {
+    "cpts": "[0, 320, 695, 1133]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 122,
+    "valid_cpts": [
+      0,
+      320,
+      695,
+      1133
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "383": {
+    "cpts": "[0, 1070, 1465, 1515]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 122,
+    "valid_cpts": [
+      0,
+      1070,
+      1515
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "384": {
+    "cpts": "[0, 105, 183]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 409,
+    "valid_cpts": [
+      0,
+      105,
+      183
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "386": {
+    "cpts": "[0, 45, 293]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 409,
+    "valid_cpts": [
+      0,
+      45,
+      293
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "387": {
+    "cpts": "[0, 15, 30]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 409,
+    "valid_cpts": [
+      0,
+      15,
+      30
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "388": {
+    "cpts": "[0, 245, 560]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 409,
+    "valid_cpts": [
+      0,
+      245,
+      560
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "389": {
+    "cpts": "[0, 250, 540]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 409,
+    "valid_cpts": [
+      0,
+      250,
+      540
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "390": {
+    "cpts": "[0, 95, 450, 708]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 386,
+    "valid_cpts": [
+      0,
+      95,
+      708
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "391": {
+    "cpts": "[0, 480, 927]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 386,
+    "valid_cpts": [
+      0,
+      480,
+      927
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "393": {
+    "cpts": "[0, 15, 180, 235, 246]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 386,
+    "valid_cpts": [
+      0,
+      15,
+      235,
+      246
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "394": {
+    "cpts": "[0, 110, 315, 561]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 386,
+    "valid_cpts": [
+      0,
+      110,
+      561
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "395": {
+    "cpts": "[0, 115, 970, 1172]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 386,
+    "valid_cpts": [
+      0,
+      115,
+      970,
+      1172
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "396": {
+    "cpts": "[0, 350, 645, 776]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "facility",
+    "hotel_id": 288,
+    "valid_cpts": [
+      0,
+      645,
+      776
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "397": {
+    "cpts": "[0, 5, 1180, 1374]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "c",
+      "2": "d"
+    },
+    "category": "reception",
+    "hotel_id": 288,
+    "valid_cpts": [
+      0,
+      5,
+      1374
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "399": {
+    "cpts": "[0, 10, 92]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 288,
+    "valid_cpts": [
+      0,
+      10,
+      92
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "400": {
+    "cpts": "[0, 465, 860, 1055]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 288,
+    "valid_cpts": [
+      0,
+      860,
+      1055
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "401": {
+    "cpts": "[0, 1180, 1349]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 288,
+    "valid_cpts": [
+      0,
+      1180,
+      1349
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "403": {
+    "cpts": "[0, 305, 1152]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "reception",
+    "hotel_id": 139,
+    "valid_cpts": [
+      0,
+      305,
+      1152
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "407": {
+    "cpts": "[0, 715, 749]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "room",
+    "hotel_id": 139,
+    "valid_cpts": [
+      0,
+      715,
+      749
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "408": {
+    "cpts": "[0, 255, 429]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      255,
+      429
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "409": {
+    "cpts": "[0, 435, 550, 650, 804]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "c",
+      "3": "d"
+    },
+    "category": "reception",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      550,
+      804
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "410": {
+    "cpts": "[0, 415, 687]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "pool",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      415,
+      687
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "411": {
+    "cpts": "[0, 15, 85, 113]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      15,
+      85,
+      113
+    ],
+    "valid_labels": [
+      "b",
+      "a"
+    ]
+  },
+  "412": {
+    "cpts": "[0, 410, 495, 650, 703]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "b",
+      "3": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      410,
+      495,
+      650,
+      703
+    ],
+    "valid_labels": [
+      "a",
+      "a",
+      "b"
+    ]
+  },
+  "413": {
+    "cpts": "[0, 430, 650, 796]",
+    "cpt_dict": {
+      "0": "b",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 64,
+    "valid_cpts": [
+      0,
+      430,
+      650,
+      796
+    ],
+    "valid_labels": [
+      "b",
+      "b"
+    ]
+  },
+  "414": {
+    "cpts": "[0, 440, 472]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "facility",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      440,
+      472
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "415": {
+    "cpts": "[0, 95, 310, 410, 570, 878]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "a",
+      "4": "d"
+    },
+    "category": "reception",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      95,
+      310,
+      410,
+      878
+    ],
+    "valid_labels": [
+      "a",
+      "b",
+      "a"
+    ]
+  },
+  "416": {
+    "cpts": "[0, 185, 275, 605]",
+    "cpt_dict": {
+      "0": "c",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "pool",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      275,
+      605
+    ],
+    "valid_labels": [
+      "b"
+    ]
+  },
+  "417": {
+    "cpts": "[0, 20, 50]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "d"
+    },
+    "category": "renovation_room",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      20,
+      50
+    ],
+    "valid_labels": [
+      "a"
+    ]
+  },
+  "418": {
+    "cpts": "[0, 160, 640, 662]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "b",
+      "2": "d"
+    },
+    "category": "restaurant",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      160,
+      640,
+      662
+    ],
+    "valid_labels": [
+      "a",
+      "b"
+    ]
+  },
+  "419": {
+    "cpts": "[0, 155, 230, 781]",
+    "cpt_dict": {
+      "0": "a",
+      "1": "a",
+      "2": "d"
+    },
+    "category": "room",
+    "hotel_id": 389,
+    "valid_cpts": [
+      0,
+      155,
+      230,
+      781
+    ],
+    "valid_labels": [
+      "a",
+      "a"
+    ]
+  }
+}
