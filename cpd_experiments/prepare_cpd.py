@@ -43,6 +43,8 @@ def get_info_list(df):
     :param df: from sampled dataframe.
     :return:
     """
+
+
     df = df.sort_values('date')
     dates = df.date.to_list()
     uids = df.uid.to_list()
@@ -70,14 +72,13 @@ def select_reviews(cpt, cpd_df, df, wbs=False):
     if wbs:
         cpt = sorted([0] + [int(x) for x in cpt] + [LEN])
     else:
-        cpt =  sorted([0] + [int(x) for x in cpt] )
+        cpt = sorted([0] + [int(x) for x in cpt])
     # print(cpt)
     #
     # print('previews select reviews:')
     # print(cpd_df.head(3))
     # get the date periods.
     cpt_periods = list(zip(cpt[:-1], cpt[1:]))
-
 
     # [["2015-01-01", "2017-03-22"], ["2017-03-29", "2017-11-08"], ["2017-11-09", "2020-04-17"]]
     dates_periods = [(cpd_df.iloc[x].date, cpd_df.iloc[y - 1].date)
@@ -86,10 +87,6 @@ def select_reviews(cpt, cpd_df, df, wbs=False):
 
     # [0.11313865595068318, -0.12056695491266556, 0.17144296948435583]
     sentiment_mean = [np.mean(sentiment[x:y]) for x, y in cpt_periods]
-    print("dates periods: ")
-    print(dates_periods)
-    print("sentiment mean: ")
-    print(sentiment_mean)
 
     # print(sentiment_mean)
 

@@ -20,18 +20,23 @@ def pelt_exact_segmentation(cpd_df, png_filepath, penalty):
         sentiments = np.array(cpd_df.sentiment.to_list())
         model = "ar"  # find out why other models not applicable.
 
-        if penalty=="bicl2":
+        if penalty == "bicl2":
             pen = bic_l2_penalty(sentiments)
             print(pen)
         if penalty == "aicl2":
-            pen= aic_l2_penalty(sentiments)
+            pen = aic_l2_penalty(sentiments)
             print(pen)
         if penalty == "bic":
             pen = bic_penalty(sentiments)
             print(pen)
+        LEN = len(cpd_df)
+        MINSIZE = round(LEN/10)
+        JUMP = 10
 
-        algo = rpt.Pelt(model=model, min_size=10, jump=5).fit(sentiments)
+        # MIN CPD_DF 100, JUMP 30 DAYS.
+        algo = rpt.Pelt(model=model, min_size=MINSIZE, jump=JUMP).fit(sentiments)
         bkps = algo.predict(pen=pen)
+
         # show results
         print(bkps)
         rpt.show.display(sentiments, bkps, figsize=(20, 10))
@@ -41,4 +46,3 @@ def pelt_exact_segmentation(cpd_df, png_filepath, penalty):
         return bkps
     except Exception as msg:
         print(msg)
-

@@ -31,7 +31,7 @@ def window_slider(cpd_df, png_filepath, penalty):
             pen = bic_penalty(sentiments)
             print(pen)
 
-        algo = rpt.Window(width=100, model=model).fit(sentiments)
+        algo = rpt.Window(width=20, model=model).fit(sentiments)
         bkps = algo.predict(pen=pen)
         # show results
         print(bkps)

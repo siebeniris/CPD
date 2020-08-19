@@ -32,9 +32,9 @@ def get_cpd_df(file, aspect):
     return cpd_df, df_new
 
 
-def binary_segmentation(cpd_df):
+def binary_segmentation(cpd_df, png_filepath):
     """
-
+    Binary segmentation search method.
     :param cpd_df:
     :param png_filepath:
     :return:
@@ -53,15 +53,20 @@ def binary_segmentation(cpd_df):
         bkps = algo.predict(pen=np.log(N) * sigma ** 2)
         # show results
         print(bkps)
-        rpt.show.display(sentiments, bkps, figsize=(20, 10))
-        plt.show()
+        rpt.show.display(sentiments, bkps,[0,588, 825, 960, 1173], figsize=(20, 10))
+        plt.savefig(png_filepath)
         plt.cla()
         plt.close()
     except Exception as msg:
         print(msg)
 
 
-def pelt_exact_segmentation(cpd_df):
+def pelt_exact_segmentation(cpd_df, png_file):
+    """
+    pelt exact segmentation
+    :param cpd_df:
+    :return:
+    """
     try:
         plt.rcParams.update({'figure.max_open_warning': 0})
 
@@ -73,8 +78,8 @@ def pelt_exact_segmentation(cpd_df):
         bkps = algo.predict(pen=3)
         # show results
         print(bkps)
-        fig, (ax,) = rpt.display(sentiments, bkps, figsize=(20, 10))
-        plt.show()
+        fig, (ax,) = rpt.display(sentiments, bkps,[0,588, 825, 960, 1173], figsize=(20, 10))
+        plt.savefig(png_file)
         plt.cla()
         plt.close()
 
@@ -82,7 +87,12 @@ def pelt_exact_segmentation(cpd_df):
         print(msg)
 
 
-def bottomUp_binary_segmentation(cpd_df):
+def bottomUp_binary_segmentation(cpd_df, png_file):
+    """
+    Bottom up binary segmentation search method.
+    :param cpd_df:
+    :return:
+    """
     try:
         plt.rcParams.update({'figure.max_open_warning': 0})
 
@@ -96,8 +106,8 @@ def bottomUp_binary_segmentation(cpd_df):
         bkps = algo.predict(pen=np.log(N) * sigma ** 2)
         # show results
         print(bkps)
-        rpt.show.display(sentiments, bkps, figsize=(20, 10))
-        plt.show()
+        rpt.show.display(sentiments, bkps, [0,588, 825, 960, 1173], figsize=(20, 10))
+        plt.savefig(png_file)
         plt.cla()
         plt.close()
 
@@ -105,7 +115,12 @@ def bottomUp_binary_segmentation(cpd_df):
         print(msg)
 
 
-def window_slider(cpd_df):
+def window_slider(cpd_df, png_file):
+    """
+    Use window_based search method.
+    :param cpd_df:
+    :return:
+    """
     try:
         plt.rcParams.update({'figure.max_open_warning': 0})
 
@@ -122,7 +137,7 @@ def window_slider(cpd_df):
         # show results
         print(bkps)
         rpt.show.display(sentiments, bkps, [0,588, 825, 960, 1173], figsize=(20, 10))
-        plt.show()
+        plt.savefig(png_file)
         plt.cla()
         plt.close()
 
@@ -140,7 +155,7 @@ if __name__ == '__main__':
     print(testpath)
 
     cpd_df, _ = get_cpd_df(testpath, "room")
-    # binary_segmentation(cpd_df)
-    # pelt_exact_segmentation(cpd_df)
-    # bottomUp_binary_segmentation(cpd_df)
-    window_slider(cpd_df)
+    binary_segmentation(cpd_df, 'binary_seg.png')
+    pelt_exact_segmentation(cpd_df, 'pelt.png')
+    bottomUp_binary_segmentation(cpd_df,'bottomup_bseg.png')
+    window_slider(cpd_df, 'win.png')

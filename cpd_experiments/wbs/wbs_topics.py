@@ -1,5 +1,4 @@
 import os
-import swifter
 import json
 import csv
 import rootpath
@@ -28,7 +27,7 @@ def get_cpd_df(file, aspect):
     df = df.sort_values('date')
 
     df_new = df[df[aspect] == True]
-    # df_new = df_new[df_new["renovation"] == True]
+    df_new = df_new[df_new["renovation"] == True]
 
     print('length of df :', len(df))
     print('length of df_new', len(df_new))
@@ -81,8 +80,10 @@ def wild_binary_segmentation(cpd_df, png_filepath):
         w_cpt = wbs.changepoints(w)
         cpt = w_cpt.rx2("cpt.ic").rx2("ssic.penalty")
         cpt = list(cpt)
+        print( "cpt:", cpt)
+
         grdevices.png(file=png_filepath)
-        rplot(w, width=480, height=300)
+        rplot(w)
         grdevices.dev_off()
         return cpt
     except Exception as mg:
@@ -179,8 +180,8 @@ def select_reviews(cpt, cpd_df, df):
             if len(df_first) > 3:
                 sentences[0] = get_info_list(df_first)
 
-        for idx, sentiment_mean in enumerate(sentiment_mean_periods):
-            min_, max_ = min(sentiment_mean), max(sentiment_mean)
+        for idx, sentiment_mean_ in enumerate(sentiment_mean_periods):
+            min_, max_ = min(sentiment_mean_), max(sentiment_mean_)
             date_start, date_end = dates_periods[idx + 1]
             df_ = df[(df['date'] > date_start) & (df['date'] < date_end)]
             df_ = df_[(df_['sentiment'] > min_) & (df_['sentiment'] < max_)]
@@ -206,15 +207,16 @@ def select_reviews(cpt, cpd_df, df):
             if len(df_last) > 3:
                 sentences[last] = get_info_list(df_last)
 
-    return sentences, cpt, dates_periods
+    return sentences, cpt, dates_periods, sentiment_mean
 
 
-def write_out_to_json(sentences, cpt, dates_periods, outputfile):
+def write_out_to_json(sentences, cpt, dates_periods, sentiment_mean,  outputfile):
     print('save to ', outputfile)
     data ={
         "sentences": sentences,
         "cpt":cpt,
-        "dates_periods": dates_periods
+        "dates_periods": dates_periods,
+        "sentiment_mean": sentiment_mean
     }
     with open(outputfile, 'w') as file:
         json.dump(data, file)
@@ -236,7 +238,7 @@ if __name__ == '__main__':
     root_dir = rootpath.detect()
     cpd_aspects = os.path.join(root_dir, 'data', 'cpd_aspects')
 
-    output_dir = os.path.join(root_dir, "data", "select_reviews_06122020")
+    output_dir = os.path.join(root_dir, "data", "select_reviews_06152020", "renovation_related")
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     # select_reviews_dir = os.path.join(root_dir, "data", "select_reviews")
@@ -281,18 +283,19 @@ if __name__ == '__main__':
                     if not os.path.exists(exceptionfile):
                         if not os.path.exists(jsonfile) or not os.path.exists(csvfile):
                             cpd_df, df = get_cpd_df(filepath, aspect)
+
+                            cpt = wild_binary_segmentation(cpd_df, wbs_png)
                             # emas plot.
                             ems_file = os.path.join(emas_dir, filename + '.png')
                             if not os.path.exists(ems_file):
                                 emas(cpd_df, os.path.join(emas_dir, filename + '.png'))
-                            cpt = wild_binary_segmentation(cpd_df, wbs_png)
+
                             try:
                                 print("change points detected :", cpt)
-                                # TODO: record cpt. and save wbs png.
-                                sentences, cpt, dates_periods = select_reviews(cpt, cpd_df, df)
+                                sentences, cpt, dates_periods,sentiment_mean = select_reviews(cpt, cpd_df, df)
                                 if any(sentences.values()):
                                     print("len sentences: ", len(sentences))
-                                    write_out_to_json(sentences, cpt, dates_periods, jsonfile)
+                                    write_out_to_json(sentences, cpt, dates_periods, sentiment_mean, jsonfile)
                                     if all(sentences.values()):
                                         write_out_to_csv(sentences, csvfile)
                                 else:
