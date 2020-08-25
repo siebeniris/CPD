@@ -1,0 +1,8495 @@
+[
+  {
+    "fileId": "43",
+    "hotel_id": 43,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      140,
+      650,
+      818
+    ],
+    "bbs_cpts": [
+      0,
+      325,
+      340,
+      685,
+      818
+    ],
+    "hausdorff": 200.0,
+    "precision": 0.25,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.6826298264596696
+  },
+  {
+    "fileId": "56",
+    "hotel_id": 56,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      400,
+      977
+    ],
+    "bbs_cpts": [
+      0,
+      400,
+      675,
+      700,
+      730,
+      800,
+      945,
+      955,
+      977
+    ],
+    "hausdorff": 555.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.7598082405039553
+  },
+  {
+    "fileId": "441",
+    "hotel_id": 441,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      210,
+      230
+    ],
+    "bbs_cpts": [
+      0,
+      200,
+      230
+    ],
+    "hausdorff": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9168241965973535
+  },
+  {
+    "fileId": "348",
+    "hotel_id": 348,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      90,
+      344
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      344
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      255,
+      429
+    ],
+    "bbs_cpts": [
+      0,
+      215,
+      429
+    ],
+    "hausdorff": 40.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.8309072434946561
+  },
+  {
+    "fileId": "409",
+    "hotel_id": 409,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      105,
+      183
+    ],
+    "bbs_cpts": [
+      0,
+      105,
+      183
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "242",
+    "hotel_id": 242,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      15,
+      78
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      78
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "142",
+    "hotel_id": 142,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      105,
+      231
+    ],
+    "bbs_cpts": [
+      0,
+      105,
+      145,
+      155,
+      231
+    ],
+    "hausdorff": 50.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.842581660763479
+  },
+  {
+    "fileId": "122",
+    "hotel_id": 122,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      110,
+      906
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      175,
+      390,
+      410,
+      906
+    ],
+    "hausdorff": 300.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.5714734733856702
+  },
+  {
+    "fileId": "26",
+    "hotel_id": 26,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      180,
+      237
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      237
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "445",
+    "hotel_id": 445,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      245,
+      346
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      210,
+      346
+    ],
+    "hausdorff": 100.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.660696982859434
+  },
+  {
+    "fileId": "132",
+    "hotel_id": 132,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      480,
+      935
+    ],
+    "bbs_cpts": [
+      0,
+      435,
+      770,
+      810,
+      880,
+      935
+    ],
+    "hausdorff": 400.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.7956475735651577
+  },
+  {
+    "fileId": "436",
+    "hotel_id": 436,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      375,
+      494
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      205,
+      385,
+      420,
+      440,
+      480,
+      494
+    ],
+    "hausdorff": 170.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.5732596829975904
+  },
+  {
+    "fileId": "217",
+    "hotel_id": 217,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      660,
+      673
+    ],
+    "bbs_cpts": [
+      0,
+      515,
+      525,
+      660,
+      673
+    ],
+    "hausdorff": 145.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6642961700398959
+  },
+  {
+    "fileId": "422",
+    "hotel_id": 422,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      95,
+      148
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      148
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9347151205259313
+  },
+  {
+    "fileId": "179",
+    "hotel_id": 179,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      35,
+      53
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      53
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.829120683517266
+  },
+  {
+    "fileId": "180",
+    "hotel_id": 180,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      250,
+      263
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      120,
+      250,
+      263
+    ],
+    "hausdorff": 120.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5171247235033035
+  },
+  {
+    "fileId": "386",
+    "hotel_id": 386,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      95,
+      708
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      450,
+      515,
+      530,
+      708
+    ],
+    "hausdorff": 435.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.5649797312394267
+  },
+  {
+    "fileId": "194",
+    "hotel_id": 194,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      45,
+      71
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      71
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "416",
+    "hotel_id": 416,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      55,
+      421
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      421
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "260",
+    "hotel_id": 260,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      485,
+      912
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      80,
+      300,
+      305,
+      365,
+      370,
+      390,
+      400,
+      575,
+      580,
+      912
+    ],
+    "hausdorff": 185.0,
+    "precision": 0.09090909090909091,
+    "recall": 0.5,
+    "f1_score": 0.15384615384615385,
+    "rand_index": 0.6990901046475839
+  },
+  {
+    "fileId": "471",
+    "hotel_id": 471,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      680,
+      3024
+    ],
+    "bbs_cpts": [
+      0,
+      445,
+      525,
+      795,
+      1185,
+      1225,
+      2125,
+      2130,
+      2185,
+      3024
+    ],
+    "hausdorff": 1505.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.55382950505305
+  },
+  {
+    "fileId": "401",
+    "hotel_id": 401,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      90,
+      151
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      151
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      440,
+      472
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      30,
+      35,
+      110,
+      440,
+      472
+    ],
+    "hausdorff": 110.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6474163315139327
+  },
+  {
+    "fileId": "315",
+    "hotel_id": 315,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      590,
+      638
+    ],
+    "bbs_cpts": [
+      0,
+      280,
+      320,
+      415,
+      590,
+      600,
+      630,
+      635,
+      638
+    ],
+    "hausdorff": 280.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.43563840764143436
+  },
+  {
+    "fileId": "46",
+    "hotel_id": 46,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      65,
+      88
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      88
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "228",
+    "hotel_id": 228,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      530,
+      725
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      140,
+      530,
+      580,
+      645,
+      695,
+      725
+    ],
+    "hausdorff": 165.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.7365992865636147
+  },
+  {
+    "fileId": "9",
+    "hotel_id": 9,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      15,
+      304
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      270,
+      304
+    ],
+    "hausdorff": 255.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.8123701523545707
+  },
+  {
+    "fileId": "257",
+    "hotel_id": 257,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      80,
+      345
+    ],
+    "bbs_cpts": [
+      0,
+      275,
+      290,
+      345
+    ],
+    "hausdorff": 210.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.49464398235664775
+  },
+  {
+    "fileId": "292",
+    "hotel_id": 292,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      460,
+      695
+    ],
+    "bbs_cpts": [
+      0,
+      405,
+      415,
+      695
+    ],
+    "hausdorff": 55.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.8621189379431706
+  },
+  {
+    "fileId": "250",
+    "hotel_id": 250,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      45,
+      338
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      125,
+      130,
+      225,
+      235,
+      338
+    ],
+    "hausdorff": 190.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.4486362522320647
+  },
+  {
+    "fileId": "326",
+    "hotel_id": 326,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      10,
+      42
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      42
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "168",
+    "hotel_id": 168,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      435,
+      480,
+      780
+    ],
+    "bbs_cpts": [
+      0,
+      265,
+      295,
+      405,
+      480,
+      495,
+      500,
+      520,
+      605,
+      620,
+      780
+    ],
+    "hausdorff": 170.0,
+    "precision": 0.2,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.30769230769230765,
+    "rand_index": 0.730276134122288
+  },
+  {
+    "fileId": "183",
+    "hotel_id": 183,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      605,
+      670,
+      712
+    ],
+    "bbs_cpts": [
+      0,
+      460,
+      595,
+      670,
+      712
+    ],
+    "hausdorff": 145.0,
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1_score": 0.8571428571428571,
+    "rand_index": 0.7289641459411691
+  },
+  {
+    "fileId": "136",
+    "hotel_id": 136,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      230,
+      589
+    ],
+    "bbs_cpts": [
+      0,
+      230,
+      295,
+      300,
+      560,
+      589
+    ],
+    "hausdorff": 330.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.838032289772023
+  },
+  {
+    "fileId": "16",
+    "hotel_id": 16,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      205,
+      727
+    ],
+    "bbs_cpts": [
+      0,
+      150,
+      160,
+      175,
+      290,
+      395,
+      727
+    ],
+    "hausdorff": 190.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.683252953007309
+  },
+  {
+    "fileId": "221",
+    "hotel_id": 221,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      165,
+      340,
+      349
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      70,
+      85,
+      165,
+      340,
+      345,
+      349
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1_score": 0.6,
+    "rand_index": 0.8654362443658098
+  },
+  {
+    "fileId": "37",
+    "hotel_id": 37,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      630,
+      1112
+    ],
+    "bbs_cpts": [
+      0,
+      265,
+      275,
+      410,
+      425,
+      815,
+      910,
+      1112
+    ],
+    "hausdorff": 280.0,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1_score": 0.22222222222222224,
+    "rand_index": 0.6035563635422597
+  },
+  {
+    "fileId": "74",
+    "hotel_id": 74,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      85,
+      198
+    ],
+    "bbs_cpts": [
+      0,
+      175,
+      190,
+      198
+    ],
+    "hausdorff": 105.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.49801040710131617
+  },
+  {
+    "fileId": "456",
+    "hotel_id": 456,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      120,
+      157
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      157
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "399",
+    "hotel_id": 399,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      400,
+      509
+    ],
+    "bbs_cpts": [
+      0,
+      400,
+      509
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "380",
+    "hotel_id": 380,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      460,
+      559
+    ],
+    "bbs_cpts": [
+      0,
+      340,
+      559
+    ],
+    "hausdorff": 120.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.6628274999119946
+  },
+  {
+    "fileId": "337",
+    "hotel_id": 337,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      395,
+      646
+    ],
+    "bbs_cpts": [
+      0,
+      400,
+      455,
+      510,
+      535,
+      646
+    ],
+    "hausdorff": 140.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.8851469869355596
+  },
+  {
+    "fileId": "288",
+    "hotel_id": 288,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      645,
+      776
+    ],
+    "bbs_cpts": [
+      0,
+      645,
+      776
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "325",
+    "hotel_id": 325,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      25,
+      135,
+      175
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      135,
+      175
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "210",
+    "hotel_id": 210,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      455,
+      865,
+      1047
+    ],
+    "bbs_cpts": [
+      0,
+      455,
+      645,
+      690,
+      865,
+      895,
+      910,
+      1047
+    ],
+    "hausdorff": 190.0,
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1_score": 0.6,
+    "rand_index": 0.8973006059975789
+  },
+  {
+    "fileId": "145",
+    "hotel_id": 145,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      100,
+      127
+    ],
+    "bbs_cpts": [
+      0,
+      127
+    ],
+    "hausdorff": 100.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6651993303986607
+  },
+  {
+    "fileId": "350",
+    "hotel_id": 350,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      490,
+      799
+    ],
+    "bbs_cpts": [
+      0,
+      155,
+      190,
+      485,
+      665,
+      670,
+      799
+    ],
+    "hausdorff": 190.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.7215856491452864
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      315,
+      395
+    ],
+    "bbs_cpts": [
+      0,
+      330,
+      380,
+      390,
+      395
+    ],
+    "hausdorff": 75.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.9166800192276878
+  },
+  {
+    "fileId": "167",
+    "hotel_id": 167,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      20,
+      74
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      74
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "110",
+    "hotel_id": 110,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      885,
+      2140
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      190,
+      635,
+      685,
+      1135,
+      1140,
+      1225,
+      1230,
+      2140
+    ],
+    "hausdorff": 345.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.7188946632893702
+  },
+  {
+    "fileId": "289",
+    "hotel_id": 289,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      1070,
+      1405
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      75,
+      890,
+      900,
+      1350,
+      1355,
+      1405
+    ],
+    "hausdorff": 285.0,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1_score": 0.22222222222222224,
+    "rand_index": 0.7092995276148986
+  },
+  {
+    "fileId": "270",
+    "hotel_id": 270,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      575,
+      1377
+    ],
+    "bbs_cpts": [
+      0,
+      575,
+      1377
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "226",
+    "hotel_id": 226,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      90,
+      287
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      125,
+      250,
+      287
+    ],
+    "hausdorff": 160.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.6565455450472872
+  },
+  {
+    "fileId": "305",
+    "hotel_id": 305,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      30,
+      368
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      95,
+      115,
+      250,
+      260,
+      310,
+      325,
+      368
+    ],
+    "hausdorff": 295.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.35299503780718333
+  },
+  {
+    "fileId": "113",
+    "hotel_id": 113,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      150,
+      595
+    ],
+    "bbs_cpts": [
+      0,
+      150,
+      160,
+      165,
+      355,
+      365,
+      595
+    ],
+    "hausdorff": 215.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6926770708283314
+  },
+  {
+    "fileId": "225",
+    "hotel_id": 225,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      55,
+      801
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      205,
+      225,
+      801
+    ],
+    "hausdorff": 170.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6854119616397107
+  },
+  {
+    "fileId": "129",
+    "hotel_id": 129,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      420,
+      517
+    ],
+    "bbs_cpts": [
+      0,
+      205,
+      225,
+      435,
+      490,
+      517
+    ],
+    "hausdorff": 205.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.5988237450849081
+  },
+  {
+    "fileId": "95",
+    "hotel_id": 95,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      35,
+      85
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      85
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "299",
+    "hotel_id": 299,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      200,
+      756
+    ],
+    "bbs_cpts": [
+      0,
+      200,
+      355,
+      405,
+      640,
+      645,
+      756
+    ],
+    "hausdorff": 445.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.623750734861846
+  },
+  {
+    "fileId": "396",
+    "hotel_id": 396,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      10,
+      110,
+      237
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      110,
+      237
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "269",
+    "hotel_id": 269,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      65,
+      125,
+      297
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      125,
+      297
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "147",
+    "hotel_id": 147,
+    "category": "facility",
+    "gold_cpts": [
+      0,
+      105,
+      217
+    ],
+    "bbs_cpts": [
+      0,
+      85,
+      90,
+      217
+    ],
+    "hausdorff": 20.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.8532565992057592
+  },
+  {
+    "fileId": "128",
+    "hotel_id": 128,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      325,
+      888
+    ],
+    "bbs_cpts": [
+      0,
+      130,
+      170,
+      180,
+      210,
+      225,
+      665,
+      670,
+      888
+    ],
+    "hausdorff": 345.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.6224433893352812
+  },
+  {
+    "fileId": "43",
+    "hotel_id": 43,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      205,
+      1331
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      160,
+      1090,
+      1220,
+      1331
+    ],
+    "hausdorff": 1015.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.6866718109057492
+  },
+  {
+    "fileId": "224",
+    "hotel_id": 224,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      1205,
+      1341
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      145,
+      255,
+      265,
+      345,
+      390,
+      460,
+      495,
+      840,
+      845,
+      870,
+      900,
+      910,
+      1175,
+      1185,
+      1341
+    ],
+    "hausdorff": 495.0,
+    "precision": 0.0625,
+    "recall": 0.5,
+    "f1_score": 0.1111111111111111,
+    "rand_index": 0.3197448007291408
+  },
+  {
+    "fileId": "348",
+    "hotel_id": 348,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      100,
+      670
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      40,
+      450,
+      625,
+      670
+    ],
+    "hausdorff": 525.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.5162619737135219
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      550,
+      804
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      85,
+      115,
+      165,
+      175,
+      240,
+      270,
+      350,
+      440,
+      450,
+      550,
+      650,
+      725,
+      735,
+      804
+    ],
+    "hausdorff": 270.0,
+    "precision": 0.13333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.23529411764705882,
+    "rand_index": 0.5213917972327418
+  },
+  {
+    "fileId": "242",
+    "hotel_id": 242,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      190,
+      324
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      150,
+      190,
+      324
+    ],
+    "hausdorff": 45.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8718754762993446
+  },
+  {
+    "fileId": "142",
+    "hotel_id": 142,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      490,
+      558
+    ],
+    "bbs_cpts": [
+      0,
+      95,
+      100,
+      495,
+      520,
+      558
+    ],
+    "hausdorff": 100.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.7257871815624157
+  },
+  {
+    "fileId": "122",
+    "hotel_id": 122,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      155,
+      1290,
+      1359
+    ],
+    "bbs_cpts": [
+      0,
+      960,
+      975,
+      1140,
+      1185,
+      1205,
+      1215,
+      1230,
+      1285,
+      1359
+    ],
+    "hausdorff": 330.0,
+    "precision": 0.2222222222222222,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.5358715585898604
+  },
+  {
+    "fileId": "48",
+    "hotel_id": 48,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      555,
+      750
+    ],
+    "bbs_cpts": [
+      0,
+      550,
+      560,
+      630,
+      660,
+      750
+    ],
+    "hausdorff": 105.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.9472888888888888
+  },
+  {
+    "fileId": "91",
+    "hotel_id": 91,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      555,
+      993
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      130,
+      375,
+      595,
+      665,
+      845,
+      865,
+      993
+    ],
+    "hausdorff": 310.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.6445308498867703
+  },
+  {
+    "fileId": "132",
+    "hotel_id": 132,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      915,
+      1398
+    ],
+    "bbs_cpts": [
+      0,
+      205,
+      235,
+      285,
+      290,
+      475,
+      490,
+      675,
+      810,
+      850,
+      915,
+      1140,
+      1145,
+      1165,
+      1280,
+      1398
+    ],
+    "hausdorff": 440.0,
+    "precision": 0.13333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.23529411764705882,
+    "rand_index": 0.5629665105065278
+  },
+  {
+    "fileId": "278",
+    "hotel_id": 278,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      15,
+      220,
+      315,
+      755,
+      839
+    ],
+    "bbs_cpts": [
+      0,
+      220,
+      315,
+      415,
+      430,
+      475,
+      500,
+      515,
+      520,
+      535,
+      585,
+      695,
+      700,
+      725,
+      740,
+      790,
+      805,
+      839
+    ],
+    "hausdorff": 220.0,
+    "precision": 0.23529411764705882,
+    "recall": 0.8,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.7496878200820831
+  },
+  {
+    "fileId": "41",
+    "hotel_id": 41,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      15,
+      839
+    ],
+    "bbs_cpts": [
+      0,
+      220,
+      315,
+      415,
+      430,
+      475,
+      500,
+      515,
+      520,
+      535,
+      585,
+      695,
+      700,
+      725,
+      740,
+      790,
+      805,
+      839
+    ],
+    "hausdorff": 790.0,
+    "precision": 0.058823529411764705,
+    "recall": 0.5,
+    "f1_score": 0.10526315789473684,
+    "rand_index": 0.14568538230852612
+  },
+  {
+    "fileId": "422",
+    "hotel_id": 422,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      140,
+      334
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      334
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "180",
+    "hotel_id": 180,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      50,
+      410,
+      442
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      45,
+      200,
+      205,
+      225,
+      370,
+      375,
+      442
+    ],
+    "hausdorff": 175.0,
+    "precision": 0.25,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.36363636363636365,
+    "rand_index": 0.5444913085317664
+  },
+  {
+    "fileId": "386",
+    "hotel_id": 386,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      480,
+      927
+    ],
+    "bbs_cpts": [
+      0,
+      480,
+      927
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "139",
+    "hotel_id": 139,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      305,
+      1152
+    ],
+    "bbs_cpts": [
+      0,
+      190,
+      215,
+      365,
+      410,
+      415,
+      435,
+      475,
+      480,
+      510,
+      515,
+      685,
+      690,
+      720,
+      725,
+      845,
+      850,
+      925,
+      930,
+      995,
+      1020,
+      1152
+    ],
+    "hausdorff": 715.0,
+    "precision": 0.047619047619047616,
+    "recall": 0.5,
+    "f1_score": 0.08695652173913042,
+    "rand_index": 0.4758436414930556
+  },
+  {
+    "fileId": "401",
+    "hotel_id": 401,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      165,
+      276
+    ],
+    "bbs_cpts": [
+      0,
+      165,
+      220,
+      225,
+      276
+    ],
+    "hausdorff": 60.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.91243961352657
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      95,
+      310,
+      410,
+      878
+    ],
+    "bbs_cpts": [
+      0,
+      310,
+      370,
+      385,
+      570,
+      650,
+      675,
+      745,
+      760,
+      878
+    ],
+    "hausdorff": 350.0,
+    "precision": 0.2222222222222222,
+    "recall": 0.5,
+    "f1_score": 0.30769230769230765,
+    "rand_index": 0.7123432319259448
+  },
+  {
+    "fileId": "25",
+    "hotel_id": 25,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      395,
+      1239
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      185,
+      190,
+      215,
+      220,
+      270,
+      315,
+      370,
+      380,
+      460,
+      465,
+      610,
+      615,
+      855,
+      890,
+      1239
+    ],
+    "hausdorff": 495.0,
+    "precision": 0.125,
+    "recall": 1.0,
+    "f1_score": 0.2222222222222222,
+    "rand_index": 0.5939017184964572
+  },
+  {
+    "fileId": "46",
+    "hotel_id": 46,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      155,
+      200,
+      210
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      200,
+      210
+    ],
+    "hausdorff": 25.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8015873015873016
+  },
+  {
+    "fileId": "9",
+    "hotel_id": 9,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      125,
+      560,
+      701
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      35,
+      50,
+      95,
+      100,
+      125,
+      345,
+      350,
+      425,
+      430,
+      560,
+      630,
+      640,
+      701
+    ],
+    "hausdorff": 215.0,
+    "precision": 0.21428571428571427,
+    "recall": 1.0,
+    "f1_score": 0.35294117647058826,
+    "rand_index": 0.7126379474197244
+  },
+  {
+    "fileId": "367",
+    "hotel_id": 367,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      570,
+      1153
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      20,
+      175,
+      180,
+      210,
+      215,
+      245,
+      250,
+      300,
+      305,
+      430,
+      445,
+      495,
+      500,
+      545,
+      550,
+      640,
+      665,
+      965,
+      970,
+      1105,
+      1110,
+      1153
+    ],
+    "hausdorff": 540.0,
+    "precision": 0.043478260869565216,
+    "recall": 0.5,
+    "f1_score": 0.08,
+    "rand_index": 0.6220576210932829
+  },
+  {
+    "fileId": "277",
+    "hotel_id": 277,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      840,
+      1414
+    ],
+    "bbs_cpts": [
+      0,
+      60,
+      75,
+      610,
+      630,
+      1115,
+      1130,
+      1185,
+      1414
+    ],
+    "hausdorff": 345.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.6575415775564221
+  },
+  {
+    "fileId": "185",
+    "hotel_id": 185,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      90,
+      709
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      125,
+      135,
+      200,
+      205,
+      385,
+      390,
+      455,
+      709
+    ],
+    "hausdorff": 365.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.4387693189119939
+  },
+  {
+    "fileId": "20",
+    "hotel_id": 20,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      185,
+      686
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      150,
+      170,
+      180,
+      535,
+      540,
+      550,
+      555,
+      686
+    ],
+    "hausdorff": 370.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.729406964785081
+  },
+  {
+    "fileId": "144",
+    "hotel_id": 144,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      295,
+      980
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      120,
+      140,
+      290,
+      775,
+      780,
+      980
+    ],
+    "hausdorff": 485.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.7320907955018743
+  },
+  {
+    "fileId": "368",
+    "hotel_id": 368,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      350,
+      1021
+    ],
+    "bbs_cpts": [
+      0,
+      290,
+      295,
+      360,
+      375,
+      815,
+      820,
+      1005,
+      1021
+    ],
+    "hausdorff": 655.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.7522545640472698
+  },
+  {
+    "fileId": "29",
+    "hotel_id": 29,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      695,
+      1109
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      150,
+      250,
+      515,
+      700,
+      830,
+      860,
+      885,
+      895,
+      1109
+    ],
+    "hausdorff": 250.0,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1_score": 0.33333333333333337,
+    "rand_index": 0.6204917386316238
+  },
+  {
+    "fileId": "318",
+    "hotel_id": 318,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      595,
+      895,
+      965,
+      1055,
+      3210,
+      5585,
+      5603
+    ],
+    "bbs_cpts": [
+      0,
+      375,
+      895,
+      965,
+      1055,
+      1705,
+      1710,
+      3410,
+      3420,
+      3900,
+      3910,
+      5585,
+      5603
+    ],
+    "hausdorff": 700.0,
+    "precision": 0.4166666666666667,
+    "recall": 0.7142857142857143,
+    "f1_score": 0.5263157894736842,
+    "rand_index": 0.8269424837392859
+  },
+  {
+    "fileId": "221",
+    "hotel_id": 221,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      195,
+      630
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      95,
+      195,
+      260,
+      295,
+      630
+    ],
+    "hausdorff": 100.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.7695893172083648
+  },
+  {
+    "fileId": "395",
+    "hotel_id": 395,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      20,
+      602
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      20,
+      285,
+      295,
+      490,
+      500,
+      602
+    ],
+    "hausdorff": 480.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.3928874957230053
+  },
+  {
+    "fileId": "404",
+    "hotel_id": 404,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      85,
+      575,
+      730,
+      1070,
+      1165
+    ],
+    "bbs_cpts": [
+      0,
+      580,
+      655,
+      680,
+      755,
+      1110,
+      1125,
+      1140,
+      1150,
+      1165
+    ],
+    "hausdorff": 85.0,
+    "precision": 0.2222222222222222,
+    "recall": 0.4,
+    "f1_score": 0.2857142857142857,
+    "rand_index": 0.8862384645139899
+  },
+  {
+    "fileId": "32",
+    "hotel_id": 32,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      85,
+      181
+    ],
+    "bbs_cpts": [
+      0,
+      170,
+      175,
+      181
+    ],
+    "hausdorff": 90.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.5000152620493881
+  },
+  {
+    "fileId": "243",
+    "hotel_id": 243,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      725,
+      980,
+      1430,
+      1498
+    ],
+    "bbs_cpts": [
+      0,
+      130,
+      195,
+      750,
+      870,
+      880,
+      1045,
+      1050,
+      1405,
+      1498
+    ],
+    "hausdorff": 195.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.25,
+    "f1_score": 0.15384615384615383,
+    "rand_index": 0.8315511024044521
+  },
+  {
+    "fileId": "37",
+    "hotel_id": 37,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      1550,
+      1590
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      95,
+      415,
+      630,
+      690,
+      760,
+      780,
+      1010,
+      1025,
+      1115,
+      1175,
+      1190,
+      1230,
+      1235,
+      1435,
+      1505,
+      1580,
+      1590
+    ],
+    "hausdorff": 770.0,
+    "precision": 0.05555555555555555,
+    "recall": 0.5,
+    "f1_score": 0.09999999999999999,
+    "rand_index": 0.15824136703453184
+  },
+  {
+    "fileId": "399",
+    "hotel_id": 399,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      330,
+      530,
+      932
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      385,
+      390,
+      530,
+      765,
+      785,
+      932
+    ],
+    "hausdorff": 255.0,
+    "precision": 0.2857142857142857,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.4,
+    "rand_index": 0.8027685166424138
+  },
+  {
+    "fileId": "473",
+    "hotel_id": 473,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      70,
+      145
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      40,
+      70,
+      145
+    ],
+    "hausdorff": 30.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8501783590963139
+  },
+  {
+    "fileId": "131",
+    "hotel_id": 131,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      245,
+      411
+    ],
+    "bbs_cpts": [
+      0,
+      245,
+      325,
+      345,
+      365,
+      370,
+      411
+    ],
+    "hausdorff": 125.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.8895933602098022
+  },
+  {
+    "fileId": "288",
+    "hotel_id": 288,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      5,
+      1374
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      140,
+      175,
+      200,
+      215,
+      340,
+      350,
+      475,
+      570,
+      750,
+      755,
+      965,
+      990,
+      1180,
+      1374
+    ],
+    "hausdorff": 1175.0,
+    "precision": 0.06666666666666667,
+    "recall": 0.5,
+    "f1_score": 0.11764705882352941,
+    "rand_index": 0.11932775245831828
+  },
+  {
+    "fileId": "135",
+    "hotel_id": 135,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      135,
+      618
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      225,
+      230,
+      535,
+      580,
+      618
+    ],
+    "hausdorff": 445.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6631005121437773
+  },
+  {
+    "fileId": "145",
+    "hotel_id": 145,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      215,
+      351
+    ],
+    "bbs_cpts": [
+      0,
+      170,
+      175,
+      215,
+      240,
+      270,
+      275,
+      351
+    ],
+    "hausdorff": 60.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.78190112093246
+  },
+  {
+    "fileId": "350",
+    "hotel_id": 350,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      1010,
+      1352
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      45,
+      145,
+      210,
+      315,
+      325,
+      505,
+      510,
+      570,
+      575,
+      710,
+      760,
+      835,
+      900,
+      1352
+    ],
+    "hausdorff": 505.0,
+    "precision": 0.06666666666666667,
+    "recall": 0.5,
+    "f1_score": 0.11764705882352941,
+    "rand_index": 0.45859301144917897
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      420,
+      660
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      40,
+      85,
+      205,
+      210,
+      230,
+      240,
+      420,
+      540,
+      545,
+      660
+    ],
+    "hausdorff": 210.0,
+    "precision": 0.18181818181818182,
+    "recall": 1.0,
+    "f1_score": 0.3076923076923077,
+    "rand_index": 0.6418732782369145
+  },
+  {
+    "fileId": "167",
+    "hotel_id": 167,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      65,
+      200
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      20,
+      35,
+      40,
+      160,
+      170,
+      200
+    ],
+    "hausdorff": 105.0,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1_score": 0.22222222222222224,
+    "rand_index": 0.5974999999999999
+  },
+  {
+    "fileId": "110",
+    "hotel_id": 110,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      850,
+      2825,
+      5306
+    ],
+    "bbs_cpts": [
+      0,
+      435,
+      440,
+      480,
+      595,
+      735,
+      750,
+      830,
+      840,
+      1260,
+      1265,
+      1795,
+      1805,
+      1935,
+      1940,
+      2075,
+      2100,
+      2765,
+      2780,
+      3915,
+      3920,
+      4140,
+      4145,
+      5306
+    ],
+    "hausdorff": 1320.0,
+    "precision": 0.08695652173913043,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.15384615384615383,
+    "rand_index": 0.7463759210355636
+  },
+  {
+    "fileId": "391",
+    "hotel_id": 391,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      455,
+      593
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      150,
+      220,
+      280,
+      400,
+      430,
+      593
+    ],
+    "hausdorff": 220.0,
+    "precision": 0.14285714285714285,
+    "recall": 0.5,
+    "f1_score": 0.22222222222222224,
+    "rand_index": 0.5135774593415594
+  },
+  {
+    "fileId": "162",
+    "hotel_id": 162,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      305,
+      431
+    ],
+    "bbs_cpts": [
+      0,
+      320,
+      330,
+      431
+    ],
+    "hausdorff": 25.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.92194271133338
+  },
+  {
+    "fileId": "305",
+    "hotel_id": 305,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      415,
+      885,
+      903
+    ],
+    "bbs_cpts": [
+      0,
+      415,
+      505,
+      510,
+      903
+    ],
+    "hausdorff": 375.0,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.8949606884397892
+  },
+  {
+    "fileId": "307",
+    "hotel_id": 307,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      120,
+      2343
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      255,
+      265,
+      305,
+      315,
+      595,
+      600,
+      625,
+      630,
+      820,
+      825,
+      945,
+      975,
+      1185,
+      1195,
+      1570,
+      1575,
+      1620,
+      1650,
+      1955,
+      1960,
+      2343
+    ],
+    "hausdorff": 1840.0,
+    "precision": 0.045454545454545456,
+    "recall": 0.5,
+    "f1_score": 0.08333333333333334,
+    "rand_index": 0.20339351386582272
+  },
+  {
+    "fileId": "356",
+    "hotel_id": 356,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      205,
+      553
+    ],
+    "bbs_cpts": [
+      0,
+      553
+    ],
+    "hausdorff": 205.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5334342677946038
+  },
+  {
+    "fileId": "269",
+    "hotel_id": 269,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      720,
+      730
+    ],
+    "bbs_cpts": [
+      0,
+      270,
+      280,
+      590,
+      595,
+      720,
+      730
+    ],
+    "hausdorff": 280.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.3738975417526741
+  },
+  {
+    "fileId": "211",
+    "hotel_id": 211,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      10,
+      109
+    ],
+    "bbs_cpts": [
+      0,
+      109
+    ],
+    "hausdorff": 10.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8333473613332211
+  },
+  {
+    "fileId": "147",
+    "hotel_id": 147,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      145,
+      665
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      60,
+      90,
+      100,
+      245,
+      370,
+      380,
+      475,
+      480,
+      500,
+      505,
+      665
+    ],
+    "hausdorff": 360.0,
+    "precision": 0.08333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.14285714285714285,
+    "rand_index": 0.47006614280061054
+  },
+  {
+    "fileId": "52",
+    "hotel_id": 52,
+    "category": "reception",
+    "gold_cpts": [
+      0,
+      210,
+      836
+    ],
+    "bbs_cpts": [
+      0,
+      300,
+      305,
+      590,
+      630,
+      775,
+      836
+    ],
+    "hausdorff": 565.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.5507486092351366
+  },
+  {
+    "fileId": "128",
+    "hotel_id": 128,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      25,
+      406
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      225,
+      245,
+      406
+    ],
+    "hausdorff": 220.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5217064233541217
+  },
+  {
+    "fileId": "118",
+    "hotel_id": 118,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      20,
+      1152
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      1150,
+      1152
+    ],
+    "hausdorff": 1130.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.9965940875771605
+  },
+  {
+    "fileId": "149",
+    "hotel_id": 149,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      855,
+      872
+    ],
+    "bbs_cpts": [
+      0,
+      650,
+      680,
+      855,
+      872
+    ],
+    "hausdorff": 205.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.635710377914317
+  },
+  {
+    "fileId": "370",
+    "hotel_id": 370,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      15,
+      100
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      100
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "56",
+    "hotel_id": 56,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      210,
+      380
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      140,
+      160,
+      180,
+      190,
+      195,
+      205,
+      380
+    ],
+    "hausdorff": 90.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.7925900277008311
+  },
+  {
+    "fileId": "393",
+    "hotel_id": 393,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      45,
+      117
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      117
+    ],
+    "hausdorff": 35.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.5806852217108627
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      415,
+      687
+    ],
+    "bbs_cpts": [
+      0,
+      60,
+      65,
+      135,
+      150,
+      450,
+      687
+    ],
+    "hausdorff": 150.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.7279694217204944
+  },
+  {
+    "fileId": "409",
+    "hotel_id": 409,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      45,
+      293
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      10,
+      45,
+      90,
+      100,
+      275,
+      293
+    ],
+    "hausdorff": 230.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.6601008747917856
+  },
+  {
+    "fileId": "142",
+    "hotel_id": 142,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      80,
+      134
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      134
+    ],
+    "hausdorff": 15.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.8011806638449543
+  },
+  {
+    "fileId": "26",
+    "hotel_id": 26,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      330,
+      383
+    ],
+    "bbs_cpts": [
+      0,
+      350,
+      365,
+      383
+    ],
+    "hausdorff": 35.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.8973338150781586
+  },
+  {
+    "fileId": "445",
+    "hotel_id": 445,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      45,
+      193
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      193
+    ],
+    "hausdorff": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9017423286531182
+  },
+  {
+    "fileId": "132",
+    "hotel_id": 132,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      90,
+      632
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      145,
+      632
+    ],
+    "hausdorff": 55.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.8658818698926454
+  },
+  {
+    "fileId": "259",
+    "hotel_id": 259,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      20,
+      30
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      30
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "471",
+    "hotel_id": 471,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      470,
+      2227
+    ],
+    "bbs_cpts": [
+      0,
+      470,
+      770,
+      820,
+      1290,
+      1340,
+      2090,
+      2155,
+      2227
+    ],
+    "hausdorff": 1685.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.5565627300495672
+  },
+  {
+    "fileId": "401",
+    "hotel_id": 401,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      125,
+      208
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      208
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9530787721893491
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      275,
+      605
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      70,
+      315,
+      325,
+      605
+    ],
+    "hausdorff": 70.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.7935933337886756
+  },
+  {
+    "fileId": "437",
+    "hotel_id": 437,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      405,
+      572
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      185,
+      415,
+      510,
+      515,
+      572
+    ],
+    "hausdorff": 185.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6849173553719008
+  },
+  {
+    "fileId": "363",
+    "hotel_id": 363,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      25,
+      640
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      430,
+      435,
+      565,
+      575,
+      640
+    ],
+    "hausdorff": 550.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.5289306640625
+  },
+  {
+    "fileId": "367",
+    "hotel_id": 367,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      15,
+      170,
+      336
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      280,
+      290,
+      336
+    ],
+    "hausdorff": 120.0,
+    "precision": 0.25,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.5806760204081632
+  },
+  {
+    "fileId": "257",
+    "hotel_id": 257,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      55,
+      93
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      93
+    ],
+    "hausdorff": 10.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.8080702971441786
+  },
+  {
+    "fileId": "185",
+    "hotel_id": 185,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      30,
+      114
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      114
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "144",
+    "hotel_id": 144,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      60,
+      235
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      90,
+      235
+    ],
+    "hausdorff": 30.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.8134902670891806
+  },
+  {
+    "fileId": "368",
+    "hotel_id": 368,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      215,
+      497
+    ],
+    "bbs_cpts": [
+      0,
+      170,
+      175,
+      290,
+      340,
+      497
+    ],
+    "hausdorff": 125.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.7228845912497115
+  },
+  {
+    "fileId": "168",
+    "hotel_id": 168,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      125,
+      664
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      50,
+      60,
+      310,
+      390,
+      664
+    ],
+    "hausdorff": 265.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.5261467556974888
+  },
+  {
+    "fileId": "183",
+    "hotel_id": 183,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      245,
+      306
+    ],
+    "bbs_cpts": [
+      0,
+      165,
+      170,
+      245,
+      306
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.7100474176598743
+  },
+  {
+    "fileId": "136",
+    "hotel_id": 136,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      120,
+      246
+    ],
+    "bbs_cpts": [
+      0,
+      95,
+      100,
+      170,
+      180,
+      246
+    ],
+    "hausdorff": 60.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.7377553043823122
+  },
+  {
+    "fileId": "16",
+    "hotel_id": 16,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      100,
+      163
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      140,
+      160,
+      163
+    ],
+    "hausdorff": 60.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.7455681433249275
+  },
+  {
+    "fileId": "395",
+    "hotel_id": 395,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      50,
+      68
+    ],
+    "bbs_cpts": [
+      0,
+      50,
+      68
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "273",
+    "hotel_id": 273,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      40,
+      167
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      167
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "243",
+    "hotel_id": 243,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      370,
+      980,
+      1264
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      365,
+      510,
+      590,
+      740,
+      900,
+      960,
+      1245,
+      1264
+    ],
+    "hausdorff": 265.0,
+    "precision": 0.2222222222222222,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.7582018106072745
+  },
+  {
+    "fileId": "479",
+    "hotel_id": 479,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      160,
+      315,
+      529
+    ],
+    "bbs_cpts": [
+      0,
+      165,
+      210,
+      275,
+      280,
+      529
+    ],
+    "hausdorff": 50.0,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5,
+    "rand_index": 0.8817900164736404
+  },
+  {
+    "fileId": "158",
+    "hotel_id": 158,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      120,
+      144
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      144
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "174",
+    "hotel_id": 174,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      605,
+      701
+    ],
+    "bbs_cpts": [
+      0,
+      280,
+      295,
+      305,
+      701
+    ],
+    "hausdorff": 300.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.4812790368761969
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      120,
+      188
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      188
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "167",
+    "hotel_id": 167,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      25,
+      69
+    ],
+    "bbs_cpts": [
+      0,
+      69
+    ],
+    "hausdorff": 25.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5379122033186305
+  },
+  {
+    "fileId": "110",
+    "hotel_id": 110,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      340,
+      708
+    ],
+    "bbs_cpts": [
+      0,
+      260,
+      295,
+      480,
+      495,
+      708
+    ],
+    "hausdorff": 155.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.7454834179194996
+  },
+  {
+    "fileId": "359",
+    "hotel_id": 359,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      90,
+      157
+    ],
+    "bbs_cpts": [
+      0,
+      95,
+      155,
+      157
+    ],
+    "hausdorff": 65.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.9285975090267353
+  },
+  {
+    "fileId": "150",
+    "hotel_id": 150,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      265,
+      627
+    ],
+    "bbs_cpts": [
+      0,
+      265,
+      300,
+      305,
+      485,
+      490,
+      627
+    ],
+    "hausdorff": 225.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.800065627313172
+  },
+  {
+    "fileId": "226",
+    "hotel_id": 226,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      35,
+      66
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      66
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "369",
+    "hotel_id": 369,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      445,
+      490,
+      749
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      200,
+      330,
+      360,
+      445,
+      490,
+      570,
+      620,
+      749
+    ],
+    "hausdorff": 200.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6589310892493953
+  },
+  {
+    "fileId": "113",
+    "hotel_id": 113,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      210,
+      875
+    ],
+    "bbs_cpts": [
+      0,
+      50,
+      120,
+      255,
+      360,
+      390,
+      630,
+      700,
+      805,
+      820,
+      875
+    ],
+    "hausdorff": 610.0,
+    "precision": 0.1,
+    "recall": 0.5,
+    "f1_score": 0.16666666666666669,
+    "rand_index": 0.49296326530612244
+  },
+  {
+    "fileId": "129",
+    "hotel_id": 129,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      610,
+      820,
+      858
+    ],
+    "bbs_cpts": [
+      0,
+      610,
+      645,
+      655,
+      695,
+      705,
+      720,
+      820,
+      858
+    ],
+    "hausdorff": 100.0,
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1_score": 0.5454545454545454,
+    "rand_index": 0.9580935769746959
+  },
+  {
+    "fileId": "327",
+    "hotel_id": 327,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      115,
+      146
+    ],
+    "bbs_cpts": [
+      0,
+      75,
+      85,
+      115,
+      146
+    ],
+    "hausdorff": 40.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6903734284105836
+  },
+  {
+    "fileId": "356",
+    "hotel_id": 356,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      130,
+      146
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      146
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9338525051604428
+  },
+  {
+    "fileId": "6",
+    "hotel_id": 6,
+    "category": "pool",
+    "gold_cpts": [
+      0,
+      5,
+      113
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      113
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "43",
+    "hotel_id": 43,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      945,
+      1021
+    ],
+    "bbs_cpts": [
+      0,
+      895,
+      945,
+      1021
+    ],
+    "hausdorff": 50.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.914143822048442
+  },
+  {
+    "fileId": "224",
+    "hotel_id": 224,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      645,
+      695,
+      820,
+      1131
+    ],
+    "bbs_cpts": [
+      0,
+      645,
+      695,
+      740,
+      1131
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1_score": 0.75,
+    "rand_index": 0.9554708125091369
+  },
+  {
+    "fileId": "348",
+    "hotel_id": 348,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      475,
+      511
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      485,
+      511
+    ],
+    "hausdorff": 140.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.6131295453065819
+  },
+  {
+    "fileId": "423",
+    "hotel_id": 423,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      140,
+      303
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      303
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9675413085863042
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      410,
+      495,
+      650,
+      703
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      135,
+      310,
+      410,
+      555,
+      570,
+      605,
+      650,
+      703
+    ],
+    "hausdorff": 135.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.75,
+    "f1_score": 0.46153846153846156,
+    "rand_index": 0.7189448188924119
+  },
+  {
+    "fileId": "409",
+    "hotel_id": 409,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      245,
+      560
+    ],
+    "bbs_cpts": [
+      0,
+      245,
+      335,
+      340,
+      360,
+      380,
+      460,
+      470,
+      560
+    ],
+    "hausdorff": 225.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.7586096938775511
+  },
+  {
+    "fileId": "205",
+    "hotel_id": 205,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      370,
+      393
+    ],
+    "bbs_cpts": [
+      0,
+      393
+    ],
+    "hausdorff": 370.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8898018116012405
+  },
+  {
+    "fileId": "122",
+    "hotel_id": 122,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      320,
+      695,
+      1133
+    ],
+    "bbs_cpts": [
+      0,
+      190,
+      195,
+      395,
+      405,
+      695,
+      1133
+    ],
+    "hausdorff": 130.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.4444444444444444,
+    "rand_index": 0.9063636129934899
+  },
+  {
+    "fileId": "26",
+    "hotel_id": 26,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      15,
+      197
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      197
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "163",
+    "hotel_id": 163,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      495,
+      656
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      125,
+      265,
+      280,
+      656
+    ],
+    "hausdorff": 230.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.45675007436049975
+  },
+  {
+    "fileId": "48",
+    "hotel_id": 48,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      270,
+      490
+    ],
+    "bbs_cpts": [
+      0,
+      270,
+      490
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "156",
+    "hotel_id": 156,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      25,
+      136
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      136
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "91",
+    "hotel_id": 91,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      280,
+      894
+    ],
+    "bbs_cpts": [
+      0,
+      245,
+      270,
+      530,
+      540,
+      894
+    ],
+    "hausdorff": 260.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.7350845057029463
+  },
+  {
+    "fileId": "217",
+    "hotel_id": 217,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      770,
+      815
+    ],
+    "bbs_cpts": [
+      0,
+      395,
+      400,
+      720,
+      725,
+      770,
+      815
+    ],
+    "hausdorff": 375.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.4995671647408634
+  },
+  {
+    "fileId": "386",
+    "hotel_id": 386,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      110,
+      561
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      305,
+      335,
+      561
+    ],
+    "hausdorff": 225.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6209340971844903
+  },
+  {
+    "fileId": "260",
+    "hotel_id": 260,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      75,
+      885,
+      1373
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      155,
+      565,
+      570,
+      605,
+      875,
+      880,
+      1105,
+      1373
+    ],
+    "hausdorff": 320.0,
+    "precision": 0.2222222222222222,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.7139612196300624
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      160,
+      640,
+      662
+    ],
+    "bbs_cpts": [
+      0,
+      195,
+      275,
+      640,
+      662
+    ],
+    "hausdorff": 115.0,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.7701052381778187
+  },
+  {
+    "fileId": "437",
+    "hotel_id": 437,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      1035,
+      1179
+    ],
+    "bbs_cpts": [
+      0,
+      560,
+      670,
+      1035,
+      1179
+    ],
+    "hausdorff": 475.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5595093957660242
+  },
+  {
+    "fileId": "25",
+    "hotel_id": 25,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      355,
+      666
+    ],
+    "bbs_cpts": [
+      0,
+      485,
+      505,
+      666
+    ],
+    "hausdorff": 150.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.6712929145361578
+  },
+  {
+    "fileId": "315",
+    "hotel_id": 315,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      645,
+      1043
+    ],
+    "bbs_cpts": [
+      0,
+      215,
+      225,
+      395,
+      400,
+      415,
+      480,
+      495,
+      550,
+      585,
+      715,
+      720,
+      1043
+    ],
+    "hausdorff": 250.0,
+    "precision": 0.08333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.14285714285714285,
+    "rand_index": 0.6453551917591505
+  },
+  {
+    "fileId": "46",
+    "hotel_id": 46,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      180,
+      204
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      130,
+      180,
+      204
+    ],
+    "hausdorff": 55.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6575836216839677
+  },
+  {
+    "fileId": "9",
+    "hotel_id": 9,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      305,
+      390,
+      523
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      20,
+      75,
+      80,
+      305,
+      380,
+      523
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1_score": 0.6,
+    "rand_index": 0.8418449232074112
+  },
+  {
+    "fileId": "367",
+    "hotel_id": 367,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      160,
+      710,
+      897
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      410,
+      897
+    ],
+    "hausdorff": 300.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.6547391341633018
+  },
+  {
+    "fileId": "444",
+    "hotel_id": 444,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      385,
+      605
+    ],
+    "bbs_cpts": [
+      0,
+      85,
+      205,
+      330,
+      345,
+      605
+    ],
+    "hausdorff": 180.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.6537121781299091
+  },
+  {
+    "fileId": "252",
+    "hotel_id": 252,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      625,
+      675,
+      757
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      15,
+      55,
+      75,
+      160,
+      170,
+      240,
+      250,
+      495,
+      515,
+      625,
+      675,
+      757
+    ],
+    "hausdorff": 250.0,
+    "precision": 0.23076923076923078,
+    "recall": 1.0,
+    "f1_score": 0.375,
+    "rand_index": 0.47011512104549524
+  },
+  {
+    "fileId": "277",
+    "hotel_id": 277,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      95,
+      465,
+      1118
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      465,
+      510,
+      520,
+      540,
+      880,
+      885,
+      1118
+    ],
+    "hausdorff": 420.0,
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1_score": 0.5454545454545454,
+    "rand_index": 0.7931314223904813
+  },
+  {
+    "fileId": "185",
+    "hotel_id": 185,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      225,
+      516
+    ],
+    "bbs_cpts": [
+      0,
+      225,
+      516
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "250",
+    "hotel_id": 250,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      235,
+      511
+    ],
+    "bbs_cpts": [
+      0,
+      235,
+      375,
+      385,
+      511
+    ],
+    "hausdorff": 150.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8445165268208992
+  },
+  {
+    "fileId": "368",
+    "hotel_id": 368,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      255,
+      720
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      80,
+      500,
+      540,
+      545,
+      720
+    ],
+    "hausdorff": 290.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.5387731481481481
+  },
+  {
+    "fileId": "29",
+    "hotel_id": 29,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      765,
+      987
+    ],
+    "bbs_cpts": [
+      0,
+      140,
+      200,
+      305,
+      315,
+      425,
+      435,
+      635,
+      640,
+      987
+    ],
+    "hausdorff": 340.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.44716984424673745
+  },
+  {
+    "fileId": "318",
+    "hotel_id": 318,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      825,
+      1050,
+      3485
+    ],
+    "bbs_cpts": [
+      0,
+      675,
+      825,
+      1050,
+      1205,
+      1215,
+      1465,
+      1470,
+      2220,
+      2225,
+      2955,
+      2965,
+      3305,
+      3335,
+      3390,
+      3400,
+      3485
+    ],
+    "hausdorff": 2350.0,
+    "precision": 0.1875,
+    "recall": 1.0,
+    "f1_score": 0.3157894736842105,
+    "rand_index": 0.6029139023772717
+  },
+  {
+    "fileId": "136",
+    "hotel_id": 136,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      225,
+      770
+    ],
+    "bbs_cpts": [
+      0,
+      370,
+      380,
+      770
+    ],
+    "hausdorff": 155.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.6811435317928825
+  },
+  {
+    "fileId": "16",
+    "hotel_id": 16,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      410,
+      782
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      135,
+      320,
+      370,
+      490,
+      505,
+      630,
+      650,
+      782
+    ],
+    "hausdorff": 240.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.6319686553593972
+  },
+  {
+    "fileId": "221",
+    "hotel_id": 221,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      95,
+      417
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      45,
+      85,
+      210,
+      230,
+      245,
+      417
+    ],
+    "hausdorff": 150.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.6057829994996808
+  },
+  {
+    "fileId": "32",
+    "hotel_id": 32,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      190,
+      203
+    ],
+    "bbs_cpts": [
+      0,
+      160,
+      203
+    ],
+    "hausdorff": 30.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.7481132762260672
+  },
+  {
+    "fileId": "243",
+    "hotel_id": 243,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      295,
+      1172
+    ],
+    "bbs_cpts": [
+      0,
+      295,
+      1172
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "37",
+    "hotel_id": 37,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      860,
+      1430
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      240,
+      460,
+      545,
+      665,
+      1365,
+      1380,
+      1390,
+      1430
+    ],
+    "hausdorff": 530.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.5757983275465792
+  },
+  {
+    "fileId": "70",
+    "hotel_id": 70,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      90,
+      281
+    ],
+    "bbs_cpts": [
+      0,
+      95,
+      135,
+      140,
+      235,
+      275,
+      281
+    ],
+    "hausdorff": 185.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6825014880763922
+  },
+  {
+    "fileId": "294",
+    "hotel_id": 294,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      555,
+      965,
+      1090,
+      1366
+    ],
+    "bbs_cpts": [
+      0,
+      480,
+      500,
+      630,
+      640,
+      975,
+      1025,
+      1366
+    ],
+    "hausdorff": 85.0,
+    "precision": 0.2857142857142857,
+    "recall": 0.5,
+    "f1_score": 0.36363636363636365,
+    "rand_index": 0.8979718707193525
+  },
+  {
+    "fileId": "456",
+    "hotel_id": 456,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      320,
+      380,
+      509
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      35,
+      230,
+      235,
+      400,
+      509
+    ],
+    "hausdorff": 90.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.2222222222222222,
+    "rand_index": 0.7033360223250644
+  },
+  {
+    "fileId": "399",
+    "hotel_id": 399,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      495,
+      663
+    ],
+    "bbs_cpts": [
+      0,
+      175,
+      190,
+      265,
+      270,
+      495,
+      655,
+      663
+    ],
+    "hausdorff": 230.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.6349606091421369
+  },
+  {
+    "fileId": "380",
+    "hotel_id": 380,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      570,
+      792
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      85,
+      155,
+      175,
+      525,
+      792
+    ],
+    "hausdorff": 175.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.6673968217528823
+  },
+  {
+    "fileId": "131",
+    "hotel_id": 131,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      205,
+      323
+    ],
+    "bbs_cpts": [
+      0,
+      205,
+      323
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "489",
+    "hotel_id": 489,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      200,
+      389
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      110,
+      250,
+      290,
+      295,
+      315,
+      330,
+      389
+    ],
+    "hausdorff": 130.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.6147923949749209
+  },
+  {
+    "fileId": "288",
+    "hotel_id": 288,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      860,
+      1055
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      305,
+      550,
+      610,
+      860,
+      1055
+    ],
+    "hausdorff": 310.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.4919700815345567
+  },
+  {
+    "fileId": "174",
+    "hotel_id": 174,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      345,
+      980
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      75,
+      125,
+      145,
+      160,
+      345,
+      830,
+      920,
+      980
+    ],
+    "hausdorff": 575.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.7557788421491045
+  },
+  {
+    "fileId": "373",
+    "hotel_id": 373,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      160,
+      264
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      85,
+      160,
+      264
+    ],
+    "hausdorff": 75.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.7869318181818181
+  },
+  {
+    "fileId": "145",
+    "hotel_id": 145,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      35,
+      297
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      50,
+      297
+    ],
+    "hausdorff": 15.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.9069255971612874
+  },
+  {
+    "fileId": "350",
+    "hotel_id": 350,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      530,
+      844
+    ],
+    "bbs_cpts": [
+      0,
+      105,
+      170,
+      365,
+      400,
+      530,
+      765,
+      770,
+      780,
+      844
+    ],
+    "hausdorff": 250.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.6509371981761416
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      240,
+      435,
+      536
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      140,
+      240,
+      435,
+      536
+    ],
+    "hausdorff": 100.0,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1_score": 0.7499999999999999,
+    "rand_index": 0.8769561706393406
+  },
+  {
+    "fileId": "110",
+    "hotel_id": 110,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      520,
+      1250,
+      3068
+    ],
+    "bbs_cpts": [
+      0,
+      720,
+      805,
+      885,
+      1245,
+      1540,
+      1550,
+      3068
+    ],
+    "hausdorff": 365.0,
+    "precision": 0.2857142857142857,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.4,
+    "rand_index": 0.8430671404700751
+  },
+  {
+    "fileId": "369",
+    "hotel_id": 369,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      815,
+      1085
+    ],
+    "bbs_cpts": [
+      0,
+      200,
+      205,
+      230,
+      460,
+      565,
+      690,
+      710,
+      1085
+    ],
+    "hausdorff": 355.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.4994159994903268
+  },
+  {
+    "fileId": "305",
+    "hotel_id": 305,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      160,
+      646
+    ],
+    "bbs_cpts": [
+      0,
+      185,
+      646
+    ],
+    "hausdorff": 25.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.9255959512695415
+  },
+  {
+    "fileId": "113",
+    "hotel_id": 113,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      895,
+      943
+    ],
+    "bbs_cpts": [
+      0,
+      895,
+      943
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "225",
+    "hotel_id": 225,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      70,
+      695,
+      1131
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      135,
+      150,
+      695,
+      740,
+      770,
+      1131
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1_score": 0.6,
+    "rand_index": 0.8858626865578297
+  },
+  {
+    "fileId": "129",
+    "hotel_id": 129,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      815,
+      861
+    ],
+    "bbs_cpts": [
+      0,
+      60,
+      70,
+      130,
+      145,
+      360,
+      455,
+      620,
+      625,
+      750,
+      815,
+      861
+    ],
+    "hausdorff": 360.0,
+    "precision": 0.18181818181818182,
+    "recall": 1.0,
+    "f1_score": 0.3076923076923077,
+    "rand_index": 0.2522132787281083
+  },
+  {
+    "fileId": "307",
+    "hotel_id": 307,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      750,
+      1436
+    ],
+    "bbs_cpts": [
+      0,
+      485,
+      550,
+      600,
+      835,
+      840,
+      1180,
+      1205,
+      1436
+    ],
+    "hausdorff": 455.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.7006395434548149
+  },
+  {
+    "fileId": "299",
+    "hotel_id": 299,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      680,
+      871
+    ],
+    "bbs_cpts": [
+      0,
+      130,
+      135,
+      470,
+      480,
+      535,
+      871
+    ],
+    "hausdorff": 210.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.519548772080602
+  },
+  {
+    "fileId": "327",
+    "hotel_id": 327,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      40,
+      390
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      105,
+      300,
+      355,
+      390
+    ],
+    "hausdorff": 315.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.4648257725180802
+  },
+  {
+    "fileId": "356",
+    "hotel_id": 356,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      95,
+      410
+    ],
+    "bbs_cpts": [
+      0,
+      95,
+      350,
+      355,
+      410
+    ],
+    "hausdorff": 260.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8146936347412255
+  },
+  {
+    "fileId": "396",
+    "hotel_id": 396,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      10,
+      469
+    ],
+    "bbs_cpts": [
+      0,
+      205,
+      225,
+      469
+    ],
+    "hausdorff": 215.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.4698151035865449
+  },
+  {
+    "fileId": "211",
+    "hotel_id": 211,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      10,
+      73
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      60,
+      73
+    ],
+    "hausdorff": 50.0,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.4,
+    "rand_index": 0.4182773503471571
+  },
+  {
+    "fileId": "52",
+    "hotel_id": 52,
+    "category": "restaurant",
+    "gold_cpts": [
+      0,
+      45,
+      360,
+      505,
+      614
+    ],
+    "bbs_cpts": [
+      0,
+      105,
+      360,
+      395,
+      400,
+      420,
+      435,
+      495,
+      614
+    ],
+    "hausdorff": 70.0,
+    "precision": 0.375,
+    "recall": 0.75,
+    "f1_score": 0.5,
+    "rand_index": 0.8577438487411007
+  },
+  {
+    "fileId": "411",
+    "hotel_id": 411,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      445,
+      738
+    ],
+    "bbs_cpts": [
+      0,
+      285,
+      445,
+      650,
+      665,
+      738
+    ],
+    "hausdorff": 220.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.762285088975551
+  },
+  {
+    "fileId": "424",
+    "hotel_id": 424,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1065,
+      1477
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      600,
+      605,
+      805,
+      830,
+      900,
+      925,
+      1095,
+      1195,
+      1365,
+      1477
+    ],
+    "hausdorff": 465.0,
+    "precision": 0.09090909090909091,
+    "recall": 0.5,
+    "f1_score": 0.15384615384615385,
+    "rand_index": 0.6121756804516465
+  },
+  {
+    "fileId": "149",
+    "hotel_id": 149,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      535,
+      1378
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      85,
+      415,
+      420,
+      480,
+      510,
+      1010,
+      1040,
+      1378
+    ],
+    "hausdorff": 505.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.7040998818253248
+  },
+  {
+    "fileId": "43",
+    "hotel_id": 43,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1040,
+      1413
+    ],
+    "bbs_cpts": [
+      0,
+      715,
+      745,
+      1050,
+      1413
+    ],
+    "hausdorff": 325.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.7517691599939696
+  },
+  {
+    "fileId": "56",
+    "hotel_id": 56,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      535,
+      1385,
+      1552
+    ],
+    "bbs_cpts": [
+      0,
+      325,
+      345,
+      410,
+      430,
+      670,
+      700,
+      885,
+      890,
+      1450,
+      1552
+    ],
+    "hausdorff": 355.0,
+    "precision": 0.1,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.15384615384615383,
+    "rand_index": 0.7116250066425762
+  },
+  {
+    "fileId": "224",
+    "hotel_id": 224,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      770,
+      1285
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      305,
+      310,
+      905,
+      910,
+      1125,
+      1140,
+      1150,
+      1155,
+      1225,
+      1235,
+      1285
+    ],
+    "hausdorff": 465.0,
+    "precision": 0.08333333333333333,
+    "recall": 0.5,
+    "f1_score": 0.14285714285714285,
+    "rand_index": 0.6074126784659875
+  },
+  {
+    "fileId": "393",
+    "hotel_id": 393,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      225,
+      378
+    ],
+    "bbs_cpts": [
+      0,
+      225,
+      378
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "348",
+    "hotel_id": 348,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      135,
+      766
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      220,
+      230,
+      320,
+      345,
+      365,
+      455,
+      500,
+      740,
+      766
+    ],
+    "hausdorff": 605.0,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1_score": 0.33333333333333337,
+    "rand_index": 0.4660301726782513
+  },
+  {
+    "fileId": "423",
+    "hotel_id": 423,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      100,
+      260,
+      305,
+      506
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      260,
+      305,
+      506
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      430,
+      650,
+      796
+    ],
+    "bbs_cpts": [
+      0,
+      160,
+      165,
+      235,
+      265,
+      430,
+      590,
+      630,
+      665,
+      685,
+      750,
+      796
+    ],
+    "hausdorff": 195.0,
+    "precision": 0.2727272727272727,
+    "recall": 1.0,
+    "f1_score": 0.42857142857142855,
+    "rand_index": 0.7443246382667104
+  },
+  {
+    "fileId": "409",
+    "hotel_id": 409,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      250,
+      540
+    ],
+    "bbs_cpts": [
+      0,
+      200,
+      205,
+      230,
+      400,
+      415,
+      450,
+      455,
+      540
+    ],
+    "hausdorff": 205.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.7244513031550068
+  },
+  {
+    "fileId": "205",
+    "hotel_id": 205,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      390,
+      401
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      35,
+      200,
+      205,
+      390,
+      401
+    ],
+    "hausdorff": 190.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.44216764821114296
+  },
+  {
+    "fileId": "242",
+    "hotel_id": 242,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      215,
+      405
+    ],
+    "bbs_cpts": [
+      0,
+      215,
+      405
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "142",
+    "hotel_id": 142,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      325,
+      590,
+      612
+    ],
+    "bbs_cpts": [
+      0,
+      320,
+      390,
+      440,
+      585,
+      612
+    ],
+    "hausdorff": 115.0,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1_score": 0.7499999999999999,
+    "rand_index": 0.8757956341578026
+  },
+  {
+    "fileId": "122",
+    "hotel_id": 122,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1070,
+      1515
+    ],
+    "bbs_cpts": [
+      0,
+      155,
+      160,
+      340,
+      355,
+      920,
+      930,
+      1060,
+      1465,
+      1515
+    ],
+    "hausdorff": 395.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.6517552745373547
+  },
+  {
+    "fileId": "26",
+    "hotel_id": 26,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      400,
+      589
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      135,
+      200,
+      475,
+      589
+    ],
+    "hausdorff": 200.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.5576802787954607
+  },
+  {
+    "fileId": "163",
+    "hotel_id": 163,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      95,
+      550,
+      755,
+      760
+    ],
+    "bbs_cpts": [
+      0,
+      180,
+      210,
+      555,
+      675,
+      715,
+      755,
+      760
+    ],
+    "hausdorff": 115.0,
+    "precision": 0.42857142857142855,
+    "recall": 0.75,
+    "f1_score": 0.5454545454545454,
+    "rand_index": 0.7796918282548476
+  },
+  {
+    "fileId": "445",
+    "hotel_id": 445,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      500,
+      732
+    ],
+    "bbs_cpts": [
+      0,
+      220,
+      245,
+      555,
+      732
+    ],
+    "hausdorff": 245.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.657592791662934
+  },
+  {
+    "fileId": "156",
+    "hotel_id": 156,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      30,
+      182
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      182
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "132",
+    "hotel_id": 132,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      865,
+      1410
+    ],
+    "bbs_cpts": [
+      0,
+      330,
+      345,
+      450,
+      475,
+      910,
+      1000,
+      1025,
+      1410
+    ],
+    "hausdorff": 415.0,
+    "precision": 0.125,
+    "recall": 0.5,
+    "f1_score": 0.2,
+    "rand_index": 0.6738091645289472
+  },
+  {
+    "fileId": "278",
+    "hotel_id": 278,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      10,
+      615,
+      660,
+      720
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      660,
+      720
+    ],
+    "hausdorff": 45.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.8949652777777778
+  },
+  {
+    "fileId": "41",
+    "hotel_id": 41,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      615,
+      660,
+      720
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      660,
+      720
+    ],
+    "hausdorff": 45.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8716242283950617
+  },
+  {
+    "fileId": "436",
+    "hotel_id": 436,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      870,
+      943
+    ],
+    "bbs_cpts": [
+      0,
+      570,
+      575,
+      695,
+      765,
+      795,
+      865,
+      943
+    ],
+    "hausdorff": 300.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.5416581857275071
+  },
+  {
+    "fileId": "422",
+    "hotel_id": 422,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      185,
+      398
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      175,
+      320,
+      325,
+      398
+    ],
+    "hausdorff": 140.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.744387767985657
+  },
+  {
+    "fileId": "180",
+    "hotel_id": 180,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      150,
+      512
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      130,
+      150,
+      512
+    ],
+    "hausdorff": 25.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.9753952026367188
+  },
+  {
+    "fileId": "386",
+    "hotel_id": 386,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      115,
+      970,
+      1172
+    ],
+    "bbs_cpts": [
+      0,
+      115,
+      660,
+      685,
+      775,
+      1172
+    ],
+    "hausdorff": 310.0,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5,
+    "rand_index": 0.6607196938811168
+  },
+  {
+    "fileId": "309",
+    "hotel_id": 309,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      930,
+      1050
+    ],
+    "bbs_cpts": [
+      0,
+      645,
+      650,
+      950,
+      985,
+      1050
+    ],
+    "hausdorff": 285.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.6460770975056689
+  },
+  {
+    "fileId": "139",
+    "hotel_id": 139,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      715,
+      749
+    ],
+    "bbs_cpts": [
+      0,
+      150,
+      155,
+      715,
+      749
+    ],
+    "hausdorff": 155.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6878793442435931
+  },
+  {
+    "fileId": "260",
+    "hotel_id": 260,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1040,
+      1272
+    ],
+    "bbs_cpts": [
+      0,
+      50,
+      55,
+      165,
+      550,
+      555,
+      965,
+      980,
+      995,
+      1150,
+      1160,
+      1272
+    ],
+    "hausdorff": 490.0,
+    "precision": 0.09090909090909091,
+    "recall": 0.5,
+    "f1_score": 0.15384615384615385,
+    "rand_index": 0.5135118765080495
+  },
+  {
+    "fileId": "259",
+    "hotel_id": 259,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      125,
+      371
+    ],
+    "bbs_cpts": [
+      0,
+      50,
+      60,
+      320,
+      340,
+      371
+    ],
+    "hausdorff": 215.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.5983754840490842
+  },
+  {
+    "fileId": "471",
+    "hotel_id": 471,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      4890,
+      5051
+    ],
+    "bbs_cpts": [
+      0,
+      885,
+      1170,
+      1180,
+      1430,
+      1445,
+      3045,
+      3085,
+      4890,
+      5051
+    ],
+    "hausdorff": 1845.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.327187376935813
+  },
+  {
+    "fileId": "319",
+    "hotel_id": 319,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      255,
+      1442
+    ],
+    "bbs_cpts": [
+      0,
+      215,
+      225,
+      445,
+      455,
+      605,
+      625,
+      755,
+      765,
+      1165,
+      1240,
+      1255,
+      1330,
+      1370,
+      1375,
+      1442
+    ],
+    "hausdorff": 1120.0,
+    "precision": 0.06666666666666667,
+    "recall": 0.5,
+    "f1_score": 0.11764705882352941,
+    "rand_index": 0.4303642844639034
+  },
+  {
+    "fileId": "401",
+    "hotel_id": 401,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      340,
+      500
+    ],
+    "bbs_cpts": [
+      0,
+      340,
+      500
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      155,
+      230,
+      781
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      230,
+      290,
+      295,
+      625,
+      725,
+      781
+    ],
+    "hausdorff": 495.0,
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1_score": 0.6,
+    "rand_index": 0.7010628548382601
+  },
+  {
+    "fileId": "363",
+    "hotel_id": 363,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      495,
+      1161
+    ],
+    "bbs_cpts": [
+      0,
+      340,
+      420,
+      495,
+      575,
+      655,
+      810,
+      885,
+      1050,
+      1085,
+      1161
+    ],
+    "hausdorff": 590.0,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1_score": 0.33333333333333337,
+    "rand_index": 0.6407207840815596
+  },
+  {
+    "fileId": "25",
+    "hotel_id": 25,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      295,
+      1001
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      130,
+      420,
+      425,
+      480,
+      495,
+      550,
+      635,
+      1001
+    ],
+    "hausdorff": 340.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.5,
+    "f1_score": 0.1818181818181818,
+    "rand_index": 0.5789624960454132
+  },
+  {
+    "fileId": "367",
+    "hotel_id": 367,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      820,
+      865,
+      896
+    ],
+    "bbs_cpts": [
+      0,
+      535,
+      555,
+      685,
+      820,
+      865,
+      896
+    ],
+    "hausdorff": 285.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.5632249481823979
+  },
+  {
+    "fileId": "257",
+    "hotel_id": 257,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      330,
+      890,
+      935
+    ],
+    "bbs_cpts": [
+      0,
+      330,
+      710,
+      765,
+      810,
+      935
+    ],
+    "hausdorff": 180.0,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5,
+    "rand_index": 0.8113185964711602
+  },
+  {
+    "fileId": "185",
+    "hotel_id": 185,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      350,
+      487
+    ],
+    "bbs_cpts": [
+      0,
+      350,
+      487
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "144",
+    "hotel_id": 144,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      300,
+      615,
+      1020
+    ],
+    "bbs_cpts": [
+      0,
+      465,
+      565,
+      680,
+      735,
+      1020
+    ],
+    "hausdorff": 165.0,
+    "precision": 0.2,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.25,
+    "rand_index": 0.7687908496732025
+  },
+  {
+    "fileId": "292",
+    "hotel_id": 292,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      690,
+      1038
+    ],
+    "bbs_cpts": [
+      0,
+      650,
+      1038
+    ],
+    "hausdorff": 40.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.9258987009997736
+  },
+  {
+    "fileId": "250",
+    "hotel_id": 250,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      170,
+      510,
+      639
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      55,
+      130,
+      160,
+      295,
+      335,
+      345,
+      410,
+      415,
+      530,
+      535,
+      639
+    ],
+    "hausdorff": 165.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.26666666666666666,
+    "rand_index": 0.713093375065206
+  },
+  {
+    "fileId": "368",
+    "hotel_id": 368,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      690,
+      943
+    ],
+    "bbs_cpts": [
+      0,
+      375,
+      380,
+      585,
+      610,
+      700,
+      943
+    ],
+    "hausdorff": 315.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.6706659214685651
+  },
+  {
+    "fileId": "230",
+    "hotel_id": 230,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      590,
+      1037
+    ],
+    "bbs_cpts": [
+      0,
+      250,
+      265,
+      275,
+      590,
+      885,
+      905,
+      920,
+      935,
+      1037
+    ],
+    "hausdorff": 345.0,
+    "precision": 0.2222222222222222,
+    "recall": 1.0,
+    "f1_score": 0.3636363636363636,
+    "rand_index": 0.73257551593918
+  },
+  {
+    "fileId": "136",
+    "hotel_id": 136,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      365,
+      605,
+      1188
+    ],
+    "bbs_cpts": [
+      0,
+      365,
+      930,
+      935,
+      990,
+      1025,
+      1035,
+      1060,
+      1188
+    ],
+    "hausdorff": 455.0,
+    "precision": 0.25,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.36363636363636365,
+    "rand_index": 0.7386321123694861
+  },
+  {
+    "fileId": "16",
+    "hotel_id": 16,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      75,
+      620,
+      965,
+      1106
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      310,
+      320,
+      565,
+      575,
+      950,
+      1106
+    ],
+    "hausdorff": 245.0,
+    "precision": 0.2857142857142857,
+    "recall": 0.5,
+    "f1_score": 0.36363636363636365,
+    "rand_index": 0.8057365872162036
+  },
+  {
+    "fileId": "221",
+    "hotel_id": 221,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      265,
+      540,
+      557
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      160,
+      200,
+      540,
+      557
+    ],
+    "hausdorff": 105.0,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5,
+    "rand_index": 0.7500394844141318
+  },
+  {
+    "fileId": "203",
+    "hotel_id": 203,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      750,
+      1527
+    ],
+    "bbs_cpts": [
+      0,
+      395,
+      415,
+      600,
+      630,
+      635,
+      655,
+      750,
+      1180,
+      1425,
+      1527
+    ],
+    "hausdorff": 675.0,
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1_score": 0.33333333333333337,
+    "rand_index": 0.695547810230091
+  },
+  {
+    "fileId": "32",
+    "hotel_id": 32,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      160,
+      254
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      115,
+      175,
+      180,
+      200,
+      215,
+      254
+    ],
+    "hausdorff": 55.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.7017794035588072
+  },
+  {
+    "fileId": "243",
+    "hotel_id": 243,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      950,
+      1395,
+      1705
+    ],
+    "bbs_cpts": [
+      0,
+      275,
+      280,
+      510,
+      525,
+      670,
+      675,
+      825,
+      950,
+      1020,
+      1065,
+      1300,
+      1320,
+      1560,
+      1580,
+      1590,
+      1645,
+      1655,
+      1705
+    ],
+    "hausdorff": 440.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.1904761904761905,
+    "rand_index": 0.6794317214334242
+  },
+  {
+    "fileId": "37",
+    "hotel_id": 37,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1545,
+      1600
+    ],
+    "bbs_cpts": [
+      0,
+      225,
+      230,
+      470,
+      580,
+      740,
+      760,
+      970,
+      1020,
+      1210,
+      1215,
+      1555,
+      1600
+    ],
+    "hausdorff": 760.0,
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.2857142857142857,
+    "rand_index": 0.19666015625
+  },
+  {
+    "fileId": "74",
+    "hotel_id": 74,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      165,
+      530,
+      537
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      140,
+      215,
+      225,
+      305,
+      315,
+      335,
+      345,
+      537
+    ],
+    "hausdorff": 185.0,
+    "precision": 0.1111111111111111,
+    "recall": 0.3333333333333333,
+    "f1_score": 0.16666666666666666,
+    "rand_index": 0.6314097562498049
+  },
+  {
+    "fileId": "456",
+    "hotel_id": 456,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      350,
+      461
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      180,
+      350,
+      461
+    ],
+    "hausdorff": 170.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6642684722921499
+  },
+  {
+    "fileId": "399",
+    "hotel_id": 399,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      360,
+      565,
+      915,
+      962
+    ],
+    "bbs_cpts": [
+      0,
+      135,
+      140,
+      360,
+      565,
+      920,
+      962
+    ],
+    "hausdorff": 140.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.9277427915681554
+  },
+  {
+    "fileId": "479",
+    "hotel_id": 479,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1070,
+      1089
+    ],
+    "bbs_cpts": [
+      0,
+      460,
+      755,
+      795,
+      865,
+      1070,
+      1089
+    ],
+    "hausdorff": 460.0,
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5,
+    "rand_index": 0.32731606911421585
+  },
+  {
+    "fileId": "71",
+    "hotel_id": 71,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      10,
+      216
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      216
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "420",
+    "hotel_id": 420,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      275,
+      723
+    ],
+    "bbs_cpts": [
+      0,
+      60,
+      80,
+      180,
+      190,
+      275,
+      460,
+      605,
+      723
+    ],
+    "hausdorff": 330.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.6445003051294265
+  },
+  {
+    "fileId": "473",
+    "hotel_id": 473,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      80,
+      148
+    ],
+    "bbs_cpts": [
+      0,
+      80,
+      148
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "131",
+    "hotel_id": 131,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      190,
+      340
+    ],
+    "bbs_cpts": [
+      0,
+      145,
+      340
+    ],
+    "hausdorff": 45.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.7703287197231834
+  },
+  {
+    "fileId": "489",
+    "hotel_id": 489,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      250,
+      565
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      35,
+      250,
+      360,
+      375,
+      395,
+      405,
+      515,
+      540,
+      560,
+      565
+    ],
+    "hausdorff": 310.0,
+    "precision": 0.18181818181818182,
+    "recall": 1.0,
+    "f1_score": 0.3076923076923077,
+    "rand_index": 0.7218262980656277
+  },
+  {
+    "fileId": "288",
+    "hotel_id": 288,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1180,
+      1349
+    ],
+    "bbs_cpts": [
+      0,
+      285,
+      295,
+      500,
+      565,
+      580,
+      595,
+      610,
+      680,
+      690,
+      755,
+      770,
+      1180,
+      1300,
+      1345,
+      1349
+    ],
+    "hausdorff": 585.0,
+    "precision": 0.13333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.23529411764705882,
+    "rand_index": 0.39624167697457024
+  },
+  {
+    "fileId": "325",
+    "hotel_id": 325,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      170,
+      405,
+      579
+    ],
+    "bbs_cpts": [
+      0,
+      190,
+      395,
+      579
+    ],
+    "hausdorff": 20.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.9314522984957091
+  },
+  {
+    "fileId": "174",
+    "hotel_id": 174,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      565,
+      1096
+    ],
+    "bbs_cpts": [
+      0,
+      160,
+      210,
+      380,
+      1030,
+      1050,
+      1096
+    ],
+    "hausdorff": 485.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.6143324764238904
+  },
+  {
+    "fileId": "214",
+    "hotel_id": 214,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      590,
+      621
+    ],
+    "bbs_cpts": [
+      0,
+      295,
+      345,
+      410,
+      455,
+      465,
+      621
+    ],
+    "hausdorff": 295.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.366379612126304
+  },
+  {
+    "fileId": "373",
+    "hotel_id": 373,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      50,
+      165,
+      200,
+      416
+    ],
+    "bbs_cpts": [
+      0,
+      50,
+      165,
+      200,
+      416
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "135",
+    "hotel_id": 135,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      25,
+      682
+    ],
+    "bbs_cpts": [
+      0,
+      5,
+      70,
+      160,
+      420,
+      682
+    ],
+    "hausdorff": 395.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.3823582528530026
+  },
+  {
+    "fileId": "145",
+    "hotel_id": 145,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      60,
+      393
+    ],
+    "bbs_cpts": [
+      0,
+      195,
+      205,
+      365,
+      380,
+      393
+    ],
+    "hausdorff": 320.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.4640949439620846
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      440,
+      510,
+      795,
+      804
+    ],
+    "bbs_cpts": [
+      0,
+      100,
+      135,
+      275,
+      280,
+      495,
+      635,
+      700,
+      705,
+      795,
+      804
+    ],
+    "hausdorff": 165.0,
+    "precision": 0.3,
+    "recall": 0.75,
+    "f1_score": 0.4285714285714285,
+    "rand_index": 0.6698720328704735
+  },
+  {
+    "fileId": "110",
+    "hotel_id": 110,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      835,
+      4546
+    ],
+    "bbs_cpts": [
+      0,
+      835,
+      2025,
+      2050,
+      2440,
+      2510,
+      2965,
+      3035,
+      4546
+    ],
+    "hausdorff": 2200.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.5304995868599596
+  },
+  {
+    "fileId": "359",
+    "hotel_id": 359,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      425,
+      504
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      345,
+      395,
+      425,
+      504
+    ],
+    "hausdorff": 80.0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714285714285715,
+    "rand_index": 0.6193153187200806
+  },
+  {
+    "fileId": "270",
+    "hotel_id": 270,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      780,
+      1180,
+      2100,
+      2712
+    ],
+    "bbs_cpts": [
+      0,
+      760,
+      1020,
+      1030,
+      2065,
+      2605,
+      2610,
+      2712
+    ],
+    "hausdorff": 510.0,
+    "precision": 0.14285714285714285,
+    "recall": 0.25,
+    "f1_score": 0.18181818181818182,
+    "rand_index": 0.919552072728222
+  },
+  {
+    "fileId": "291",
+    "hotel_id": 291,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      150,
+      630,
+      950
+    ],
+    "bbs_cpts": [
+      0,
+      305,
+      330,
+      345,
+      555,
+      625,
+      675,
+      710,
+      950
+    ],
+    "hausdorff": 195.0,
+    "precision": 0.25,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.36363636363636365,
+    "rand_index": 0.7285318559556786
+  },
+  {
+    "fileId": "226",
+    "hotel_id": 226,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      390,
+      705,
+      851
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      30,
+      450,
+      615,
+      630,
+      690,
+      851
+    ],
+    "hausdorff": 90.0,
+    "precision": 0.2857142857142857,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.4,
+    "rand_index": 0.8149961129575904
+  },
+  {
+    "fileId": "305",
+    "hotel_id": 305,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      890,
+      1025,
+      1050
+    ],
+    "bbs_cpts": [
+      0,
+      890,
+      925,
+      945,
+      1025,
+      1050
+    ],
+    "hausdorff": 55.0,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1_score": 0.7499999999999999,
+    "rand_index": 0.9907482993197279
+  },
+  {
+    "fileId": "113",
+    "hotel_id": 113,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      1245,
+      1305
+    ],
+    "bbs_cpts": [
+      0,
+      310,
+      910,
+      1090,
+      1125,
+      1165,
+      1190,
+      1245,
+      1305
+    ],
+    "hausdorff": 335.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.3804847257086654
+  },
+  {
+    "fileId": "225",
+    "hotel_id": 225,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      815,
+      1442
+    ],
+    "bbs_cpts": [
+      0,
+      120,
+      145,
+      855,
+      875,
+      1442
+    ],
+    "hausdorff": 145.0,
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1_score": 0.28571428571428575,
+    "rand_index": 0.8444043467137067
+  },
+  {
+    "fileId": "129",
+    "hotel_id": 129,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      850,
+      1030,
+      1192
+    ],
+    "bbs_cpts": [
+      0,
+      130,
+      175,
+      210,
+      850,
+      995,
+      1005,
+      1025,
+      1192
+    ],
+    "hausdorff": 210.0,
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1_score": 0.5454545454545454,
+    "rand_index": 0.7851870411242736
+  },
+  {
+    "fileId": "327",
+    "hotel_id": 327,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      90,
+      615,
+      625
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      210,
+      215,
+      615,
+      625
+    ],
+    "hausdorff": 125.0,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1_score": 0.7499999999999999,
+    "rand_index": 0.740928
+  },
+  {
+    "fileId": "356",
+    "hotel_id": 356,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      270,
+      731
+    ],
+    "bbs_cpts": [
+      0,
+      115,
+      120,
+      275,
+      340,
+      345,
+      510,
+      731
+    ],
+    "hausdorff": 240.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.6803097531444099
+  },
+  {
+    "fileId": "211",
+    "hotel_id": 211,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      80,
+      123
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      50,
+      80,
+      123
+    ],
+    "hausdorff": 35.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.7719611342454888
+  },
+  {
+    "fileId": "147",
+    "hotel_id": 147,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      105,
+      421
+    ],
+    "bbs_cpts": [
+      0,
+      260,
+      320,
+      330,
+      421
+    ],
+    "hausdorff": 225.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.456107785444677
+  },
+  {
+    "fileId": "52",
+    "hotel_id": 52,
+    "category": "room",
+    "gold_cpts": [
+      0,
+      755,
+      912
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      20,
+      140,
+      590,
+      615,
+      912
+    ],
+    "hausdorff": 165.0,
+    "precision": 0.16666666666666666,
+    "recall": 0.5,
+    "f1_score": 0.25,
+    "rand_index": 0.5472044282856263
+  },
+  {
+    "fileId": "411",
+    "hotel_id": 411,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      85,
+      100
+    ],
+    "bbs_cpts": [
+      0,
+      85,
+      100
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "128",
+    "hotel_id": 128,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      35,
+      104
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      104
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "149",
+    "hotel_id": 149,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      195,
+      273
+    ],
+    "bbs_cpts": [
+      0,
+      195,
+      273
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "224",
+    "hotel_id": 224,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      115,
+      197
+    ],
+    "bbs_cpts": [
+      0,
+      115,
+      197
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "64",
+    "hotel_id": 64,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      85,
+      113
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      85,
+      113
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "409",
+    "hotel_id": 409,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      30
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      30
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "205",
+    "hotel_id": 205,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      22
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      22
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "122",
+    "hotel_id": 122,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      35,
+      119
+    ],
+    "bbs_cpts": [
+      0,
+      35,
+      119
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "445",
+    "hotel_id": 445,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      70,
+      132
+    ],
+    "bbs_cpts": [
+      0,
+      70,
+      132
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "132",
+    "hotel_id": 132,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      105,
+      224
+    ],
+    "bbs_cpts": [
+      0,
+      105,
+      224
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "386",
+    "hotel_id": 386,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      235,
+      246
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      110,
+      185,
+      235,
+      246
+    ],
+    "hausdorff": 95.0,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.5,
+    "rand_index": 0.38446030801771436
+  },
+  {
+    "fileId": "459",
+    "hotel_id": 459,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      20,
+      34
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      34
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "260",
+    "hotel_id": 260,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      45,
+      86
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      86
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "319",
+    "hotel_id": 319,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      125,
+      137
+    ],
+    "bbs_cpts": [
+      0,
+      125,
+      137
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "401",
+    "hotel_id": 401,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      40,
+      68
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      68
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.8637543252595156
+  },
+  {
+    "fileId": "389",
+    "hotel_id": 389,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      20,
+      50
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      25,
+      50
+    ],
+    "hausdorff": 5.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.8200000000000001
+  },
+  {
+    "fileId": "453",
+    "hotel_id": 453,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      25
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      25
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "228",
+    "hotel_id": 228,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      40,
+      77
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      15,
+      30,
+      77
+    ],
+    "hausdorff": 15.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6812278630460449
+  },
+  {
+    "fileId": "252",
+    "hotel_id": 252,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      135,
+      162
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      130,
+      162
+    ],
+    "hausdorff": 10.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.8487273281511964
+  },
+  {
+    "fileId": "292",
+    "hotel_id": 292,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      29
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      29
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "368",
+    "hotel_id": 368,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      25,
+      37
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      37
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "136",
+    "hotel_id": 136,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      55,
+      138
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      138
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "16",
+    "hotel_id": 16,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      20,
+      138
+    ],
+    "bbs_cpts": [
+      0,
+      138
+    ],
+    "hausdorff": 20.0,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.75215290905272
+  },
+  {
+    "fileId": "221",
+    "hotel_id": 221,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      20,
+      68
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      68
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "404",
+    "hotel_id": 404,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      175,
+      245,
+      292
+    ],
+    "bbs_cpts": [
+      0,
+      175,
+      245,
+      292
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "243",
+    "hotel_id": 243,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      345,
+      417
+    ],
+    "bbs_cpts": [
+      0,
+      90,
+      105,
+      355,
+      365,
+      370,
+      405,
+      410,
+      417
+    ],
+    "hausdorff": 105.0,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1_score": 0.4,
+    "rand_index": 0.6459810568811137
+  },
+  {
+    "fileId": "294",
+    "hotel_id": 294,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      190,
+      334
+    ],
+    "bbs_cpts": [
+      0,
+      195,
+      200,
+      205,
+      334
+    ],
+    "hausdorff": 15.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.9469324823407078
+  },
+  {
+    "fileId": "399",
+    "hotel_id": 399,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      75,
+      156
+    ],
+    "bbs_cpts": [
+      0,
+      75,
+      156
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "479",
+    "hotel_id": 479,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      40
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      40
+    ],
+    "hausdorff": 0.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "420",
+    "hotel_id": 420,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      30,
+      133
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      133
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "489",
+    "hotel_id": 489,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      83
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      83
+    ],
+    "hausdorff": 5.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.886776019741617
+  },
+  {
+    "fileId": "288",
+    "hotel_id": 288,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      10,
+      92
+    ],
+    "bbs_cpts": [
+      0,
+      15,
+      92
+    ],
+    "hausdorff": 5.0,
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1_score": 0.5,
+    "rand_index": 0.8972117202268431
+  },
+  {
+    "fileId": "325",
+    "hotel_id": 325,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      40,
+      51
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      51
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "174",
+    "hotel_id": 174,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      55,
+      321
+    ],
+    "bbs_cpts": [
+      0,
+      55,
+      95,
+      105,
+      225,
+      260,
+      280,
+      321
+    ],
+    "hausdorff": 225.0,
+    "precision": 0.2857142857142857,
+    "recall": 1.0,
+    "f1_score": 0.4444444444444445,
+    "rand_index": 0.5016546811463398
+  },
+  {
+    "fileId": "214",
+    "hotel_id": 214,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      40,
+      78
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      78
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "373",
+    "hotel_id": 373,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      10,
+      53
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      30,
+      35,
+      53
+    ],
+    "hausdorff": 25.0,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "rand_index": 0.6084015663937344
+  },
+  {
+    "fileId": "350",
+    "hotel_id": 350,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      110,
+      174
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      174
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "486",
+    "hotel_id": 486,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      110,
+      139
+    ],
+    "bbs_cpts": [
+      0,
+      110,
+      139
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "412",
+    "hotel_id": 412,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      15,
+      42
+    ],
+    "bbs_cpts": [
+      0,
+      20,
+      25,
+      42
+    ],
+    "hausdorff": 10.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.6938775510204082
+  },
+  {
+    "fileId": "321",
+    "hotel_id": 321,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      25,
+      83
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      83
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "150",
+    "hotel_id": 150,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      40,
+      52
+    ],
+    "bbs_cpts": [
+      0,
+      40,
+      52
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "226",
+    "hotel_id": 226,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      45,
+      51
+    ],
+    "bbs_cpts": [
+      0,
+      25,
+      35,
+      51
+    ],
+    "hausdorff": 20.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "rand_index": 0.49250288350634375
+  },
+  {
+    "fileId": "369",
+    "hotel_id": 369,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      70,
+      122
+    ],
+    "bbs_cpts": [
+      0,
+      75,
+      122
+    ],
+    "hausdorff": 5.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.9213920988981457
+  },
+  {
+    "fileId": "305",
+    "hotel_id": 305,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      50,
+      86
+    ],
+    "bbs_cpts": [
+      0,
+      65,
+      86
+    ],
+    "hausdorff": 15.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 0.7120064899945917
+  },
+  {
+    "fileId": "113",
+    "hotel_id": 113,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      75,
+      106
+    ],
+    "bbs_cpts": [
+      0,
+      10,
+      15,
+      65,
+      106
+    ],
+    "hausdorff": 15.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.6867212531149876
+  },
+  {
+    "fileId": "129",
+    "hotel_id": 129,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      85,
+      157
+    ],
+    "bbs_cpts": [
+      0,
+      85,
+      120,
+      135,
+      157
+    ],
+    "hausdorff": 50.0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666,
+    "rand_index": 0.8681488092823239
+  },
+  {
+    "fileId": "307",
+    "hotel_id": 307,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      30,
+      46
+    ],
+    "bbs_cpts": [
+      0,
+      30,
+      46
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  },
+  {
+    "fileId": "356",
+    "hotel_id": 356,
+    "category": "renovation_room",
+    "gold_cpts": [
+      0,
+      45,
+      56
+    ],
+    "bbs_cpts": [
+      0,
+      45,
+      56
+    ],
+    "hausdorff": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "rand_index": 1.0
+  }
+]

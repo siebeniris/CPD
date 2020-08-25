@@ -1,6 +1,17 @@
 from ruptures.metrics import precision_recall, hausdorff, randindex
 
 
+def annotation_error(cpt1, cpt2):
+    """
+    Calculate the difference btween the predicted number of change points
+    and the true number of change points.
+    :param cpt1:
+    :param cpt2:
+    :return:
+    """
+    return abs(len(cpt1)- len(cpt2))
+
+
 def precision_recall_f1_score(cpt1, cpt2, margin=20 ):
     """
     Caculate the precision, recall and f1 score.
