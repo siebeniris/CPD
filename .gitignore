@@ -11,3 +11,4 @@ checkpoints/
 processed/
 __pycache__/
 aspect_extraction/Attention-Based-Aspect-Extraction/code/output
+data/
