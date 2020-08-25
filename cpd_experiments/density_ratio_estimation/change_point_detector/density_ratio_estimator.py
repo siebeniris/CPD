@@ -109,11 +109,11 @@ class DRChangeRateEstimator(object):
             change_rates: numpy array 1D:
         """
         nT = len(X)
-        # check input data shape and convert them to 2D if they are 1D
+        # check input data_backup2 shape and convert them to 2D if they are 1D
         if len(X.shape) == 1:
             X = self.get_subsequence(X, self.sliding_window)
         elif len(X.shape) > 2:
-            raise ValueError("input data shape should be 1 or 2d.")
+            raise ValueError("input data_backup2 shape should be 1 or 2d.")
 
         if X.shape[1] != self.sliding_window:
             raise ValueError("input shape does not match sliding window.")
@@ -212,7 +212,7 @@ class RuLSIFitting(object):
         Reference
             * Anomaly Detection and Change Detection,
               T.Ide and M.Sugiyama, Kodansha Ltd.
-            * Change-point detection in time-series data by relative
+            * Change-point detection in time-series data_backup2 by relative
               density-ratio estimation, Song Liu, et.al.
               Neural Networks, volume 43, July 2013, Pages 72-83
     """
@@ -224,7 +224,7 @@ class RuLSIFitting(object):
             beta: float: parameter of relative pearson divergence (0~1)
             validate: string: times of validation
                 "every": validate every change rate
-                "once": validate only once data set
+                "once": validate only once data_backup2 set
                 "none": no validation (use initial parameters)
         """
         self.gamma = gamma

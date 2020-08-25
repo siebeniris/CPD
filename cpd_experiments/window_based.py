@@ -5,7 +5,7 @@ import ruptures as rpt
 from penalty import bic_l2_penalty, aic_l2_penalty, bic_penalty
 
 
-# get a range of all the data.
+# get a range of all the data_backup2.
 # choose a smaller penalty value.
 def window_slider(cpd_df, png_filepath, penalty):
     """

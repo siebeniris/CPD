@@ -188,7 +188,7 @@ def write_out(sentences, outputfile):
 
 
 if __name__ == '__main__':
-    data_dir = "/home/yiyi/Documents/masterthesis/CPD/data"
+    data_dir = "/home/yiyi/Documents/masterthesis/CPD/data_backup2"
     annotation_dir = os.path.join(data_dir, 'annotation_samples', 'annotations')
     renovation_dir = os.path.join(data_dir, 'rolling_window', 'renovation')
 

@@ -12,7 +12,7 @@ from prepare_cpd import get_cpd_df
 
 def files_to_evaluate(inputfile):
     """
-    Load the data
+    Load the data_backup2
     :param inputfile:
     :return:
     """
@@ -55,16 +55,16 @@ if __name__ == '__main__':
 
     root_dir = rootpath.detect()
 
-    cpd_aspects = os.path.join(root_dir, 'data', 'cpd_aspects')
+    cpd_aspects = os.path.join(root_dir, 'data_backup2', 'cpd_aspects')
     today = datetime.today().strftime('%y-%m-%d')
     outdir_name = 'emas_' + today
-    output_dir = os.path.join(root_dir, 'data', outdir_name)
+    output_dir = os.path.join(root_dir, 'data_backup2', outdir_name)
     print('output_dir', output_dir)
 
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
 
-    cpts_gold = files_to_evaluate(os.path.join(root_dir, 'data', 'gold_cpt_dict.json'))
+    cpts_gold = files_to_evaluate(os.path.join(root_dir, 'data_backup2', 'gold_cpt_dict.json'))
     for fileId, d in cpts_gold.items():
         category = d['category']
         hotel_id = d['hotel_id']

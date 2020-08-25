@@ -105,7 +105,7 @@ def rolling_mean_diff(
 
 if __name__ == '__main__':
     timer = Timer()
-    data_dir = os.path.join(rootpath.detect(), 'data')
+    data_dir = os.path.join(rootpath.detect(), 'data_backup2')
     annotation_dir = os.path.join(data_dir, 'annotation_by_topics', 'dataframes')
     sentiment_result_dir = os.path.join(data_dir, 'sentiment_analysis', 'results')
 

@@ -279,7 +279,7 @@ def write_out(sentences, trends,  outputfile):
 
 
 if __name__ == '__main__':
-    data_dir = os.path.join(rootpath.detect(), 'data')
+    data_dir = os.path.join(rootpath.detect(), 'data_backup2')
     annotation_dir = os.path.join(data_dir, 'annotation_samples', 'annotations')
     sentiment_result_dir = os.path.join(data_dir, 'sentiment_analysis', 'results')
 

@@ -8,7 +8,7 @@ import os
 
 root_dir = '/home/yiyi/Documents/masterarbeit/CPD/cpd_experiments/rulsif_abrupt-change_detection-master'
 
-data_path = os.path.join(root_dir, 'data')
+data_path = os.path.join(root_dir, 'data_backup2')
 data_check_path = os.path.join(root_dir,'data_check')
 data_prod_path = os.path.join(root_dir ,'data_prod')
 
@@ -31,7 +31,7 @@ data_name = ['10.csv', '56.csv', '64.csv', '72.csv', '84.csv',
 # RULSIF Settings
 settings = {'--alpha': 0.5, "--sigma": None, '--lambda': 1.5, '--kernels': 100, '--folds': 5, '--debug': None}
 
-# data load
+# data_backup2 load
 # make Hankel Matrix
 
 # sample length 150s  n = 1500
@@ -54,7 +54,7 @@ end = 20  # in total there are 4471
 MPI = True
 restart = False
 
-# test for data checking
+# test for data_backup2 checking
 test_debug = False
 if test_debug:
     data_name = data_name[0:1]

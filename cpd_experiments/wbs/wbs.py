@@ -217,9 +217,9 @@ def write_out_to_csv(sentences, outputfile):
 
 if __name__ == '__main__':
     root_dir = rootpath.detect()
-    cpd_aspects = os.path.join(root_dir, 'data', 'cpd_aspects')
+    cpd_aspects = os.path.join(root_dir, 'data_backup2', 'cpd_aspects')
 
-    output_dir = os.path.join(root_dir, "data", "select_reviews_0606")
+    output_dir = os.path.join(root_dir, "data_backup2", "select_reviews_0606")
 
     aspects = list(topic_dict.keys())
 

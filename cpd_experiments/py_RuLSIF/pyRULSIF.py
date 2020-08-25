@@ -146,7 +146,7 @@ def norm_pdf(x, mu, std):
 
 if __name__ == "__main__":
     seed(1)
-    # generate data.
+    # generate data_backup2.
     x_nu = randn(1, 50) * .25 - 1
     x_de = randn(1, 100) * .5
     x_re = array([arange(-1.5, 1.5, .05)])

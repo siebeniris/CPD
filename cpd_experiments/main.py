@@ -20,6 +20,14 @@ from window_based import window_slider
 from rulsif import rulsifitting
 from vonMisesFisher import von_mises_fisher
 
+####################### concept drift
+from kswin import kolmogorov_smirnov_windowing
+from hddm_a import hoeffdings
+from hddm_w import hoeffdings_wa
+from pH import page_hinkley
+from ddm import drift_detection_method
+from adwin import ad_win
+
 
 def files_to_evaluate(inputfile):
     """
@@ -35,7 +43,8 @@ def files_to_evaluate(inputfile):
 # (help, kind, abbrev, type, choices, metavar)
 @plac.annotations(
     algorithm=("The name of the chosen algorithm", "positional", None, str,
-               ["wbs", "sbs", "bbs", "pelt", "window", "rulsif", "fisher"]),
+               ["wbs", "sbs", "bbs", "pelt", "window", "rulsif", "fisher",
+                "kswin", "hddma", "hddmw", "pH", "ddm", "adwin"]),
     renovation=("If the renovation category applies.", "flag", "reno", bool),
     preeval=("If to generate stats for evaluation...", "flag", "preeval", bool),
     mean_feature=("If using von mises fisher using mean or sgd...", "flag", "mean_feature", bool),
@@ -48,7 +57,7 @@ def main(
         renovation=False,
         preeval=False,
         mean_feature=False,
-        penalty="bic"
+        penalty=""
 ):
     root_dir = rootpath.detect()
 
@@ -61,7 +70,7 @@ def main(
     print('algorithm', algorithm)
 
     print(outdir_name)
-    output_dir = os.path.join(root_dir, 'data', outdir_name)
+    output_dir = os.path.join(root_dir, 'data', 'cpd_algorithms', outdir_name)
     print('output_dir', output_dir)
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
@@ -100,6 +109,7 @@ def main(
                 print(aspect, 'renovation: ', renovation)
 
                 cpd_df, df = get_cpd_df(filepath, aspect, renovation=renovation)
+                LEN = len(cpd_df)
 
                 if len(cpd_df) > 0:
                     if algorithm == "wbs":
@@ -122,11 +132,35 @@ def main(
                         else:
                             cpt = von_mises_fisher(cpd_df, pngfile, False)
 
+                    # concept drift detection
+                    #  "kswin", "hddma", "hddmw", "pH", "ddm", "adwin"
+
+                    if algorithm == "kswin":
+                        cpt = kolmogorov_smirnov_windowing(cpd_df)
+
+                    if algorithm == "adwin":
+                        cpt = ad_win(cpd_df)
+
+                    if algorithm == "hddma":
+                        cpt = hoeffdings(cpd_df)
+
+                    if algorithm == "hddmw":
+                        cpt = hoeffdings_wa(cpd_df)
+
+                    if algorithm == "pH":
+                        cpt = page_hinkley(cpd_df)
+
+                    if algorithm == "ddm":
+                        cpt = drift_detection_method(cpd_df)
+
+                    if algorithm == "adwin":
+                        cpt = ad_win(cpd_df)
+
+
                     print("cpt: ", cpt)
-                    LEN = len(cpd_df)
                     try:
                         if cpt is not None:
-                            if algorithm=='wbs':
+                            if algorithm == 'wbs' or algorithm == 'kswin' or algorithm=='adwin':
                                 cpt = sorted([0] + [int(x) for x in cpt] + [LEN])
                             else:
                                 cpt = sorted([0] + [int(x) for x in cpt])

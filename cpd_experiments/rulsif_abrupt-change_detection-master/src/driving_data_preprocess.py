@@ -54,7 +54,7 @@ def preprocess(data_name):
                 sep_list = [0] + sep_list + [len(data)]
 
         # print(sep_list)
-        # print(data.info())
+        # print(data_backup2.info())
 
         print(' ####' * 12 + ' CHECKING LIST !!! ' + 12 * '#### ')
         file_name = name.strip('.csv')
@@ -106,7 +106,7 @@ def apply_preprocess():
     """
     :return:
     """
-    # data load
+    # data_backup2 load
     preprocess(data_name)
 
 

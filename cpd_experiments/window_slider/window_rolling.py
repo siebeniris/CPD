@@ -96,7 +96,7 @@ def rolling_window(df_cpd, outputpath, output_rpt, output_bkps):
 
 
 if __name__ == "__main__":
-    data_path = '/home/yiyi/Documents/masterthesis/CPD/data'
+    data_path = '/home/yiyi/Documents/masterthesis/CPD/data_backup2'
     rolling_dir = os.path.join(data_path, 'rolling_window')
     rpt_dir = os.path.join(rolling_dir, 'ruptures')
     bkps_dir = os.path.join(rolling_dir, 'bkps')

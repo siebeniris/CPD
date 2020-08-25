@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
     root_dir = rootpath.detect()
 
-    test_file = 'data/cpd_aspects/164#41af2a52-407d-4c39-863f-57c6b3791920'
+    test_file = 'data_backup2/cpd_aspects/164#41af2a52-407d-4c39-863f-57c6b3791920'
     testpath = os.path.join(root_dir, test_file)
     print(testpath)
 

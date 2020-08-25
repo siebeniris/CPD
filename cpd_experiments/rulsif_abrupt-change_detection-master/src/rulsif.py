@@ -23,7 +23,7 @@ class AlphaRelativeDensityRatioEstimator(Estimator):
     following kernel model:
     g(X; theta) = SUM( (theta_l * K(X, X_centers_l)), l=0, n )
     where theta is a vector of parameters [theta_1, theta_2, ..., theta_l]^T
-    to be learned from the data samples. The parameters theta in the model
+    to be learned from the data_backup2 samples. The parameters theta in the model
     g(X; theta) is calculated by solving the following optimization problem:
       theta_hat = argmin [ ( (1/2) * theta^T * H_hat * theta) - (h_hat^T * theta) + ( lambda/2 * theta^T * theta) ]
     where the expression (lamba/2 * theta^T * theta), with lambda >= 0, is
@@ -388,7 +388,7 @@ class RULSIF(Estimator):
         drawn independently from P(TestSamples[x])
         After the model hyper-parameters have been learned and chosen by the train()
         method, the RULSIF algorithm can be applied repeatedly on both in-sample and out
-        of sample data
+        of sample data_backup2
         """
 
         if self.gaussianCenters is None or self.kernelBasis is None:

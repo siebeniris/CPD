@@ -18,8 +18,8 @@ def get_df_topic(filename):
     :return: None
     """
     root_dir = rootpath.detect()
-    aspect_dir = os.path.join(root_dir, 'data', 'cpd_aspects')
-    input_dir = os.path.join(root_dir, 'data', 'spellchecked')
+    aspect_dir = os.path.join(root_dir, 'data_backup2', 'cpd_aspects')
+    input_dir = os.path.join(root_dir, 'data_backup2', 'spellchecked')
     filepath = os.path.join(input_dir, filename)
     outputfile = os.path.join(aspect_dir, filename)
 
@@ -48,7 +48,7 @@ def get_df_topic(filename):
 
 if __name__ == '__main__':
     root_dir = rootpath.detect()
-    input_dir = os.path.join(root_dir, 'data', 'spellchecked')
+    input_dir = os.path.join(root_dir, 'data_backup2', 'spellchecked')
     filenames = [filename for filename in os.listdir(input_dir)]
     print("filenames :" , filenames[:3])
     Parallel(n_jobs=3)(delayed(get_df_topic)(filename) for filename in filenames)

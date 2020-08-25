@@ -56,7 +56,7 @@ class cpt_bayesian:
             print("invalid choice of type")
             print("options are: normal-mean, normal-var,2-cpts-mean, 3-cpts-mean")
 
-        #stack data into single numpy array
+        #stack data_backup2 into single numpy array
         for i in range(len(size)):
             self.data = np.hstack([self.data,norm.rvs(loc=mu[i],size=size[i],scale=scale[i])])
         self.N = len(self.data)
@@ -134,7 +134,7 @@ class cpt_bayesian:
             def logp_func(data):
                 return logp.sum()
 
-            #evaluate log-likelihood given the observed data
+            #evaluate log-likelihood given the observed data_backup2
             L_obs = pm.DensityDist('L_obs', logp_func, observed=data)
 
             self.trace = pm.sample(niter, random_seed=123, progressbar=True)

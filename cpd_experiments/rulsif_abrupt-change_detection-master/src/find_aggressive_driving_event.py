@@ -100,7 +100,7 @@ def data_prepare(name_app):
                 else:
                     data_app = pd.merge(data_app, data, on=['Time'], how='right')
 
-            # print(data.head())
+            # print(data_backup2.head())
 
             data_orig = pd.read_csv(os.path.join(data_check_path, Car_ID, dir_name.split('/')[-1] + '.csv'))
             data_result = pd.merge(data_orig, data_app, on=['Time'], how='left')
@@ -136,7 +136,7 @@ def find_top5(data_result):
     data_result = data_result.reset_index().drop(['index'], axis=1).fillna(0.0)
 
     top5 = int(0.05 * len(data_result))
-    print('Event Length {0} Top 5 index is {1} ,and real data length of estimating is {2} '.format(event_length, top5,
+    print('Event Length {0} Top 5 index is {1} ,and real data_backup2 length of estimating is {2} '.format(event_length, top5,
                                                                                                    len(data_result)))
     top5_ds = data_result.ds_total.values[top5]
     print('top5 divergence_score ', top5_ds)

@@ -85,7 +85,7 @@ class GaussianKernel(Kernel):
         Hilbert space by calculating the distance to each point in the sample
         space and taking the Gaussian function of the distances.
            K(X,Y) = exp( -(|| X - Y ||^2) / (2 * sigma^2) )
-        where X is the matrix of data points in the sample space,
+        where X is the matrix of data_backup2 points in the sample space,
               Y is the matrix of gaussian centers in the sample space
              sigma is the width of the gaussian function being used
         """

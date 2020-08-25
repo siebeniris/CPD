@@ -43,13 +43,13 @@ def dynamic_programming(f):
 def offline_changepoint_detection(data, prior_func,
                                   observation_log_likelihood_function,
                                   truncate=-np.inf):
-    """Compute the likelihood of changepoints on data.
+    """Compute the likelihood of changepoints on data_backup2.
 
     Keyword arguments:
-    data                                -- the time series data
+    data_backup2                                -- the time series data_backup2
     prior_func                          -- a function given the likelihood of a changepoint given the distance to the last one
     observation_log_likelihood_function -- a function giving the log likelihood
-                                           of a data part
+                                           of a data_backup2 part
     truncate                            -- the cutoff probability 10^truncate to stop computation for that changepoint log likelihood
 
     P                                   -- the likelihoods if pre-computed
