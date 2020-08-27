@@ -30,7 +30,7 @@ def predict_(df):
 
 if __name__ == '__main__':
     root_dir = rootpath.detect()
-    filepath = os.path.join(root_dir, 'data_backup2', 'cpd_aspects', '6#ff018f51-ef0f-48d1-8c8f-636b4df3c1ff')
+    filepath = os.path.join(root_dir, 'data', 'cpd_aspects', '6#ff018f51-ef0f-48d1-8c8f-636b4df3c1ff')
 
     cpd_df, df = get_cpd_df(filepath, "room")
     print(cpd_df)

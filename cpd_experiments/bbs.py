@@ -8,6 +8,7 @@ from penalty import bic_l2_penalty, aic_l2_penalty, bic_penalty
 def bottomUp_binary_segmentation(cpd_df, png_filepath, penalty):
     """
     Bottom up binary segmentation search method.
+
     :param cpd_df:
     :param png_filepath:
     :return:

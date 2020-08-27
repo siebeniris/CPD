@@ -21,11 +21,11 @@ def window_slider(cpd_df, png_filepath, penalty):
         sentiments = np.array(cpd_df.sentiment.to_list())
         model = "rbf"  # find out why other models not applicable.
 
-        if penalty=="bicl2":
+        if penalty == "bicl2":
             pen = bic_l2_penalty(sentiments)
             print(pen)
         if penalty == "aicl2":
-            pen= aic_l2_penalty(sentiments)
+            pen = aic_l2_penalty(sentiments)
             print(pen)
         if penalty == "bic":
             pen = bic_penalty(sentiments)
@@ -42,4 +42,3 @@ def window_slider(cpd_df, png_filepath, penalty):
         return bkps
     except Exception as msg:
         print(msg)
-
