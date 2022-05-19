@@ -1,5 +1,6 @@
 # Change Point Detection
 LMU CIS 2020 master thesis
+Supervisor: Johannes Huber, Martin Schmidt, Prof. Benjamin Roth.
 
 ### 1. Scrappers
 - settings (minor changes to prevent being blocked)
