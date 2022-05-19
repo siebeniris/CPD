@@ -13,32 +13,7 @@ from utils.timer import Timer
 # use the distance 1 -> fast.
 spell_checker = SpellChecker(distance=1, language='en')
 
-
-# https://stash.trustyou.com/projects/SEMA/repos/ty-semantic-api/browse/sema/normalization/spacy_normalizer.py?at=refs%2Fheads%2FSEMAPI-1227#80
-def apply_spellchecker(spell_checker, list_of_tokens):
-    misspelled = spell_checker.unknown(list_of_tokens)
-    if misspelled:
-        words_to_replace = dict()
-        for word in misspelled:
-            if word.isalnum() and not word.isnumeric():
-                corrected_word = spell_checker.correction(word)
-                if len(corrected_word.split(" ")) > 1 or (word[-1] == "s" and word[-1] == corrected_word):
-                    continue
-                correction_probability = spell_checker.word_probability(corrected_word)
-                if correction_probability > 8.054316988639542e-06:
-                    words_to_replace[word] = corrected_word
-
-        corrected_list_of_tokens = []
-        for token in list_of_tokens:
-            if token in words_to_replace:
-                corrected_list_of_tokens.append(words_to_replace[token])
-            elif token.title() in words_to_replace:
-                corrected_list_of_tokens.append(words_to_replace[token.title()].title())
-            else:
-                corrected_list_of_tokens.append(token)
-        return corrected_list_of_tokens
-    return list_of_tokens
-
+# SpellChecker cannot be made public 
 
 def init_model():
     spell = SpellChecker()
